@@ -1,0 +1,23 @@
+{
+  "name": "newtractor-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional estático da New Tractor, preparado para SEO, IA e Cloudflare Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node --check src/site.mjs && node --check src/main.js && node --check scripts/build.mjs && node --check tests/site.test.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "check": "npm run lint && npm run build && npm test",
+    "dev": "npm run build && wrangler pages dev dist --port 8788",
+    "deploy:preview": "npm run check && wrangler pages deploy dist --project-name newtractor-site --branch preview",
+    "deploy:production": "npm run check && wrangler pages deploy dist --project-name newtractor-site --branch main"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "lighthouse": "^13.4.1",
+    "wrangler": "^4.125.0"
+  }
+}

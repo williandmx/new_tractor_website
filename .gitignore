@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Materiais locais e projetos independentes que não pertencem ao website
+/Tractus - Sistema de Gestão.html
+/Tractus - Sistema de Gestão_files/
+/Tractus - Sistema de Gestão_files.zip
+/propostas/
+/scraping/
+/tractus-stack/
+/tractus_klaptech*/

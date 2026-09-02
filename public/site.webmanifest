@@ -1,0 +1,17 @@
+{
+  "name": "Grupo New Tractor",
+  "short_name": "New Tractor",
+  "description": "Engenharia para avaliar, recuperar e acompanhar componentes críticos de máquinas pesadas.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d0e",
+  "theme_color": "#f4c400",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

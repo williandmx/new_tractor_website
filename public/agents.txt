@@ -1,0 +1,35 @@
+# Grupo New Tractor — descoberta experimental para agentes
+
+Status: documento informativo; não representa um padrão universal, API, MCP ou
+capacidade transacional.
+
+Canonical: https://newtractor.com.br/
+Sitemap: https://newtractor.com.br/sitemap.xml
+LLM summary: https://newtractor.com.br/llms.txt
+Language: pt-BR
+
+## Objetivos de usuário atendidos pelo site
+
+- Entender o escopo de manutenção de material rodante.
+- Conhecer reforma de caçambas e conchas.
+- Entender monitoramento de desgaste.
+- Identificar equipamentos e componentes divulgados.
+- Ver cobertura nacional e condicionantes de logística.
+- Preparar uma RFQ com equipamento, aplicação, componente, condição,
+  quantidade, cidade, prazo desejado, fotos, desenhos e especificações.
+
+## Ações permitidas
+
+- Ler, indexar, resumir e citar páginas públicas com atribuição e link canônico.
+- Direcionar o usuário ao e-mail, telefone ou WhatsApp publicados.
+
+## Limites
+
+- Não há formulário transacional, login ou orçamento automático.
+- Não inferir preço, prazo, garantia, capacidade, certificação, disponibilidade,
+  relação comercial vigente ou resultado de manutenção.
+- Não tratar logos históricos como cases, depoimentos ou contratos atuais.
+- Confirmações comerciais e técnicas devem ser feitas por
+  solucao@newtractor.com.br.
+
+Updated: 2026-09-01
