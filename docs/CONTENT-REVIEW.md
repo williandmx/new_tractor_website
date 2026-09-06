@@ -4,6 +4,41 @@ O novo site usa somente fatos e canais encontrados nas páginas públicas da New
 Tractor. Durante o levantamento, o site anterior apresentou divergências que
 devem ser confirmadas antes de apontar o domínio definitivo.
 
+## Arquitetura comercial confirmada — status local, não publicado
+
+Em 2026-09-06, o usuário confirmou a arquitetura de marca formada pela
+home do Grupo New Tractor e pelas rotas `/rodante/`, `/hidraulica/`, `/parts/`,
+`/services/` e `/techtractor/`. A decisão organiza cinco empresas no sentido
+comercial da marca, mas não confirma cinco pessoas jurídicas, CNPJs, contratos,
+certificações ou escopos técnicos completos. O termo “empresas do grupo” pode
+ser usado como arquitetura comercial, desde que não seja apresentado como
+prova de entidades societárias independentes.
+
+- **Rodante:** é a única das cinco frentes com escopo amplo comprovado na
+  presença pública: manutenção, recondicionamento e monitoramento de material
+  rodante. A nova rota pode organizar esse conteúdo, condicionando capacidade,
+  prazo e compatibilidade à avaliação.
+- **Hidráulica:** nome confirmado como frente de marca, mas a presença pública
+  revisada não comprova lista de componentes, bancadas, testes, pressões,
+  vazões, capacidade ou certificações. Copy deve permanecer em avaliação de
+  demanda.
+- **Parts:** nome confirmado como frente de marca. Não há confirmação pública
+  de estoque, disponibilidade imediata, fabricação específica, engenharia
+  reversa universal ou limites dimensionais. Solicitar desenho, especificação,
+  fotos e contexto para RFQ.
+- **Services:** nome confirmado como frente integradora na proposta de marca.
+  A proposta não comprova contrato único, reforma end-to-end, garantia, equipe
+  de campo, SLA, prazo ou pós-venda formal. Descrever apenas coordenação e
+  definição de escopo sob avaliação técnica, comercial e logística.
+- **TechTractor:** o README local de `newtractor_conditionmonitoring` foi
+  consultado somente como visão geral/metadado: descreve um painel privado de
+  inspeções e acompanhamento de desgaste de material rodante, com acesso
+  restrito. O ledger o classifica como produto em evolução. Não publicar como
+  sistema pronto, SaaS disponível, produto com clientes ou oferta transacional.
+
+`/servicos/` permanece o hub técnico das soluções comprovadas e é distinto de
+`/services/`; não criar alias ou redirecionamento entre os dois slugs.
+
 ## Prioridade alta
 
 1. **WhatsApp**

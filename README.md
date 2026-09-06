@@ -21,8 +21,16 @@ permanece disponível sem JavaScript.
 
 ## Rotas
 
-- `/`
+- `/` — apresentação comercial do Grupo, filme compilado e encaminhamento às empresas
+- `/rodantes/`
+- `/hidrautractor/`
+- `/usinagem/`
+- `/calderaria/`
+- `/parts/`
+- `/services/`
+- `/techtractor/`
 - `/empresa/`
+- `/pessoas/`
 - `/servicos/`
 - `/servicos/manutencao-material-rodante/`
 - `/servicos/reforma-cacambas-conchas/`
@@ -32,6 +40,13 @@ permanece disponível sem JavaScript.
 - `/contato/`
 - `/noticias/new-tractor-na-exposibram-2026/`
 - `/privacidade/`
+
+`/services/` apresenta a empresa Services; `/servicos/` continua sendo o hub de
+soluções técnicas. Nenhuma das URLs técnicas antigas foi substituída.
+
+Conteúdo e composição global: `src/site.mjs`. Perfis comerciais das cinco
+empresas: `src/group.mjs`, importado pelo gerador principal. Limites de oferta
+e pendências documentais: `docs/source-ledger.md` e `docs/CONTENT-REVIEW.md`.
 
 Arquivos de descoberta: `/robots.txt`, `/sitemap.xml`, `/llms.txt` e o
 documento experimental `/agents.txt`.

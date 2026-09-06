@@ -4,11 +4,30 @@
 
 - HTML estático completo, sem dependência de JavaScript para conteúdo.
 - Uma intenção principal por rota.
-- Navegação curta: O grupo, Soluções, Equipamentos, Pessoas, Atuação e Contato/RFQ.
+- Navegação curta: O grupo, Empresas (âncora na home), Pessoas, Atuação e Contato; segunda linha com as sete empresas. Soluções técnicas e Equipamentos permanecem no conteúdo e no rodapé.
 - Prova visual real antes de claims publicitários.
 - Cobertura geográfica consolidada, sem doorway pages municipais.
+- As sete frentes são arquitetura de marca local, não afirmação de pessoas jurídicas distintas.
+- A rota `/servicos/` permanece o hub técnico das soluções comprovadas; `/services/` é uma frente comercial distinta e não um alias.
 
-## Rotas de lançamento
+## Rotas comerciais confirmadas para implementação local
+
+Status: decisão do usuário registrada em 2026-09-06. Os nomes abaixo organizam
+a marca do Grupo New Tractor e não autorizam claims de capacidade, certificação,
+prazo, estoque, garantia ou estrutura societária.
+
+| Rota | Papel | Limite editorial |
+|---|---|---|
+| `/` | Home do Grupo, filme compilado e encaminhamento às sete frentes | Usar o Grupo como endosso de marca; manter fatos públicos e declarações do proprietário identificadas |
+| `/rodantes/` | Frente New Tractor Rodantes | Pode usar manutenção, recondicionamento e monitoramento de material rodante já comprovados. `/rodante/` redireciona para cá |
+| `/hidrautractor/` | Frente HidrauTractor | Nome confirmado; escopo técnico permanece sujeito a confirmação. `/hidraulica/` redireciona para cá |
+| `/usinagem/` | Frente New Tractor Usinagem | Usinagem de componentes; prazo e capacidade após avaliação |
+| `/calderaria/` | Frente New Tractor Calderaria | Caldeiraria e solda; escopo após avaliação da condição |
+| `/parts/` | Frente New Tractor Parts | Fabricação e consulta de peças; não afirmar estoque sem matriz técnica |
+| `/services/` | Frente New Tractor Services, interface comercial para demandas integradas | Não afirmar contrato único, garantia, SLA ou execução end-to-end sem evidência |
+| `/techtractor/` | Frente TechTractor para tecnologia e acompanhamento de condição | Produto em evolução; não publicar como sistema pronto nem oferecer acesso transacional |
+
+## Rotas institucionais e técnicas preservadas
 
 | Rota | Papel |
 |---|---|
@@ -31,7 +50,8 @@
 - três hubs regionais (Sudeste, Bahia e Goiás);
 - cases autorizados;
 - conteúdo técnico assinado/revisado por especialista;
-- frentes Hidráulica, Parts, Tech e programa 360.
+- programa 360 e qualquer promessa de reforma integral, contrato único ou pós-venda;
+- escopos detalhados, catálogos, cases ou páginas de capacidade para Hidráulica, Parts, Services e TechTractor.
 
 ## Descoberta por busca e IA
 

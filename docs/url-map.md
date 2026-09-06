@@ -1,5 +1,27 @@
 # Mapa de URLs e migração
 
+## Rotas comerciais novas — status local, não publicado
+
+Decisão atualizada em 2026-09-06: a home apresenta o Grupo New Tractor e
+as sete frentes abaixo. São rotas de arquitetura de marca, não prova de
+entidades jurídicas separadas. `/rodante/` e `/hidraulica/` redirecionam
+para os slugs atuais.
+
+| Rota | Nome público | Papel |
+|---|---|---|
+| `/` | Grupo New Tractor | Home, filme compilado e encaminhamento comercial |
+| `/rodantes/` | New Tractor Rodantes | Material rodante, com o filme institucional desta frente |
+| `/hidrautractor/` | HidrauTractor | Frente hidráulica; escopo técnico sob avaliação |
+| `/usinagem/` | New Tractor Usinagem | Usinagem de componentes pesados |
+| `/calderaria/` | New Tractor Calderaria | Caldeiraria e solda |
+| `/parts/` | New Tractor Parts | Fabricação e consulta de peças |
+| `/services/` | New Tractor Services | Frente integradora; sem promessa de contrato, SLA ou garantia |
+| `/techtractor/` | TechTractor | Frente tecnológica em evolução; sem produto pronto ou CTA transacional |
+
+`/servicos/` continua sendo o hub técnico das soluções comprovadas. Não deve
+ser substituído, renomeado ou redirecionado para `/services/`: os dois slugs
+representam intenções distintas.
+
 ## URLs estáveis
 
 | Origem antiga | Destino novo | Observação |

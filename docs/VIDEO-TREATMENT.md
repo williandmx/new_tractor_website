@@ -2,24 +2,28 @@
 
 ## Saídas
 
-O corte público curto usa somente os originais de câmera HEVC 3840×2160
-10-bit em `Midia/MANHÃ/` e `Midia/TARDE/`; os proxies H.264 da pasta
-`Midia/hero-fluid/proxies/` não entram na nova montagem.
+O filme institucional completo (quatro atos, ~2 min 23 s) é montado a
+partir dos originais HEVC 3840×2160 em `Midia/MANHÃ/` e `Midia/TARDE/`,
+com proxies HQ em `Midia/hero-fluid/proxies-hq/` e correção de cor na
+paleta do site (pretos `#0b0d0e`, amarelo `#f4c400`).
 
-- `public/assets/videos/hero-film-desktop-v2.mp4` — 1280×720, 30 fps, H.264,
-  sem áudio, `yuv420p`, `faststart`, aproximadamente 32 s.
-- `public/assets/videos/hero-film-mobile-v2.mp4` — 960×540, 30 fps, H.264,
-  sem áudio, `yuv420p`, `faststart`, aproximadamente 32 s.
+O hero da home é um loop de ~32 s com um trecho de cada ato desse master
+já graduado. Não usa os proxies H.264 antigos em `proxies/`.
+
+- `public/assets/videos/hero-film-desktop-v2.mp4` — loop da home, 1280×720,
+  30 fps, H.264, sem áudio, `yuv420p`, `faststart`, ~32 s, ≤ 8 MB.
+- `public/assets/videos/hero-film-mobile-v2.mp4` — o mesmo loop, 960×540,
+  ≤ 4 MB.
+- `public/assets/videos/hero-film-full-desktop.mp4` — filme completo,
+  1280×720, ~2 min 23 s, para `/pessoas/`.
+- `public/assets/videos/hero-film-full-mobile.mp4` — o mesmo filme, 960×540.
 - `public/assets/images/hero-film-640.webp`, `hero-film-1280.webp` e
-  `hero-film-1920.webp` — posters 16:9 responsivos do frame de câmera do
-  primeiro plano de pessoas/operação.
+  `hero-film-1920.webp` — posters 16:9 do frame de pessoas (t=3 s do master
+  graduado).
 - `public/assets/images/hero-film-people-640.webp` e
-  `hero-film-people-1280.webp` — o mesmo frame real de pessoa trabalhando,
-  separado para a seção de pessoas; não usa `equipe-1200.webp` nem uma imagem
-  de fachada.
-- `Midia/hero-fluid/hero-newtractor-quatro-atos-v1-site-stills-treated.mp4` —
-  exportação completa tratada, fora do Git; preserva a duração e a ordem da
-  montagem longa original.
+  `hero-film-people-1280.webp` — o mesmo frame, para a seção de pessoas.
+- `Midia/hero-fluid/hero-newtractor-site.mp4` — master 1920×1080 graduado,
+  fora do Git.
 
 O script reprodutível é
 [`scripts/prepare-hero-video.sh`](../scripts/prepare-hero-video.sh). Ele não
@@ -62,12 +66,10 @@ SKIP_FULL=1 ./scripts/prepare-hero-video.sh
 SKIP_SHORT=1 ./scripts/prepare-hero-video.sh
 ```
 
-O desktop é limitado a 1.800 kb/s e o mobile a 1.050 kb/s para manter os
-arquivos dentro do orçamento web (o tamanho final deve ser conferido pelo
-script). A exportação longa usa 2.200 kb/s e prioriza qualidade dentro de um
-arquivo bem menor que a fonte; ela conserva as transições já editadas, pois
-remover cada blend exigiria remontar todos os planos longos a partir dos
-originais. Nenhuma faixa de áudio é incluída.
+O loop da home permanece limitado a 1.800 kb/s (desktop) e 1.050 kb/s
+(mobile). O filme completo em `/pessoas/` usa ~2,4 Mb/s em 1280×720 e
+~1,2 Mb/s em 960×540, carregado só com `preload="none"` e controles. Nenhuma
+faixa de áudio é incluída.
 
 Validação: usar `ffprobe` para confirmar 30/1 fps constante, `yuv420p`, H.264,
 dimensões, duração e ausência de áudio; revisar visualmente o início, cada

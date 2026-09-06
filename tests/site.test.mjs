@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile, readdir, stat } from "node:fs/promises";
 import { join } from "node:path";
-import { site } from "../src/site.mjs";
+import { site, pages } from "../src/site.mjs";
 
 const root = process.cwd();
 const dist = join(root, "dist");
@@ -34,6 +34,13 @@ function mp4Atoms(buffer, start = 0, end = buffer.length) {
 test("o build contém todas as rotas e arquivos de descoberta", async () => {
   const required = [
     "index.html",
+    "rodantes/index.html",
+    "hidrautractor/index.html",
+    "usinagem/index.html",
+    "calderaria/index.html",
+    "parts/index.html",
+    "services/index.html",
+    "techtractor/index.html",
     "empresa/index.html",
     "pessoas/index.html",
     "servicos/index.html",
@@ -59,7 +66,7 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
 
 test("cada página tem HTML semântico, metadados e um único H1", async () => {
   const htmlFiles = (await walk(dist)).filter((path) => path.endsWith(".html"));
-  assert.equal(htmlFiles.length, 13);
+  assert.equal(htmlFiles.length, pages.length);
   const titles = new Set();
   const descriptions = new Set();
 
@@ -135,7 +142,7 @@ test("robots, sitemap e llms descrevem somente URLs canônicas", async () => {
 
   const sitemap = await read("sitemap.xml");
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(locations.length, 12);
+  assert.equal(locations.length, pages.filter((page) => page.indexable !== false).length);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => url.startsWith("https://newtractor.com.br/")));
   assert.ok(!locations.some((url) => url.includes("404")));
@@ -277,7 +284,11 @@ test("Pessoas tem filme sob demanda, texto equivalente e descoberta", async () =
   assert.match(people, /<video controls playsinline preload="none"/);
   assert.match(people, /aria-describedby="film-description"/);
   assert.match(people, /id="film-description"/);
+  assert.match(people, /hero-film-full-desktop\.mp4/);
+  assert.match(people, /hero-film-full-mobile\.mp4/);
   assert.doesNotMatch(people, /certificada ISO|Minusa|Tokyo|Hardox|<blockquote|aggregateRating/);
+  const fullFilm = await stat(join(dist, "assets/videos/hero-film-full-desktop.mp4"));
+  assert.ok(fullFilm.size > 10 * 1024 * 1024, "filme institucional completo presente");
   const graph = JSON.parse(people.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
   assert.ok(graph.some((entry) => entry["@type"] === "BreadcrumbList"));
   assert.ok(graph.some((entry) => entry["@type"] === "LocalBusiness"));

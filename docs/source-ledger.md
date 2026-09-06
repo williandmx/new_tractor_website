@@ -1,6 +1,6 @@
 # Registro de fontes, fatos e pendências
 
-Última revisão: 2026-09-05
+Última revisão: 2026-09-06
 
 | Informação | Classificação | Fonte | Decisão de publicação |
 |---|---|---|---|
@@ -13,6 +13,11 @@
 | Mais de 4.000 m² em três galpões | Declaração do proprietário em 2026-09-01 | Brief desta reconstrução | Publicar como área industrial combinada |
 | Área fabril de 3.000 m² | Registro público anterior, agora conflitante | Site antigo e LinkedIn | Não reutilizar; manter o conflito documentado até atualização das fontes |
 | Grupo New Tractor e cinco frentes | Direção de marca do proprietário | Conversa “Proposta Grupo New Tractor” | Usar “Grupo” como endosso; não afirmar estrutura societária nem lançar ofertas futuras sem escopo |
+| Home do Grupo e sete rotas comerciais (`/rodantes/`, `/hidrautractor/`, `/usinagem/`, `/calderaria/`, `/parts/`, `/services/`, `/techtractor/`) | Decisão explícita do usuário | Confirmação em 2026-09-06, com fotos/vídeos de usinagem para Industrial Parts | Arquitetura de marca; não tratar as frentes como pessoas jurídicas distintas |
+| New Tractor Rodante | Frente de marca com escopo público compatível com manutenção, recondicionamento e monitoramento de material rodante | Site anterior, `src/site.mjs` e confirmação da arquitetura em 2026-09-06 | Publicar somente o escopo comprovado; capacidade, prazo e compatibilidade por demanda |
+| New Tractor Hidráulica | Nome de frente confirmado; escopo hidráulico detalhado ainda não comprovado na presença pública | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Apresentar como frente sob avaliação; não inventar componentes, testes, capacidade ou certificações |
+| New Tractor Parts | Nome de frente confirmado; peças, disponibilidade e fabricação específica ainda não comprovadas | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Receber desenhos, especificações e fotos para avaliação; não afirmar estoque ou fabricação universal |
+| New Tractor Services | Nome de frente confirmado como arquitetura integradora; oferta end-to-end, contrato único e garantia não comprovados | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Descrever como coordenação de demandas sob avaliação; não afirmar SLA, prazo, garantia, equipe ou contrato |
 | Engenharia para manter máquinas pesadas produzindo | Direção aprovada de marca | Plano de Marketing e Marca | Publicar como posicionamento |
 | 15 logos da carteira | Publicados historicamente | Seção “Nossos clientes” do site anterior | Publicar como referências históricas divulgadas, sem contrato atual implícito |
 | Participação na EXPOSIBRAM 2026 | Declaração anterior do proprietário | Brief da campanha | Manter como anúncio histórico; não afirmar presença realizada sem registro pós-evento |
@@ -23,7 +28,7 @@
 | Certificações, ART, NR e qualidade | Pendente | Sem documento apresentado | Não afirmar; oferecer solicitação documental por escopo |
 | Capacidade de máquinas e peso/dimensão | Pendente | Sem matriz técnica | Não afirmar |
 | Cases, resultados e depoimentos | Pendente | Sem autorização e evidência | Não publicar |
-| TechTractor | Produto em evolução | Plano de Marketing e Marca | Não apresentar como produto pronto nem criar CTA transacional |
+| TechTractor | Frente tecnológica/produto em evolução; README local descreve painel privado de inspeções e acompanhamento de desgaste de material rodante | Plano de Marketing e Marca; README de `newtractor_conditionmonitoring` consultado somente como metadado em 2026-09-06 | Não apresentar como produto pronto, SaaS disponível ou criar CTA transacional; código local não é prova de oferta comercial |
 
 ## Fontes externas de referência
 

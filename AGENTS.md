@@ -12,6 +12,7 @@ pesadas.
 ## Fonte de verdade
 
 - Conteúdo e rotas: `src/site.mjs`.
+- Perfis das sete empresas: `src/group.mjs`, integrado por `src/site.mjs`.
 - Estilos: `src/styles.css`.
 - Comportamento progressivo: `src/main.js`.
 - Assets públicos: `public/assets/`.

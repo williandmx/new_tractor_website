@@ -19,6 +19,22 @@ Language: pt-BR
 - Preparar uma RFQ com equipamento, aplicação, componente, condição,
   quantidade, cidade, prazo desejado, fotos, desenhos e especificações.
 
+## Empresas — navegação comercial
+
+- Rodantes: https://newtractor.com.br/rodantes/
+- HidrauTractor: https://newtractor.com.br/hidrautractor/
+- Usinagem: https://newtractor.com.br/usinagem/
+- Calderaria: https://newtractor.com.br/calderaria/
+- Parts: https://newtractor.com.br/parts/
+- Services: https://newtractor.com.br/services/
+- TechTractor: https://newtractor.com.br/techtractor/
+
+A home apresenta o grupo. As frentes não comprovam pessoas jurídicas
+ou bases operacionais distintas. Services é uma página comercial distinta do hub de
+soluções técnicas em https://newtractor.com.br/servicos/.
+TechTractor apresenta uma visão em evolução, sem assinatura ou acesso público.
+O escopo de HidrauTractor, Usinagem, Calderaria, Parts e Services depende de avaliação por demanda.
+
 ## Ações permitidas
 
 - Ler, indexar, resumir e citar páginas públicas com atribuição e link canônico.
@@ -33,4 +49,4 @@ Language: pt-BR
 - Confirmações comerciais e técnicas devem ser feitas por
   solucao@newtractor.com.br.
 
-Updated: 2026-09-05
+Updated: 2026-09-06

@@ -71,3 +71,25 @@ CTA secundário: **Conhecer soluções**.
 
 WhatsApp apoia a conversa inicial; e-mail é o canal principal para desenho,
 especificação, fotos e documentação de suprimentos.
+
+## Evolução aprovada — grupo comercial (2026-09-06)
+
+- **Decisão do proprietário:** a home apresenta o Grupo; cinco páginas próprias
+  apresentam Rodante, Hidráulica, Parts, Services e TechTractor, com essas abas
+  visíveis na navegação. Rotas: `/rodante/`, `/hidraulica/`, `/parts/`,
+  `/services/` e `/techtractor/`.
+- **Fonte:** pedido explícito nesta tarefa e conversa de referência
+  “Proposta Grupo New Tractor”. A arquitetura é de marca/comercial; não
+  comprova cinco pessoas jurídicas ou cinco estabelecimentos.
+- **Conteúdo confirmado:** material rodante e soluções técnicas já publicadas.
+  Hidráulica, Parts e Services recebem consultas com escopo sujeito a avaliação.
+  Capacidades específicas dessas frentes ainda exigem validação do proprietário.
+- **TechTractor:** visão tecnológica em evolução, sem oferta de assinatura,
+  acesso público, integrações ou funcionalidades contratáveis não confirmadas.
+- **Preservação:** `/servicos/` continua sendo o hub técnico, distinto da empresa
+  Services. Vídeos, Pessoas, referências históricas e URLs antigas permanecem.
+- **Critério de aceite:** cinco páginas HTML com conteúdo próprio, navegação
+  acessível sem JavaScript, RFQ contextual, canonical e descoberta coerentes,
+  testes de build, responsividade, teclado e Lighthouse.
+- **Estado:** implementação e validação locais. Este pedido não muda DNS nem
+  publica automaticamente uma nova versão.

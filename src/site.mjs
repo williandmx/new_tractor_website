@@ -1,11 +1,13 @@
+import { companies, companyLinks, groupIndex, createCompanyPages } from "./group.mjs";
+
 export const site = {
   name: "Grupo New Tractor",
   shortName: "New Tractor",
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
-  lastModified: "2026-09-01",
-  cssFile: "site.20260905-film.css",
-  jsFile: "site.20260905-film.js",
+  lastModified: "2026-09-06",
+  cssFile: "site.20260906-seven.css",
+  jsFile: "site.20260906-seven.js",
   email: "solucao@newtractor.com.br",
   phoneDisplay: "(31) 3493-1476",
   phoneHref: "tel:+553134931476",
@@ -185,11 +187,11 @@ const homeBody = `
     <div class="shell hero__content">
       <div class="hero__copy">
         <span class="eyebrow eyebrow--light">GRUPO NEW TRACTOR · MÁQUINAS PESADAS</span>
-        <h1>Máquinas em movimento.<br><span>Pessoas no centro.</span></h1>
-        <p>Engenharia para manter máquinas pesadas produzindo. Conhecimento, estrutura e cuidado com cada componente, da avaliação à recuperação.</p>
+        <h1>Um grupo.<br><span>Pessoas e sete frentes.</span></h1>
+        <p>Rodantes, HidrauTractor, usinagem, caldeiraria, fabricação de peças, serviços e TechTractor. Um compilado da equipe e de cada empresa do Grupo New Tractor.</p>
         <div class="button-row">
-          <a class="button button--primary" href="/empresa/">Conheça o grupo ${icon("arrow")}</a>
-          <a class="button button--ghost" href="/pessoas/#filme-institucional">Assistir ao filme</a>
+          <a class="button button--primary" href="#empresas">Conheça as empresas ${icon("arrow")}</a>
+          <a class="button button--ghost" href="/contato/">Fale com o grupo</a>
         </div>
       </div>
     </div>
@@ -203,6 +205,8 @@ const homeBody = `
       </dl>
     </div>
   </section>
+
+  ${groupIndex(icon)}
 
   <section class="machine-strip" aria-label="Equipamentos e aplicações">
     <div class="shell machine-strip__inner">
@@ -226,7 +230,7 @@ const homeBody = `
   <section class="section section--sand" id="solucoes" aria-labelledby="solucoes-title">
     <div class="shell">
       <div class="section-heading section-heading--split">
-        <div><span class="eyebrow">SOLUÇÕES COMPROVADAS</span><h2 id="solucoes-title">Do desgaste observado ao escopo de intervenção</h2></div>
+        <div><span class="eyebrow">CONHEÇA OS ESCOPOS TÉCNICOS</span><h2 id="solucoes-title">Do desgaste observado ao escopo de intervenção</h2></div>
         <p>Manutenção, recuperação e monitoramento: soluções que começam pela condição do componente e pelo contexto da sua operação.</p>
       </div>
       ${serviceCards()}
@@ -247,7 +251,7 @@ const homeBody = `
           <li>${icon("check")} Inspeção e preparação do componente</li>
           <li>${icon("check")} Processos definidos conforme o escopo contratado</li>
           <li>${icon("check")} Medição e acompanhamento da condição</li>
-          <li>${icon("check")} Atendimento técnico e comercial para todo o Brasil</li>
+          <li>${icon("check")} Atendimento nacional sujeito a avaliação técnica, comercial e logística</li>
         </ul>
         <a class="text-link text-link--light" href="/empresa/">Conhecer a estrutura ${icon("arrow")}</a>
       </div>
@@ -322,6 +326,7 @@ const empresaBody = `
         <p>A New Tractor atua com máquinas pesadas desde 2010, com base operacional em Belo Horizonte.</p>
         <p>Somos especialistas em manutenção, recondicionamento e monitoramento de material rodante em equipamentos pesados dos setores agrícola, de construção civil e de mineração.</p>
         <p>O Grupo New Tractor expressa uma visão integrada: aproximar pessoas, conhecimento técnico e estrutura para cuidar dos componentes que movem operações pesadas.</p>
+        <p>Essa visão reúne as frentes comerciais do grupo: <a href="/rodantes/">Rodantes</a>, <a href="/hidrautractor/">HidrauTractor</a>, <a href="/usinagem/">Usinagem</a>, <a href="/calderaria/">Calderaria</a>, <a href="/parts/">Parts</a>, <a href="/services/">Services</a> e <a href="/techtractor/">TechTractor</a>. Cada uma tem uma página própria, com filme e caminho para a conversa comercial.</p>
         <a class="text-link" href="/pessoas/">Pessoas que movem a New ${icon("arrow")}</a>
       </div>
     </div>
@@ -368,14 +373,14 @@ const pessoasBody = `
   </section>
   <section class="section section--dark film-section" id="filme-institucional" aria-labelledby="filme-title">
     <div class="shell">
-      <div class="section-heading section-heading--split"><div><span class="eyebrow eyebrow--light">NOSSO AMBIENTE, DE PERTO</span><h2 id="filme-title">Um olhar sobre a New Tractor</h2></div><p>Um percurso visual por pessoas, equipamentos e componentes. Imagens da New Tractor, em um filme curto e sem áudio.</p></div>
+      <div class="section-heading section-heading--split"><div><span class="eyebrow eyebrow--light">NOSSO AMBIENTE, DE PERTO</span><h2 id="filme-title">Um olhar sobre a New Tractor</h2></div><p>Quatro atos — pessoas, processos, máquinas internas e pátio. Imagens reais da New Tractor, sem áudio, com cerca de dois minutos.</p></div>
       <figure class="institutional-film">
         <video controls playsinline preload="none" poster="/assets/images/hero-film-1280.webp" width="1280" height="720" aria-label="Filme institucional da New Tractor" aria-describedby="film-description">
-          <source src="/assets/videos/hero-film-mobile-v2.mp4" type="video/mp4" media="(max-width: 760px)">
-          <source src="/assets/videos/hero-film-desktop-v2.mp4" type="video/mp4">
-          <p><a href="/assets/videos/hero-film-desktop-v2.mp4">Abrir o filme em MP4</a></p>
+          <source src="/assets/videos/hero-film-full-mobile.mp4" type="video/mp4" media="(max-width: 760px)">
+          <source src="/assets/videos/hero-film-full-desktop.mp4" type="video/mp4">
+          <p><a href="/assets/videos/hero-film-full-desktop.mp4">Abrir o filme em MP4</a></p>
         </video>
-        <figcaption id="film-description">Filme sem falas ou trilha sonora. Apresenta registros de trabalho, máquinas pesadas e componentes industriais da New Tractor. A sequência conecta o ambiente de oficina às pessoas que participam da operação.</figcaption>
+        <figcaption id="film-description">Filme sem falas ou trilha sonora. Percorre equipe, processos de oficina, máquinas internas e o pátio da New Tractor. A sequência conecta o ambiente de trabalho às pessoas que participam da operação.</figcaption>
       </figure>
     </div>
   </section>
@@ -887,13 +892,23 @@ export const pages = [
   {
     route: "/",
     output: "index.html",
-    title: "Manutenção de material rodante e máquinas pesadas | New Tractor",
-    description: "Avaliação, recuperação e monitoramento de componentes para máquinas pesadas, com base em Belo Horizonte e atendimento em todo o Brasil.",
+    title: "Grupo New Tractor | Soluções para máquinas pesadas",
+    description: "Rodantes, hidráulica, usinagem, caldeiraria, peças, serviços e TechTractor. Grupo New Tractor em Belo Horizonte para máquinas pesadas.",
     body: homeBody,
     active: "inicio",
     preload: true,
-    lastModified: "2026-09-05",
+    lastModified: "2026-09-06",
+    schema: [{
+      "@type": "ItemList",
+      "@id": `${site.origin}/#empresas`,
+      name: "Empresas do Grupo New Tractor",
+      itemListElement: companies.map((company, index) => ({
+        "@type": "ListItem", position: index + 1, name: company.name,
+        url: `${site.origin}/${company.slug}/`,
+      })),
+    }],
   },
+  ...createCompanyPages({ site, picture, icon, breadcrumbSchema }),
   {
     route: "/empresa/",
     output: "empresa/index.html",
@@ -901,7 +916,7 @@ export const pages = [
     description: "Conheça a trajetória, a base em Belo Horizonte e a estrutura declarada de três galpões e mais de 4.000 m² do Grupo New Tractor.",
     body: empresaBody,
     active: "empresa",
-    lastModified: "2026-09-05",
+    lastModified: "2026-09-06",
     schema: [breadcrumbSchema([{ name: "Empresa", route: "/empresa/" }])],
   },
   {
@@ -1068,8 +1083,7 @@ const header = (page) => `
       <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
         <ul class="nav-list">
           ${navLink(page, "empresa", "/empresa/", "O grupo")}
-          ${navLink(page, "servicos", "/servicos/", "Soluções")}
-          ${navLink(page, "equipamentos", "/equipamentos/", "Equipamentos")}
+          <li><a href="/#empresas">Empresas</a></li>
           ${navLink(page, "pessoas", "/pessoas/", "Pessoas")}
           ${navLink(page, "atuacao", "/atuacao/", "Atuação")}
           ${navLink(page, "contato", "/contato/", "Contato")}
@@ -1078,15 +1092,16 @@ const header = (page) => `
       </nav>
       <a class="header-cta" href="mailto:${site.email}?subject=RFQ%20%7C%20New%20Tractor" data-analytics="email_rfq_header">Enviar RFQ ${icon("mail")}</a>
     </div>
+    <nav class="company-nav" aria-label="Empresas do Grupo New Tractor"><div class="shell company-nav__inner"><span>Empresas do grupo</span><ul>${companyLinks(page.active)}</ul></div></nav>
   </header>`;
 
 const footer = () => `
   <footer class="site-footer">
     <div class="shell footer-grid">
-      <div class="footer-brand"><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt=""><p>Engenharia para avaliar, recuperar e acompanhar componentes críticos de máquinas pesadas.</p></div>
-      <div><h2>Soluções</h2><ul><li><a href="/servicos/manutencao-material-rodante/">Material rodante</a></li><li><a href="/servicos/reforma-cacambas-conchas/">Caçambas e conchas</a></li><li><a href="/servicos/monitoramento-material-rodante/">Monitoramento de desgaste</a></li><li><a href="/equipamentos/">Equipamentos e componentes</a></li></ul></div>
+      <div class="footer-brand"><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt=""><p>Um grupo. Pessoas e sete frentes. Engenharia para manter máquinas pesadas produzindo.</p><a class="text-link text-link--light" href="/pessoas/#filme-institucional">Assista ao filme ${icon("arrow")}</a></div>
+      <div><h2>Empresas do grupo</h2><ul>${companyLinks()}</ul></div>
       <div><h2>Contato</h2><address><a href="${site.phoneHref}">${site.phoneDisplay}</a><a href="mailto:${site.email}">${site.email}</a><a href="${site.map}" target="_blank" rel="noopener noreferrer">${site.address}</a></address></div>
-      <div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas que movem a New</a></li><li><a href="/atuacao/">Atuação nacional</a></li><li><a href="${exposibram.route}">EXPOSIBRAM 2026</a></li><li><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
+      <div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas que movem a New</a></li><li><a href="/servicos/">Soluções técnicas</a></li><li><a href="/equipamentos/">Equipamentos e componentes</a></li><li><a href="/atuacao/">Atuação nacional</a></li><li><a href="${exposibram.route}">EXPOSIBRAM 2026</a></li><li><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
     </div>
     <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor. Todos os direitos reservados.</p><a href="/privacidade/">Privacidade</a><a href="/sitemap.xml">Sitemap</a><a href="/llms.txt">llms.txt</a><a href="/agents.txt">agents.txt</a></div>
   </footer>
@@ -1153,7 +1168,7 @@ export function renderPage(page) {
   <link rel="stylesheet" href="/assets/css/${site.cssFile}">
   <script type="application/ld+json">${jsonLd}</script>
   <script src="/assets/js/${site.jsFile}" defer></script>
-  ${page.preload ? '<script type="module" src="/assets/js/hero-video.20260905.js"></script>' : ""}
+  ${page.preload || page.film ? '<script type="module" src="/assets/js/hero-video.20260905.js"></script>' : ""}
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>

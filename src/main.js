@@ -7,6 +7,7 @@ const consentBanner = document.querySelector("[data-consent-banner]");
 const consentButtons = document.querySelectorAll("[data-consent]");
 const resetConsent = document.querySelector("[data-reset-consent]");
 const pageSurfaces = [
+  document.querySelector(".company-nav"),
   document.querySelector("main"),
   document.querySelector(".site-footer"),
   document.querySelector(".whatsapp-float"),
@@ -39,6 +40,11 @@ navToggle?.addEventListener("click", () => {
 });
 
 navLinks.forEach((link) => link.addEventListener("click", () => setMenu(false)));
+
+// Release the mobile menu's inert state when rotating/resizing into desktop navigation.
+window.matchMedia("(max-width: 860px)").addEventListener("change", (event) => {
+  if (!event.matches) setMenu(false);
+});
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && navToggle?.getAttribute("aria-expanded") === "true") {

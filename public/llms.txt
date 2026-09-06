@@ -27,10 +27,32 @@
 - [Atuação nacional](https://newtractor.com.br/atuacao/)
 - [Contato e RFQ](https://newtractor.com.br/contato/)
 
+## Empresas do grupo — arquitetura comercial
+
+- [New Tractor Rodantes](https://newtractor.com.br/rodantes/): avaliação,
+  recuperação e acompanhamento de material rodante.
+- [HidrauTractor](https://newtractor.com.br/hidrautractor/): consultas
+  hidráulicas conforme componente e aplicação, com escopo a avaliar.
+- [New Tractor Usinagem](https://newtractor.com.br/usinagem/): usinagem de
+  componentes pesados a partir de desenho, peça ou especificação.
+- [New Tractor Calderaria](https://newtractor.com.br/calderaria/): caldeiraria
+  e solda para estruturas e componentes, com escopo após avaliação.
+- [New Tractor Parts](https://newtractor.com.br/parts/): fabricação e consulta
+  de peças; condição, compatibilidade e disponibilidade confirmadas na cotação.
+- [New Tractor Services](https://newtractor.com.br/services/): conversa
+  comercial para demandas integradas; responsabilidades e condições por demanda.
+- [TechTractor](https://newtractor.com.br/techtractor/): visão tecnológica em
+  evolução para inspeções, desgaste e apoio ao planejamento. Não é anúncio de
+  software pronto, assinatura ou acesso público.
+
+Estas são frentes comerciais declaradas pelo proprietário, não um cadastro de
+pessoas jurídicas ou estabelecimentos. `/servicos/` é o hub técnico;
+`/services/` apresenta a empresa Services. São páginas distintas.
+
 ## Conteúdo institucional
 
 - [Pessoas que movem a New Tractor](https://newtractor.com.br/pessoas/)
-  Filme curto e visão institucional sobre equipe, clientes e fornecedores;
+  Filme institucional e visão sobre equipe, clientes e fornecedores;
   não contém depoimentos, cases ou comprovação de certificação.
 - [EXPOSIBRAM 2026: decisões de manutenção que seguem em pauta](https://newtractor.com.br/noticias/new-tractor-na-exposibram-2026/)
 

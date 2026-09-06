@@ -49,6 +49,17 @@ direitos de uso de todos os arquivos do site anterior.
 
 ## Regra para novas captações
 
+### Reuso na arquitetura do grupo — 2026-09-06
+
+As páginas comerciais reutilizam somente o acervo acima: `material-rodante-*`
+na Rodante; `equipe-*` (foto de máquina/pátio, não retrato de equipe) na
+Hidráulica, com legenda de base do grupo; `componentes-industriais-*` na Parts,
+sem representar estoque atual; e `hero-film-people-*` na Services. A fotografia
+da Hidráulica não é apresentada como prova de bancada ou serviço hidráulico.
+TechTractor usa uma composição tipográfica HTML/CSS de visão do projeto, sem
+simular tela de produto, resultados ou criar um logo oficial novo.
+Nenhum asset de mídia foi modificado por esta reorganização.
+
 ### Filme institucional — 2026-09-05
 
 O usuário forneceu a montagem `Midia/hero-fluid/hero-newtractor-quatro-atos-v1-site-stills.mp4`
