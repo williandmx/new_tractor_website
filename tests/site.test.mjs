@@ -261,7 +261,7 @@ test("a home usa vídeo de hero com fallback estático", async () => {
     const timescale = buffer.readUInt32BE(mvhd.start + (version === 1 ? 20 : 12));
     const units = version === 1 ? Number(buffer.readBigUInt64BE(mvhd.start + 24)) : buffer.readUInt32BE(mvhd.start + 16);
     const duration = units / timescale;
-    assert.ok(duration >= 24 && duration <= 36, `${name}: corte completo entre 24–36 s; recebido ${duration}`);
+    assert.ok(duration >= 8 && duration <= 14, `${name}: short no ritmo Armac entre 8–14 s; recebido ${duration}`);
   }
   for (const size of [640, 1280]) {
     await access(join(dist, `assets/images/hero-film-${size}.webp`));
