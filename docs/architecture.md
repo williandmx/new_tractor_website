@@ -4,7 +4,7 @@
 
 - HTML estático completo, sem dependência de JavaScript para conteúdo.
 - Uma intenção principal por rota.
-- Navegação curta: Empresa, Soluções, Equipamentos, Atuação e Contato/RFQ.
+- Navegação curta: O grupo, Soluções, Equipamentos, Pessoas, Atuação e Contato/RFQ.
 - Prova visual real antes de claims publicitários.
 - Cobertura geográfica consolidada, sem doorway pages municipais.
 
@@ -14,6 +14,7 @@
 |---|---|
 | `/` | posicionamento, prova, soluções e conversão |
 | `/empresa/` | história, estrutura, princípios e governança factual |
+| `/pessoas/` | filme sob demanda e visão institucional; entrevistas só após captação e autorização |
 | `/servicos/` | hub das soluções comprovadas |
 | `/servicos/manutencao-material-rodante/` | serviço de rodantes |
 | `/servicos/reforma-cacambas-conchas/` | serviço de caçambas/conchas |

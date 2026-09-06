@@ -48,6 +48,12 @@ devem ser confirmadas antes de apontar o domínio definitivo.
 
 ## Decisões conservadoras adotadas
 
+- A série “Pessoas que movem a New” tem roteiro de captação separado do site.
+  Funcionários, clientes e fornecedores devem aprovar identificação e cortes.
+  ISO comemorativa depende da apresentação do certificado e escopo; a menção
+  no briefing não foi convertida em selo público. Minusa, Tokyo e Hardox são
+  possibilidades de convite, não depoimentos ou parcerias publicadas.
+
 - “Há 12 anos” foi substituído por “desde 2010”, evitando um número desatualizado.
 - As afirmações “+10.000 serviços” e “+5.000 clientes” não foram republicadas por
   falta de evidência atualizada.

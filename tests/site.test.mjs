@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile, readdir, stat } from "node:fs/promises";
 import { join } from "node:path";
+import { site } from "../src/site.mjs";
 
 const root = process.cwd();
 const dist = join(root, "dist");
@@ -19,10 +20,22 @@ async function walk(directory) {
 
 const read = (path) => readFile(join(dist, path), "utf8");
 
+function mp4Atoms(buffer, start = 0, end = buffer.length) {
+  const atoms = [];
+  for (let offset = start; offset + 8 <= end;) {
+    const size = buffer.readUInt32BE(offset);
+    assert.ok(size >= 8 && offset + size <= end, "MP4: box completo e válido");
+    atoms.push({ type: buffer.toString("ascii", offset + 4, offset + 8), offset, start: offset + 8, end: offset + size });
+    offset += size;
+  }
+  return atoms;
+}
+
 test("o build contém todas as rotas e arquivos de descoberta", async () => {
   const required = [
     "index.html",
     "empresa/index.html",
+    "pessoas/index.html",
     "servicos/index.html",
     "servicos/manutencao-material-rodante/index.html",
     "servicos/reforma-cacambas-conchas/index.html",
@@ -46,7 +59,7 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
 
 test("cada página tem HTML semântico, metadados e um único H1", async () => {
   const htmlFiles = (await walk(dist)).filter((path) => path.endsWith(".html"));
-  assert.equal(htmlFiles.length, 12);
+  assert.equal(htmlFiles.length, 13);
   const titles = new Set();
   const descriptions = new Set();
 
@@ -122,7 +135,7 @@ test("robots, sitemap e llms descrevem somente URLs canônicas", async () => {
 
   const sitemap = await read("sitemap.xml");
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(locations.length, 11);
+  assert.equal(locations.length, 12);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => url.startsWith("https://newtractor.com.br/")));
   assert.ok(!locations.some((url) => url.includes("404")));
@@ -215,14 +228,60 @@ test("FAQ visível e dados estruturados permanecem equivalentes", async () => {
   assert.deepEqual(faq.mainEntity.map((item) => item.name), visibleQuestions);
 });
 
+test("a home usa vídeo de hero com fallback estático", async () => {
+  const html = await read("index.html");
+  const video = html.match(/<video\b[^>]*>/)?.[0];
+  assert.ok(video);
+  assert.match(video, /class="hero__video"/);
+  assert.match(video, /preload="none"/);
+  assert.doesNotMatch(video, /\sautoplay|\ssrc=/);
+  assert.match(video, /data-mobile="\/assets\/videos\/hero-film-mobile-v2\.mp4"/);
+  assert.match(html, /class="hero__poster"/);
+  assert.match(html, /aria-controls="hero-film" data-film-toggle hidden/);
+  assert.match(html, /hero-video\.20260905\.js/);
+  for (const [name, budget] of [["desktop", 8], ["mobile", 4]]) {
+    const path = join(dist, `assets/videos/hero-film-${name}-v2.mp4`);
+    const asset = await stat(path);
+    assert.ok(asset.size > 10000 && asset.size <= budget * 1024 * 1024, `${name}: orçamento do vídeo`);
+    const buffer = await readFile(path);
+    const atoms = mp4Atoms(buffer);
+    const moov = atoms.find((atom) => atom.type === "moov");
+    const mdat = atoms.find((atom) => atom.type === "mdat");
+    assert.ok(moov && mdat && moov.offset < mdat.offset, `${name}: faststart e export completo`);
+    const mvhd = mp4Atoms(buffer, moov.start, moov.end).find((atom) => atom.type === "mvhd");
+    assert.ok(mvhd, `${name}: cabeçalho de duração`);
+    const version = buffer[mvhd.start];
+    const timescale = buffer.readUInt32BE(mvhd.start + (version === 1 ? 20 : 12));
+    const units = version === 1 ? Number(buffer.readBigUInt64BE(mvhd.start + 24)) : buffer.readUInt32BE(mvhd.start + 16);
+    const duration = units / timescale;
+    assert.ok(duration >= 24 && duration <= 36, `${name}: corte completo entre 24–36 s; recebido ${duration}`);
+  }
+  for (const size of [640, 1280]) {
+    await access(join(dist, `assets/images/hero-film-${size}.webp`));
+    await access(join(dist, `assets/images/hero-film-people-${size}.webp`));
+  }
+});
+
 test("CSS inclui os componentes responsivos e proteções móveis do novo site", async () => {
-  const css = await read("assets/css/site.20260901-2.css");
+  const css = await read(`assets/css/${site.cssFile}`);
   assert.match(css, /\.machine-strip/);
   assert.match(css, /\.equipment-grid/);
   assert.match(css, /\.coverage-grid/);
   assert.match(css, /\.photo-grid/);
   assert.match(css, /@media \(max-width: 600px\)[\s\S]*\.hero__facts\s*\{\s*grid-template-columns: 1fr;/);
   assert.match(css, /env\(safe-area-inset-bottom\)/);
+});
+
+test("Pessoas tem filme sob demanda, texto equivalente e descoberta", async () => {
+  const people = await read("pessoas/index.html");
+  assert.match(people, /<video controls playsinline preload="none"/);
+  assert.match(people, /aria-describedby="film-description"/);
+  assert.match(people, /id="film-description"/);
+  assert.doesNotMatch(people, /certificada ISO|Minusa|Tokyo|Hardox|<blockquote|aggregateRating/);
+  const graph = JSON.parse(people.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
+  assert.ok(graph.some((entry) => entry["@type"] === "BreadcrumbList"));
+  assert.ok(graph.some((entry) => entry["@type"] === "LocalBusiness"));
+  for (const path of ["sitemap.xml", "llms.txt", "agents.txt"]) assert.match(await read(path), /https:\/\/newtractor\.com\.br\/pessoas\//);
 });
 
 test("a documentação preserva as cinco regras de migração por query string", async () => {
