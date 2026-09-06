@@ -188,7 +188,7 @@ const homeBody = `
       <div class="hero__copy">
         <span class="eyebrow eyebrow--light">GRUPO NEW TRACTOR · MÁQUINAS PESADAS</span>
         <h1>Um grupo.<br><span>Pessoas e sete frentes.</span></h1>
-        <p>Rodantes, HidrauTractor, usinagem, caldeiraria, fabricação de peças, serviços e TechTractor. Um compilado da equipe e de cada empresa do Grupo New Tractor.</p>
+        <p>Rodantes, HidrauTractor, usinagem e caldeiraria de recuperação, fabricação de peças, serviços de campo e TechTractor. Um compilado da equipe e de cada empresa do Grupo New Tractor.</p>
         <div class="button-row">
           <a class="button button--primary" href="#empresas">Conheça as empresas ${icon("arrow")}</a>
           <a class="button button--ghost" href="/contato/">Fale com o grupo</a>
@@ -893,7 +893,7 @@ export const pages = [
     route: "/",
     output: "index.html",
     title: "Grupo New Tractor | Soluções para máquinas pesadas",
-    description: "Rodantes, hidráulica, usinagem, caldeiraria, peças, serviços e TechTractor. Grupo New Tractor em Belo Horizonte para máquinas pesadas.",
+    description: "Rodantes, hidráulica, recuperação, fabricação de peças, serviços de campo e TechTractor. Grupo New Tractor em Belo Horizonte.",
     body: homeBody,
     active: "inicio",
     preload: true,
