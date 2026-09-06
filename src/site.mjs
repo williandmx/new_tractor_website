@@ -4,8 +4,8 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-01",
-  cssFile: "site.20260901-2.css",
-  jsFile: "site.20260901.js",
+  cssFile: "site.20260905-film.css",
+  jsFile: "site.20260905-film.js",
   email: "solucao@newtractor.com.br",
   phoneDisplay: "(31) 3493-1476",
   phoneHref: "tel:+553134931476",
@@ -175,28 +175,33 @@ const pageHero = ({ eyebrow, title, intro, breadcrumb, image, imageAlt, imageWid
   </section>`;
 
 const homeBody = `
-  <section class="hero">
-    <div class="hero__media" aria-hidden="true">
-      ${picture({ name: "equipe", widths: [640, 1200], width: 1200, height: 675, alt: "", sizes: "100vw", eager: true })}
+  <section class="hero hero--film" data-hero-film>
+    <div class="hero__media">
+      ${picture({ name: "hero-film", widths: [640, 1280, 1920], width: 1920, height: 1080, alt: "", sizes: "100vw", eager: true, className: "hero__poster" })}
+      <video id="hero-film" class="hero__video" muted loop playsinline preload="none" width="1280" height="720" aria-hidden="true" tabindex="-1" data-desktop="/assets/videos/hero-film-desktop-v2.mp4" data-mobile="/assets/videos/hero-film-mobile-v2.mp4"></video>
+      <button class="film-toggle" type="button" aria-controls="hero-film" data-film-toggle hidden>Reproduzir vídeo</button>
     </div>
     <div class="hero__overlay"></div>
     <div class="shell hero__content">
       <div class="hero__copy">
         <span class="eyebrow eyebrow--light">GRUPO NEW TRACTOR · MÁQUINAS PESADAS</span>
-        <h1>Engenharia para manter máquinas pesadas produzindo.</h1>
-        <p>Avaliação, recuperação e acompanhamento de componentes críticos para operações de mineração, infraestrutura e agronegócio.</p>
+        <h1>Máquinas em movimento.<br><span>Pessoas no centro.</span></h1>
+        <p>Engenharia para manter máquinas pesadas produzindo. Conhecimento, estrutura e cuidado com cada componente, da avaliação à recuperação.</p>
         <div class="button-row">
-          <a class="button button--primary" href="mailto:${site.email}?subject=RFQ%20%7C%20New%20Tractor" data-analytics="email_rfq_hero">Enviar RFQ ${icon("mail")}</a>
-          <a class="button button--ghost" href="/servicos/">Conhecer soluções</a>
+          <a class="button button--primary" href="/empresa/">Conheça o grupo ${icon("arrow")}</a>
+          <a class="button button--ghost" href="/pessoas/#filme-institucional">Assistir ao filme</a>
         </div>
       </div>
-      <dl class="hero__facts" aria-label="Estrutura declarada pelo Grupo New Tractor">
+    </div>
+  </section>
+  <section class="group-facts" aria-label="Estrutura declarada pelo Grupo New Tractor">
+    <div class="shell">
+      <dl class="group-facts__grid">
         <div><dt>4.000 m²+</dt><dd>de área industrial combinada</dd></div>
         <div><dt>3 galpões</dt><dd>na estrutura do grupo</dd></div>
         <div><dt>Desde 2010</dt><dd>experiência em máquinas pesadas</dd></div>
       </dl>
     </div>
-    <a class="hero__scroll" href="#solucoes"><span>Explore</span><i aria-hidden="true"></i></a>
   </section>
 
   <section class="machine-strip" aria-label="Equipamentos e aplicações">
@@ -222,7 +227,7 @@ const homeBody = `
     <div class="shell">
       <div class="section-heading section-heading--split">
         <div><span class="eyebrow">SOLUÇÕES COMPROVADAS</span><h2 id="solucoes-title">Do desgaste observado ao escopo de intervenção</h2></div>
-        <p>Três frentes publicamente documentadas, apresentadas com limites claros e avaliação por demanda.</p>
+        <p>Manutenção, recuperação e monitoramento: soluções que começam pela condição do componente e pelo contexto da sua operação.</p>
       </div>
       ${serviceCards()}
     </div>
@@ -236,7 +241,7 @@ const homeBody = `
       </div>
       <div class="split-feature__copy">
         <span class="eyebrow eyebrow--light">ESTRUTURA INDUSTRIAL</span>
-        <h2 id="estrutura-home-title">Pessoas, oficina e processo como prova</h2>
+        <h2 id="estrutura-home-title">Estrutura para receber. Conhecimento para cuidar.</h2>
         <p>Mais de 4.000 m² de área industrial combinada em três galpões, conforme informações atuais da empresa, com base operacional em Belo Horizonte.</p>
         <ul class="check-list">
           <li>${icon("check")} Inspeção e preparação do componente</li>
@@ -249,7 +254,22 @@ const homeBody = `
     </div>
   </section>
 
-  <section class="section section--light" aria-labelledby="processo-title">
+  <section class="section section--light people-feature" aria-labelledby="pessoas-home-title">
+    <div class="shell split-feature">
+      <div class="split-feature__media">
+        ${picture({ name: "hero-film-people", widths: [640, 1280], width: 1280, height: 720, alt: "Profissional no ambiente de trabalho da New Tractor" })}
+      </div>
+      <div class="split-feature__copy">
+        <span class="eyebrow">PESSOAS QUE MOVEM A NEW</span>
+        <h2 id="pessoas-home-title">Por trás de cada componente, pessoas.</h2>
+        <p>Quem observa um desgaste. Quem compartilha a necessidade da operação. Quem ajuda a definir uma especificação. A história da New Tractor também é feita desses encontros.</p>
+        <p>Equipe, clientes e fornecedores fazem parte da conversa sobre máquinas pesadas — e sobre o cuidado que o trabalho exige.</p>
+        <a class="text-link" href="/pessoas/">Conheça esse olhar ${icon("arrow")}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sand" aria-labelledby="processo-title">
     <div class="shell">
       <div class="section-heading section-heading--split">
         <div><span class="eyebrow">COMO A DEMANDA AVANÇA</span><h2 id="processo-title">Um caminho objetivo para manutenção e suprimentos</h2></div>
@@ -301,7 +321,8 @@ const empresaBody = `
       <div class="rich-text">
         <p>A New Tractor atua com máquinas pesadas desde 2010, com base operacional em Belo Horizonte.</p>
         <p>Somos especialistas em manutenção, recondicionamento e monitoramento de material rodante em equipamentos pesados dos setores agrícola, de construção civil e de mineração.</p>
-        <p>A marca evolui para o Grupo New Tractor como endosso institucional de uma visão integrada. No site, o foco permanece nas soluções que já possuem escopo público documentado.</p>
+        <p>O Grupo New Tractor expressa uma visão integrada: aproximar pessoas, conhecimento técnico e estrutura para cuidar dos componentes que movem operações pesadas.</p>
+        <a class="text-link" href="/pessoas/">Pessoas que movem a New ${icon("arrow")}</a>
       </div>
     </div>
   </section>
@@ -325,7 +346,7 @@ const empresaBody = `
   </section>
   <section class="section section--light" aria-labelledby="fotos-title">
     <div class="shell">
-      <div class="section-heading section-heading--split"><div><span class="eyebrow">ESTRUTURA REAL</span><h2 id="fotos-title">Máquinas e componentes no centro da narrativa</h2></div><p>As imagens são derivadas da presença institucional já publicada pela New Tractor. Novas captações devem registrar autoria e autorização.</p></div>
+      <div class="section-heading section-heading--split"><div><span class="eyebrow">ESTRUTURA REAL</span><h2 id="fotos-title">De perto, a nossa operação</h2></div><p>Conheça a base, os equipamentos e os componentes que fazem parte da trajetória da New Tractor em Belo Horizonte.</p></div>
       <div class="photo-grid">
         <figure>${picture({ name: "equipe", widths: [640, 1200], width: 1200, height: 675, alt: "Equipamento pesado, veículos de apoio e fachada da New Tractor em Belo Horizonte" })}<figcaption>Base operacional · Belo Horizonte</figcaption></figure>
         <figure>${picture({ name: "material-rodante", widths: [640, 1200], width: 1200, height: 675, alt: "Conjuntos amarelos de esteiras no pátio da New Tractor" })}<figcaption>Conjuntos de material rodante</figcaption></figure>
@@ -334,6 +355,43 @@ const empresaBody = `
     </div>
   </section>
   ${contactBand("Vamos avaliar a necessidade da sua operação?")}`;
+
+const pessoasBody = `
+  <section class="people-intro">
+    <div class="shell">
+      <nav class="breadcrumbs" aria-label="Navegação estrutural"><ol><li><a href="/">Início</a></li><li><span aria-current="page">Pessoas</span></li></ol></nav>
+      <span class="eyebrow eyebrow--light">PESSOAS · GRUPO NEW TRACTOR</span>
+      <h1>Pessoas que<br>movem a New Tractor.</h1>
+      <p>Máquinas pesadas fazem parte do nosso trabalho. Pessoas dão sentido a ele. É na troca entre equipe, clientes e fornecedores que uma necessidade começa a encontrar seu próximo passo.</p>
+      <a class="text-link text-link--light" href="#filme-institucional">Um olhar sobre a New ${icon("arrow")}</a>
+    </div>
+  </section>
+  <section class="section section--dark film-section" id="filme-institucional" aria-labelledby="filme-title">
+    <div class="shell">
+      <div class="section-heading section-heading--split"><div><span class="eyebrow eyebrow--light">NOSSO AMBIENTE, DE PERTO</span><h2 id="filme-title">Um olhar sobre a New Tractor</h2></div><p>Um percurso visual por pessoas, equipamentos e componentes. Imagens da New Tractor, em um filme curto e sem áudio.</p></div>
+      <figure class="institutional-film">
+        <video controls playsinline preload="none" poster="/assets/images/hero-film-1280.webp" width="1280" height="720" aria-label="Filme institucional da New Tractor" aria-describedby="film-description">
+          <source src="/assets/videos/hero-film-mobile-v2.mp4" type="video/mp4" media="(max-width: 760px)">
+          <source src="/assets/videos/hero-film-desktop-v2.mp4" type="video/mp4">
+          <p><a href="/assets/videos/hero-film-desktop-v2.mp4">Abrir o filme em MP4</a></p>
+        </video>
+        <figcaption id="film-description">Filme sem falas ou trilha sonora. Apresenta registros de trabalho, máquinas pesadas e componentes industriais da New Tractor. A sequência conecta o ambiente de oficina às pessoas que participam da operação.</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="section section--light" aria-labelledby="conexoes-title">
+    <div class="shell">
+      <div class="section-heading"><span class="eyebrow">TRABALHO QUE CONECTA</span><h2 id="conexoes-title">Três perspectivas.<br>O mesmo cuidado com a operação.</h2></div>
+      <div class="people-pillars">
+        <article><span class="people-pillars__number">01 / EQUIPE</span><h3>Quem faz acontecer.</h3><p>Conhecimento de oficina é atenção aos detalhes: observar um desgaste, preparar um componente, conferir uma medida. Pessoas transformam informação em trabalho.</p><a class="text-link" href="/empresa/">Conheça a nossa história ${icon("arrow")}</a></article>
+        <article><span class="people-pillars__number">02 / CLIENTES</span><h3>Quem vive a operação.</h3><p>Manutenção, engenharia, PCM e suprimentos trazem perspectivas diferentes sobre a mesma máquina. Ouvir a condição de campo e a prioridade ajuda a definir um escopo coerente.</p><a class="text-link" href="/servicos/monitoramento-material-rodante/">Medição e acompanhamento ${icon("arrow")}</a></article>
+        <article><span class="people-pillars__number">03 / FORNECEDORES</span><h3>Quem soma conhecimento.</h3><p>A escolha de um material ou componente começa por sua aplicação. Especificações claras e diálogo técnico ajudam a alinhar o que a operação precisa ao que será avaliado.</p><a class="text-link" href="/contato/">Converse com a New ${icon("arrow")}</a></article>
+      </div>
+    </div>
+  </section>
+  <section class="section section--sand">
+    <div class="shell editorial-grid"><div><span class="eyebrow">DA CONVERSA AO ESCOPO</span><h2>Comece pela realidade da sua máquina.</h2></div><div class="rich-text"><p>Conte qual é o equipamento, a aplicação e a condição observada. Fotos, desenhos e especificações ajudam nossa equipe a entender a demanda.</p><p>O atendimento é nacional, com viabilidade técnica, condições comerciais e logística avaliadas para cada necessidade.</p><a class="button button--dark" href="/contato/">Fale com nossa equipe ${icon("arrow")}</a></div></div>
+  </section>`;
 
 const servicosBody = `
   ${pageHero({
@@ -834,6 +892,7 @@ export const pages = [
     body: homeBody,
     active: "inicio",
     preload: true,
+    lastModified: "2026-09-05",
   },
   {
     route: "/empresa/",
@@ -842,7 +901,18 @@ export const pages = [
     description: "Conheça a trajetória, a base em Belo Horizonte e a estrutura declarada de três galpões e mais de 4.000 m² do Grupo New Tractor.",
     body: empresaBody,
     active: "empresa",
+    lastModified: "2026-09-05",
     schema: [breadcrumbSchema([{ name: "Empresa", route: "/empresa/" }])],
+  },
+  {
+    route: "/pessoas/",
+    output: "pessoas/index.html",
+    title: "Pessoas que movem a New Tractor | Equipe e operação",
+    description: "Um olhar sobre as pessoas, a oficina e o trabalho da New Tractor. Conheça a visão que conecta equipe, clientes e fornecedores em máquinas pesadas.",
+    body: pessoasBody,
+    active: "pessoas",
+    lastModified: "2026-09-05",
+    schema: [breadcrumbSchema([{ name: "Pessoas", route: "/pessoas/" }])],
   },
   {
     route: "/servicos/",
@@ -997,10 +1067,10 @@ const header = (page) => `
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span></span><span class="sr-only">Abrir menu</span></button>
       <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
         <ul class="nav-list">
-          ${navLink(page, "inicio", "/", "Início")}
-          ${navLink(page, "empresa", "/empresa/", "Empresa")}
+          ${navLink(page, "empresa", "/empresa/", "O grupo")}
           ${navLink(page, "servicos", "/servicos/", "Soluções")}
           ${navLink(page, "equipamentos", "/equipamentos/", "Equipamentos")}
+          ${navLink(page, "pessoas", "/pessoas/", "Pessoas")}
           ${navLink(page, "atuacao", "/atuacao/", "Atuação")}
           ${navLink(page, "contato", "/contato/", "Contato")}
           <li class="nav-rfq"><a href="mailto:${site.email}?subject=RFQ%20%7C%20New%20Tractor" data-analytics="email_rfq_menu">Enviar RFQ</a></li>
@@ -1016,7 +1086,7 @@ const footer = () => `
       <div class="footer-brand"><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt=""><p>Engenharia para avaliar, recuperar e acompanhar componentes críticos de máquinas pesadas.</p></div>
       <div><h2>Soluções</h2><ul><li><a href="/servicos/manutencao-material-rodante/">Material rodante</a></li><li><a href="/servicos/reforma-cacambas-conchas/">Caçambas e conchas</a></li><li><a href="/servicos/monitoramento-material-rodante/">Monitoramento de desgaste</a></li><li><a href="/equipamentos/">Equipamentos e componentes</a></li></ul></div>
       <div><h2>Contato</h2><address><a href="${site.phoneHref}">${site.phoneDisplay}</a><a href="mailto:${site.email}">${site.email}</a><a href="${site.map}" target="_blank" rel="noopener noreferrer">${site.address}</a></address></div>
-      <div><h2>Institucional</h2><ul><li><a href="/empresa/">Empresa</a></li><li><a href="/atuacao/">Atuação nacional</a></li><li><a href="${exposibram.route}">EXPOSIBRAM 2026</a></li><li><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
+      <div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas que movem a New</a></li><li><a href="/atuacao/">Atuação nacional</a></li><li><a href="${exposibram.route}">EXPOSIBRAM 2026</a></li><li><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
     </div>
     <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor. Todos os direitos reservados.</p><a href="/privacidade/">Privacidade</a><a href="/sitemap.xml">Sitemap</a><a href="/llms.txt">llms.txt</a><a href="/agents.txt">agents.txt</a></div>
   </footer>
@@ -1038,7 +1108,7 @@ export function renderPage(page) {
   const graph = [baseOrganization, baseLocalBusiness, websiteSchema, pageSchema, ...(page.schema ?? [])];
   const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replaceAll("<", "\\u003c");
   const preload = page.preload
-    ? '<link rel="preload" as="image" href="/assets/images/equipe-1200.webp" imagesrcset="/assets/images/equipe-640.webp 640w, /assets/images/equipe-1200.webp 1200w" imagesizes="100vw" fetchpriority="high">'
+    ? '<link rel="preload" as="image" href="/assets/images/hero-film-1920.webp" imagesrcset="/assets/images/hero-film-640.webp 640w, /assets/images/hero-film-1280.webp 1280w, /assets/images/hero-film-1920.webp 1920w" imagesizes="100vw" fetchpriority="high">'
     : "";
   const robots = page.indexable === false ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1";
   const canonicalTag = page.indexable === false ? "" : `<link rel="canonical" href="${canonical}">`;
@@ -1054,6 +1124,7 @@ export function renderPage(page) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js")</script>
   <title>${page.title}</title>
   <meta name="description" content="${page.description}">
   <meta name="robots" content="${robots}">
@@ -1082,6 +1153,7 @@ export function renderPage(page) {
   <link rel="stylesheet" href="/assets/css/${site.cssFile}">
   <script type="application/ld+json">${jsonLd}</script>
   <script src="/assets/js/${site.jsFile}" defer></script>
+  ${page.preload ? '<script type="module" src="/assets/js/hero-video.20260905.js"></script>' : ""}
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>

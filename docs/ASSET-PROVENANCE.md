@@ -49,6 +49,20 @@ direitos de uso de todos os arquivos do site anterior.
 
 ## Regra para novas captações
 
+### Filme institucional — 2026-09-05
+
+O usuário forneceu a montagem `Midia/hero-fluid/hero-newtractor-quatro-atos-v1-site-stills.mp4`
+e os materiais locais para tratamento e inclusão no website. O corte público
+`hero-film-*-v2.mp4` foi remontado a partir dos arquivos de câmera em
+`Midia/MANHÃ/` e `Midia/TARDE/`; fontes, pontos de entrada, filtros e limitações
+ficam registrados em `scripts/prepare-hero-video.sh` e `docs/VIDEO-TREATMENT.md`.
+Os posters `hero-film-*` derivam de um frame de `MANHÃ/C3730.MP4`, em 2,40 s.
+O material mostra pessoas e trabalho reais, sem nome/cargo inferido, sem fala
+fabricada e sem selo novo. A solicitação do usuário autoriza esta integração;
+a empresa deve arquivar os termos de uso de imagem e marcas antes do corte do
+domínio definitivo. Data e autoria da captação devem ser confirmadas; metadados
+de câmera não substituem autorização. Os originais permanecem fora do Git.
+
 Toda foto nova deve registrar data, unidade, autoria, autorização de pessoas e
 marcas visíveis. Documentos, placas, telas, números de série e marcas de cliente
 devem ser removidos ou autorizados antes da publicação. Não encenar trabalho

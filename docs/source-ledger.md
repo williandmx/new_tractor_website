@@ -1,6 +1,6 @@
 # Registro de fontes, fatos e pendências
 
-Última revisão: 2026-09-01
+Última revisão: 2026-09-05
 
 | Informação | Classificação | Fonte | Decisão de publicação |
 |---|---|---|---|
@@ -27,6 +27,12 @@
 
 ## Fontes externas de referência
 
+- Armac (`https://armac.com.br/`): abertura institucional em vídeo observada
+  em 2026-09-05; referência de hierarquia visual, sem reutilizar filme ou marcas.
+- Direção do proprietário (`https://newtractor.grok.me/`): grupo como centro
+  institucional, cinza-escuro, amarelo e operação real. Não confirma novas
+  unidades comerciais nem altera os escopos documentados.
+
 - Sotreq: arquitetura por segmento, produto e necessidade, sem copiar alegações
   OEM ou escala.
 - Skava Minas: narrativa visual com máquinas, pessoas, estrutura e projetos,
@@ -35,3 +41,16 @@
   contra doorway pages/keyword stuffing.
 - IBGE: estimativas populacionais municipais de 2025, revisão publicada em
   28/08/2026, usadas somente para priorização comercial.
+
+## Campanha Pessoas — atualização de 2026-09-05
+
+- Material audiovisual: arquivos locais fornecidos pelo usuário em `Midia/`,
+  com solicitação de tratamento e inclusão no site; sem atribuir nome/cargo às
+  pessoas retratadas. Origem e transformação em `VIDEO-TREATMENT.md`.
+- Uniforme “comemorativo da ISO”: intenção declarada, mas norma, certificado,
+  escopo e certificadora ainda não apresentados. Não publicar selo ou alegação.
+- Depoimentos de clientes e entrevistas com Minusa, Tokyo e contato Hardox:
+  propostas de captação, não relatos existentes ou vínculos atuais confirmados.
+- A página Pessoas publica somente filme e visão institucional; nenhuma fala,
+  resultado ou recomendação foi inventada. Roteiros permanecem em documento de
+  trabalho, sujeitos a autorização das pessoas e empresas.

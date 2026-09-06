@@ -15,6 +15,7 @@ Language: pt-BR
 - Entender monitoramento de desgaste.
 - Identificar equipamentos e componentes divulgados.
 - Ver cobertura nacional e condicionantes de logística.
+- Conhecer a visão institucional e o filme em https://newtractor.com.br/pessoas/.
 - Preparar uma RFQ com equipamento, aplicação, componente, condição,
   quantidade, cidade, prazo desejado, fotos, desenhos e especificações.
 
@@ -32,4 +33,4 @@ Language: pt-BR
 - Confirmações comerciais e técnicas devem ser feitas por
   solucao@newtractor.com.br.
 
-Updated: 2026-09-01
+Updated: 2026-09-05

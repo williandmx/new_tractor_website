@@ -18,6 +18,7 @@ await writeFile(
   join(output, "assets", "js", site.jsFile),
   await BunlessRead(join(root, "src", "main.js")),
 );
+await cp(join(root, "src", "hero-video.js"), join(output, "assets", "js", "hero-video.20260905.js"));
 
 for (const page of pages) {
   const destination = join(output, page.output);
