@@ -2,7 +2,7 @@
   "name": "newtractor-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional estático da New Tractor, preparado para SEO, IA e Cloudflare Pages.",
+  "description": "Site institucional do Grupo New Tractor.",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",

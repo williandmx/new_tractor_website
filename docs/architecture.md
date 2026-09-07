@@ -4,7 +4,7 @@
 
 - HTML estático completo, sem dependência de JavaScript para conteúdo.
 - Uma intenção principal por rota.
-- Navegação curta: O grupo, Empresas (âncora na home), Pessoas, Atuação e Contato; segunda linha com as sete empresas. Soluções técnicas e Equipamentos permanecem no conteúdo e no rodapé.
+- Navegação curta: O grupo, Empresas (âncora na home), Pessoas, Atuação, Parcerias e Fale com o grupo. A segunda linha com as sete empresas aparece somente nas páginas de especialidades. Soluções técnicas e Equipamentos permanecem no conteúdo e no rodapé.
 - Prova visual real antes de claims publicitários.
 - Cobertura geográfica consolidada, sem doorway pages municipais.
 - As sete frentes são arquitetura de marca local, não afirmação de pessoas jurídicas distintas.
@@ -33,6 +33,7 @@ prazo, estoque, garantia ou estrutura societária.
 |---|---|
 | `/` | posicionamento, prova, soluções e conversão |
 | `/empresa/` | história, estrutura, princípios e governança factual |
+| `/parcerias/` | apresentação institucional e caminhos para clientes, fornecedores e parceiros |
 | `/pessoas/` | filme sob demanda e visão institucional; entrevistas só após captação e autorização |
 | `/servicos/` | hub das soluções comprovadas |
 | `/servicos/manutencao-material-rodante/` | serviço de rodantes |
@@ -53,13 +54,12 @@ prazo, estoque, garantia ou estrutura societária.
 - programa 360 e qualquer promessa de reforma integral, contrato único ou pós-venda;
 - escopos detalhados, catálogos, cases ou páginas de capacidade para Hidráulica, Parts, Services e TechTractor.
 
-## Descoberta por busca e IA
+## Descoberta por busca e conteúdo institucional
 
 - `sitemap.xml` com URLs canônicas e indexáveis;
 - `robots.txt` permissivo em produção;
-- `llms.txt` com resumo factual e rotas principais;
-- `agents.txt` experimental, sem alegar protocolo universal, API ou capacidade
-  transacional;
+- `llms.txt` e `agents.txt` retirados da publicação por decisão editorial do
+  proprietário em 07/09/2026; nenhum link ou discurso sobre IA no site;
 - JSON-LD de `Organization`, `LocalBusiness`, `WebSite`, `Service`,
   `BreadcrumbList` e `Article` quando aplicável;
 - preview `pages.dev` protegido por header `noindex, nofollow`.

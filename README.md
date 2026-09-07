@@ -31,6 +31,7 @@ permanece disponível sem JavaScript.
 - `/techtractor/`
 - `/empresa/`
 - `/pessoas/`
+- `/parcerias/`
 - `/servicos/`
 - `/servicos/manutencao-material-rodante/`
 - `/servicos/reforma-cacambas-conchas/`
@@ -48,8 +49,9 @@ Conteúdo e composição global: `src/site.mjs`. Perfis comerciais das cinco
 empresas: `src/group.mjs`, importado pelo gerador principal. Limites de oferta
 e pendências documentais: `docs/source-ledger.md` e `docs/CONTENT-REVIEW.md`.
 
-Arquivos de descoberta: `/robots.txt`, `/sitemap.xml`, `/llms.txt` e o
-documento experimental `/agents.txt`.
+Descoberta: `/robots.txt`, `/sitemap.xml` e JSON-LD por página.
+A apresentação pública é institucional; documentos para agentes foram retirados
+por solicitação do proprietário em 07/09/2026.
 
 ## Publicação
 

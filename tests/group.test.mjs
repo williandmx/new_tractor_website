@@ -7,7 +7,10 @@ import { companies } from "../src/group.mjs";
 const read = (file) => readFile(new URL(`../dist/${file}`, import.meta.url), "utf8");
 const schema = (html) => JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
 
-test("o grupo tem as sete empresas pedidas, com conteúdo próprio em páginas reais", async () => {
+test("o grupo tem sete frentes distintas, com conteúdo próprio em páginas reais", async () => {
+  assert.equal(companies.length, 7);
+  assert.equal(new Set(companies.map((company) => company.slug)).size, companies.length, "slugs distintos");
+  assert.equal(new Set(companies.map((company) => company.name)).size, companies.length, "nomes distintos");
   assert.deepEqual(companies.map((company) => company.slug), ["rodantes", "hidrautractor", "usinagem", "calderaria", "parts", "services", "techtractor"]);
   const bodies = new Set();
   for (const company of companies) {
@@ -30,47 +33,59 @@ test("o grupo tem as sete empresas pedidas, com conteúdo próprio em páginas r
   }
 });
 
-test("a home comercial apresenta as sete empresas e todas entram na descoberta", async () => {
+test("a home apresenta as sete frentes, a rota de parcerias e a descoberta canônica", async () => {
   const home = await read("index.html");
-  assert.match(home, /<h1>Um grupo\.<br><span>Pessoas e sete frentes\.<\/span><\/h1>/);
+  assert.match(home, /<h1>[\s\S]*?<\/h1>/);
+  assert.match(home, /Conhecimento industrial|Força em conjunto|grupo industrial/i);
   const index = home.match(/<section class="section group-companies"[\s\S]*?<\/section>/)[0];
   const sitemap = await read("sitemap.xml");
-  const llms = await read("llms.txt");
-  const agents = await read("agents.txt");
+  const parcerias = await read("parcerias/index.html");
+  assert.equal((index.match(/class="company-card"/g) || []).length, companies.length);
+  assert.equal((index.match(/class="company-card__image"/g) || []).length, companies.length);
+  assert.equal((index.match(/class="company-card__body"/g) || []).length, companies.length);
+  assert.doesNotMatch(index, /company-card__group/);
+  assert.match(home, /href="\/parcerias\/"/);
+  assert.match(parcerias, /<h1>[\s\S]*?<\/h1>/);
   for (const company of companies) {
     assert.ok(index.includes(`href="/${company.slug}/"`));
-    for (const file of [sitemap, llms, agents]) assert.ok(file.includes(`${site.origin}/${company.slug}/`));
+    assert.ok(index.includes(`/assets/images/film-${company.slug}-640.webp`));
+    assert.ok(sitemap.includes(`${site.origin}/${company.slug}/`));
   }
+  assert.ok(sitemap.includes(`${site.origin}/parcerias/`));
   const list = schema(home).find((entry) => entry["@type"] === "ItemList");
   assert.equal(list.itemListElement.length, 7);
+  assert.equal(new Set(list.itemListElement.map((item) => item.url)).size, 7);
   assert.deepEqual(list.itemListElement.map((item) => item.url), companies.map((company) => `${site.origin}/${company.slug}/`));
 });
 
-test("RFQs das empresas usam o e-mail real com contexto específico e sem envio simulado", async () => {
+test("as conversas das frentes usam o e-mail real e contexto específico", async () => {
   for (const company of companies) {
     const html = await read(`${company.slug}/index.html`);
-    const rawHref = html.match(new RegExp(`<a class="button button--primary" href="([^"]+)" data-analytics="email_${company.slug}_hero"`))[1];
+    const rawHref = html.match(new RegExp(`href="([^"]+)" data-analytics="email_${company.slug}_hero"`))?.[1];
+    assert.ok(rawHref, `${company.slug}: CTA contextual`);
     const href = new URL(rawHref.replaceAll("&amp;", "&"));
     assert.equal(href.protocol, "mailto:");
     assert.equal(href.pathname, site.email);
     assert.ok(href.searchParams.get("subject").includes(company.name));
     for (const item of company.checklist) assert.ok(href.searchParams.get("body").includes(item));
-    assert.match(html, /O botão abre seu aplicativo de e-mail/);
+    assert.ok(html.includes(site.email), `${company.slug}: e-mail publicado`);
+    assert.match(html, /O que incluir na conversa/);
     assert.doesNotMatch(html, /<form\b|RFQ enviada|SoftwareApplication|Product"|aggregateRating|certificada ISO/);
   }
 });
 
-test("Services mantém intenção distinta de Serviços e TechTractor não anuncia software pronto", async () => {
+test("Services mantém intenção distinta de Serviços e TechTractor preserva a direção tecnológica", async () => {
   const services = await read("services/index.html");
   const technical = await read("servicos/index.html");
   const tech = await read("techtractor/index.html");
   assert.match(services, /<h1>New Tractor Services<\/h1>/);
   assert.match(services, /href="\/servicos\/">Consultar as soluções técnicas/);
   assert.notEqual(services.match(/<title>([^<]+)/)[1], technical.match(/<title>([^<]+)/)[1]);
-  assert.match(tech, /não um catálogo de funcionalidades contratáveis/);
-  assert.match(tech, /tecnológica em evolução/);
-  assert.match(tech, /eventual oferta ainda precisam ser confirmadas/);
-  assert.doesNotMatch(tech, /Assine agora|Acessar plataforma|<form\b/);
+  assert.match(tech, /TechTractor/);
+  assert.match(tech, /tecnologia|monitoramento|inspeção|desgaste/i);
+  const techText = tech.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<[^>]*>/g, " ");
+  assert.doesNotMatch(techText, /Assine agora|Acessar plataforma|Comprar|Teste grátis|software pronto|\bSaaS\b|\bAPI\b|automação de agentes/i);
+  assert.doesNotMatch(tech, /<form\b/i);
   for (const company of companies) {
     const html = await read(`${company.slug}/index.html`);
     assert.match(html, new RegExp(`data-desktop="/assets/videos/company-${company.slug}-desktop\\.mp4"`));

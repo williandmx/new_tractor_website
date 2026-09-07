@@ -1,43 +1,68 @@
 # Pontos de conteúdo para confirmação do proprietário
 
-O novo site usa somente fatos e canais encontrados nas páginas públicas da New
-Tractor. Durante o levantamento, o site anterior apresentou divergências que
+O novo site usa fatos e canais das páginas públicas da New Tractor e
+declarações do proprietário, com as fontes separadas em `source-ledger.md`. Durante o levantamento, o site anterior apresentou divergências que
 devem ser confirmadas antes de apontar o domínio definitivo.
 
-## Arquitetura comercial confirmada — status local, não publicado
+## Arquitetura industrial confirmada — preview para aprovação
 
-Em 2026-09-06, o usuário confirmou a arquitetura de marca formada pela
-home do Grupo New Tractor e pelas rotas `/rodante/`, `/hidraulica/`, `/parts/`,
-`/services/` e `/techtractor/`. A decisão organiza cinco empresas no sentido
-comercial da marca, mas não confirma cinco pessoas jurídicas, CNPJs, contratos,
-certificações ou escopos técnicos completos. O termo “empresas do grupo” pode
-ser usado como arquitetura comercial, desde que não seja apresentado como
-prova de entidades societárias independentes.
+Preview de avaliação: https://951d4336.newtractor-site.pages.dev/
 
-- **Rodante:** é a única das cinco frentes com escopo amplo comprovado na
-  presença pública: manutenção, recondicionamento e monitoramento de material
-  rodante. A nova rota pode organizar esse conteúdo, condicionando capacidade,
-  prazo e compatibilidade à avaliação.
-- **Hidráulica:** nome confirmado como frente de marca, mas a presença pública
+Em 2026-09-07, o usuário confirmou a reformulação da marca para apresentação
+institucional e conversa com parceiros. A arquitetura reúne a home do Grupo
+New Tractor e sete frentes nas rotas `/rodantes/`, `/hidrautractor/`,
+`/usinagem/`, `/calderaria/`, `/parts/`, `/services/` e `/techtractor/`.
+Essa organização é comercial e de marca; não confirma sete pessoas jurídicas,
+CNPJs, contratos, certificações ou sete estabelecimentos. O termo “empresas do
+grupo” deve seguir essa leitura institucional.
+
+- **Rodantes:** é a frente com escopo amplo comprovado na presença pública:
+  manutenção, recondicionamento e monitoramento de material rodante. A copy
+  apresenta rosários, sapatas, roletes, rodas-guia, trucks e conjuntos; capacidade,
+  prazo e compatibilidade permanecem vinculados à avaliação da demanda.
+- **HidrauTractor:** nome confirmado como frente de marca. A presença pública
   revisada não comprova lista de componentes, bancadas, testes, pressões,
-  vazões, capacidade ou certificações. Copy deve permanecer em avaliação de
-  demanda.
-- **Parts:** nome confirmado como frente de marca. Não há confirmação pública
-  de estoque, disponibilidade imediata, fabricação específica, engenharia
-  reversa universal ou limites dimensionais. Solicitar desenho, especificação,
-  fotos e contexto para RFQ.
-- **Services:** nome confirmado como frente integradora na proposta de marca.
-  A proposta não comprova contrato único, reforma end-to-end, garantia, equipe
-  de campo, SLA, prazo ou pós-venda formal. Descrever apenas coordenação e
-  definição de escopo sob avaliação técnica, comercial e logística.
-- **TechTractor:** o README local de `newtractor_conditionmonitoring` foi
-  consultado somente como visão geral/metadado: descreve um painel privado de
-  inspeções e acompanhamento de desgaste de material rodante, com acesso
-  restrito. O ledger o classifica como produto em evolução. Não publicar como
-  sistema pronto, SaaS disponível, produto com clientes ou oferta transacional.
+  vazões, capacidade ou certificações; a copy organiza a entrada de demandas
+  por componente, aplicação e condição observada.
+- **Usinagem:** frente de recuperação dimensional de componentes, com torno,
+  mandrilhadora e centro de usinagem divulgados no material local. Capacidade,
+  tolerância, dimensões, materiais e prazo exigem validação por peça e escopo.
+- **Calderaria:** frente de recuperação por caldeiraria e solda para estruturas,
+  caçambas e componentes pesados. Procedimentos, materiais, capacidade,
+  tolerância e prazo devem ser definidos a partir da condição da peça.
+- **Parts:** nome confirmado como frente de marca para demandas de peças novas.
+  Não há confirmação pública de estoque, disponibilidade imediata, fabricação
+  universal, engenharia reversa ou limites dimensionais; solicitar código,
+  desenho, especificação, fotos e aplicação.
+- **Services:** nome confirmado como frente integradora para medições de
+  máquinas em campo. A proposta não comprova contrato único, reforma integrada,
+  garantia, equipe residente, SLA, prazo ou pós-venda formal; copy descreve a
+  organização da demanda conforme local, logística e escopo.
+- **TechTractor:** frente tecnológica em evolução para inspeções,
+  acompanhamento de desgaste e histórico de manutenção. O README local de
+  `newtractor_conditionmonitoring` é apenas metadado de um painel privado;
+  não publicar sistema pronto, acesso transacional, clientes, funcionalidades
+  contratáveis ou automação de agentes.
 
 `/servicos/` permanece o hub técnico das soluções comprovadas e é distinto de
-`/services/`; não criar alias ou redirecionamento entre os dois slugs.
+`/services/`; não criar alias ou redirecionamento entre os dois slugs. A rota
+`/parcerias/` terá papel institucional para interlocução com parceiros e só
+entra no corte do domínio após revisão e aprovação do proprietário.
+
+## Pedido editorial vigente e aprovação de publicação
+
+O pedido de 2026-09-07 prevalece sobre a redação anterior de cinco frentes:
+copy fluida, sólida e acessível; apresentação do Grupo como estrutura
+industrial; uso dos logos oficiais já existentes; preservação de nomes, rotas,
+filmes e canais; remoção de referências a IA e automação de agentes da
+experiência pública. Os benchmarks NetZero, Armac, Sotreq, Apple e Klap Tech orientam
+hierarquia, narrativa e apresentação institucional, sem autorizar copiar
+alegações, escala ou marcas.
+
+O `pages.dev` é apenas preview. O domínio `newtractor.com.br` continua
+condicionado à aprovação final do proprietário após confirmação de contatos,
+direitos de uso de imagens e marcas, fatos institucionais, dados societários
+aplicáveis, QA técnico/editorial e rollback de DNS e e-mail.
 
 ## Prioridade alta
 

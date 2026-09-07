@@ -86,3 +86,42 @@ transição e o ponto de loop em 360 px, desktop e mobile.
   têm 4,20 s disponíveis, com timestamps normalizados antes das transições.
 - Os testes Node do projeto validam duração, integridade e orçamento dos MP4
   finais, sem exigir os originais de câmera no CI.
+
+## Loop de abertura do grupo — 2026-09-07
+
+O loop institucional curto usa somente o filme público já autorizado
+`public/assets/videos/hero-film-full-desktop.mp4`. A montagem seleciona quatro
+intervalos de três segundos, com cortes secos entre eles:
+
+| Intervalo na fonte | Conteúdo visível | Posição no loop |
+| --- | --- | --- |
+| 00:02.000–00:05.000 | Pessoa com proteção | 00:00–00:03 |
+| 00:44.000–00:47.000 | Soldagem | 00:03–00:06 |
+| 01:18.000–01:21.000 | Usinagem | 00:06–00:09 |
+| 01:56.000–01:59.000 | Conjuntos de material rodante | 00:09–00:12 |
+
+O filme completo foi amostrado visualmente em frames de dez em dez segundos e
+os intervalos foram revisados em frames de meio em meio segundo; não há
+captions ou texto queimado nos trechos usados. O tratamento preserva cor e
+enquadramento da fonte, remove áudio por mapeamento de vídeo único e aplica
+somente fade de entrada em 0,00–0,25 s e fade de saída em 11,75–12,00 s. Não
+há texto, identidade ou capacidade de máquina inferida pelo corte.
+
+As saídas verificadas são:
+
+| Arquivo | Dimensão | Duração | Codec / pixel | Tamanho |
+| --- | ---: | ---: | --- | ---: |
+| `group-opening-desktop.mp4` | 1280 × 720 | 12,000 s | H.264, `yuv420p`, 30 fps | 2.636.480 bytes |
+| `group-opening-mobile.mp4` | 960 × 540 | 12,000 s | H.264, `yuv420p`, 30 fps | 1.833.284 bytes |
+
+Ambos os MP4 são sem áudio, usam `faststart` e ficam abaixo dos limites de 4
+MB (desktop) e 2 MB (mobile). Os posters `group-opening-1280.webp` (1280 ×
+720, 31.420 bytes) e `group-opening-640.webp` (640 × 360, 11.526 bytes) são
+frames extraídos diretamente da fonte em 00:02.500, antes de qualquer texto ou
+composição do site.
+
+O comando reprodutível é:
+
+```sh
+./scripts/prepare-group-opening.sh
+```

@@ -26,7 +26,7 @@ for (const page of pages) {
   await writeFile(destination, renderPage(page), "utf8");
 }
 
-const staticFiles = ["_headers", "_redirects", "robots.txt", "llms.txt", "agents.txt", "site.webmanifest"];
+const staticFiles = ["_headers", "_redirects", "robots.txt", "site.webmanifest"];
 for (const file of staticFiles) {
   await cp(join(root, "public", file), join(output, file));
 }

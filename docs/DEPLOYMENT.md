@@ -14,6 +14,16 @@
 - O domínio canônico continua no hosting anterior; nenhum registro DNS foi
   alterado nesta entrega.
 
+## Preview institucional de 07/09/2026
+
+- Versão para avaliação: `https://951d4336.newtractor-site.pages.dev/`.
+- Alias de revisão: `https://institutional-group.newtractor-site.pages.dev/`.
+- Deployment: `951d4336-9db0-457e-b0ed-c3d6ec26d022`; ambiente `Preview`.
+- Build: base `c1cb38c` com alterações institucionais locais, upload direto via
+  Wrangler. Evidências em `QA-INSTITUTIONAL-2026-09-07.md`.
+- Produção e DNS preservados; aprovação do novo layout ainda cabe ao proprietário.
+- Retorno visual à versão anterior: `https://79240147.newtractor-site.pages.dev/`.
+
 ## Preview
 
 ```bash
@@ -37,7 +47,7 @@ domínio canônico.
 5. Somente após essa revisão, trocar no Registro.br os nameservers atuais pelos
    dois nameservers atribuídos ao domínio pelo Cloudflare.
 6. Adicionar `www.newtractor.com.br` e redirecionar para o apex canônico.
-7. Validar HTTPS, certificado, raiz, `www`, 404, robots, sitemap, llms, HTML
+7. Validar HTTPS, certificado, raiz, `www`, 404, robots, sitemap, HTML
    bruto, analytics e CTAs.
 
 ## Redirects legados com query string

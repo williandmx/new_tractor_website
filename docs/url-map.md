@@ -10,6 +10,7 @@ para os slugs atuais.
 | Rota | Nome público | Papel |
 |---|---|---|
 | `/` | Grupo New Tractor | Home, filme compilado e encaminhamento comercial |
+| `/parcerias/` | Parcerias | Apresentação e contatos para clientes, fornecedores e parceiros |
 | `/rodantes/` | New Tractor Rodantes | Material rodante, com o filme institucional desta frente |
 | `/hidrautractor/` | HidrauTractor | Frente hidráulica; escopo técnico sob avaliação |
 | `/usinagem/` | New Tractor Usinagem | Usinagem de componentes pesados |
@@ -39,7 +40,8 @@ representam intenções distintas.
 
 O arquivo `_redirects` do Cloudflare Pages não diferencia query string para as
 URLs `?p=`/`?page_id=` do WordPress. Esses redirects devem ser configurados em
-Cloudflare Single Redirects/Bulk Redirects ou em um Worker no corte do domínio.
+Cloudflare Single Redirects ou em um Worker no corte do domínio. Bulk Redirects
+não aceita query string na origem; não usar uma regra genérica para a home.
 O `_redirects` continua responsável pelas rotas de caminho e normalização.
 
 ## URLs sem equivalente
