@@ -49,6 +49,17 @@ direitos de uso de todos os arquivos do site anterior.
 
 ## Regra para novas captações
 
+### Reuso na arquitetura do grupo — 2026-09-06
+
+As páginas comerciais reutilizam somente o acervo acima: `material-rodante-*`
+na Rodante; `equipe-*` (foto de máquina/pátio, não retrato de equipe) na
+Hidráulica, com legenda de base do grupo; `componentes-industriais-*` na Parts,
+sem representar estoque atual; e `hero-film-people-*` na Services. A fotografia
+da Hidráulica não é apresentada como prova de bancada ou serviço hidráulico.
+TechTractor usa uma composição tipográfica HTML/CSS de visão do projeto, sem
+simular tela de produto, resultados ou criar um logo oficial novo.
+Nenhum asset de mídia foi modificado por esta reorganização.
+
 ### Filme institucional — 2026-09-05
 
 O usuário forneceu a montagem `Midia/hero-fluid/hero-newtractor-quatro-atos-v1-site-stills.mp4`
@@ -62,6 +73,29 @@ fabricada e sem selo novo. A solicitação do usuário autoriza esta integraçã
 a empresa deve arquivar os termos de uso de imagem e marcas antes do corte do
 domínio definitivo. Data e autoria da captação devem ser confirmadas; metadados
 de câmera não substituem autorização. Os originais permanecem fora do Git.
+
+### Abertura institucional do grupo — 2026-09-07
+
+O loop curto do grupo foi derivado exclusivamente do filme público já autorizado
+`public/assets/videos/hero-film-full-desktop.mp4`. Os quatro trechos usados são
+`00:02.000–00:05.000` (pessoa com proteção), `00:44.000–00:47.000`
+(soldagem), `01:18.000–01:21.000` (usinagem) e `01:56.000–01:59.000`
+(conjuntos de material rodante). Uma amostragem do filme completo a cada dez
+segundos e a revisão dos intervalos selecionados não encontrou captions ou
+texto queimado. Não foram usados arquivos de câmera, modelos de aprendizado de
+máquina ou geração de imagem.
+
+As saídas são `group-opening-desktop.mp4` (1280 × 720, 12,000 s,
+2.636.480 bytes), `group-opening-mobile.mp4` (960 × 540, 12,000 s,
+1.833.284 bytes), `group-opening-1280.webp` (1280 × 720, 31.420 bytes) e
+`group-opening-640.webp` (640 × 360, 11.526 bytes). O vídeo mantém a cor e o
+enquadramento da fonte, não tem áudio nem texto adicionado, e recebe apenas
+fade de entrada e saída de 0,25 s. Os posters são frames diretamente da fonte
+em `00:02.500`, exportados nas duas dimensões.
+
+O tratamento é reproduzível em `scripts/prepare-group-opening.sh`. A empresa
+deve arquivar os termos de uso de imagem e marcas antes do corte do domínio
+definitivo; essa necessidade também se aplica a este derivado.
 
 Toda foto nova deve registrar data, unidade, autoria, autorização de pessoas e
 marcas visíveis. Documentos, placas, telas, números de série e marcas de cliente

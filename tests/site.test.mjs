@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile, readdir, stat } from "node:fs/promises";
 import { join } from "node:path";
-import { site } from "../src/site.mjs";
+import { site, pages } from "../src/site.mjs";
 
 const root = process.cwd();
 const dist = join(root, "dist");
@@ -19,6 +19,7 @@ async function walk(directory) {
 }
 
 const read = (path) => readFile(join(dist, path), "utf8");
+const forbiddenPublicLanguage = /\b(?:IA|inteligência artificial|LLM|agents?|agentes?|SEO|oficina)\b/i;
 
 function mp4Atoms(buffer, start = 0, end = buffer.length) {
   const atoms = [];
@@ -34,7 +35,15 @@ function mp4Atoms(buffer, start = 0, end = buffer.length) {
 test("o build contém todas as rotas e arquivos de descoberta", async () => {
   const required = [
     "index.html",
+    "rodantes/index.html",
+    "hidrautractor/index.html",
+    "usinagem/index.html",
+    "calderaria/index.html",
+    "parts/index.html",
+    "services/index.html",
+    "techtractor/index.html",
     "empresa/index.html",
+    "parcerias/index.html",
     "pessoas/index.html",
     "servicos/index.html",
     "servicos/manutencao-material-rodante/index.html",
@@ -48,18 +57,18 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
     "404.html",
     "robots.txt",
     "sitemap.xml",
-    "llms.txt",
-    "agents.txt",
     "site.webmanifest",
     "_headers",
     "_redirects",
   ];
   await Promise.all(required.map((path) => access(join(dist, path))));
+  await assert.rejects(access(join(dist, "llms.txt")), (error) => error?.code === "ENOENT");
+  await assert.rejects(access(join(dist, "agents.txt")), (error) => error?.code === "ENOENT");
 });
 
 test("cada página tem HTML semântico, metadados e um único H1", async () => {
   const htmlFiles = (await walk(dist)).filter((path) => path.endsWith(".html"));
-  assert.equal(htmlFiles.length, 13);
+  assert.equal(htmlFiles.length, pages.length);
   const titles = new Set();
   const descriptions = new Set();
 
@@ -93,6 +102,7 @@ test("cada página tem HTML semântico, metadados e um único H1", async () => {
     assert.doesNotMatch(html, /http:\/\//, `${relative}: não deve conter conteúdo misto`);
     assert.doesNotMatch(html, /href=("#"|""|'#'|'')/, `${relative}: sem links vazios`);
     assert.doesNotMatch(html, /wp-content|wp-admin|wordpress/i, `${relative}: sem dependência do WordPress`);
+    assert.doesNotMatch(html, forbiddenPublicLanguage, `${relative}: sem bastidores ou linguagem de IA/SEO`);
 
     for (const tag of html.match(/<img\b[^>]*>/g) || []) {
       assert.match(tag, /\salt="[^"]*"/, `${relative}: imagem com alt`);
@@ -128,30 +138,18 @@ test("todos os links internos apontam para saídas existentes", async () => {
   }
 });
 
-test("robots, sitemap e llms descrevem somente URLs canônicas", async () => {
+test("robots e sitemap descrevem somente URLs canônicas", async () => {
   const robots = await read("robots.txt");
   assert.match(robots, /^User-agent: \*\nAllow: \/$/m);
   assert.match(robots, /Sitemap: https:\/\/newtractor\.com\.br\/sitemap\.xml/);
 
   const sitemap = await read("sitemap.xml");
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(locations.length, 12);
+  assert.equal(locations.length, pages.filter((page) => page.indexable !== false).length);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => url.startsWith("https://newtractor.com.br/")));
   assert.ok(!locations.some((url) => url.includes("404")));
-
-  const llms = await read("llms.txt");
-  assert.match(llms, /^# Grupo New Tractor/m);
-  assert.match(llms, /\[Soluções\]\(https:\/\/newtractor\.com\.br\/servicos\/\)/);
-  assert.match(llms, /\[Equipamentos e componentes\]\(https:\/\/newtractor\.com\.br\/equipamentos\/\)/);
-  assert.match(llms, /\[Atuação nacional\]\(https:\/\/newtractor\.com\.br\/atuacao\/\)/);
-  assert.match(llms, /\[EXPOSIBRAM 2026: decisões de manutenção que seguem em pauta\]\(https:\/\/newtractor\.com\.br\/noticias\/new-tractor-na-exposibram-2026\/\)/);
-  assert.match(llms, /solucao@newtractor\.com\.br/);
-
-  const agents = await read("agents.txt");
-  assert.match(agents, /documento informativo; não representa um padrão universal, API, MCP ou/);
-  assert.match(agents, /Canonical: https:\/\/newtractor\.com\.br\//);
-  assert.match(agents, /Não inferir preço, prazo, garantia, capacidade, certificação/);
+  assert.ok(locations.includes(`${site.origin}/parcerias/`));
 });
 
 test("a página da EXPOSIBRAM está atualizada como registro pós-evento", async () => {
@@ -169,7 +167,7 @@ test("a página da EXPOSIBRAM está atualizada como registro pós-evento", async
   const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
   const graph = JSON.parse(jsonLd)["@graph"];
   assert.ok(graph.some((item) => item["@type"] === "Article"));
-  assert.ok(graph.some((item) => item["@type"] === "Event" && item.eventStatus === "https://schema.org/EventCompleted"));
+  assert.ok(!graph.some((item) => item["@type"] === "Event"), "registro histórico usa Article");
 });
 
 test("headers e redirects preservam segurança e URLs antigas úteis", async () => {
@@ -212,10 +210,14 @@ test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () 
     assert.match(home, new RegExp(`alt="Logo da ${client}"`));
     await access(join(dist, `assets/images/clientes/${file}`));
   }
-  assert.match(contact, /Envie sua RFQ com contexto técnico/);
+  assert.match(contact, /Boas conexões começam com uma conversa|Solicite uma proposta técnica/);
   assert.match(contact, /mailto:solucao@newtractor\.com\.br\?subject=RFQ/);
+  assert.match(contact, /Empresa solicitante/);
+  assert.match(contact, /Equipamento, modelo e componente/);
   assert.match(contact, /Desenho, especificação e fotos em anexo/);
-  assert.match(contact, /Prazo, logística e capacidade são confirmados após avaliação técnica e comercial/);
+  assert.match(contact, /solucao@newtractor\.com\.br/);
+  assert.match(contact, /\(31\) 3493-1476/);
+  assert.match(contact, /\(31\) 99312-0054/);
 });
 
 test("FAQ visível e dados estruturados permanecem equivalentes", async () => {
@@ -235,12 +237,15 @@ test("a home usa vídeo de hero com fallback estático", async () => {
   assert.match(video, /class="hero__video"/);
   assert.match(video, /preload="none"/);
   assert.doesNotMatch(video, /\sautoplay|\ssrc=/);
-  assert.match(video, /data-mobile="\/assets\/videos\/hero-film-mobile-v2\.mp4"/);
+  assert.match(video, /data-desktop="\/assets\/videos\/group-opening-desktop\.mp4"/);
+  assert.match(video, /data-mobile="\/assets\/videos\/group-opening-mobile\.mp4"/);
   assert.match(html, /class="hero__poster"/);
+  assert.match(html, /group-opening-640\.webp/);
+  assert.match(html, /group-opening-1280\.webp/);
   assert.match(html, /aria-controls="hero-film" data-film-toggle hidden/);
   assert.match(html, /hero-video\.20260905\.js/);
-  for (const [name, budget] of [["desktop", 8], ["mobile", 4]]) {
-    const path = join(dist, `assets/videos/hero-film-${name}-v2.mp4`);
+  for (const [name, budget] of [["desktop", 4], ["mobile", 2]]) {
+    const path = join(dist, `assets/videos/group-opening-${name}.mp4`);
     const asset = await stat(path);
     assert.ok(asset.size > 10000 && asset.size <= budget * 1024 * 1024, `${name}: orçamento do vídeo`);
     const buffer = await readFile(path);
@@ -254,10 +259,10 @@ test("a home usa vídeo de hero com fallback estático", async () => {
     const timescale = buffer.readUInt32BE(mvhd.start + (version === 1 ? 20 : 12));
     const units = version === 1 ? Number(buffer.readBigUInt64BE(mvhd.start + 24)) : buffer.readUInt32BE(mvhd.start + 16);
     const duration = units / timescale;
-    assert.ok(duration >= 24 && duration <= 36, `${name}: corte completo entre 24–36 s; recebido ${duration}`);
+    assert.ok(Math.abs(duration - 12) <= 0.1, `${name}: duração esperada de 12 s; recebido ${duration}`);
   }
   for (const size of [640, 1280]) {
-    await access(join(dist, `assets/images/hero-film-${size}.webp`));
+    await access(join(dist, `assets/images/group-opening-${size}.webp`));
     await access(join(dist, `assets/images/hero-film-people-${size}.webp`));
   }
 });
@@ -268,7 +273,10 @@ test("CSS inclui os componentes responsivos e proteções móveis do novo site",
   assert.match(css, /\.equipment-grid/);
   assert.match(css, /\.coverage-grid/);
   assert.match(css, /\.photo-grid/);
-  assert.match(css, /@media \(max-width: 600px\)[\s\S]*\.hero__facts\s*\{\s*grid-template-columns: 1fr;/);
+  assert.match(css, /\.intro-layout/);
+  assert.match(css, /\.company-card__image/);
+  assert.match(css, /\.company-card__body/);
+  assert.match(css, /\.partnership-feature/);
   assert.match(css, /env\(safe-area-inset-bottom\)/);
 });
 
@@ -277,11 +285,15 @@ test("Pessoas tem filme sob demanda, texto equivalente e descoberta", async () =
   assert.match(people, /<video controls playsinline preload="none"/);
   assert.match(people, /aria-describedby="film-description"/);
   assert.match(people, /id="film-description"/);
+  assert.match(people, /hero-film-full-desktop\.mp4/);
+  assert.match(people, /hero-film-full-mobile\.mp4/);
   assert.doesNotMatch(people, /certificada ISO|Minusa|Tokyo|Hardox|<blockquote|aggregateRating/);
+  const fullFilm = await stat(join(dist, "assets/videos/hero-film-full-desktop.mp4"));
+  assert.ok(fullFilm.size > 10 * 1024 * 1024, "filme institucional completo presente");
   const graph = JSON.parse(people.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
   assert.ok(graph.some((entry) => entry["@type"] === "BreadcrumbList"));
   assert.ok(graph.some((entry) => entry["@type"] === "LocalBusiness"));
-  for (const path of ["sitemap.xml", "llms.txt", "agents.txt"]) assert.match(await read(path), /https:\/\/newtractor\.com\.br\/pessoas\//);
+  assert.match(await read("sitemap.xml"), /https:\/\/newtractor\.com\.br\/pessoas\//);
 });
 
 test("a documentação preserva as cinco regras de migração por query string", async () => {

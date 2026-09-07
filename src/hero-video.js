@@ -78,8 +78,7 @@ export function mountHeroFilm(container, env = window) {
 
 if (typeof window !== "undefined") {
   const boot = () => {
-    const hero = document.querySelector("[data-hero-film]");
-    if (hero) mountHeroFilm(hero);
+    document.querySelectorAll("[data-hero-film]").forEach((hero) => mountHeroFilm(hero));
   };
   if (document.readyState === "complete") boot();
   else window.addEventListener("load", boot, { once: true });
