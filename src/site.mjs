@@ -4,6 +4,7 @@ import { createSectorPages, sectorLinks } from "./sector-content.mjs";
 import { createComponentPages } from "./component-content.mjs";
 import { createEquipmentPages, equipmentLinks } from "./equipment-content.mjs";
 import { createTerritoryPages } from "./territory-content.mjs";
+import { createHydraulicPages, hydraulicRoutes } from "./hydraulic-content.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -11,7 +12,7 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260907-group.css",
+  cssFile: "site.20260908-hydraulic.css",
   jsFile: "site.20260908-measurement.js",
   email: "solucao@newtractor.com.br",
   phoneDisplay: "(31) 3493-1476",
@@ -272,7 +273,7 @@ const servicosBody = `
   ${pageHero({
     eyebrow: "SERVIÇOS",
     title: "Serviços para máquinas de linha amarela em Minas Gerais",
-    intro: "Material rodante, recuperação dimensional e reforma de caçambas e conchas, com base em Belo Horizonte. Encontre a especialidade pelo componente e pela condição da sua máquina.",
+    intro: "Cilindros hidráulicos, material rodante, recuperação dimensional e reforma de caçambas e conchas, com base em Belo Horizonte. Encontre a especialidade pelo componente da sua máquina.",
     breadcrumb: [{ label: "Serviços", href: "/servicos/" }],
     image: "material-rodante",
     imageAlt: "Esteiras e componentes de material rodante preparados pela New Tractor",
@@ -293,7 +294,7 @@ const servicosBody = `
       <article><h3>Desgaste na esteira da escavadeira ou do trator</h3><p>Informe se a condição envolve roletes, roda-guia, corrente, sapatas ou o conjunto. A <a href="/rodantes/">New Tractor Rodantes</a> reúne recuperação e acompanhamento de material rodante; a inspeção define a viabilidade para cada componente.</p><a class="text-link" href="/componentes/">Identificar componentes de material rodante</a></article>
       <article><h3>Folga em pinos, buchas ou alojamentos</h3><p>Descreva o ponto de articulação, a condição observada e as medidas disponíveis. O pedido pode envolver consulta de peça em <a href="/parts/">Parts</a> ou <a href="/servicos/usinagem-componentes-maquinas-pesadas/">recuperação dimensional por usinagem e mandrilhamento</a>.</p><a class="text-link" href="/guias/folgas-pinos-buchas-alojamentos/">Preparar uma avaliação de folgas</a></article>
       <article><h3>Trincas ou deformação em caçambas e conchas</h3><p>Identifique o implemento da escavadeira ou carregadeira, a aplicação e o histórico de reparos. A <a href="/calderaria/">New Tractor Calderaria</a> conecta a avaliação estrutural ao escopo de reforma.</p><a class="text-link" href="/servicos/reforma-cacambas-conchas/">Consultar reforma de caçambas e conchas</a></article>
-      <article><h3>Vazamento ou outra condição no cilindro hidráulico</h3><p>Informe a função do cilindro, a identificação da máquina e o que foi observado. A <a href="/hidrautractor/">HidrauTractor</a> recebe a consulta para avaliar compatibilidade e escopo; o sintoma isolado não determina o reparo.</p><a class="text-link" href="/guias/avaliacao-cilindros-hidraulicos/">Dados para consultar um cilindro hidráulico</a></article>
+      <article><h3>Vazamento ou outra condição no cilindro hidráulico</h3><p>Informe a função do cilindro, a identificação da máquina e o que foi observado. A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto.</p><a class="text-link" href="/hidrautractor/">Conhecer os serviços da HidrauTractor</a></article>
       <article><h3>Peça para escavadeira ou trator de esteira</h3><p>Para cotar, reúna código, modelo, aplicação, quantidade e destino. Diferencie a procura por peça nova da recuperação de um componente existente. Condição, compatibilidade e disponibilidade são confirmadas na proposta.</p><a class="text-link" href="/parts/">Consultar peças com a New Tractor Parts</a></article>
       <article><h3>Medição de desgaste no pátio e histórico da frota</h3><p>A <a href="/services/">Services</a> recebe o objetivo da medição, a relação de máquinas, a cidade e os requisitos de acesso para avaliar a demanda. A <a href="/techtractor/">TechTractor</a> é a frente em evolução dedicada a inspeções, registros e histórico.</p><a class="text-link" href="/servicos/monitoramento-material-rodante/">Entender o monitoramento de material rodante</a></article>
     </div>
@@ -683,6 +684,8 @@ const baseOrganization = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Manutenção de material rodante" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reforma de caçambas e conchas" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Monitoramento de material rodante" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Recuperação de cilindros hidráulicos", url: `${site.origin}${hydraulicRoutes.recovery}` } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fabricação de cilindros hidráulicos", url: `${site.origin}${hydraulicRoutes.manufacture}` } },
     ],
   },
 };
@@ -783,6 +786,7 @@ export const pages = [
   ...createComponentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createEquipmentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createTerritoryPages({ site, pageHero, contactBand, breadcrumbSchema }),
+  ...createHydraulicPages({ site, picture, breadcrumbSchema, serviceSchema }),
   {
     route: "/empresa/",
     output: "empresa/index.html",
@@ -814,7 +818,7 @@ export const pages = [
     route: "/servicos/",
     output: "servicos/index.html",
     title: "Serviços para máquinas de linha amarela em MG | New Tractor",
-    description: "Encontre a especialidade por componente: material rodante, usinagem, caçambas, consultas de cilindros e peças. Base em Belo Horizonte e demandas em Minas Gerais.",
+    description: "Recuperação e fabricação de cilindros hidráulicos, material rodante, usinagem e caçambas. Base em Belo Horizonte para demandas de máquinas pesadas em MG.",
     lastModified: "2026-09-08",
     body: servicosBody,
     active: "servicos",

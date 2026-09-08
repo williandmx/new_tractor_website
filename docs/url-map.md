@@ -12,7 +12,7 @@ para os slugs atuais.
 | `/` | Grupo New Tractor | Home, filme compilado e encaminhamento comercial |
 | `/parcerias/` | Parcerias | Apresentação e contatos para clientes, fornecedores e parceiros |
 | `/rodantes/` | New Tractor Rodantes | Material rodante, com o filme institucional desta frente |
-| `/hidrautractor/` | HidrauTractor | Frente hidráulica; escopo técnico sob avaliação |
+| `/hidrautractor/` | HidrauTractor | Hub de recuperação e fabricação de cilindros; avaliação por peça/aplicação |
 | `/usinagem/` | New Tractor Usinagem | Usinagem de componentes pesados |
 | `/calderaria/` | New Tractor Calderaria | Caldeiraria e solda |
 | `/parts/` | New Tractor Parts | Fabricação e consulta de peças |
@@ -111,3 +111,18 @@ O sitemap raiz agora é um índice de oito mapas por frente editorial; o conjunt
 | `/atuacao/minas-gerais/` | Operação, componente e logística em quatro contextos mineiros | Atuação, sete frentes, Equipamentos e novas aplicações | atuacao |
 
 As versões sem barra final redirecionam com 301 para as canônicas acima. Não há rotas municipais em massa, redirecionamentos por palavra-chave ou mudança de domínio/DNS nesta ampliação.
+
+## Rotas hidráulicas acrescentadas — 08/09/2026
+
+| Rota canônica | Intenção e conteúdo | Entrada HTML | Sitemap |
+|---|---|---|---|
+| `/hidrautractor/recuperacao-cilindros-hidraulicos/` | Recuperação de cilindro em uso: avaliação, metrologia, componentes, montagem e ensaios por escopo | Hub HidrauTractor, guia de cilindros, Equipamentos e Contato | hidrautractor |
+| `/hidrautractor/fabricacao-cilindros-hidraulicos/` | Fabricação de novo cilindro: aplicação, projeto, materiais, usinagem, montagem e aceitação por escopo | Hub HidrauTractor, guia de cilindros, Equipamentos e Contato | hidrautractor |
+
+As duas rotas são novas URLs indexáveis e suas variantes sem barra final
+redirecionam com 301. Em relação à main `9f6137c` (42 URLs indexáveis), o
+inventário passa a 44; o mapa HidrauTractor passa de 2 para 4, mantendo dez
+sitemaps no índice raiz. Não são aliases de `/servicos/` nem páginas municipais.
+O proprietário confirmou a recuperação e a fabricação em 08/09/2026; material,
+pressão, tolerância, critérios de ensaio, capacidade, prazo, garantia e logística
+continuam sujeitos à avaliação e ao escopo de cada peça.

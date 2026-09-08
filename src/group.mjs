@@ -1,3 +1,5 @@
+import { hydraulicLandingSections } from "./hydraulic-content.mjs";
+
 // Industrial brand architecture declared by the owner; not a legal-entity registry.
 // Offer boundaries and pending evidence are recorded in docs/source-ledger.md.
 // Primary technical references consulted on 2026-09-08:
@@ -65,44 +67,45 @@ export const companies = [
     label: "HidrauTractor",
     name: "HidrauTractor",
     specialty: "Hidráulica",
-    summary: "Frente do Grupo New Tractor para organizar consultas sobre cilindros hidráulicos e outras demandas, com escopo sujeito à avaliação técnica e comercial.",
-    title: "Consulta sobre cilindros hidráulicos | HidrauTractor",
-    description: "Consulte a HidrauTractor sobre cilindros hidráulicos a partir do componente, da aplicação e da condição observada; escopo sujeito a avaliação técnica e comercial.",
-    headline: "Toda decisão hidráulica começa por uma leitura clara.",
-    intro: "Uma consulta sobre cilindros hidráulicos começa pela identificação do componente e pelo contexto da operação. A HidrauTractor reúne essas informações para avaliar o escopo técnico e comercial possível para a demanda.",
+    summary: "Recuperação e fabricação de cilindros hidráulicos para máquinas pesadas, com escopo técnico e comercial definido por aplicação.",
+    title: "Recuperação e fabricação de cilindros hidráulicos | HidrauTractor",
+    description: "Recuperação e fabricação de cilindros hidráulicos para máquinas pesadas, com avaliação da aplicação, identificação e requisitos em Belo Horizonte e Minas Gerais.",
+    headline: "Recuperar o que existe. Fabricar o que a operação precisa.",
+    intro: "Em Belo Horizonte, a HidrauTractor recupera e fabrica cilindros hidráulicos para máquinas pesadas. Do diagnóstico ao teste final, a condição do conjunto e a aplicação orientam cada etapa do trabalho.",
     caption: "HidrauTractor · componente e aplicação em contexto industrial",
-    sectionTitle: "Cilindros hidráulicos: identificação e contexto para consulta.",
-    context: "Equipamento, aplicação e comportamento observado formam a base da demanda. A análise técnica e comercial organiza o escopo adequado para cada consulta.",
+    sectionTitle: "Recuperação e fabricação de cilindros hidráulicos para máquinas pesadas.",
+    context: "A condição do cilindro e os requisitos da aplicação orientam a escolha entre recuperar um conjunto existente e fabricar um novo. A análise técnica e comercial organiza o escopo de cada demanda.",
     pillars: [
-      ["Identificação", "Reúna fabricante, modelo e código do componente, quando disponíveis. Uma imagem legível da identificação apoia a análise."],
-      ["Contexto de operação", "Descreva quando o comportamento aparece, como a máquina trabalha e quais intervenções já foram registradas."],
-      ["Escopo de atendimento", "A análise considera componente, aplicação, documentação e condições da operação para orientar os próximos passos."],
+      ["Recuperação", "Para um cilindro em uso, a avaliação considera camisa, haste, pistão, guias, vedações e fixações conforme a condição encontrada."],
+      ["Fabricação", "Para um novo conjunto, reúna aplicação, dimensões, fixações, conexões e desenho ou amostra para definir o escopo do projeto."],
+      ["Aplicação", "Escavadeiras, tratores de esteira e pás carregadeiras têm movimentos e configurações próprios; a máquina dá referência ao cilindro."],
     ],
-    questionsTitle: "O que informar ao avaliar cilindros hidráulicos?",
-    questionsIntro: "Identifique o equipamento, o componente, o sintoma observado e o contexto de uso. Esses dados ajudam a avaliar o encaminhamento da demanda hidráulica.",
+    questionsTitle: "O que informar para recuperar ou fabricar um cilindro?",
+    questionsIntro: "Identifique o equipamento, o componente, a aplicação e a condição observada. Esses dados ajudam a comparar a recuperação de um conjunto existente com a fabricação de um novo.",
     questions: [
-      ["Sintoma e momento", "Registre quando o comportamento aparece, em qual movimento ou função e se há ruído, aquecimento, vazamento, perda de força ou outra alteração percebida."],
-      ["Componente e identificação", "Envie fabricante, modelo, código, plaqueta e fotos legíveis. Quando a peça estiver fora da máquina, mostre também conexões e posição no conjunto."],
-      ["Histórico da intervenção", "Informe troca de fluido, desmontagem, reparo ou outra intervenção conhecida e separe o relato observado do diagnóstico técnico."],
-      ["Aplicação e prioridade", "Descreva o trabalho da máquina, o local da operação e o impacto para a rotina. A prioridade ajuda a organizar a conversa comercial."],
+      ["Recuperar ou fabricar", "Diga se há um cilindro para avaliar ou se a consulta é por um conjunto novo. A decisão depende da condição, da identificação e da aplicação."],
+      ["Máquina e aplicação", "Informe equipamento, fabricante, modelo, função ou movimento do cilindro, cidade da operação e prioridade da demanda."],
+      ["Código, desenho e medidas", "Envie código ou plaqueta, desenho, amostra e medidas disponíveis. Fotos de conexões e fixações ajudam a caracterizar o conjunto."],
+      ["Condição e histórico", "Relate vazamento, deriva, perda de força, dano aparente e intervenções conhecidas, separando o sintoma do diagnóstico técnico."],
     ],
-    decisionTitle: "Do sintoma ao escopo hidráulico",
-    decisionIntro: "A identificação evita aproximar componentes diferentes e dá base para separar uma dúvida de manutenção de uma consulta de recuperação ou fornecimento.",
+    decisionTitle: "Da aplicação ao escopo hidráulico",
+    decisionIntro: "A identificação evita aproximar componentes diferentes e dá base para separar a recuperação de um cilindro existente da fabricação de um novo conjunto.",
     decisionSteps: [
-      ["01 · Localizar", "Relacione máquina, função, componente e identificação disponível antes de escolher o encaminhamento."],
-      ["02 · Contextualizar", "Cruze o comportamento observado com aplicação, condições de uso, documentação e histórico das intervenções."],
-      ["03 · Avaliar", "A conversa técnica e comercial define o escopo possível para aquela demanda. Consulte processo, teste, capacidade e disponibilidade na avaliação."],
+      ["01 · Identificar", "Relacione máquina, função, componente e identificação disponível antes de escolher o encaminhamento."],
+      ["02 · Comparar", "Cruze condição, aplicação, documentação, medidas e histórico para separar recuperação e fabricação."],
+      ["03 · Definir", "A conversa técnica e comercial organiza o escopo possível para aquela demanda e a logística da peça."],
     ],
     faq: [
-      ["Como apresentar uma consulta sobre cilindros hidráulicos?", "Envie a identificação do componente e o contexto da máquina. A HidrauTractor usa essas informações para definir o escopo possível, inclusive quando a demanda envolve reparo ou fornecimento."],
-      ["Quais dados ajudam na primeira conversa?", "Fabricante, modelo, código ou plaqueta, fotos, função do componente, comportamento observado, intervenções anteriores, cidade e prioridade ajudam a organizar a consulta."],
-      ["A consulta já confirma reparo, teste ou disponibilidade?", "Não. A frente recebe a demanda hidráulica e avalia o escopo técnico e comercial; processos, testes, capacidade e disponibilidade são definidos conforme o componente e a aplicação."],
+      ["Quando recuperar e quando fabricar um cilindro novo?", "A recuperação parte de um cilindro existente e da condição de camisa, haste, pistão, guias, vedações e fixações. A fabricação parte dos requisitos da máquina e do conjunto. A avaliação técnica e comercial compara os dois caminhos."],
+      ["Quais etapas entram na recuperação?", "Identificação, desmontagem, limpeza, avaliação dimensional e estrutural, definição dos componentes e processos, montagem e verificações conforme o escopo combinado. O kit de vedação é escolhido conforme a geometria, o fluido e a aplicação."],
+      ["O que preciso apresentar para fabricar?", "Informe máquina, função, aplicação, fabricante e modelo, código ou desenho ou amostra, medidas conhecidas, fixações, conexões, quantidade e cidade. Esses dados organizam a análise do projeto e da proposta."],
+      ["A HidrauTractor atende demandas em Minas Gerais?", "A frente tem base em Belo Horizonte e recebe demandas em Minas Gerais e em outras localidades. Mobilização, transporte e escopo são definidos por demanda, conforme o equipamento e a logística da operação."],
     ],
-    links: [["Cilindros de escavadeiras", "/equipamentos/escavadeiras/"], ["Cilindros de tratores de esteira", "/equipamentos/tratores-de-esteira/"], ["Cilindros de pás carregadeiras", "/equipamentos/pas-carregadeiras/"], ["Avaliação de cilindros hidráulicos", "/guias/avaliacao-cilindros-hidraulicos/"], ["Documentação para cotação", "/contato/"], ["Setores e aplicações", "/setores/"]],
-    requestTitle: "Vamos conversar sobre sua demanda hidráulica?",
-    requestIntro: "Compartilhe os dados do equipamento e do componente para que o grupo conduza a análise.",
-    checklist: ["Equipamento, modelo e aplicação", "Identificação e código do componente, se disponíveis", "Condição observada, fotos e documentação técnica", "Local da operação e prioridade desejada"],
-    action: "Solicitar avaliação hidráulica",
+    links: [["Recuperação de cilindros hidráulicos", "/hidrautractor/recuperacao-cilindros-hidraulicos/"], ["Fabricação de cilindros hidráulicos", "/hidrautractor/fabricacao-cilindros-hidraulicos/"], ["Cilindros de escavadeiras", "/equipamentos/escavadeiras/"], ["Cilindros de tratores de esteira", "/equipamentos/tratores-de-esteira/"], ["Cilindros de pás carregadeiras", "/equipamentos/pas-carregadeiras/"], ["Avaliação de cilindros hidráulicos", "/guias/avaliacao-cilindros-hidraulicos/"], ["Setores e aplicações", "/setores/"]],
+    requestTitle: "Solicite um orçamento para seu cilindro hidráulico",
+    requestIntro: "Informe se a demanda envolve recuperação ou fabricação e compartilhe os dados do equipamento e do componente.",
+    checklist: ["Recuperar ou fabricar", "Máquina e aplicação", "Código, desenho ou amostra", "Fotos do cilindro e cidade"],
+    action: "Solicitar orçamento",
   },
   {
     slug: "usinagem",
@@ -345,7 +348,17 @@ const companyFaqSchema = (faq) => ({
   })),
 });
 
-const companyDetailSections = (company) => `
+const companyDetailSections = (company) => {
+  if (company.slug === "hidrautractor") {
+    return `
+        <section class="section section--light" aria-labelledby="${company.slug}-faq-title">
+          <div class="shell faq-layout">
+            <div><span class="eyebrow">DÚVIDAS FREQUENTES</span><h2 id="${company.slug}-faq-title">Antes de solicitar o orçamento</h2></div>
+            <div class="faq-list">${company.faq.map(([question, answer]) => `<details><summary>${question}</summary><p>${answer}</p></details>`).join("")}</div>
+          </div>
+        </section>`;
+  }
+  return `
         <section class="section section--sand" aria-labelledby="${company.slug}-questions-title">
           <div class="shell feature-points">
             <div><span class="eyebrow">PARA COMEÇAR</span><h2 id="${company.slug}-questions-title">${company.questionsTitle}</h2><p>${company.questionsIntro}</p></div>
@@ -364,6 +377,19 @@ const companyDetailSections = (company) => `
             <div class="faq-list">${company.faq.map(([question, answer]) => `<details><summary>${question}</summary><p>${answer}</p></details>`).join("")}</div>
           </div>
         </section>`;
+};
+
+const companyScopeSection = (company, { site, picture, icon }) => {
+  if (company.slug === "hidrautractor") return hydraulicLandingSections({ site, picture });
+  return `
+        <section class="section section--light" aria-labelledby="escopo-title">
+          <div class="shell">
+            <div class="section-heading section-heading--split"><div><span class="eyebrow">${company.specialty.toLocaleUpperCase("pt-BR")}</span><h2 id="escopo-title">${company.sectionTitle}</h2></div><p>${company.context}</p></div>
+            <div class="company-pillars">${company.pillars.map(([title, text], number) => `<article><span class="company-pillars__number" aria-hidden="true">0${number + 1}</span><h3>${title}</h3><p>${text}</p></article>`).join("")}</div>
+            <nav class="company-resources" aria-label="Conteúdo relacionado a ${company.label}">${company.links.map(([label, href]) => `<a class="text-link" href="${href}">${label} ${icon("arrow")}</a>`).join("")}<a class="text-link" href="/atuacao/minas-gerais/">Operações em Minas Gerais ${icon("arrow")}</a></nav>
+          </div>
+        </section>`;
+};
 
 export const groupIndex = (icon) => `
   <section class="section group-companies" id="empresas" aria-labelledby="empresas-title">
@@ -432,13 +458,7 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
             </div>
           </div>
         </section>
-        <section class="section section--light" aria-labelledby="escopo-title">
-          <div class="shell">
-            <div class="section-heading section-heading--split"><div><span class="eyebrow">${company.specialty.toLocaleUpperCase("pt-BR")}</span><h2 id="escopo-title">${company.sectionTitle}</h2></div><p>${company.context}</p></div>
-            <div class="company-pillars">${company.pillars.map(([title, text], number) => `<article><span class="company-pillars__number" aria-hidden="true">0${number + 1}</span><h3>${title}</h3><p>${text}</p></article>`).join("")}</div>
-            <nav class="company-resources" aria-label="Conteúdo relacionado a ${company.label}">${company.links.map(([label, href]) => `<a class="text-link" href="${href}">${label} ${icon("arrow")}</a>`).join("")}<a class="text-link" href="/atuacao/minas-gerais/">Operações em Minas Gerais ${icon("arrow")}</a></nav>
-          </div>
-        </section>
+        ${companyScopeSection(company, { site, picture, icon })}
         ${companyDetailSections(company)}
         <section class="section company-request" aria-labelledby="rfq-title">
           <div class="shell company-request__grid">

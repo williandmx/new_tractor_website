@@ -23,7 +23,7 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | Grupo New Tractor e sete frentes | Direção de marca do proprietário | Conversa “Proposta Grupo New Tractor” e pedido de reformulação de 2026-09-07 | Usar “Grupo” como endosso; não afirmar estrutura societária nem lançar ofertas futuras sem escopo |
 | Home do Grupo e sete rotas comerciais (`/rodantes/`, `/hidrautractor/`, `/usinagem/`, `/calderaria/`, `/parts/`, `/services/`, `/techtractor/`) | Decisão explícita do usuário | Confirmação em 2026-09-06 e reformulação institucional em 2026-09-07, com fotos e vídeos correspondentes às frentes | Arquitetura de marca; não tratar as frentes como pessoas jurídicas distintas |
 | New Tractor Rodantes | Frente de marca com escopo público compatível com manutenção, recondicionamento e monitoramento de material rodante | Site anterior, `src/site.mjs` e confirmação da arquitetura em 2026-09-06 | Publicar somente o escopo comprovado; capacidade, prazo e compatibilidade por demanda |
-| HidrauTractor | Nome de frente confirmado; escopo hidráulico detalhado ainda não comprovado na presença pública | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Apresentar como frente sob avaliação; não inventar componentes, testes, capacidade ou certificações |
+| HidrauTractor | Frente de marca com recuperação e fabricação de cilindros hidráulicos confirmadas pelo proprietário em 2026-09-08 | Confirmação explícita do proprietário em 2026-09-08; detalhes de processo registrados em `src/hydraulic-content.mjs` e no relatório de serviços hidráulicos | Publicar recuperação e fabricação com avaliação por peça/aplicação; parâmetros de projeto, materiais, tolerâncias, ensaios, capacidade, prazo, garantia e logística exigem especificação e registro próprios |
 | New Tractor Usinagem | Frente de marca para recuperação dimensional de componentes pesados | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar torno, mandrilhadora e centro de usinagem como processos divulgados; validar capacidade, tolerância, dimensões, materiais e prazo por peça |
 | New Tractor Calderaria | Frente de marca para recuperação de estruturas, caçambas e componentes pesados por caldeiraria e solda | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar recuperação estrutural; validar procedimentos, materiais, capacidade, tolerância e prazo por condição |
 | New Tractor Parts | Nome de frente confirmado; consulta de peças novas por código, desenho ou especificação; disponibilidade e fabricação específica ainda não comprovadas | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06; correção editorial de 2026-09-08 em `src/group.mjs` | Apresentar a demanda como consulta e avaliação; receber código, desenhos, especificações e fotos; não afirmar estoque, pronta-entrega ou fabricação universal |
@@ -51,9 +51,11 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
   não declarações de clientes, contratos, filiais ou oferta completa por setor.
 - A página técnica de Usinagem aprofunda os processos já sustentados neste
   ledger; capacidade, tolerância, material e prazo seguem sujeitos à peça.
-- A redação de HidrauTractor, Parts e Services não ganha novos processos,
-  estoque, fabricação universal, equipe de campo ou reparo no pátio por causa
-  do benchmark. Detalhes operacionais continuam pendentes de confirmação.
+- A redação de Parts e Services não ganha novos processos, estoque, equipe de
+  campo ou reparo no pátio por causa do benchmark. A confirmação do proprietário
+  em 08/09/2026 acrescenta recuperação e fabricação de cilindros à HidrauTractor;
+  parâmetros de projeto, materiais, tolerâncias, ensaios, capacidade, prazo e
+  logística continuam definidos por peça e escopo.
 - O `llms.txt` foi restabelecido para cumprir o pedido de descoberta anterior.
   A orientação de retirar bastidores e linguagem de IA da vitrine não implica
   retirada desse arquivo. Ele não é promessa de ranking nem substitui o HTML,
@@ -119,14 +121,16 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
   não alegam carteira de clientes, contratos, filiais, homologação ou reparo
   no pátio. Os assets reutilizados permanecem os do acervo com origem registrada.
 - O guia de cilindros trata dados para avaliação e diferencia escopos.
-  Não publica fabricação, brunimento, cromo, pressão, bancada ou teste como
-  capacidade confirmada da HidrauTractor. A oferta de tais processos continua
-  sujeita a prova própria antes de eventual ampliação comercial.
+  Com a confirmação do proprietário em 08/09/2026, as novas rotas publicam
+  recuperação e fabricação de cilindros. Brunimento, cromagem/revestimento,
+  pressão, bancada e testes aparecem somente como etapas sujeitas à peça,
+  especificação e registro, não como parâmetros universais.
 - A prioridade de cilindros hidráulicos foi solicitada pelo proprietário na
-  estratégia de busca. Na frente HidrauTractor, o termo identifica o assunto
-  da consulta e os dados a reunir, não uma capacidade de reparo, fabricação,
-  fornecimento ou ensaio confirmada. A revisão final tornou essa distinção
-  explícita também no resumo usado pelo JSON-LD `Brand`.
+  estratégia de busca. A confirmação de 08/09/2026 autoriza declarar
+  recuperação e fabricação pela HidrauTractor; cada peça ainda exige avaliação,
+  especificação, registro de aceitação e definição logística próprios. A
+  revisão final mantém essa distinção também no resumo usado pelo JSON-LD
+  `Brand`.
 - TechTractor conserva o estágio em evolução. A referência de concorrentes
   com sensores, aplicativos e telemetria não se transfere para a New Tractor.
 
@@ -134,7 +138,7 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 ## 08/09/2026 — expansão por intenção e componente
 
 - **Evidência de procura:** Ubersuggest MCP, 21 sementes BR/pt e 268 sugestões retornadas, seis novas SERPs de Belo Horizonte. JSONs crus em `docs/seo/dados/`; filtro e limitações em `docs/seo/cobertura-semantica-grupo-2026-09-08.md`. Volume BR não é volume MG; ausência de indicador não demonstra ausência de mercado.
-- **Decisão editorial:** explicitar corrente/rosário, material rodante de escavadeira, roletes, roda-guia, usinagem pesada/mandrilhamento/mandrilamento, caldeiraria de máquinas e pinos/buchas/alojamentos. Não introduz serviço de motor, transmissão, fabricação hidráulica, testes, estoque ou mandrilhamento em campo.
+- **Decisão editorial:** explicitar corrente/rosário, material rodante de escavadeira, roletes, roda-guia, usinagem pesada/mandrilhamento/mandrilamento, caldeiraria de máquinas e pinos/buchas/alojamentos. Não introduz serviço de motor, transmissão, estoque ou mandrilhamento em campo; a fabricação e a recuperação hidráulicas passaram a ter confirmação própria em 08/09/2026 e documentação separada.
 - **Fatos de operação preservados:** reforma de rosário com giro/troca de pino e bucha; recuperação de sapatas; preparação/enchimento/usinagem de roletes; soldagem e usinagem de pista de roda-guia. São processos já registrados em `src/site.mjs` na base anterior, reaproveitados nas páginas específicas, não inferidos dos concorrentes.
 - **Referências primárias de vocabulário (não prova de oferta do grupo):** Minusa [rodas-guia](https://www.minusa.com.br/produto/rodas-guia) e [roletes](https://www.minusa.com.br/roletes-para-tratores-de-esteira); ITR [kit de medição](https://www.itrsa.com.br/site/kit-de-medicao-de-material-rodante-itr/) e [sapatas](https://www.itrsa.com.br/site/sapatas-de-esteira/); Parker [cilindros móveis](https://discover.parker.com/MobileCylinderProducts) e [catálogo hidráulico](https://www.parker.com/literature/Schrader%20Bellows/Schrader/Cat/English/SB0106-8_SectionC.pdf); Hydratight [line boring](https://www.hydratight.com/en-apac/on-site-machining-services/line-boring/).
 - **Limites:** sete frentes de marca, uma base real em BH, avaliação por demanda. Oferta e compatibilidade continuam sujeitas a documentação própria. TechTractor permanece em evolução. Comparação final da main não usa WordPress como régua.
@@ -144,6 +148,35 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 - Pesquisa real desta rodada: `docs/seo/dados/aplicacoes-territorio-mcp-2026-09-08.json`; 19 chamadas, 16 respostas sem erro, 83 termos únicos retornados e 5 SERPs. Volumes são estimativas BR; ausência de métrica não é zero. A expansão de pistão tem paginação pendente.
 - Evidência funcional externa: `docs/seo/cilindros-fontes-2026-09-08.md`, OEM Caterpillar/Komatsu/John Deere e hidráulica Parker. Descreve função e identificação, sem transferir capacidade ou serviço de terceiros ao grupo.
 - Evidência territorial: `docs/seo/territorio-fontes-2026-09-08.md`, fontes oficiais de municípios, AMIF e operadores. Comprova contexto econômico, não clientes, contratos, filiais ou equipes residentes.
-- Evidência própria reavaliada: `docs/seo/hidrau-escopo-2026-09-08.md`. Ainda não há documento confirmando a execução hidráulica por aplicação, processo, teste ou logística. Pergunta factual enviada ao proprietário nesta rodada, sem resposta registrada até esta edição. Publicam-se identificação e consulta, sem anunciar os processos pendentes.
+- Registro histórico da evidência própria: `docs/seo/hidrau-escopo-2026-09-08.md` documenta a pendência da etapa anterior, quando a execução hidráulica ainda não havia sido confirmada. A confirmação explícita do proprietário em 08/09/2026 supera essa pendência para recuperação e fabricação de cilindros; aplicação, processo, teste, capacidade e logística continuam definidos por peça e escopo.
 - Arquitetura adotada: três páginas de aplicações de cilindros e componentes de escavadeiras, tratores de esteira e pás carregadeiras; uma página de Minas Gerais com quatro contextos regionais e 12 pontos editoriais. Trator agrícola permanece distinto de trator de esteira.
 - Entrada `Hidrautractor` no pacote local de Betim retornou `NODOMAIN`; identidade não verificada. Não atribuída ao grupo nem tratada como ganho desta entrega.
+
+## Atualização do escopo hidráulico — 08/09/2026
+
+A confirmação explícita do proprietário em 08/09/2026 **supera a pendência
+registrada nas revisões anteriores**: a HidrauTractor executa recuperação e
+fabricação de cilindros hidráulicos. A pendência anterior permanece como
+histórico da data em que foi registrada; não deve ser usada para descrever o
+escopo atual.
+
+As rotas comerciais documentadas são
+`/hidrautractor/recuperacao-cilindros-hidraulicos/` e
+`/hidrautractor/fabricacao-cilindros-hidraulicos/`. A apresentação usa seis
+etapas para cada caminho, começando pelos dados e pela avaliação da aplicação e
+terminando em montagem, ensaios, identificação e preparação da entrega. Os
+detalhes variam por peça e contrato: processo, material, revestimento,
+tolerância, critério de aceitação, capacidade, prazo, garantia e logística não
+são parâmetros universais.
+
+A documentação de referência para a redação é
+`docs/seo/hidrautractor-servicos-2026-09-08.md` e a matriz de normas em
+`/tmp/newtractor-hidrau-normas-20260908.md`. As métricas MCP são estimativas
+Brasil/português: três chamadas, sementes com volumes 40, 30 e 10, e demais
+linhas sem métrica não são zero. Nenhum desses dados prova demanda de Minas
+Gerais nem substitui o escopo confirmado pelo proprietário.
+
+`src/hydraulic-content.mjs` registra fotos do acervo em versões responsivas e
+fluxos públicos de recuperação e fabricação. As fotos ilustram o acervo e não
+substituem ficha de processo, relatório de ensaio ou comprovação de capacidade.
+Direitos e proveniência continuam sujeitos aos registros próprios de assets.
