@@ -259,3 +259,21 @@ O conteúdo passou pelo [preview Cloudflare](https://4d52fe2d.newtractor-site.pa
 O Ubersuggest agora acompanha **44 palavras-chave**, **10 concorrentes** e **sete perguntas para respostas de IA**, com recorte em Português/Belo Horizonte. A primeira amostra de Desktop exibiu manutenção de material rodante na posição 1, monitoramento de material rodante na 3 e reforma de conchas na 5. São resultados parciais das páginas antigas; 21 consultas ainda estavam pendentes e Mobile aguardava as 44. As posições são as apresentadas pela ferramenta, não posições universais para Minas Gerais.
 
 Essa referência reforça a prioridade de preservar os endereços WordPress por redirect. [Configuração e amostra completas](monitoramento-ubersuggest-2026-09-07.md) · [Preparação do domínio e e-mail](PRONTIDAO-DOMINIO-2026-09-07.md).
+
+
+## Referências e coleta regional concluída — 08/09
+
+A primeira coleta Desktop de Belo Horizonte terminou: dez consultas com posição
+e 34 não classificadas entre as 44 acompanhadas. São duas consultas de marca e
+oito de serviço, todas nas páginas do WordPress antigo. Mobile continuava pendente.
+
+A auditoria de links exibiu 17 backlinks de 13 domínios. Foi confirmada a
+participação histórica da New Tractor na reportagem “Vida útil plena para
+esteiras”, da Revista M&T, e a referência foi incorporada à página de manutenção
+em preview. A comparação de Hidraucron, Cilíndrica e Minusa revelou contextos de
+redes de fabricantes, imprensa, eventos e entidades; cada oportunidade depende
+de vínculo ou contribuição real.
+
+[Relatório com posições e ações](referencias-e-ranking-2026-09-08.md) ·
+[Dados e fontes](referencias-e-ranking-2026-09-08.json) ·
+[Validação desta alteração](../QA-REFERENCIAS-2026-09-08.md).
