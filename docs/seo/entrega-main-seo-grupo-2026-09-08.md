@@ -2,7 +2,7 @@
 
 Escopo acordado em 08/09/2026: análises e modificações prontas nas sete especialidades; DNS, Search Console e comprovação posterior de ranking ficam fora do aceite.
 
-[Relatório interativo](entrega-main-seo-grupo-2026-09-08.html) · [PR9](https://github.com/williandmx/new_tractor_website/pull/9) · [Evidências MCP](benchmark-mcp-grupo-2026-09-08.md)
+[Relatório interativo](entrega-main-seo-grupo-2026-09-08.html) · [PR10](https://github.com/williandmx/new_tractor_website/pull/10) · [Evidências MCP](benchmark-mcp-grupo-2026-09-08.md)
 
 ## Aplicação por frente
 
@@ -61,16 +61,16 @@ A análise mantém métricas BR separadas das consultas BH, datas de coleta sepa
 
 ## Antes e depois: main e benchmarks
 
-Base: `938c434`; etapa PR9: `46752a8`; candidata final: rodada semântica de 08/09. WordPress não é a comparação de qualidade.
+Base: `938c434`; etapa PR9: `46752a8`; PR10: rodada semântica de 08/09 (aplicação 43ea681). WordPress não é a comparação de qualidade.
 
-| Critério | Antes | PR9 | Candidata final | Leitura |
+| Critério | Antes | PR9 | PR10 | Leitura |
 |---|---|---|---|---|
 | URLs indexáveis | 25 | 33 | 38 | 13 rotas novas desde a base: 5 setores e hub, 3 guias e 4 páginas de componentes. |
 | Frentes do grupo | 7 | 7 ampliadas | 7 aprofundadas | A marca já tinha arquitetura; agora componente, problema e próximo passo aparecem na mesma jornada. |
 | Guias editoriais | 3 | 5 | 6 | Cilindros, caçambas/conchas e folgas de pinos, buchas e alojamentos acrescentados. |
 | Páginas de componentes | 0 | 0 | 4 | Hub, rodas-guia, roletes, corrente/rosário e sapatas. Processos documentados e fotos existentes. |
 | Setores em rotas próprias | 0 | 5 + hub | 5 + hub | Mineração, florestal, agro, construção/terraplenagem e locadoras. |
-| FAQPage por frente / perguntas | 0 / 0 | 7 / 21 | 7 / 21 | Equivalência com o texto; não implica exibição de resultado enriquecido. |
+| FAQPage por frente / perguntas | 0 / 0 | 7 / 21 | 7 / 22 | Equivalência com o texto; não implica exibição de resultado enriquecido. |
 | Brand / Article nos guias | 0 / 0 | 7 / 5 | 7 / 6 | Sete identidades de marca, uma base real e autoria editorial nos guias. |
 | Sitemaps | 1 XML · 25 URLs | 1 XML · 33 URLs | 1 índice + 8 mapas · 38 URLs | Uma frente responsável por URL; nenhum endereço duplicado, planejado ou municipal artificial. |
 | llms.txt | 25 URLs | 33 URLs | 38 URLs | Mesma cobertura canônica dos sitemaps, agrupada por frente. Não é um mecanismo de ranking. |
@@ -123,7 +123,7 @@ O Google descreve prazos variáveis, de horas a meses, para reflexos das mudanç
 
 | Indicador | Base conhecida | Como ler o depois |
 | --- | --- | --- |
-| Entrega técnica | 38 URLs; 34 testes aprovados; QA responsivo e Lighthouse da candidata em validação. | É resultado da implementação; não é medida de posição no Google. |
+| Entrega técnica | 38 URLs; 34 testes aprovados; 152 cenários responsivos. Lighthouse local 95–100 em desempenho e 100 nas demais categorias em cinco cenários. | É resultado da implementação; não é medida de posição no Google. |
 | Buscas e visitas reais | Não há série pós-publicação validada nesta entrega. | Separar impressões/cliques do Search Console, sessões do Analytics e estimativas do Ubersuggest. Não somar essas métricas. |
 | Contatos e negócio | Os canais e cliques foram testados; recebimento de oportunidades e vendas não foi medido. | Registrar contato efetivo, setor/cidade informados, equipamento, necessidade atendível, orçamento e resultado. Clique em WhatsApp ou e-mail não comprova envio nem venda. |
 
@@ -135,3 +135,8 @@ Separar impressões/cliques, sessões e contatos confirmados. [Orientação do G
 - **Se há contatos, mas poucos orçamentos ou vendas:** Identificar compatibilidade técnica, logística, prazo solicitado e resposta comercial. Esse trecho depende da operação, além do site.
 
 O critério de negócio é mais necessidades atendíveis encaminhadas para avaliação e orçamento. Não há previsão validada de visitas, leads ou vendas. Este complemento não configura monitoramento automático.
+
+
+## Validação da ampliação
+
+[QA semântico](../QA-SEO-SEMANTICA-2026-09-08.md) · [Evidências em JSON](dados/validacao-semantica-2026-09-08.json). Aplicação `43ea681` validada no preview: 49 recursos HTTP 200 iguais ao build, 34 testes, 152 cenários responsivos e rechecagens focadas; cinco auditorias Lighthouse com desempenho 95–100 e demais categorias 100. O grupo tem 22 perguntas nas sete FAQPage.

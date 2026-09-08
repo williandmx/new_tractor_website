@@ -1,0 +1,1392 @@
+{
+  "applicationRevision": "43ea681",
+  "tests": {
+    "command": "npm run check",
+    "passed": 34,
+    "failed": 0
+  },
+  "playwright": {
+    "routes": 38,
+    "fullScenarios": 152,
+    "keyboardRoutes": 7,
+    "fullSummary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    },
+    "usinagemScenarios": 4,
+    "usinagemSummary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    },
+    "servicesFinal": {
+      "generatedAt": "2026-09-08T08:48:33.192Z",
+      "baseUrl": "http://127.0.0.1:8794",
+      "route": "/services/",
+      "build": "43ea681",
+      "scenarios": [
+        {
+          "viewport": "mobile",
+          "javaScript": false,
+          "issues": [],
+          "snapshot": {
+            "h1": 1,
+            "title": "Consulta de manutenção por componente | New Tractor Services",
+            "canonical": "https://newtractor.com.br/services/",
+            "images": 3,
+            "questions": 4,
+            "overflow": false
+          }
+        },
+        {
+          "viewport": "desktop",
+          "javaScript": false,
+          "issues": [],
+          "snapshot": {
+            "h1": 1,
+            "title": "Consulta de manutenção por componente | New Tractor Services",
+            "canonical": "https://newtractor.com.br/services/",
+            "images": 3,
+            "questions": 4,
+            "overflow": false
+          }
+        },
+        {
+          "viewport": "mobile",
+          "javaScript": true,
+          "issues": [],
+          "snapshot": {
+            "h1": 1,
+            "title": "Consulta de manutenção por componente | New Tractor Services",
+            "canonical": "https://newtractor.com.br/services/",
+            "images": 3,
+            "questions": 4,
+            "overflow": false
+          }
+        },
+        {
+          "viewport": "desktop",
+          "javaScript": true,
+          "issues": [],
+          "snapshot": {
+            "h1": 1,
+            "title": "Consulta de manutenção por componente | New Tractor Services",
+            "canonical": "https://newtractor.com.br/services/",
+            "images": 3,
+            "questions": 4,
+            "overflow": false
+          }
+        }
+      ],
+      "faq": {
+        "route": "/services/",
+        "faqCount": 4,
+        "keyboard": "passou",
+        "visibleQuestions": [
+          {
+            "question": "Como encaminhar uma necessidade de manutenção para a Services?",
+            "answer": "Informe qual máquina está envolvida, o componente e a condição observada. A Services recebe a demanda e organiza o encaminhamento para a especialidade compatível, com escopo, modalidade de atendimento e logística avaliados para a operação."
+          },
+          {
+            "question": "A Services agenda automaticamente uma medição em campo?",
+            "answer": "Não. A consulta informa equipamento, componente, local e objetivo; escopo, mobilização, logística e prazo são avaliados para cada demanda."
+          },
+          {
+            "question": "Uma medição autoriza a máquina a continuar operando?",
+            "answer": "Não. O registro apoia a análise, mas a decisão de segurança e liberação da máquina cabe aos responsáveis pela operação e manutenção."
+          },
+          {
+            "question": "Que resultado a equipe deve trazer para a conversa?",
+            "answer": "Traga o ponto a medir, a unidade ou referência disponível, histórico, fotos, instrumento conhecido, local e a decisão que a medição precisa apoiar."
+          }
+        ],
+        "schemaQuestions": [
+          {
+            "question": "Como encaminhar uma necessidade de manutenção para a Services?",
+            "answer": "Informe qual máquina está envolvida, o componente e a condição observada. A Services recebe a demanda e organiza o encaminhamento para a especialidade compatível, com escopo, modalidade de atendimento e logística avaliados para a operação."
+          },
+          {
+            "question": "A Services agenda automaticamente uma medição em campo?",
+            "answer": "Não. A consulta informa equipamento, componente, local e objetivo; escopo, mobilização, logística e prazo são avaliados para cada demanda."
+          },
+          {
+            "question": "Uma medição autoriza a máquina a continuar operando?",
+            "answer": "Não. O registro apoia a análise, mas a decisão de segurança e liberação da máquina cabe aos responsáveis pela operação e manutenção."
+          },
+          {
+            "question": "Que resultado a equipe deve trazer para a conversa?",
+            "answer": "Traga o ponto a medir, a unidade ou referência disponível, histórico, fotos, instrumento conhecido, local e a decisão que a medição precisa apoiar."
+          }
+        ],
+        "issues": []
+      },
+      "issues": [],
+      "summary": {
+        "scenarios": 4,
+        "errors": 0,
+        "passed": true
+      }
+    }
+  },
+  "lighthouse": [
+    {
+      "name": "services-mobile",
+      "url": "http://127.0.0.1:8794/servicos/",
+      "fetchTime": "2026-09-08T08:42:38.987Z",
+      "categories": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "timings": {
+        "first-contentful-paint": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "display": "3.0 s",
+          "score": 0.78
+        },
+        "interactive": {
+          "display": "3.0 s",
+          "score": 0.95
+        },
+        "speed-index": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "display": "0 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "score": 1
+        }
+      },
+      "opportunities": [
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "display": "Est savings of 6 KiB"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 29 KiB"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "display": "Est savings of 401 KiB"
+        },
+        {
+          "id": "document-latency-insight",
+          "title": "Document request latency",
+          "display": "Est savings of 18 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 308 KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": "Est savings of 150 ms"
+        }
+      ]
+    },
+    {
+      "name": "roletes-mobile",
+      "url": "http://127.0.0.1:8794/componentes/roletes-de-esteira/",
+      "fetchTime": "2026-09-08T08:42:51.399Z",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "timings": {
+        "first-contentful-paint": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "display": "1.8 s",
+          "score": 0.98
+        },
+        "interactive": {
+          "display": "1.8 s",
+          "score": 1
+        },
+        "speed-index": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "display": "0 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "score": 1
+        }
+      },
+      "opportunities": [
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "display": "Est savings of 6 KiB"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 32 KiB"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "display": "Est savings of 115 KiB"
+        },
+        {
+          "id": "document-latency-insight",
+          "title": "Document request latency",
+          "display": "Est savings of 13 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 54 KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": "Est savings of 180 ms"
+        }
+      ]
+    },
+    {
+      "name": "folgas-mobile",
+      "url": "http://127.0.0.1:8794/guias/folgas-pinos-buchas-alojamentos/",
+      "fetchTime": "2026-09-08T08:43:03.611Z",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "timings": {
+        "first-contentful-paint": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "display": "1.8 s",
+          "score": 0.98
+        },
+        "interactive": {
+          "display": "1.8 s",
+          "score": 1
+        },
+        "speed-index": {
+          "display": "1.1 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "display": "0 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "score": 1
+        }
+      },
+      "opportunities": [
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "display": "Est savings of 6 KiB"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 32 KiB"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "display": "Est savings of 115 KiB"
+        },
+        {
+          "id": "document-latency-insight",
+          "title": "Document request latency",
+          "display": "Est savings of 14 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 54 KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": "Est savings of 170 ms"
+        }
+      ]
+    },
+    {
+      "name": "hidrau-mobile",
+      "url": "http://127.0.0.1:8794/hidrautractor/",
+      "fetchTime": "2026-09-08T08:43:15.873Z",
+      "categories": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "timings": {
+        "first-contentful-paint": {
+          "display": "1.4 s",
+          "score": 0.98
+        },
+        "largest-contentful-paint": {
+          "display": "2.0 s",
+          "score": 0.97
+        },
+        "interactive": {
+          "display": "2.0 s",
+          "score": 0.99
+        },
+        "speed-index": {
+          "display": "1.4 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "display": "0 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "score": 1
+        }
+      },
+      "opportunities": [
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "display": "Est savings of 6 KiB"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 28 KiB"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "display": "Est savings of 841 KiB"
+        },
+        {
+          "id": "document-latency-insight",
+          "title": "Document request latency",
+          "display": "Est savings of 18 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 86 KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": "Est savings of 440 ms"
+        }
+      ]
+    },
+    {
+      "name": "services-desktop",
+      "url": "http://127.0.0.1:8794/servicos/",
+      "fetchTime": "2026-09-08T08:43:28.521Z",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "timings": {
+        "first-contentful-paint": {
+          "display": "0.3 s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "display": "0.6 s",
+          "score": 0.99
+        },
+        "interactive": {
+          "display": "0.6 s",
+          "score": 1
+        },
+        "speed-index": {
+          "display": "0.3 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "display": "0 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "score": 1
+        }
+      },
+      "opportunities": [
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "display": "Est savings of 6 KiB"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 34 KiB"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "display": "Est savings of 374 KiB"
+        },
+        {
+          "id": "document-latency-insight",
+          "title": "Document request latency",
+          "display": "Est savings of 18 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 197 KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": "Est savings of 40 ms"
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "base": "https://cbf349c2.newtractor-site.pages.dev",
+    "checkedAt": "2026-09-08T08:48:43.920972+00:00",
+    "resources": 49,
+    "pass": true,
+    "records": [
+      {
+        "route": "/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cc27f70c28098af15072f4b78b211d21f7f4b4af5340f5b0b7bd97fcfc44579b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/rodantes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "eab71033534ef8cba2469e0576c2a02d8db25fc106b2c5159a97d4d35e665d2c",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/hidrautractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cf62eac22b81be0d5d318cd7feca6d8f6ab6b43fb961907beb85f8f8817c448b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/usinagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7d5acdcc9c5fbb54f49c6204ddc925938d1c655a4e49db81b139232ff857d609",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/calderaria/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "4aef13922a3fb48299236b9e9808d6202e24447ab7b76667f17d6253a2fe14fd",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parts/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "fe58fd2d114b6893175711a935efc22454fd5ac2d8c440350d2bfab4833b982d",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/services/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "12f263558cbf583a70e9f036d65f6268a547583d97a0313621d16c4a7d772c09",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/techtractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "5358a56afa9d9d3cda7c238a0a3bbf97f16afcd6dd7ebd791321b1273ded1be1",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "1ec21aebc078a4513b634b38be14761d9c9580ef344b533a81255314cd2a0f7f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-maquinas-linha-amarela/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be56528c7b3341888a447edc88ccf1de2c755cda95eb47c733a81f398c96a530",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9abfa2abde447372f1042247fa225fe5169fe8f7ba251ee4ca56b9be1cfbe72b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "54aab5893a0f5d6fb1276d7a74fe2a819dd3db474f1b96e65ebd61f689b49f49",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/inspecao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7ba91399149ab0da4c0e04030a320fc22d1764a55fd83a62ec234a7c5463e1c6",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "29c1f8245c49bc40136c83f462178cfabc8ad70ed37ca1dd75f944e4e13b6f87",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b2d80b4d1e00d87b938706f83e6a4a37fd1de6075fa6f8080aa47814ed132315",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be85525e31ec70cbdc7b6d4b752a65ca6887405d4a64db07ce2078b711e19a4d",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/mineracao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3b7bf79a3344b46f9651b4e3ba0012305717b9350398e6c87863fc55cf8f6951",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/florestal/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ba7c8c733efde90585be296948bc944800d8abd60987204f014f70e52b21c1b2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/agronegocio/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d94bec41b94ba7499036fcc91f79be3e97c5ec43466c019af8c7c583e4f5a882",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/construcao-terraplenagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "450d97a22715d0a448a06edbffb36027002807e77b2e983b69a4421475c7d70f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/locadoras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b53e897a087e7768cb92adc2b4c78b85cd214f51bb04062c7dc9ab91b0fab028",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7e0b533094c2b578d3bc3d51ed51e36e27ba05bc3564246980773a7ca96dd108",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/rodas-guia/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3c0a6fd8a1ec16d15c95bf10374d5f1454ea3fe709a745a14290184ad3e264af",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/roletes-de-esteira/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "e8b04dc546bfcb70e6e29189a8bef533a0edba0cee67e9b3da820308e56d06e9",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/correntes-sapatas-esteiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "aef21a3903ae3df92e72609f331108bf65e0886133b150c9d733681be4b63b38",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/folgas-pinos-buchas-alojamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac89ae9966883f3852cf0051b04ecc5b5b970f0be9298f96b06b94b4e6d550a7",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/empresa/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "783d2e1d1a2f977ce6bf36e14ed8e52ca2f19ac05e812f8ffb6164b09e49fc14",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parcerias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d60d282d4f418743102b8ffdb328f6422d8e040276e00394f1a07e386c928515",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/pessoas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "2250cba5f33a196259b25de2ee13899434aef7959696d83450f8a1a87adae399",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f8442b37f666fb30a7dcb98dc4d58f6a0cb8fdcee5a3b92d2267dc617d521791",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/manutencao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a2c2d677c30f07021eb366114ece461655f3d0ef9d2e417f863cc3816667cfa1",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/reforma-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "247d99e78091e36c7ffd3bfcd8dda0a93b23a75efd76bc2ae3f23b5bca67d869",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/monitoramento-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "944d22d820ad4c4eb09b6052e129b38f4fda5681fe935c02d60254e84e18a740",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d4ca7fe11381d585e41a7e26d1699121a21e501365bcdfec16676d93ae4ecf1f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/atuacao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "404eaf3e7585ef70df6be9e987319c7619125ad90e8152b95eef2f2a1f2084d4",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/contato/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "100b51aa7195513917c6b94e743f74bdc1d7f97e084b3ead5303daeacc09b3bc",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/noticias/new-tractor-na-exposibram-2026/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "07cc8632231faf807bf859e8199f8e07006afe83eb8d2fc8794de0d703c2bb40",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/privacidade/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac674f65c38149528056ae1749552ce1c5b81a4e849f3790cbdfe833751cb15b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-rodantes.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "4a1f3a1bc01c1cbce11f340d15efd50942c31e5da5b797a0d43d264508a110b3",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-hidrautractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "366e2bc698e25d6419187af49af55992368bb629e4e46ef98ed439b58b2bdea6",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-usinagem.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "942686e7720c9f53e4a923706353ef10d4abfcc203130319491554161eda38d8",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-calderaria.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f9d145aad3de0a7b0498f7a2598075a0003ca6e65dc24b305460411d57fb2433",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-parts.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9ae0ce7b9ecc5ca897c61a3092cd2d6148de64080885f2780f1e00034ccb6218",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-services.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "df31c292055e18e4b96a677e3c63cf3b6af1b7046acd1615893e8c17067bc863",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-techtractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "5a0690c66a8a89708f9d3b43f47613412bee9668d7e5570efd7895e7934497f5",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-grupo.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "fb624c11bd447152638f788501e855087b6142d9997ae3e510230e9f00bcd22c",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "4090c737279df7e701d420f4ea3edd4e377c8afad81be9b2fb8dc61e89d18db1",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/robots.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a955411ed675073d6b0a50aaf9c647dba0ab3543d1fde4d830224be0aa94acf2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/llms.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "5941ad7cb2792076ee17ae98970fb34adf993003a6c2e972747086590e07bc96",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      }
+    ]
+  },
+  "redirects": {
+    "base": "https://919a5b79.newtractor-site.pages.dev",
+    "applicationRevision": "ec21e82",
+    "unchangedIn": "43ea681",
+    "records": [
+      {
+        "path": "/componentes",
+        "status": 301,
+        "location": "/componentes/",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/componentes/rodas-guia",
+        "status": 301,
+        "location": "/componentes/rodas-guia/",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/componentes/roletes-de-esteira",
+        "status": 301,
+        "location": "/componentes/roletes-de-esteira/",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/componentes/correntes-sapatas-esteiras",
+        "status": 301,
+        "location": "/componentes/correntes-sapatas-esteiras/",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/guias/folgas-pinos-buchas-alojamentos",
+        "status": 301,
+        "location": "/guias/folgas-pinos-buchas-alojamentos/",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/nao-existe-qa-20260908",
+        "status": 404,
+        "location": null,
+        "robots": "noindex, nofollow"
+      }
+    ]
+  },
+  "report": {
+    "url": "http://127.0.0.1:8793/entrega-main-seo-grupo-2026-09-08.html",
+    "checkedAt": "2026-09-08T08:47:10.709Z",
+    "http": {
+      "status": 200,
+      "ok": true,
+      "title": "SEO do Grupo New Tractor — entrega para a main",
+      "lang": "pt-BR",
+      "robots": "noindex,nofollow"
+    },
+    "viewports": {
+      "mobile": {
+        "innerWidth": 360,
+        "bodyScrollWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollHeight": 34136,
+        "outside": [],
+        "clipped": [],
+        "keywordScroll": {
+          "clientWidth": 326,
+          "scrollWidth": 1219,
+          "overflowX": "auto"
+        }
+      },
+      "desktop": {
+        "innerWidth": 1365,
+        "bodyScrollWidth": 1365,
+        "documentScrollWidth": 1365,
+        "bodyScrollHeight": 25302,
+        "outside": [],
+        "clipped": [],
+        "keywordScroll": {
+          "clientWidth": 1238,
+          "scrollWidth": 1238,
+          "overflowX": "auto"
+        }
+      }
+    },
+    "filters": {
+      "initial": {
+        "rows": 165,
+        "count": "165 associações exibidas",
+        "formVisible": true
+      },
+      "domain": {
+        "value": "minusa.com.br",
+        "rows": 30,
+        "count": "30 associações exibidas",
+        "allRowsMatch": true
+      },
+      "accents": {
+        "accented": {
+          "rows": 5,
+          "count": "5 associações exibidas"
+        },
+        "unaccented": {
+          "rows": 5,
+          "count": "5 associações exibidas"
+        },
+        "equivalent": true
+      },
+      "noResults": {
+        "rows": 0,
+        "count": "0 associações exibidas"
+      },
+      "clear": {
+        "rows": 165,
+        "count": "165 associações exibidas",
+        "domainValue": "",
+        "termValue": ""
+      }
+    },
+    "noJavascript": {
+      "tableVisible": true,
+      "rows": 165,
+      "formHiddenAttribute": "",
+      "tableScrollRegion": {
+        "parentOverflowX": "auto",
+        "parentClientWidth": 326,
+        "tableScrollWidth": 1219
+      }
+    },
+    "keyboard": {
+      "firstFocus": {
+        "tag": "A",
+        "className": "skip",
+        "href": "#conteudo"
+      },
+      "skipResult": {
+        "hash": "#conteudo",
+        "activeId": "conteudo",
+        "activeTag": "MAIN"
+      },
+      "tabbed": [
+        {
+          "id": "",
+          "tag": "A",
+          "className": "skip"
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "DIV",
+          "className": "scroll"
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "DIV",
+          "className": "scroll"
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "DIV",
+          "className": "scroll"
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "className": ""
+        },
+        {
+          "id": "domain",
+          "tag": "SELECT",
+          "className": ""
+        },
+        {
+          "id": "term",
+          "tag": "INPUT",
+          "className": ""
+        },
+        {
+          "id": "clear",
+          "tag": "BUTTON",
+          "className": ""
+        }
+      ],
+      "controlsReached": true,
+      "detailsToggleOpened": true
+    },
+    "anchors": {
+      "internalFragmentLinks": 10,
+      "missing": [],
+      "allNavTargetsPresent": true
+    },
+    "findings": [],
+    "overall": "PASS"
+  },
+  "limits": [
+    "Lighthouse em servidor local, não mede Core Web Vitals de usuários reais ou ranking.",
+    "Recursos de 640 px mantêm a resolução original disponível.",
+    "DNS, Search Console e avaliação de crescimento posterior fora do escopo."
+  ]
+}
