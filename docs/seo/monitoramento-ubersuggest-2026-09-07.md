@@ -18,6 +18,14 @@ mas suas chamadas MCP não foram expostas nesta sessão.
 autenticada e o projeto selecionado. A configuração e a amostra observada estão em
 [JSON](monitoramento-ubersuggest-2026-09-07.json).
 
+## Atualização em 08/09/2026
+
+A coleta Desktop terminou com dez consultas posicionadas, 34 não classificadas
+e nenhuma pendente. Mobile continuava com 44 pendentes; a próxima atualização
+indicada pelo painel era aproximadamente 14/09. Abaixo permanece o registro
+parcial inicial. Consulte a [coleta concluída e suas URLs](referencias-e-ranking-2026-09-08.md)
+e o [novo JSON](referencias-e-ranking-2026-09-08.json) para os dados mais recentes.
+
 ## Primeira amostra regional — site antigo
 
 Atualização exibida: 07/09/2026 às 23h41. Consulta em Desktop, Belo Horizonte.

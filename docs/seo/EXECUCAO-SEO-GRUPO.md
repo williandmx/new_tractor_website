@@ -1,6 +1,6 @@
 # Execução de SEO do Grupo New Tractor
 
-Atualização: 07/09/2026. Objetivo permanente: aumentar a descoberta e a preferência
+Atualização: 08/09/2026. Objetivo permanente: aumentar a descoberta e a preferência
 pelo grupo nas sete frentes de linha amarela, com foco comercial em Minas Gerais.
 O benchmark não demonstra liderança atual nem permite prometer posições.
 
@@ -47,8 +47,10 @@ medição e rollback; falta o inventário completo da zona DNS.
 
 O [projeto Ubersuggest](monitoramento-ubersuggest-2026-09-07.md) foi criado com
 44 palavras-chave em Português/Belo Horizonte, dez concorrentes e sete perguntas
-para respostas de IA. Desktop tem uma primeira amostra parcial do site antigo;
-Mobile estava com todas as consultas pendentes. Não há comparação de evolução.
+para respostas de IA. A primeira coleta Desktop foi concluída: dez consultas com posição e 34 não
+classificadas, todas referentes ao site antigo. Mobile estava com as 44 consultas
+pendentes. Não há comparação de evolução.
+[Posições, referências e fontes verificadas](referencias-e-ranking-2026-09-08.md).
 
 1. Validar o preview e manter histórico de build, commit e rollback.
 2. Preparar o corte do domínio canônico com inventário DNS completo e preservação
@@ -66,6 +68,13 @@ Mobile estava com todas as consultas pendentes. Não há comparação de evoluç
    uma ferramenta de palavras-chave não revela sua profissão.
 
 ## Referências e presença local
+
+A auditoria encontrou 17 backlinks de 13 domínios no Ubersuggest. A referência
+editorial existente na Revista M&T foi verificada e incorporada à página de
+manutenção no preview de 08/09. Cinco contextos setoriais de referências dos
+concorrentes foram verificados; pedidos de cadastro dependem de vínculo real.
+O destino legado `?p=13` foi refinado para manutenção de material rodante,
+com aliases `page_id` no [pacote desativado de migração](../migration/README.md).
 
 Priorizar consistência do endereço e contatos na base real de BH, informações
 úteis no Perfil da Empresa no Google, citações editoriais legítimas e materiais

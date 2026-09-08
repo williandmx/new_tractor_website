@@ -1,0 +1,240 @@
+{
+  "observed_local_date": "2026-09-08",
+  "timezone": "America/Sao_Paulo",
+  "access": "Ubersuggest autenticado via navegador + verificação de páginas originais",
+  "ranking": {
+    "url": "https://app.neilpatel.com/en/rank-tracking",
+    "location": "Belo Horizonte, Minas Gerais, Brasil",
+    "language": "Português",
+    "provider_last_updated": "September 7, 2026 11:41 PM",
+    "provider_next_update": "Next update ~Sep 14",
+    "desktop": {
+      "total": 44,
+      "top_3": 5,
+      "positions_4_to_10": 3,
+      "positions_11_to_100": 2,
+      "not_ranked": 34,
+      "pending": 0,
+      "ranked_rows": [
+        {
+          "keyword": "grupo new tractor",
+          "position": 1,
+          "url": "https://newtractor.com.br/"
+        },
+        {
+          "keyword": "manutenção de material rodante",
+          "position": 1,
+          "url": "https://newtractor.com.br/?p=13"
+        },
+        {
+          "keyword": "new tractor",
+          "position": 1,
+          "url": "https://newtractor.com.br/"
+        },
+        {
+          "keyword": "recuperação de material rodante",
+          "position": 1,
+          "url": "https://newtractor.com.br/?p=13"
+        },
+        {
+          "keyword": "monitoramento de material rodante",
+          "position": 3,
+          "url": "https://newtractor.com.br/?p=286"
+        },
+        {
+          "keyword": "reforma de conchas",
+          "position": 5,
+          "url": "https://newtractor.com.br/?p=288"
+        },
+        {
+          "keyword": "manutenção material rodante",
+          "position": 6,
+          "url": "https://newtractor.com.br/?p=13"
+        },
+        {
+          "keyword": "reforma de caçamba de escavadeira",
+          "position": 10,
+          "url": "https://newtractor.com.br/?p=288"
+        },
+        {
+          "keyword": "medição de material rodante",
+          "position": 18,
+          "url": "https://newtractor.com.br/?p=286"
+        },
+        {
+          "keyword": "reforma de caçambas",
+          "position": 21,
+          "url": "https://newtractor.com.br/?p=288"
+        }
+      ]
+    },
+    "mobile": {
+      "total": 44,
+      "pending": 44,
+      "note": "Sem dados no período; próxima atualização exibida aproximadamente 14/09. Não confundir pendente com não classificada."
+    }
+  },
+  "backlinks": {
+    "url": "https://app.neilpatel.com/en/backlinks/overview?domain=newtractor.com.br",
+    "domain_authority": 6,
+    "backlinks": 17,
+    "referring_domains": 13,
+    "nofollow": 4,
+    "view": "All Links; One Link Per Domain",
+    "rows": [
+      {
+        "domain": "plumeriamarketing.com",
+        "source_display": "www.plumeriamarketing.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "lydiaroyrealestate.com",
+        "source_display": "lydiaroyrealestate.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "onlineshoppingidea.com",
+        "source_display": "onlineshoppingidea.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "missburrg.com",
+        "source_display": "missburrg.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "cnpj.center",
+        "source_display": "cnpj.center/14822106000185",
+        "classification": "Agregador cadastral; não valida razão social do grupo",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "lawyerinjeddah.com",
+        "source_display": "lawyerinjeddah.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "libyanatravel.com",
+        "source_display": "libyanatravel.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "revistamt.com.br",
+        "source_display": "revistamt.com.br/Materias/Exibir/manutencao",
+        "classification": "Reportagem setorial de abril de 2025",
+        "source_verified": true,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "m98ufa.com",
+        "source_display": "m98ufa.com/all/940/22.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "benditoguia.com.br",
+        "source_display": "www.benditoguia.com.br/empresa/new-tractor-material-rodante-sao-gabriel-belo-horizonte-mg",
+        "classification": "Diretório local com inconsistência textual Atibaia",
+        "source_verified": true,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "urlm.com.br",
+        "source_display": "urlm.com.br/www.newtractor.com.br",
+        "classification": "Agregador de domínios",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "brazilwebdirectory.com",
+        "source_display": "www.brazilwebdirectory.com/domain-list-989",
+        "classification": "Lista genérica de domínios",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      },
+      {
+        "domain": "plurio.shop",
+        "source_display": "plurio.shop/all/607/5.html",
+        "classification": "Título/âncora de venda de PBN",
+        "source_verified": false,
+        "target_display": "newtractor.com.br/"
+      }
+    ],
+    "title_anchor_pbn_rows": 8,
+    "pbn_anchor_backlink_count": 10,
+    "note": "Classificação baseada no texto exibido pela ferramenta. Fontes com PBN não foram visitadas; origem, contratação e impacto no Google não comprovados."
+  },
+  "opportunity_comparison": {
+    "target": "newtractor.com.br",
+    "competitors": [
+      "hidraucron.com.br",
+      "cilindrica.com.br",
+      "minusa.com.br"
+    ],
+    "displayed_domains": 100,
+    "displayed_pages_reviewed": 2,
+    "verified_contexts": [
+      {
+        "domain": "hyva.com",
+        "competitor": "hidraucron.com.br",
+        "url": "https://www.hyva.com/pt-br/entre-em-contato/rede-autorizada/assistencia-hidraulicos/",
+        "status": "HTTP 200, link verificado",
+        "context": "Rede de assistência hidráulica publicada pelo fabricante",
+        "action": "Verificar eventual relação real antes de propor cadastro autorizado; não afirmar assistência autorizada sem documentação."
+      },
+      {
+        "domain": "revistaopinioes.com.br",
+        "competitor": "minusa.com.br",
+        "url": "https://florestal.revistaopinioes.com.br/hi/revista/anuario-de-sustentabilidade-e-guia-de-compras-2020/artigos/",
+        "status": "HTTP 200, link verificado",
+        "context": "Banner em guia de 2020, não artigo da Minusa",
+        "action": "Distinguir publicidade e pauta editorial; preparar conteúdo técnico próprio, sem comprar links para ranking."
+      },
+      {
+        "domain": "mtexpo.com.br",
+        "competitor": "minusa.com.br",
+        "url": "https://vitrinedenegocios.mtexpo.com.br/user/event/m&t-expo-2024/exhibitors/minusa?locale=en",
+        "status": "Subdomínio sem resolução DNS na verificação",
+        "context": "Perfil histórico informado pela ferramenta; planta oficial de 2024 contém MINUSA",
+        "corroborating_source": "https://www.mtexpo.com.br/wp-content/uploads/2024/04/MT-EXPO-2024-DIVULGACAO-FINAL-1-compactado.pdf",
+        "action": "Manter perfis oficiais de eventos em que houver participação efetiva; não tratar o perfil indisponível como backlink ativo confirmado."
+      },
+      {
+        "domain": "acr.org.br",
+        "competitor": "minusa.com.br",
+        "url": "https://acr.org.br/",
+        "status": "HTTP 200, link verificado",
+        "context": "Associação catarinense; banner e carrossel de parceiros",
+        "action": "Avaliar relação setorial real; não inferir filiação da New Tractor ou presença em Minas Gerais."
+      },
+      {
+        "domain": "apelmat.org.br",
+        "competitor": "minusa.com.br",
+        "url": "https://www.apelmat.org.br/",
+        "status": "HTTP 200, link verificado",
+        "context": "Associação paulista; Minusa aparece em Conveniados",
+        "action": "Só propor perfil institucional após relação elegível e formal; não cadastrar a empresa apenas pelo backlink."
+      }
+    ]
+  },
+  "limitations": [
+    "Posições são da ferramenta para BH/Desktop e pertencem ao WordPress antigo; não são ganhos da nova versão.",
+    "As 100 sugestões são uma lista da ferramenta, não 100 oportunidades qualificadas.",
+    "DA e Spam Score não são notas ou decisões do Google.",
+    "Nenhuma mensagem foi enviada, nenhum link comprado, nenhuma associação contratada ou arquivo de rejeição de links enviado."
+  ]
+}

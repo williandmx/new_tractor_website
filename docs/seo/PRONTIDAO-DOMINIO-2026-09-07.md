@@ -23,7 +23,7 @@ web preservando e-mail, subdomínios e retorno. Não altera DNS, contas ou códi
   custom domain associado. A lista DNS da zona está acessível e contém 13 registros.
 
 Os previews e builds mais antigos citados em `docs/DEPLOYMENT.md` são histórico.
-Para o corte, usar o commit e o deployment acima como referência atual.
+Para o corte, usar a última versão aprovada no Pages; o commit acima registra a etapa de 07/09.
 
 ## Evidências públicas que condicionam o corte
 
@@ -75,25 +75,30 @@ rever DNSSEC no Registro.br na janela do corte, antes de alterar delegação.
 Um DS antigo pode impedir a resolução após a troca de chaves/servidores;
 seguir a [sequência de DNSSEC da Cloudflare](https://developers.cloudflare.com/dns/dnssec/).
 
-## Cinco redirects legados aprovados
+## Cinco destinos legados — revisão de 08/09/2026
 
-O `_redirects` do Pages trata caminhos e barra final, mas não interpreta a query
-string do WordPress. No Cloudflare, deixar estas cinco regras **Single Redirect**
-preparadas na zona, sem preservar a query, antes de encaminhar o tráfego para a
-nova aplicação:
+O pacote [wordpress-single-redirects.json](../migration/wordpress-single-redirects.json)
+substitui as cinco expressões de query exata documentadas anteriormente. Ele
+inclui os pares `p`/`page_id` observados no WordPress e parâmetros auxiliares,
+sem ativar regras ou alterar DNS. [Aplicação e validação](../migration/README.md).
 
-| Expressão de origem | Destino | Status |
+| ID WordPress | Destino | Status |
 |---|---|---:|
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=470"` | `https://newtractor.com.br/empresa/` | 301 |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=13"` | `https://newtractor.com.br/servicos/` | 301 |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=288"` | `https://newtractor.com.br/servicos/reforma-cacambas-conchas/` | 301 |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=286"` | `https://newtractor.com.br/servicos/monitoramento-material-rodante/` | 301 |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=477"` | `https://newtractor.com.br/contato/` | 301 |
+| 470 | `/empresa/` | 301 |
+| 13 | `/servicos/manutencao-material-rodante/` | 301 |
+| 288 | `/servicos/reforma-cacambas-conchas/` | 301 |
+| 286 | `/servicos/monitoramento-material-rodante/` | 301 |
+| 477 | `/contato/` | 301 |
 
-Não criar uma regra genérica para `/`: ela não diferencia query e poderia
-redirecionar a home legítima. `Bulk Redirects` também não substitui essas regras
-porque não aceita query string na origem. Após a ativação, cada URL deve fazer
-um único salto 301 e chegar a uma página final 200 sem a query residual.
+O ID 13 passa ao serviço específico para preservar o assunto principal e as
+consultas de manutenção/recuperação. O serviço conserva acesso ao hub, reforma
+e monitoramento. Cada `page_id` deve ir direto ao mesmo destino, sem depender
+do WordPress para o primeiro salto. A query não permanece no destino.
+
+Não criar uma regra genérica para a home. Validar o parser remoto e os dez
+aliases, com controles negativos, antes de considerar a migração concluída.
+Apenas os cinco destinos conhecidos estão cobertos; IDs sem equivalente seguem
+pendentes da resposta 404/410 apropriada e não devem ser enviados à home.
 
 ## Sequência de corte
 

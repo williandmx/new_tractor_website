@@ -95,24 +95,34 @@ Domínio, DNS, variáveis, bindings e branch de produção não foram alterados.
 7. Validar HTTPS, certificado, raiz, `www`, 404, robots, sitemap, HTML
    bruto, analytics e CTAs.
 
-## Redirects legados com query string
+## Redirects legados com query string — revisão de 08/09/2026
 
-O `_redirects` do Pages cobre caminhos, mas não diferencia as URLs antigas do
-WordPress que usam `/?p=...`. Bulk Redirects também não aceita query string na
-URL de origem. Depois que a zona `newtractor.com.br` estiver ativa no
-Cloudflare, criar cinco **Single Redirect Rules** antes do corte:
+O `_redirects` do Pages trata caminhos, mas não interpreta os IDs WordPress.
+O pacote [wordpress-single-redirects.json](migration/wordpress-single-redirects.json)
+contém cinco Single Redirect Rules, todas desativadas para revisão, com um
+301 por destino. O [roteiro de aplicação](migration/README.md) explica como
+preservar as regras existentes da zona e validar o parser Cloudflare antes de
+ativar. Bulk Redirects não aceita query string na origem.
 
-| Expressão | Destino estático | Status | Preservar query |
-|---|---|---:|---|
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=470"` | `https://newtractor.com.br/empresa/` | 301 | não |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=13"` | `https://newtractor.com.br/servicos/` | 301 | não |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=288"` | `https://newtractor.com.br/servicos/reforma-cacambas-conchas/` | 301 | não |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=286"` | `https://newtractor.com.br/servicos/monitoramento-material-rodante/` | 301 | não |
-| `http.request.uri.path eq "/" and http.request.uri.query eq "p=477"` | `https://newtractor.com.br/contato/` | 301 | não |
+| ID WordPress (`p` ou `page_id`) | Destino canônico |
+|---|---|
+| 470 | `https://newtractor.com.br/empresa/` |
+| 13 | `https://newtractor.com.br/servicos/manutencao-material-rodante/` |
+| 288 | `https://newtractor.com.br/servicos/reforma-cacambas-conchas/` |
+| 286 | `https://newtractor.com.br/servicos/monitoramento-material-rodante/` |
+| 477 | `https://newtractor.com.br/contato/` |
 
-Após ativar, testar cada URL com `curl -I` e confirmar um único salto até o
-destino final. Não criar um Bulk Redirect genérico para `/`, pois ele não
-inspeciona a query string e poderia redirecionar a home legítima.
+Os aliases `page_id` foram verificados no WordPress: cada um faz 301 para seu
+`p` correspondente. O novo pacote aceita um único ID em um desses campos,
+com parâmetros adicionais em qualquer ordem, e remove a query no destino.
+Não casa a home sem ID, IDs desconhecidos ou IDs duplicados/ambíguos.
+
+O destino do ID 13 foi revisto: a página técnica preserva melhor seu título,
+assunto principal e consultas regionais de manutenção/recuperação do que o hub.
+Links no serviço mantêm acesso a monitoramento, reforma e todas as soluções.
+As regras ainda não foram aplicadas na conta. No corte, testar os dez aliases,
+variações com parâmetros e controles negativos, além de evitar cadeias até o
+HTTPS/apex final. Verificar os redirects por query antes da normalização genérica.
 
 ## Rollback
 

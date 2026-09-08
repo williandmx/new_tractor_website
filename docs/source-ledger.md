@@ -2,6 +2,14 @@
 
 Última revisão: 2026-09-07
 
+Complemento de 2026-09-08: a Revista M&T, edição 292 (abril de 2025), publicou
+“Vida útil plena para esteiras”, de Antonio Santomauro, com declarações atribuídas
+a Roger Fumega, apresentado à época como diretor da New Tractor. A matéria
+inclui um link para `newtractor.com.br`. [Fonte original](https://revistamt.com.br/Materias/Exibir/manutencao),
+verificada em 08/09/2026. Publicar título, data, breve resumo próprio e link
+como referência editorial histórica; não tratar como case, endosso comercial,
+garantia de resultado, cargo atual ou confirmação de novos processos.
+
 | Informação | Classificação | Fonte | Decisão de publicação |
 |---|---|---|---|
 | Atuação desde 2010 | Confirmado na presença pública | Site anterior e LinkedIn empresarial | Publicar |
