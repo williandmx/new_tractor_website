@@ -20,7 +20,7 @@ prazo, estoque, garantia ou estrutura societária.
 |---|---|---|
 | `/` | Home do Grupo, filme compilado e encaminhamento às sete frentes | Usar o Grupo como endosso de marca; manter fatos públicos e declarações do proprietário identificadas |
 | `/rodantes/` | Frente New Tractor Rodantes | Pode usar manutenção, recondicionamento e monitoramento de material rodante já comprovados. `/rodante/` redireciona para cá |
-| `/hidrautractor/` | Frente HidrauTractor | Nome confirmado; escopo técnico permanece sujeito a confirmação. `/hidraulica/` redireciona para cá |
+| `/hidrautractor/` | Frente HidrauTractor | Hub de recuperação e fabricação de cilindros, com avaliação por peça/aplicação. `/hidraulica/` redireciona para cá |
 | `/usinagem/` | Frente New Tractor Usinagem | Usinagem de componentes; prazo e capacidade após avaliação |
 | `/calderaria/` | Frente New Tractor Calderaria | Caldeiraria e solda; escopo após avaliação da condição |
 | `/parts/` | Frente New Tractor Parts | Fabricação e consulta de peças; não afirmar estoque sem matriz técnica |
@@ -64,7 +64,9 @@ prazo, estoque, garantia ou estrutura societária.
 - cases autorizados;
 - conteúdo técnico assinado/revisado por especialista;
 - programa 360 e qualquer promessa de reforma integral, contrato único ou pós-venda;
-- escopos detalhados, catálogos, cases ou páginas de capacidade para Hidráulica, Parts, Services e TechTractor.
+- catálogos, cases ou páginas de capacidade para Parts, Services e TechTractor;
+  parâmetros de projeto, materiais, tolerâncias, ensaios, capacidade, prazo,
+  garantia e logística da HidrauTractor continuam definidos por peça e escopo.
 
 ## Descoberta por busca e conteúdo institucional
 
@@ -104,3 +106,24 @@ A base da rodada é `ef32c45` (PR10, 38 URLs). Acrescentam-se três páginas em 
 `src/discovery.mjs` distribui 42 URLs em dez mapas: Rodantes 6; HidrauTractor 2; Usinagem 3; Calderaria 3; Parts 2; Services 2; TechTractor 2; Equipamentos 4; Atuação 2; Grupo 16. O índice `sitemap.xml` aponta para os dez arquivos; `llms.txt` deriva da mesma coleção. A segmentação serve à auditoria de cobertura, não a um ganho de ranking pelo número de XMLs.
 
 Os hubs Equipamentos e Atuação, as sete frentes e o guia de cilindros fornecem entradas HTML para os novos destinos. As aplicações possuem conteúdo próprio por movimento e configuração, Article/Breadcrumb e metadados específicos; a página territorial possui Breadcrumb e assunto AdministrativeArea, sem criar estabelecimentos locais. Não são produzidas combinações automáticas serviço × município.
+
+## Rotas de serviços hidráulicos — 08/09/2026
+
+A confirmação explícita do proprietário autoriza a HidrauTractor a apresentar
+recuperação e fabricação de cilindros hidráulicos. Em relação à main `9f6137c`,
+as duas rotas abaixo acrescentam duas URLs indexáveis ao inventário de 42,
+totalizando 44; o mapa HidrauTractor passa de 2 para 4 URLs e o índice raiz
+mantém dez sitemaps.
+
+| Rota | Papel | Conteúdo editorial |
+|---|---|---|
+| `/hidrautractor/recuperacao-cilindros-hidraulicos/` | Caminho comercial para cilindro em uso | Seis etapas da avaliação à recuperação, detalhes de camisa/haste/vedações e critérios de ensaio por peça |
+| `/hidrautractor/fabricacao-cilindros-hidraulicos/` | Caminho comercial para novo conjunto | Seis etapas da aplicação ao conjunto identificado, com projeto, materiais, usinagem, montagem e aceitação definidos no escopo |
+
+O hub `/hidrautractor/` encaminha os dois caminhos por cards de decisão. As
+páginas detalhadas ligam aplicações de escavadeiras, tratores de esteira e pás
+carregadeiras, formulário de orçamento por e-mail, WhatsApp e telefone reais.
+Os fluxos não fixam pressão, material, acabamento, tolerância, capacidade,
+garantia ou prazo; esses dados dependem da peça, aplicação, norma adotada e
+requisitos contratuais. As referências ISO exibidas contextualizam o projeto e
+os ensaios, sem certificar a empresa.

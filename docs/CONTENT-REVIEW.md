@@ -20,10 +20,12 @@ grupo” deve seguir essa leitura institucional.
   manutenção, recondicionamento e monitoramento de material rodante. A copy
   apresenta rosários, sapatas, roletes, rodas-guia, trucks e conjuntos; capacidade,
   prazo e compatibilidade permanecem vinculados à avaliação da demanda.
-- **HidrauTractor:** nome confirmado como frente de marca. A presença pública
-  revisada não comprova lista de componentes, bancadas, testes, pressões,
-  vazões, capacidade ou certificações; a copy organiza a entrada de demandas
-  por componente, aplicação e condição observada.
+- **HidrauTractor:** nome confirmado como frente de marca, com recuperação e
+  fabricação de cilindros hidráulicos confirmadas explicitamente pelo
+  proprietário em 08/09/2026. A copy usa duas rotas comerciais e descreve
+  avaliação, projeto, usinagem, montagem e ensaios por peça/aplicação; não
+  fixa componentes, pressão, vazão, capacidade, prazo, garantia ou certificação
+  como universais.
 - **Usinagem:** frente de recuperação dimensional de componentes, com torno,
   mandrilhadora e centro de usinagem divulgados no material local. Capacidade,
   tolerância, dimensões, materiais e prazo exigem validação por peça e escopo.
@@ -135,8 +137,31 @@ aplicáveis, QA técnico/editorial e rollback de DNS e e-mail.
   não afirma presença realizada, reuniões, cases ou resultados.
 # Revisão incremental — aplicações e Minas Gerais, 08/09/2026
 
-As páginas `/equipamentos/escavadeiras/`, `/equipamentos/tratores-de-esteira/` e `/equipamentos/pas-carregadeiras/` descrevem movimentos, identificação, sinais observáveis e consulta. Não anunciam reparo, fabricação, cromagem, brunimento ou testes pela HidrauTractor. O guia geral distingue cilindro, pistão/êmbolo e reparo como kit versus intervenção.
+Na etapa anterior à confirmação abaixo, as páginas `/equipamentos/escavadeiras/`, `/equipamentos/tratores-de-esteira/` e `/equipamentos/pas-carregadeiras/` descreviam movimentos, identificação, sinais observáveis e consulta. Ainda não anunciavam reparo, fabricação, cromagem, brunimento ou testes pela HidrauTractor. O guia geral distingue cilindro, pistão/êmbolo e reparo como kit versus intervenção.
 
 `/atuacao/minas-gerais/` reúne quatro contextos regionais com fontes territoriais. A única base representada continua Belo Horizonte. Cidade identifica origem e logística da demanda, sem prometer filial, equipe, coleta, atendimento imediato ou relação comercial com os operadores citados nas fontes.
 
-A consulta ao proprietário sobre execução hidráulica e modalidades de atendimento permanece sem resposta registrada. Essa confirmação é necessária para redigir futuras ofertas específicas de manutenção; a camada atual de informação e consulta está limitada ao escopo documentado.
+**Registro histórico da etapa anterior:** a consulta ao proprietário sobre
+execução hidráulica permanecia sem resposta até aquela revisão. A confirmação
+explícita do proprietário em 08/09/2026 supera essa pendência: HidrauTractor
+executa recuperação e fabricação de cilindros hidráulicos. As rotas
+`/hidrautractor/recuperacao-cilindros-hidraulicos/` e
+`/hidrautractor/fabricacao-cilindros-hidraulicos/` registram os dois caminhos;
+processo, material, revestimento, tolerâncias, critérios de ensaio, capacidade,
+prazo, garantia e logística continuam definidos por peça, aplicação e escopo.
+
+## Atualização hidráulica — confirmação e limites, 08/09/2026
+
+O proprietário autorizou a apresentação pública de recuperação e fabricação de
+cilindros hidráulicos pela HidrauTractor. Cada rota parte dos dados da aplicação
+e segue seis etapas até montagem, ensaios, identificação e preparação da
+entrega. A descrição de brunimento, revestimento/cromagem, vedações, montagem e
+testes é contextual ao processo avaliado; não é promessa de parâmetro único ou
+de certificação da empresa.
+
+A decisão e suas fontes estão detalhadas em
+`docs/seo/hidrautractor-servicos-2026-09-08.md`; a matriz de normas mantém links
+para fontes oficiais e separa referência técnica de certificação. A evidência de
+busca no relatório usa métricas estimadas Brasil/português e uma SERP de Belo
+Horizonte; não se apresenta como volume, ranking ou demanda comprovada de Minas
+Gerais.

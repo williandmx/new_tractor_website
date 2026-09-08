@@ -2,7 +2,7 @@
 // no grupo; segmentar o índice permite auditar cobertura, sem duplicar URLs.
 const fronts = [
   ["rodantes", "Rodantes", ["/rodantes/", "/servicos/manutencao-material-rodante/", "/servicos/monitoramento-material-rodante/", "/componentes/rodas-guia/", "/componentes/roletes-de-esteira/", "/componentes/correntes-sapatas-esteiras/"]],
-  ["hidrautractor", "HidrauTractor", ["/hidrautractor/", "/guias/avaliacao-cilindros-hidraulicos/"]],
+  ["hidrautractor", "HidrauTractor", ["/hidrautractor/", "/hidrautractor/recuperacao-cilindros-hidraulicos/", "/hidrautractor/fabricacao-cilindros-hidraulicos/", "/guias/avaliacao-cilindros-hidraulicos/"]],
   ["usinagem", "Usinagem", ["/usinagem/", "/servicos/usinagem-componentes-maquinas-pesadas/", "/guias/folgas-pinos-buchas-alojamentos/"]],
   ["calderaria", "Calderaria", ["/calderaria/", "/servicos/reforma-cacambas-conchas/", "/guias/avaliacao-cacambas-conchas/"]],
   ["parts", "Parts", ["/parts/", "/guias/cotacao-pecas-maquinas-pesadas/"]],

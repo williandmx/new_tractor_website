@@ -641,3 +641,113 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; line-height
   .hero { min-height: 450px; }
   .company-card { break-inside: avoid; }
 }
+/* HidrauTractor: service selection, process flows and quote preparation. */
+.hydraulic-service-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.hydraulic-service-card { overflow: hidden; border: 1px solid var(--line); background: var(--white); border-radius: 3px; }
+.hydraulic-service-card__image { display: block; overflow: hidden; }
+.hydraulic-service-card__image img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.hydraulic-service-card__image:hover img { transform: scale(1.025); }
+.hydraulic-service-card > div { padding: 32px; }
+.hydraulic-service-card h3 { max-width: 440px; font-size: clamp(28px, 2.6vw, 38px); }
+.hydraulic-service-card .eyebrow { margin-bottom: 18px; }
+.hydraulic-service-card p { margin: 22px 0 28px; max-width: 48ch; }
+.hydraulic-decision-grid, .hydraulic-detail-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.2fr); gap: 80px; }
+.hydraulic-applications { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.hydraulic-applications > a { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 166px; padding: 28px 52px 28px 28px; background: var(--white); border: 1px solid var(--line); }
+.hydraulic-applications > a:hover { border-color: var(--ink); background: #fafbf7; }
+.hydraulic-applications span:first-child { display: block; margin-bottom: 20px; color: var(--muted); font-size: 10px; letter-spacing: .1em; }
+.hydraulic-applications strong { font-size: 22px; font-weight: 500; line-height: 1.25; letter-spacing: -.025em; }
+.hydraulic-applications span:last-child { position: absolute; top: 22px; right: 22px; font-size: 24px; }
+.hydraulic-hero { padding: 30px 0 70px; background: var(--ink); color: #fff; }
+.hydraulic-hero .breadcrumbs { margin-bottom: 30px; color: #c8cec5; }
+.hydraulic-hero .breadcrumbs ol, .hydraulic-hero .breadcrumbs a { color: #c8cec5; }
+.hydraulic-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; align-items: center; }
+.hydraulic-hero h1 { font-size: clamp(40px, 4.6vw, 66px); max-width: 620px; }
+.hydraulic-hero__copy > p { color: #c8cec5; margin-top: 28px; font-size: 18px; max-width: 53ch; }
+.hydraulic-hero .button-row { margin-top: 32px; }
+.hydraulic-hero .hydraulic-location { color: #b1b9ae; font-size: 12px; margin-top: 28px; }
+.hydraulic-hero__visual { min-width: 0; }
+.hydraulic-hero__visual img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px; }
+.hydraulic-hero__visual figcaption { margin-top: 12px; font-size: 11px; color: #b9c0b6; }
+.hydraulic-section-nav { border-bottom: 1px solid var(--line); background: var(--sand); }
+.hydraulic-section-nav > div { display: flex; flex-wrap: wrap; gap: 8px 36px; padding-block: 15px; }
+.hydraulic-section-nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; font-weight: 600; border-bottom: 1px solid transparent; }
+.hydraulic-section-nav a:hover { border-color: var(--ink); }
+.hydraulic-flow { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 24px; list-style: none; }
+.hydraulic-flow > li { position: relative; min-width: 0; border-top: 2px solid var(--yellow); padding-top: 24px; }
+.hydraulic-flow > li:not(:last-child)::after { content: ""; position: absolute; top: -5px; right: -16px; width: 8px; height: 8px; border-top: 2px solid #6a7067; border-right: 2px solid #6a7067; transform: rotate(45deg); }
+.hydraulic-flow__number { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; margin-bottom: 20px; border-radius: 50%; color: var(--ink); background: var(--yellow); font-size: 12px; font-weight: 700; }
+.hydraulic-flow h3 { min-height: 3.5em; font-size: 20px; line-height: 1.2; letter-spacing: -.035em; }
+.hydraulic-flow p { margin-top: 14px; font-size: 14px; line-height: 1.6; }
+.hydraulic-decision { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 24px; margin-top: 48px; padding: 28px; background: var(--sand); border-left: 3px solid var(--yellow); }
+.hydraulic-decision > span { font-size: 40px; line-height: 1; }
+.hydraulic-decision h3 { font-size: 25px; }
+.hydraulic-decision p { margin-top: 10px; font-size: 15px; max-width: 72ch; }
+.hydraulic-detail-grid > div:first-child > p { margin-top: 24px; }
+.hydraulic-details details { border-top: 1px solid #bfc7b9; }
+.hydraulic-details details:last-child { border-bottom: 1px solid #bfc7b9; }
+.hydraulic-details summary, .hydraulic-standards summary { position: relative; padding: 25px 38px 25px 0; font-weight: 500; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; cursor: pointer; list-style: none; }
+.hydraulic-details summary::-webkit-details-marker, .hydraulic-standards summary::-webkit-details-marker { display: none; }
+.hydraulic-details summary::after, .hydraulic-standards summary::after { content: "+"; position: absolute; right: 4px; top: 24px; }
+.hydraulic-details details[open] summary::after, .hydraulic-standards[open] summary::after { content: "−"; }
+.hydraulic-details .rich-text { padding: 0 0 28px; font-size: 16px; }
+.hydraulic-related { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: center; margin: 32px 0 48px; }
+.hydraulic-related p { max-width: 70ch; font-size: 15px; }
+.hydraulic-related p a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.hydraulic-standards { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.hydraulic-standards summary { font-size: 18px; }
+.hydraulic-standards .rich-text { padding: 0 0 28px; max-width: 1000px; font-size: 15px; }
+.hydraulic-standards ul { margin: 24px 0; padding-left: 22px; }
+.hydraulic-standards li { margin: 12px 0; }
+.hydraulic-rfq { background: var(--yellow); }
+.hydraulic-rfq p { color: #494614; }
+.hydraulic-rfq__fields { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-bottom: 36px; }
+.hydraulic-rfq__fields > div { border-top: 1px solid #9c872f; padding-top: 20px; }
+.hydraulic-rfq__fields dt { font-size: 17px; font-weight: 600; }
+.hydraulic-rfq__fields dd { margin: 12px 0 0; font-size: 14px; color: #494614; }
+.hydraulic-rfq__phone { min-height: 48px; display: inline-flex; align-items: center; padding: 8px 0; font-size: 18px; }
+.hydraulic-rfq .hydraulic-rfq__note { font-size: 12px; max-width: 94ch; margin-top: 25px; }
+#processo, #componentes, #aplicacoes, #orcamento { scroll-margin-top: 20px; }
+@media (max-width: 1100px) {
+  .hydraulic-flow { grid-template-columns: 1fr; gap: 0; max-width: 850px; margin-inline: auto; }
+  .hydraulic-flow > li { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 20px; padding: 0 0 32px; border: 0; }
+  .hydraulic-flow > li:not(:last-child)::after { width: 2px; height: calc(100% - 44px); top: 40px; left: 17px; right: auto; border: 0; background: var(--yellow); transform: none; }
+  .hydraulic-flow__number { margin: 0; }
+  .hydraulic-flow h3 { min-height: auto; font-size: 23px; }
+  .hydraulic-flow p { margin-top: 10px; font-size: 16px; max-width: 70ch; }
+  .hydraulic-decision-grid, .hydraulic-detail-grid { gap: 40px; }
+  .hydraulic-decision { grid-template-columns: 36px 1fr; }
+  .hydraulic-decision > a { grid-column: 2; justify-self: start; }
+  .hydraulic-hero__grid { gap: 32px; }
+  .hydraulic-related { grid-template-columns: 1fr; gap: 24px; }
+  .hydraulic-related > a { justify-self: start; }
+}
+@media (max-width: 860px) {
+  .hydraulic-hero__grid, .hydraulic-decision-grid, .hydraulic-detail-grid { grid-template-columns: 1fr; }
+  .hydraulic-hero__visual img { aspect-ratio: 16 / 10; }
+  .hydraulic-hero { padding-bottom: 44px; }
+  .hydraulic-hero__copy > p { max-width: 65ch; }
+  .hydraulic-applications { grid-template-columns: 1fr; gap: 12px; }
+  .hydraulic-applications > a { min-height: 120px; }
+  .hydraulic-rfq__fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .hydraulic-service-grid { grid-template-columns: 1fr; gap: 24px; }
+  .hydraulic-service-card > div { padding: 24px; }
+  .hydraulic-service-card p { font-size: 16px; }
+  .hydraulic-flow > li { grid-template-columns: 36px minmax(0, 1fr); gap: 18px; }
+  .hydraulic-section-nav > div { gap: 4px 22px; }
+  .hydraulic-section-nav a { font-size: 12px; }
+  .hydraulic-hero .button-row { align-items: flex-start; }
+  .hydraulic-hero .button { width: 100%; }
+  .hydraulic-hero__copy > p { font-size: 17px; }
+  .hydraulic-hero .breadcrumbs { font-size: 11px; }
+  .hydraulic-decision { padding: 22px; grid-template-columns: 1fr; gap: 16px; }
+  .hydraulic-decision > span { display: none; }
+  .hydraulic-decision > a { grid-column: 1; }
+  .hydraulic-rfq__fields { gap: 24px 18px; }
+  .hydraulic-rfq .button { width: 100%; }
+  .hydraulic-rfq__fields dt { font-size: 16px; }
+  #processo, #componentes, #aplicacoes, #orcamento { scroll-margin-top: 65px; }
+}
+@media (prefers-reduced-motion: reduce) { .hydraulic-service-card__image img { transition: none; } }

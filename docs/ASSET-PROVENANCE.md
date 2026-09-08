@@ -137,3 +137,31 @@ As fotos específicas de roda-guia, rosário e medição têm fonte disponível 
 # Reuso na ampliação por equipamento e território — 08/09/2026
 
 As novas páginas reaproveitam somente imagens já registradas neste documento: `equipe-{640,1200}.webp` (escavadeiras e Minas Gerais; proporção 1200×675), `material-rodante-{640,1200}.webp` (tratores de esteira; 1200×675) e `concha-patio-{640,1200}.webp` (pás carregadeiras; 1200×612). Mantidos `width`, `height`, `alt`, `srcset` e `sizes`, sem geração, alteração raster ou ampliação artificial. As fotos ilustram ativos e contexto próprios; não são prova de execução ou bancada hidráulica, atendimento municipal ou compatibilidade por modelo.
+
+## Derivados documentais para HidrauTractor — 08/09/2026
+
+O proprietário autorizou explicitamente, nesta tarefa, o uso de fotos presentes
+na pasta `Midia` para o site. Foram selecionados dois frames dos arquivos de
+captação de câmera originais, sem uso de `imagine-stills`, geração de imagem,
+texto queimado, recorte ou tratamento artístico. A única derivação foi a
+extração do frame em `00:01.20` e a conversão WebP nas duas larguras abaixo,
+preservando a proporção 16:9. Os vídeos e arquivos originais não foram
+alterados.
+
+| Uso editorial | Original de captação | Saídas públicas | Fato visível e legenda segura |
+|---|---|---|---|
+| Recuperação, como contexto documental | `Midia/TARDE/C3757.MP4` — `/home/willian/Projects/company_standard/New_tractor/Midia/TARDE/C3757.MP4` | `hidrau-recuperacao-640.webp` (640 × 360) e `hidrau-recuperacao-1280.webp` (1280 × 720) | Operador com proteção ocular junto a uma máquina e componente metálico cilíndrico em dispositivo. Legenda: “Componente cilíndrico em avaliação”. O enquadramento não identifica com segurança o componente como cilindro hidráulico nem comprova uma etapa de recuperação. |
+| Fabricação, como contexto de usinagem | `Midia/TARDE/TARDE-20260310T184028Z-1-001/TARDE/C3817.MP4` — `/home/willian/Projects/company_standard/New_tractor/Midia/TARDE/TARDE-20260310T184028Z-1-001/TARDE/C3817.MP4` | `hidrau-fabricacao-640.webp` (640 × 360) e `hidrau-fabricacao-1280.webp` (1280 × 720) | Peça cilíndrica presa em torno, com ferramenta e fluido visíveis. Legenda: “Peça cilíndrica em torno”. A imagem não prova material, medida, tolerância ou que a peça seja um cilindro hidráulico específico. |
+
+Os quatro WebPs foram derivados diretamente desses dois arquivos HEVC de
+3840 × 2160 (16:9), sem ampliação artificial, e tiveram inspeção visual após a
+conversão. Há pessoa, sinalização de segurança e marcação desgastada de
+máquina no acervo; nenhum conteúdo foi removido. Data de captação, autoria,
+unidade e termos de uso de imagem não estão identificados neste registro. A
+autorização desta tarefa cobre o uso no site, mas não substitui o arquivamento
+dessas informações e das permissões de pessoas e marcas antes do corte do
+domínio, conforme a regra geral deste documento.
+
+Esses stills são derivados independentes para a frente hidráulica. Os assets de
+filme `film-hidrautractor-*` preexistentes permanecem inalterados e não devem
+ser tratados como os mesmos arquivos nem como fonte desses WebPs.
