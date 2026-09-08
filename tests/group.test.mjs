@@ -1,3 +1,4 @@
+import { readSitemapUrls } from "./helpers/sitemap.mjs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile, stat } from "node:fs/promises";
@@ -38,7 +39,7 @@ test("a home apresenta as sete frentes, a rota de parcerias e a descoberta canô
   assert.match(home, /<h1>[\s\S]*?<\/h1>/);
   assert.match(home, /Conhecimento industrial|Força em conjunto|grupo industrial/i);
   const index = home.match(/<section class="section group-companies"[\s\S]*?<\/section>/)[0];
-  const sitemap = await read("sitemap.xml");
+  const sitemap = await readSitemapUrls();
   const parcerias = await read("parcerias/index.html");
   assert.equal((index.match(/class="company-card"/g) || []).length, companies.length);
   assert.equal((index.match(/class="company-card__image"/g) || []).length, companies.length);

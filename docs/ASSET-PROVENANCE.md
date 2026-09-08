@@ -117,3 +117,18 @@ Toda foto nova deve registrar data, unidade, autoria, autorização de pessoas e
 marcas visíveis. Documentos, placas, telas, números de série e marcas de cliente
 devem ser removidos ou autorizados antes da publicação. Não encenar trabalho
 inseguro para fotografia.
+
+
+## Reuso nos componentes — 08/09/2026
+
+Nenhuma mídia nova foi criada ou importada. As páginas de componentes reutilizam imagens públicas já tratadas neste projeto e empregadas no site anterior desta branch:
+
+| Rota | Asset reutilizado | Dimensões declaradas |
+|---|---|---|
+| `/componentes/` | `material-rodante-640.webp`, `material-rodante-1200.webp` | referência 1200 × 675 |
+| `/componentes/rodas-guia/` | `roda-guia-640.webp` | 640 × 427 |
+| `/componentes/roletes-de-esteira/` | `medicao-rolete-640.webp` | 640 × 427 |
+| `/componentes/correntes-sapatas-esteiras/` | `rosario-640.webp` | 640 × 427 |
+| `/guias/folgas-pinos-buchas-alojamentos/` | `medicao-rolete-640.webp` | 640 × 427 |
+
+A foto de medição é identificada pelo componente mostrado, sem tratá-la como um case de articulação ou de pinos/buchas. `pageHero` usa o helper de imagem com srcset, sizes, width, height e alt. Origem e condições de uso seguem o registro prévio dos assets públicos.

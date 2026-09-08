@@ -1,0 +1,2740 @@
+[
+  {
+    "group": "rodantes",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "material rodante",
+        "recuperação de roletes",
+        "corrente de esteira"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:09.106Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "material rodante escavadeira",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 2.31,
+          "sd": 8,
+          "pd": 40,
+          "competition": 0.4
+        },
+        {
+          "keyword": "material rodante trator de esteira",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 1.09,
+          "sd": 17,
+          "pd": 38,
+          "competition": 0.38
+        },
+        {
+          "keyword": "material rodante caterpillar",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.845,
+          "sd": 21,
+          "pd": 26,
+          "competition": 0.26
+        },
+        {
+          "keyword": "lopes material rodante",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 17,
+          "pd": 10,
+          "competition": 0.1
+        },
+        {
+          "keyword": "o que é material rodante",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "material rodante itm",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.605,
+          "sd": 21,
+          "pd": 24,
+          "competition": 0.24
+        },
+        {
+          "keyword": "material rodante ferroviário",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 21,
+          "pd": 24,
+          "competition": 0.24
+        },
+        {
+          "keyword": "material rodante colhedora de cana",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.645,
+          "sd": 13,
+          "pd": 26,
+          "competition": 0.26
+        },
+        {
+          "keyword": "material rodante komatsu",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.915,
+          "sd": 22,
+          "pd": 28,
+          "competition": 0.29
+        },
+        {
+          "keyword": "peças material rodante",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "manutenção material rodante",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante usado",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para escavadeiras",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 18,
+          "pd": 43,
+          "competition": 0.43
+        },
+        {
+          "keyword": "material rodante renfe",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante auxiliar",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante metro",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "tecnico material rodante ferroviario",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "berco material rodante brasil",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.94,
+          "sd": 20,
+          "pd": 49,
+          "competition": 0.49
+        },
+        {
+          "keyword": "material rodante berco",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.72,
+          "sd": 24,
+          "pd": 36,
+          "competition": 0.36
+        },
+        {
+          "keyword": "material rodante ferroviario argentino",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante escavadeira hyundai",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 31,
+          "pd": 86,
+          "competition": 0.86
+        },
+        {
+          "keyword": "mantenimiento de material rodante ferroviario",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante pdf",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 15,
+          "pd": 5,
+          "competition": 0.05
+        },
+        {
+          "keyword": "material rodante escavadeira volvo",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "curso material rodante",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para escavadeiras hidráulicas hyundai",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante escavadeira caterpillar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para motoniveladoras hyundai",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante metro de santiago",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "bonança material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "if material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mr material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante concerto",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante hs",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "roda motriz de material rodante para tratores komatsu",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "roda motriz de material rodante para tratores hyundai",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para escavadeiras hidráulicas case",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "sbase adquisición de material rodante para la línea b",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "que es material rodante auxiliar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "manutenção de material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para motoniveladoras case",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "kit de medicao material rodante pn 0001 itr tool",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante del subte de buenos aires",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "corrente de esteira para tratores de esteira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante adif",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante new holland",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "roda motriz de material rodante para tratores new holland",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante metro bilbao",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para escavadeira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "lopes material rodante ribeirão preto",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante metro paris",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para tratores volvo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante linea urquiza",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para tratores de esteira new holland",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante em são paulo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "corrente de esteira para motoniveladoras",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mantenimiento material rodante ferroviario pdf",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para retroescavadeiras caterpillar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "ope material rodante ferroviario",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante linea roca",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante d6",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante metro santiago",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "fp material rodante ferroviario a distancia",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante cercanias",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "eth material rodante auxiliar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "fenix material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante renfe pdf",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "registro material rodante adif",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante tren maya",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante ferroviario curso",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante especial adif",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante para retroescavadeiras hyundai",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante do d50",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante supervia",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "material rodante argentino",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 278,
+      "nextKey": 114,
+      "searched_keywords": [
+        {
+          "keyword": "material rodante",
+          "search_intent": "Transactional",
+          "volume": 320,
+          "cpc": 1.05,
+          "sd": 10,
+          "pd": 15,
+          "competition": 0.15
+        },
+        {
+          "keyword": "recuperação de roletes",
+          "search_intent": null
+        },
+        {
+          "keyword": "corrente de esteira",
+          "search_intent": "Transactional",
+          "volume": 170,
+          "cpc": 0.95,
+          "sd": 9,
+          "pd": 45,
+          "competition": 0.45
+        }
+      ]
+    }
+  },
+  {
+    "group": "hidraulica",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindro hidráulico",
+        "reparo cilindro hidráulico",
+        "vazamento cilindro hidráulico"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:23.014Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "cilindro hidráulico dupla ação",
+          "search_intent": "Transactional",
+          "volume": 390,
+          "cpc": 0.36,
+          "sd": 8,
+          "pd": 99,
+          "competition": 0.99
+        },
+        {
+          "keyword": "cilindro hidráulico de dupla ação",
+          "search_intent": "Transactional",
+          "volume": 210,
+          "cpc": 0.2,
+          "sd": 8,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico para macaco jacaré",
+          "search_intent": "Transactional",
+          "volume": 210,
+          "cpc": 0.16,
+          "sd": 13,
+          "pd": 18,
+          "competition": 0.18
+        },
+        {
+          "keyword": "cilindro hidráulico pequeno",
+          "search_intent": "Commercial",
+          "volume": 170,
+          "cpc": 0.16,
+          "sd": 23,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico simples ação",
+          "search_intent": "Informational",
+          "volume": 170,
+          "cpc": 0.41,
+          "sd": 9,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico para prensa",
+          "search_intent": "Commercial",
+          "volume": 170,
+          "cpc": 0.2,
+          "sd": 7,
+          "pd": 93,
+          "competition": 0.93
+        },
+        {
+          "keyword": "partes de um cilindro hidráulico",
+          "search_intent": "Informational",
+          "volume": 140,
+          "cpc": 0.17,
+          "sd": 7,
+          "pd": 9,
+          "competition": 0.09
+        },
+        {
+          "keyword": "cilindro hidráulico para caçamba basculante",
+          "search_intent": null,
+          "volume": 140,
+          "cpc": 0.245,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão cilindro hidráulico",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.35,
+          "sd": 8,
+          "pd": 99,
+          "competition": 0.99
+        },
+        {
+          "keyword": "cilindro hidráulico 2 toneladas",
+          "search_intent": null,
+          "volume": 110,
+          "cpc": 0.265,
+          "sd": 32,
+          "pd": 88,
+          "competition": 0.88
+        },
+        {
+          "keyword": "cilindro hidráulico escavadeira",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 1.065,
+          "sd": 17,
+          "pd": 10,
+          "competition": 0.1
+        },
+        {
+          "keyword": "reparo de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.97,
+          "sd": 24,
+          "pd": 61,
+          "competition": 0.61
+        },
+        {
+          "keyword": "haste cromada para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.765,
+          "sd": 28,
+          "pd": 76,
+          "competition": 0.76
+        },
+        {
+          "keyword": "cilindro hidráulico vazado",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.29,
+          "sd": 44,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico industrial",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.53,
+          "sd": 36,
+          "pd": 76,
+          "competition": 0.76
+        },
+        {
+          "keyword": "cilindro hidráulico para girafa",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.16,
+          "sd": 18,
+          "pd": 42,
+          "competition": 0.42
+        },
+        {
+          "keyword": "cilindro hidráulico telescópico",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.435,
+          "sd": 33,
+          "pd": 66,
+          "competition": 0.66
+        },
+        {
+          "keyword": "cilindro hidráulico 50 toneladas",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.59,
+          "sd": 34,
+          "pd": 95,
+          "competition": 0.95
+        },
+        {
+          "keyword": "cilindro hidráulico para plataforma guincho",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.38,
+          "sd": 30,
+          "pd": 82,
+          "competition": 0.82
+        },
+        {
+          "keyword": "cilindro hidráulico 1 metro",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.28,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico 20 toneladas",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.41,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "kit de vedação para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.435,
+          "sd": 32,
+          "pd": 87,
+          "competition": 0.87
+        },
+        {
+          "keyword": "cilindro hidráulico 10 toneladas",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.405,
+          "sd": 35,
+          "pd": 98,
+          "competition": 0.98
+        },
+        {
+          "keyword": "cilindro hidráulico usado",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.24,
+          "sd": 40,
+          "pd": 89,
+          "competition": 0.89
+        },
+        {
+          "keyword": "manutenção cilindro hidráulico",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.755,
+          "sd": 24,
+          "pd": 35,
+          "competition": 0.35
+        },
+        {
+          "keyword": "ferramenta para abrir cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.17,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "reparar cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.575,
+          "sd": 40,
+          "pd": 87,
+          "competition": 0.87
+        },
+        {
+          "keyword": "haste para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 1.005,
+          "sd": 23,
+          "pd": 59,
+          "competition": 0.59
+        },
+        {
+          "keyword": "cilindro hidráulico caçamba basculante",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.61,
+          "sd": 20,
+          "pd": 49,
+          "competition": 0.49
+        },
+        {
+          "keyword": "conserto de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.765,
+          "sd": 23,
+          "pd": 56,
+          "competition": 0.57
+        },
+        {
+          "keyword": "tubo para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.525,
+          "sd": 21,
+          "pd": 50,
+          "competition": 0.5
+        },
+        {
+          "keyword": "cilindro hidráulico enerpac",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.665,
+          "sd": 44,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "haste de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.84,
+          "sd": 22,
+          "pd": 54,
+          "competition": 0.54
+        },
+        {
+          "keyword": "cilindro hidráulico dupla ação catálogo",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.295,
+          "sd": 30,
+          "pd": 83,
+          "competition": 0.83
+        },
+        {
+          "keyword": "fita guia para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.255,
+          "sd": 23,
+          "pd": 59,
+          "competition": 0.59
+        },
+        {
+          "keyword": "brunidora de cilindro hidráulico usada",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.12,
+          "sd": 13,
+          "pd": 25,
+          "competition": 0.25
+        },
+        {
+          "keyword": "cilindro hidráulico para carreta agrícola",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.225,
+          "sd": 27,
+          "pd": 72,
+          "competition": 0.72
+        },
+        {
+          "keyword": "cilindro hidráulico haste vazada",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.395,
+          "sd": 21,
+          "pd": 50,
+          "competition": 0.5
+        },
+        {
+          "keyword": "cilindro hidráulico manual",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0,
+          "sd": 33,
+          "pd": 65,
+          "competition": 0.65
+        },
+        {
+          "keyword": "cilindro hidráulico não retorna",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0,
+          "sd": 9,
+          "pd": 11,
+          "competition": 0.11
+        },
+        {
+          "keyword": "cilindro hidráulico 30 toneladas",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.495,
+          "sd": 34,
+          "pd": 94,
+          "competition": 0.94
+        },
+        {
+          "keyword": "cilindro hidráulico hyva",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.525,
+          "sd": 22,
+          "pd": 28,
+          "competition": 0.28
+        },
+        {
+          "keyword": "cilindro hidráulico catálogo",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.4,
+          "sd": 24,
+          "pd": 36,
+          "competition": 0.36
+        },
+        {
+          "keyword": "cilindro hidráulico para rampa de moto",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.28,
+          "sd": 26,
+          "pd": 69,
+          "competition": 0.69
+        },
+        {
+          "keyword": "cilindro hidráulico para girafas até 2 ton",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.33,
+          "sd": 35,
+          "pd": 98,
+          "competition": 0.98
+        },
+        {
+          "keyword": "cilindro hidráulico telescópico 3 etapas",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.35,
+          "sd": 16,
+          "pd": 35,
+          "competition": 0.35
+        },
+        {
+          "keyword": "cilindro hidráulico telescópico dupla ação",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.305,
+          "sd": 34,
+          "pd": 94,
+          "competition": 0.94
+        },
+        {
+          "keyword": "cilindro hidráulico basculante",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 23,
+          "pd": 31,
+          "competition": 0.31
+        },
+        {
+          "keyword": "como funciona um cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "tipos de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 15,
+          "pd": 32,
+          "competition": 0.32
+        },
+        {
+          "keyword": "cilindro hidráulico 5 toneladas",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.31,
+          "sd": 34,
+          "pd": 94,
+          "competition": 0.94
+        },
+        {
+          "keyword": "cilindro hidráulico retroescavadeira case",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.205,
+          "sd": 26,
+          "pd": 68,
+          "competition": 0.68
+        },
+        {
+          "keyword": "cilindro hidráulico trator",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 42,
+          "pd": 95,
+          "competition": 0.95
+        },
+        {
+          "keyword": "cilindro hidráulico parker",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 1.25,
+          "sd": 38,
+          "pd": 81,
+          "competition": 0.81
+        },
+        {
+          "keyword": "cilindro hidráulico 3 toneladas",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.365,
+          "sd": 31,
+          "pd": 86,
+          "competition": 0.86
+        },
+        {
+          "keyword": "cilindro hidráulico rexroth",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 1.67,
+          "sd": 28,
+          "pd": 48,
+          "competition": 0.48
+        },
+        {
+          "keyword": "cilindro hidráulico retroescavadeira",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.24,
+          "sd": 34,
+          "pd": 68,
+          "competition": 0.68
+        },
+        {
+          "keyword": "reparo para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 1.13,
+          "sd": 31,
+          "pd": 86,
+          "competition": 0.86
+        },
+        {
+          "keyword": "anel de segmento para cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.405,
+          "sd": 21,
+          "pd": 52,
+          "competition": 0.52
+        },
+        {
+          "keyword": "vedação de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.42,
+          "sd": 24,
+          "pd": 62,
+          "competition": 0.62
+        },
+        {
+          "keyword": "cilindro hidráulico para tronco de boi",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.315,
+          "sd": 10,
+          "pd": 14,
+          "competition": 0.14
+        },
+        {
+          "keyword": "camisa de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.55,
+          "sd": 13,
+          "pd": 25,
+          "competition": 0.25
+        },
+        {
+          "keyword": "cilindro hidráulico agrícola",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.29,
+          "sd": 40,
+          "pd": 89,
+          "competition": 0.89
+        },
+        {
+          "keyword": "cilindro hidráulico massey ferguson",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.38,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico para carreta agricola",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.285,
+          "sd": 29,
+          "pd": 77,
+          "competition": 0.77
+        },
+        {
+          "keyword": "cilindro hidráulico como funciona",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "embolo de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 11,
+          "pd": 17,
+          "competition": 0.17
+        },
+        {
+          "keyword": "como desmontar cilindro hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "cálculo força cilindro hidráulico online",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "cilindro hidráulico 10t",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.49,
+          "sd": 35,
+          "pd": 73,
+          "competition": 0.73
+        },
+        {
+          "keyword": "cilindro hidráulico para prensa 30 toneladas",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.36,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico ncm",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "como fazer um cilindro hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "cilindro hidráulico de simples ação",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.235,
+          "sd": 25,
+          "pd": 65,
+          "competition": 0.65
+        },
+        {
+          "keyword": "cilindro hidráulico dupla ação preço",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.355,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico 100 toneladas",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.425,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "embolo cilindro hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 26,
+          "pd": 40,
+          "competition": 0.4
+        },
+        {
+          "keyword": "cilindro hidráulico usado à venda",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.365,
+          "sd": 34,
+          "pd": 95,
+          "competition": 0.95
+        },
+        {
+          "keyword": "cilindro hidráulico para prensa de 15 toneladas",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.265,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico compacto",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.375,
+          "sd": 44,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "cilindro hidráulico lento",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "camisa do cilindro hidráulico",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.43,
+          "sd": 12,
+          "pd": 22,
+          "competition": 0.22
+        },
+        {
+          "keyword": "cilindro hidráulico 1 tonelada",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.345,
+          "sd": 28,
+          "pd": 76,
+          "competition": 0.76
+        },
+        {
+          "keyword": "como recuperar cilindro hidráulico",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 10,
+          "pd": 14,
+          "competition": 0.14
+        },
+        {
+          "keyword": "como fazer um cilindro hidráulico com amortecedor",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "cilindro hidráulico baixa pressão",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "como desarmar un cilindro hidráulico telescópico",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "o que é cilindro hidráulico",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 429,
+      "nextKey": 114,
+      "searched_keywords": [
+        {
+          "keyword": "cilindro hidráulico",
+          "search_intent": "Transactional",
+          "volume": 4400,
+          "cpc": 0.39,
+          "sd": 9,
+          "pd": 83,
+          "competition": 0.83
+        },
+        {
+          "keyword": "reparo cilindro hidráulico",
+          "search_intent": null
+        },
+        {
+          "keyword": "vazamento cilindro hidráulico",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "group": "usinagem",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "mandrilhamento",
+        "recuperação de alojamento",
+        "usinagem pesada"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:25.540Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "o que é mandrilhamento",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mandrilhamento de cabeçote",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.355,
+          "sd": 16,
+          "pd": 9,
+          "competition": 0.09
+        },
+        {
+          "keyword": "mandrilamento ou mandrilhamento",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mandrilhamento de campo",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.235,
+          "sd": 19,
+          "pd": 18,
+          "competition": 0.18
+        },
+        {
+          "keyword": "mandrilhamento ou mandrilamento",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mandrilhamento de tubos",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0,
+          "sd": 16,
+          "pd": 8,
+          "competition": 0.08
+        },
+        {
+          "keyword": "usinagem pesada em piracicaba",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.575,
+          "sd": 29,
+          "pd": 79,
+          "competition": 0.79
+        },
+        {
+          "keyword": "usinagem pesada campinas",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.575,
+          "sd": 41,
+          "pd": 92,
+          "competition": 0.92
+        },
+        {
+          "keyword": "mandrilhamento de mancal",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 14,
+          "pd": 3,
+          "competition": 0.03
+        },
+        {
+          "keyword": "serviço de usinagem pesada",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 36,
+          "competition": 0.36
+        },
+        {
+          "keyword": "usinagem pesada torno vertical",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.6,
+          "sd": 31,
+          "pd": 86,
+          "competition": 0.86
+        },
+        {
+          "keyword": "usinagem pesada em minas gerais",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 21,
+          "pd": 50,
+          "competition": 0.5
+        },
+        {
+          "keyword": "usinagem pesada em sp",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 86,
+          "competition": 0.86
+        },
+        {
+          "keyword": "usinagem pesada sorocaba",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 25,
+          "pd": 37,
+          "competition": 0.37
+        },
+        {
+          "keyword": "menphis usinagem pesada ltda",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "unitech usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "empresas de usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "ferramentas para usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mandrilhamento em campo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "indústria de usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem pesada no abc",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem pesada caxias do sul",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem pesada em santo andré",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "unitech usinagem pesada ltda",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "máquina de usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "insertos para usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem pesada em são paulo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria e usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem pesada em joinville",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "oleo integral para usinagem pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 30,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "mandrilhamento",
+          "search_intent": null,
+          "volume": 480,
+          "cpc": 0.76,
+          "sd": 32,
+          "pd": 1,
+          "competition": 0.01
+        },
+        {
+          "keyword": "recuperação de alojamento",
+          "search_intent": null
+        },
+        {
+          "keyword": "usinagem pesada",
+          "search_intent": "Informational",
+          "volume": 170,
+          "cpc": 1.01,
+          "sd": 5,
+          "pd": 32,
+          "competition": 0.32
+        }
+      ]
+    }
+  },
+  {
+    "group": "calderaria",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "reforma de caçamba escavadeira",
+        "reforma de concha carregadeira",
+        "caldeiraria pesada"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:23.855Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "mettalica caldeiraria pesada cda",
+          "search_intent": "Transactional",
+          "volume": 170,
+          "cpc": 0,
+          "sd": 16,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada ltda",
+          "search_intent": null,
+          "volume": 110,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "caldeiraria pesada em guarulhos",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada rio de janeiro",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada sorocaba",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.255,
+          "sd": 26,
+          "pd": 41,
+          "competition": 0.41
+        },
+        {
+          "keyword": "caldeiraria pesada em minas gerais",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.49,
+          "sd": 24,
+          "pd": 60,
+          "competition": 0.6
+        },
+        {
+          "keyword": "caldeiraria pesada santa catarina",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada sp",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 13,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "o que é caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada no parana",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "cnae caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "fabricação de caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "empresa de caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada e leve",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "serviço de caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "o que significa o termo caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em piracicaba",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada ou leve",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "bonfim caldeiraria pesada ltda",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em santa catarina",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada cda cnpj",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em sao paulo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "o que significa caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "serviços de caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pirasolda calandragem e caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "usinagem caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em são paulo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada cnpj",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em goias",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada ltda cnpj",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "mettalica caldeiraria pesada cda fotos",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "imagens de mettalica caldeiraria pesada ltda",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em campinas",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "industria caldeiraria pesada",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada na bahia",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "caldeiraria pesada em ingles",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 37,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "reforma de caçamba escavadeira",
+          "search_intent": null
+        },
+        {
+          "keyword": "reforma de concha carregadeira",
+          "search_intent": null
+        },
+        {
+          "keyword": "caldeiraria pesada",
+          "search_intent": "Transactional",
+          "volume": 320,
+          "cpc": 2.37,
+          "sd": 7,
+          "pd": 24,
+          "competition": 0.24
+        }
+      ]
+    }
+  },
+  {
+    "group": "parts",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "peças para escavadeira",
+        "peças para trator de esteira",
+        "pinos e buchas"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:26.477Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "peças para trator de esteira ad7b",
+          "search_intent": "Transactional",
+          "volume": 210,
+          "cpc": 0.41,
+          "sd": 5,
+          "pd": 2,
+          "competition": 0.02
+        },
+        {
+          "keyword": "peças para escavadeira hyundai",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 1.185,
+          "sd": 25,
+          "pd": 65,
+          "competition": 0.65
+        },
+        {
+          "keyword": "peças para escavadeira volvo",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 1.06,
+          "sd": 29,
+          "pd": 78,
+          "competition": 0.78
+        },
+        {
+          "keyword": "pinos e buchas para escavadeiras",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.65,
+          "sd": 32,
+          "pd": 88,
+          "competition": 0.88
+        },
+        {
+          "keyword": "peças para escavadeira komatsu",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 1.045,
+          "sd": 27,
+          "pd": 71,
+          "competition": 0.71
+        },
+        {
+          "keyword": "peças para escavadeira new holland",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.745,
+          "sd": 27,
+          "pd": 70,
+          "competition": 0.7
+        },
+        {
+          "keyword": "pinos e buchas para tratores",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para trator de esteira em goiania",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "peças para trator de esteira mf 400",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.55,
+          "sd": 28,
+          "pd": 76,
+          "competition": 0.76
+        },
+        {
+          "keyword": "fabricante de pinos e buchas para tratores",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "fabricante de pinos e buchas",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para escavadeira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira em goiânia",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira liugong",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas biza",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas escavadeira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira hitachi",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para tratores case",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para tratores volvo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para tratores hyundai",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "manutenção de peças para escavadeira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira perto de mim",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 16,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para tratores new holland",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para trator de esteira caterpillar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pinos e buchas para tratores komatsu",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira link-belt",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira volvo 140",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para trator de esteira komatsu",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira hyundai em belo horizonte",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para trator de esteira em goiânia",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para trator de esteira john deere",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "peças para escavadeira em curitiba",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 32,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "peças para escavadeira",
+          "search_intent": "Commercial",
+          "volume": 210,
+          "cpc": 1.32,
+          "sd": 8,
+          "pd": 67,
+          "competition": 0.67
+        },
+        {
+          "keyword": "peças para trator de esteira",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.505,
+          "sd": 18,
+          "pd": 43,
+          "competition": 0.43
+        },
+        {
+          "keyword": "pinos e buchas",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.13,
+          "sd": 8,
+          "pd": 65,
+          "competition": 0.65
+        }
+      ]
+    }
+  },
+  {
+    "group": "services",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "manutenção máquinas pesadas",
+        "manutenção escavadeira",
+        "medição de material rodante"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:24.721Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "plano de manutenção escavadeira hidráulica",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 8,
+          "pd": 8,
+          "competition": 0.08
+        },
+        {
+          "keyword": "manutenção escavadeira hidraulica",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 41,
+          "pd": 93,
+          "competition": 0.93
+        },
+        {
+          "keyword": "manual de operação e manutenção escavadeira caterpillar pdf",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 7,
+          "pd": 4,
+          "competition": 0.04
+        },
+        {
+          "keyword": "gestão manutenção máquinas pesadas",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "kit de ferramentas para medição de material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "manutenção máquinas pesadas em campo",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 6,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "manutenção máquinas pesadas",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "manutenção escavadeira",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 22,
+          "pd": 10,
+          "competition": 0.1
+        },
+        {
+          "keyword": "medição de material rodante",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 6,
+          "pd": 1,
+          "competition": 0.01
+        }
+      ]
+    }
+  },
+  {
+    "group": "techtractor",
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "inspeção máquinas pesadas",
+        "controle de desgaste",
+        "monitoramento material rodante"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T08:15:27.401Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "inspeção máquinas pesadas",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "controle de desgaste",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "monitoramento material rodante",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        }
+      ]
+    }
+  }
+]

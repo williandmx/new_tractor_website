@@ -1,3 +1,4 @@
+import { readSitemapUrls } from "./helpers/sitemap.mjs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile, readdir, stat } from "node:fs/promises";
@@ -148,8 +149,8 @@ test("robots, sitemap e llms mantêm as mesmas URLs canônicas indexáveis", asy
   assert.match(robots, /^User-agent: \*\nAllow: \/$/m);
   assert.match(robots, /Sitemap: https:\/\/newtractor\.com\.br\/sitemap\.xml/);
 
-  const sitemap = await read("sitemap.xml");
-  const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  const locations = await readSitemapUrls();
+  assert.deepEqual(new Set(locations), new Set(pages.filter(page => page.indexable !== false).map(page => site.origin + page.route)));
   assert.equal(locations.length, pages.filter((page) => page.indexable !== false).length);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => url.startsWith("https://newtractor.com.br/")));
@@ -302,7 +303,7 @@ test("Pessoas tem filme sob demanda, texto equivalente e descoberta", async () =
   const graph = JSON.parse(people.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
   assert.ok(graph.some((entry) => entry["@type"] === "BreadcrumbList"));
   assert.ok(graph.some((entry) => entry["@type"] === "LocalBusiness"));
-  assert.match(await read("sitemap.xml"), /https:\/\/newtractor\.com\.br\/pessoas\//);
+  assert.ok((await readSitemapUrls()).includes(`${site.origin}/pessoas/`));
 });
 
 test("o pacote de migração preserva os cinco destinos canônicos e permanece desativado", async () => {
@@ -331,7 +332,7 @@ test("o pacote de migração preserva os cinco destinos canônicos e permanece d
     assert.equal(rule.action_parameters.from_value.preserve_query_string, false);
     const canonical = `https://newtractor.com.br${destination}`;
     assert.equal(rule.action_parameters.from_value.target_url.value, canonical);
-    assert.ok((await read("sitemap.xml")).includes(`<loc>${canonical}</loc>`), `${query}: destino indexável no sitemap`);
+    assert.ok((await readSitemapUrls()).includes(canonical), `${query}: destino indexável no sitemap`);
     await access(join(dist, destination.slice(1), "index.html"));
     assert.ok(urlMap.includes(`\`/?${query}\` | \`${destination}\``), `${query}: mapa de URLs coerente`);
   }

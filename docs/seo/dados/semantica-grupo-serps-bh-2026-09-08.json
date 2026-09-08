@@ -1,0 +1,1034 @@
+[
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "material rodante escavadeira",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:16:30.495Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://loja.itrsa.com.br/material-rodante/",
+          "title": "Material Rodante",
+          "domain": "loja.itrsa.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 18,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 1,
+          "type": "ai_overview"
+        },
+        {
+          "url": "http://loja.dispetral.com.br/material-rodante",
+          "title": "Material rodante",
+          "domain": "loja.dispetral.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://google.com/search?fir=8evfqO59sKlxlM%2CiaMZE8odlW7OwM%2C_%3Bsf21KHYW74qcSM%2CnWelUKOqSAbSmM%2C_%3BLvzRtn1hAfeC3M%2CtD_10PODG2SoCM%2C_%3BBv6JtN--9jmnzM%2Cu21OxmGqFjKDMM%2C_%3BdH8VyIRA7HEIhM%2C_agpQsoogEifiM%2C_%3BGmd_G7NaOw3sKM%2C40MtZMOrdTd5uM%2C_%3BPGtGFEdtiwe3FM%2C7StoS7ap71HdmM%2C_%3BeYSWxugd56Ph_M%2CbLUysOKgSwH2pM%2C_&gl=BR&hl=pt&q=material rodante escavadeira&sa=X&sca_esv=72bd004672494965&source=univ&udm=2&usg=AI4_-kSuH2V17qLySi4TNmIf3qx8-cLBhw&ved=2ahUKEwixwunLxd6WAxVJUqQEHQYNBmEQ7Al6BAgmEAU",
+          "title": "Imagens",
+          "domain": "google.com",
+          "position": 2,
+          "type": "images"
+        },
+        {
+          "url": "http://lista.mercadolivre.com.br/material-rodante-escavadeira",
+          "title": "Material Rodante Escavadeira",
+          "domain": "lista.mercadolivre.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 93,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=Cu_nHetHX3w",
+          "title": "Atualize o material rodante de sua escavadeira com o Elo ...",
+          "domain": "youtube.com",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 100,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.minusa.com.br/material-rodante-para-tratores-e-maquinas-pesadas",
+          "title": "MATERIAL RODANTE PARA TRATORES E MÁQUINAS ...",
+          "domain": "minusa.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 29,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://grupohidrautorque.com.br/escavadeira-7295-material-rodante/",
+          "title": "Material Rodante - 7295 - Grupo Hidrau Torque | Peças para ...",
+          "domain": "grupohidrautorque.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 3,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.grupoht.com.br/material-rodante/",
+          "title": "Material Rodante | GHT maquinas pequena, médio e ...",
+          "domain": "grupoht.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 25,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.scribd.com/presentation/623591856/Material-Rodante",
+          "title": "Material Rodante para Escavadeiras | PDF | Negócios",
+          "domain": "scribd.com",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://blog.rech.com/material-rodante-conheca-tudo-sobre-essa-parte-do-maquinario/",
+          "title": "Material rodante: conheça tudo sobre essa parte do ...",
+          "domain": "blog.rech.com",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 28,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 9,
+          "type": "video"
+        },
+        {
+          "url": "http://www.jrlmaquinas.com.br/material-rodante",
+          "title": "Material rodante - jrl peças para máquinas",
+          "domain": "jrlmaquinas.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 12,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "material rodante escavadeira",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "recuperação de roletes",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:16:57.441Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://tratorvias.com.br/index-6.html",
+          "title": "Serviços",
+          "domain": "tratorvias.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 1,
+          "type": "ai_overview"
+        },
+        {
+          "url": "http://newtractor.com.br/?p=13",
+          "title": "MANUTENÇÃO DE MATERIAL RODANTE",
+          "domain": "newtractor.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://instagram.com/p/DVjBhXmiGl6/",
+          "title": "A recuperação de roletes industriais é uma solução ...",
+          "domain": "instagram.com",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "video"
+        },
+        {
+          "url": "http://impermatech.com.br/189-projeto-recuperacao-dos-roletes-de-plataformas-para-soja-draper",
+          "title": "Recuperação dos roletes de plataformas para soja DRAPER em",
+          "domain": "impermatech.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://cmrtratores.com.br/servicos/",
+          "title": "Serviços",
+          "domain": "cmrtratores.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 13,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://facebook.com/tratormaqassistenciatecnicaetornearia/videos/nem-sempre-a-melhor-solu%C3%A7%C3%A3o-%C3%A9-substituir-a-pe%C3%A7aa-recupera%C3%A7%C3%A3o-de-roletes-pode-aum/1047210651056853/",
+          "title": "Tratormaq Assistência Técnica e Tornearia",
+          "domain": "facebook.com",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 96,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://lopescomercio.com.br/manutencao-de-material-rodante/",
+          "title": "Manutenção de Material Rodante",
+          "domain": "lopescomercio.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 5,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://roletesrolebras.wixsite.com/rolebras",
+          "title": "roletes rolebras",
+          "domain": "roletesrolebras.wixsite.com",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 4,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": "Vídeos curtos",
+          "domain": "NODOMAIN",
+          "position": 8,
+          "type": "short_videos"
+        },
+        {
+          "url": "http://rodalink.com.br/servicos/",
+          "title": "Serviços - Rodalink – Manutenção em material rodante",
+          "domain": "rodalink.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 4,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://tiktok.com/@warle_roda_link/video/7665506379175628039",
+          "title": "Recuperação dos roletes inferiores do trator D50A",
+          "domain": "tiktok.com",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 97,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "recuperação de roletes",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "usinagem pesada em minas gerais",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:16:41.580Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://www.ohub.com.br/empresas/usinagem-pesada/mg",
+          "title": "Melhores empresas de Usinagem pesada em MG 2026",
+          "domain": "ohub.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 38,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://masterusinagem.srv.br/",
+          "title": "Master Serviços e Usinagem",
+          "domain": "masterusinagem.srv.br",
+          "position": 1,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.roscaf.com.br/usinagem-pesada",
+          "title": "Usinagem pesada",
+          "domain": "roscaf.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://betelusinagem.com.br/",
+          "title": "Betel Usinagem e Caldeiraria",
+          "domain": "betelusinagem.com.br",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://ohub.com.br/empresas/usinagem-pesada/mg/belo-horizonte",
+          "title": "Melhores empresas de Usinagem pesada em Belo Horizonte",
+          "domain": "ohub.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 38,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": "Gurgel Usinagem Mecânica",
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.gans.com.br/usinagem-pesada",
+          "title": "Usinagem Pesada",
+          "domain": "gans.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.gnacorporation.com/usinagem",
+          "title": "USINAGEM",
+          "domain": "gnacorporation.com",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 13,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://imbra.com.br/empresas-de-usinagem-e-caldeiraria/",
+          "title": "Empresas de usinagem e caldeiraria industrial",
+          "domain": "imbra.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 21,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.instagram.com/gurgelusinagem/",
+          "title": "Gurgel Usinagem Mecânica Ltda (@gurgelusinagem)",
+          "domain": "instagram.com",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.caxambu.com.br/servico-usinagem-pesada",
+          "title": "Serviço de usinagem pesada",
+          "domain": "caxambu.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 15,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 8,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://www.atusinagem.com.br/industria-de-usinagem",
+          "title": "Indústria de Usinagem: Parque CNC B2B Brasil",
+          "domain": "atusinagem.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 26,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.instagram.com/gurgelusinagem/",
+          "title": "Gurgel Usinagem Mecânica Ltda (@gurgelusinagem)",
+          "domain": "instagram.com",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "usinagem pesada em minas gerais",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "caldeiraria pesada em minas gerais",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:16:18.585Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://gdmanutencaoemontagem.com.br/caldeiraria-industrial",
+          "title": "Caldeiraria Industrial para Mineração e Pedreiras",
+          "domain": "gdmanutencaoemontagem.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 3,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://caldenas.com.br/",
+          "title": "Caldenás Caldeiraria e Soldas Especiais",
+          "domain": "caldenas.com.br",
+          "position": 1,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.ohub.com.br/empresas/caldeiraria/mg",
+          "title": "Melhores empresas de Caldeiraria em MG 2026",
+          "domain": "ohub.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 38,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://thrcaldeiraria.com/",
+          "title": "THR CALDEIRARIA",
+          "domain": "thrcaldeiraria.com",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://engeman.net/enus/caldeiraria/",
+          "title": "Caldeiraria - Engeman | Soluções Industriais",
+          "domain": "engeman.net",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 19,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://acpcaldeiraria.com.br/",
+          "title": "ACP Artefatos De Calandragem Pesada",
+          "domain": "acpcaldeiraria.com.br",
+          "position": 3,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://imbra.com.br/melhores-empresas-de-caldeiraria-em-mg/",
+          "title": "Melhores empresas de caldeiraria em MG",
+          "domain": "imbra.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 21,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://mecald.com.br/",
+          "title": "MECALD",
+          "domain": "mecald.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 5,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://geartech.ind.br/caldeiraria-industrial.html",
+          "title": "Caldeiraria Industrial em Uberlândia MG",
+          "domain": "geartech.ind.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 9,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://sesif.com.br/",
+          "title": "SESIF",
+          "domain": "sesif.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 1,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://camposcal.com.br/caldeiraria/caldeiraria/caldeiraria-inox/empresa-de-caldeiraria-leve-e-pesada-minas-gerais.322.delay",
+          "title": "Empresa de Caldeiraria Leve e Pesada Minas Gerais",
+          "domain": "camposcal.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 23,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 8,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://www.enjatec.com.br/",
+          "title": "Enjatec Fabricações e Serviços",
+          "domain": "enjatec.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 8,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.amplaestruturas.com.br/caldeiraria-em-minas-gerais",
+          "title": "Caldeiraria em minas gerais",
+          "domain": "amplaestruturas.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 30,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "caldeiraria pesada em minas gerais",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "pinos e buchas para escavadeiras",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:17:32.713Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://lista.mercadolivre.com.br/pinos-e-buchas-para-escavadeiras",
+          "title": "Pinos E Buchas Para Escavadeiras",
+          "domain": "lista.mercadolivre.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 93,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://loja.dispetral.com.br/pinos-e-buchas-embuchamento/pinos-e-buchas",
+          "title": "PINOS E BUCHAS",
+          "domain": "loja.dispetral.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 2,
+          "type": "video"
+        },
+        {
+          "url": "http://www.olitractorloja.com.br/pinos-e-buchas",
+          "title": "PINOS E BUCHAS - OLITRACTOR IMP E EXP LTDA.",
+          "domain": "olitractorloja.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 3,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://google.com/search?fir=nAkV32IinIx2eM%2C84Oz3yNSIztBNM%2C_%3BG97S_7bGRA866M%2CZeqQTlncpaUI3M%2C_%3BXzJl9p99qYkNMM%2CJzFzopKWnTtaPM%2C_%3BEHotSYckuBgDDM%2CAGkCpbwSZ9_YAM%2C_%3BZbPMAMiu-PyY4M%2CYt5F3PfqsndjnM%2C_%3Bkzabwc_EndVb5M%2CnJBUyuNjaqpAkM%2C_%3Bh8p5riB_vg5hFM%2CJzFzopKWnTtaPM%2C_%3BcZWRHPfm_FfqOM%2CKxDZyTizAhrJcM%2C_&gl=BR&hl=pt&q=pinos e buchas para escavadeiras&sa=X&sca_esv=72bd004672494965&source=univ&udm=2&usg=AI4_-kRIZR8veH7fzPF6yFU9AvGhgSvZHg&ved=2ahUKEwiOxNTlxd6WAxUrKlkFHQz4L70Q7Al6BAgXEAU",
+          "title": "Imagens",
+          "domain": "google.com",
+          "position": 3,
+          "type": "images"
+        },
+        {
+          "url": "http://berchpecas.com/4-2-pins-and-bushings/",
+          "title": "Pinos e buchas para escavadeiras | Helong",
+          "domain": "berchpecas.com",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 7,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 4,
+          "type": "ai_overview"
+        },
+        {
+          "url": "http://retratecc.com.br/paginas-de-seo/pinos-e-buchas-para-escavadeiras/",
+          "title": "PINOS E BUCHAS PARA ESCAVADEIRAS",
+          "domain": "retratecc.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 14,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.minusa.com.br/produto/pinos-e-buchas",
+          "title": "Pinos e buchas⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+          "domain": "minusa.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 29,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 6,
+          "type": "popular_products"
+        },
+        {
+          "url": "http://www.bbxtratores.com.br/pinos-e-buchas-para-escavadeiras",
+          "title": "Pinos e Buchas para Escavadeiras",
+          "domain": "bbxtratores.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 1,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.fernaodiesel.com.br/blog/artigos/pinos-e-buchas-para-tratores-tudo-que-voce-precisa-saber",
+          "title": "Pinos e Buchas para Tratores: Tudo que Você Precisa Saber",
+          "domain": "fernaodiesel.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 14,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://br1parts.commercesuite.com.br/buchas-e-pinos",
+          "title": "Buchas e Pinos - BR1 Parts",
+          "domain": "br1parts.commercesuite.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 55,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://insights.made-in-china.com/pt/How-Do-Excavator-Pins-and-Bushings-Function-to-Enhance-Machinery-Performance_hfqGvZOPhJDn.html",
+          "title": "Como os Pinos e Buchas de Escavadeiras Funcionam ...",
+          "domain": "insights.made-in-china.com",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 91,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 10,
+          "type": "people_also_ask"
+        }
+      ],
+      "newData": true,
+      "keyword": "pinos e buchas para escavadeiras",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "manutenção de máquinas pesadas belo horizonte",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T08:17:11.999Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://www.glassdoor.com.br/Vaga/belo-horizonte-mecanico-de-maquinas-pesadas-vagas-SRCH_IL.0,14_IC2514646_KO15,43.htm",
+          "title": "mecanico de maquinas pesadas, Belo Horizonte, MG",
+          "domain": "glassdoor.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 61,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://3xmaistreinamentos.com.br/",
+          "title": "Cursos de Máquinas Pesadas 3X MAIS UP Treinamentos (Belo Horizonte - MG)",
+          "domain": "3xmaistreinamentos.com.br",
+          "position": 1,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://br.indeed.com/q-de-m%C3%A1quinas-pesadas-l-belo-horizonte,-mg-vagas.html",
+          "title": "Vagas de De Máquinas Pesadas em Belo Horizonte, MG",
+          "domain": "br.indeed.com",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 91,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.jrmaquinaspesadas.com.br/",
+          "title": "JR - Máquinas Pesadas",
+          "domain": "jrmaquinaspesadas.com.br",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://br.linkedin.com/jobs/mecanico-de-maquinas-pesadas-vagas-belo-horizonte-e-regi%C3%A3o",
+          "title": "464 Mecanico De Maquinas Pesadas vagas em Belo ...",
+          "domain": "br.linkedin.com",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 99,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://wa.me/5531983603910?text=Olá! Gostaria de mais informações sobre os cursos.",
+          "title": "Minas Terra Treinamento, de Operação de máquinas pesadas",
+          "domain": "wa.me",
+          "position": 3,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://globalmaxtractor.com.br/manutencao-para-tratores-e-caminhoes-em-bh/",
+          "title": "Manutenção de Tratores BH",
+          "domain": "globalmaxtractor.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.autoeletricafiladelfia.com.br/auto-eletrica-bh/caminhoes/auto-eletrica-bh-tratores-fora-de-estrada-randon.htm",
+          "title": "Auto Elétrica de Máquinas Pesadas, Fora de Estrada e ...",
+          "domain": "autoeletricafiladelfia.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 14,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.loqmaq.com.br/transportes-e-remocao-de-maquinas-em-belo-horizonte",
+          "title": "Transportes e Remoção de Máquinas em Belo Horizonte",
+          "domain": "loqmaq.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 11,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.econodata.com.br/maiores-empresas/mg-belo-horizonte/busca-maquinas-pesadas",
+          "title": "14 Maiores Empresas de Maquinas Pesadas em Belo ...",
+          "domain": "econodata.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 52,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://silmaquinas.com.br/",
+          "title": "Silmáquinas – Aluguel de Equipamentos e Máquinas ...",
+          "domain": "silmaquinas.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 17,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://instagram.com/lealmanutencoes/",
+          "title": "Leal Manutenções (@lealmanutencoes)",
+          "domain": "instagram.com",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 9,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://www.jrmaquinaspesadas.com.br/",
+          "title": "JR - Máquinas Pesadas",
+          "domain": "jrmaquinaspesadas.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 8,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "manutenção de máquinas pesadas belo horizonte",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  }
+]

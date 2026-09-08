@@ -86,3 +86,14 @@ perguntas de compradores, manutenção e mecânicos; não criam filiais, carteir
 de clientes ou promessa de atendimento local. A matriz de evidência e aplicação
 está no [relatório de entrega](seo/entrega-main-seo-grupo-2026-09-08.md).
 DNS, Search Console e comprovação posterior de ranking não fazem parte deste aceite.
+
+
+## Ampliação semântica — 08/09/2026, segunda rodada
+
+A arquitetura passa de 33 para 38 URLs indexáveis, mantendo a 404 fora da descoberta. O hub `/servicos/` organiza seis necessidades por componente/condição e situa a base em Belo Horizonte para demandas em Minas Gerais. Os cinco setores mantêm contexto próprio; não há páginas municipais em massa.
+
+`src/component-content.mjs` acrescenta o hub `/componentes/`, três páginas com perguntas e decisões próprias (rodas-guia, roletes, correntes/rosários e sapatas) e o guia de folgas de pinos, buchas e alojamentos. As páginas de componentes usam o WebPage gerado pelo renderizador com `about: Thing`; somente o guia acrescenta Article, autoria e data.
+
+`src/discovery.mjs` atribui cada URL a uma frente editorial. `/sitemap.xml` torna-se índice de oito mapas na raiz: Rodantes, HidrauTractor, Usinagem, Calderaria, Parts, Services, TechTractor e grupo/compartilhados. O llms usa a mesma atribuição. A divisão facilita auditoria por frente e não é requisito de volume nem fator de ranking. Os testes leem os XMLs de saída e verificam cobertura, exclusividade, host, entradas completas e correspondência com páginas/llms.
+
+A coleta e o filtro editorial estão em `docs/seo/cobertura-semantica-grupo-2026-09-08.md`. O comparativo usa main `938c434`, etapa `46752a8` e esta rodada, sem avaliar qualidade contra o WordPress.
