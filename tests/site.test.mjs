@@ -236,7 +236,9 @@ test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () 
 
 test("FAQ visível e dados estruturados permanecem equivalentes", async () => {
   const html = await read("servicos/index.html");
-  const visibleQuestions = [...html.matchAll(/<details><summary>([^<]+)<\/summary>/g)].map((match) => match[1]);
+  const faqSection = html.match(/<section\b[^>]*aria-labelledby="faq-title"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(faqSection, "A seção de dúvidas deve existir no HTML inicial");
+  const visibleQuestions = [...faqSection.matchAll(/<details><summary>([^<]+)<\/summary>/g)].map((match) => match[1]);
   const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
   const graph = JSON.parse(jsonLd)["@graph"];
   const faq = graph.find((item) => item["@type"] === "FAQPage");

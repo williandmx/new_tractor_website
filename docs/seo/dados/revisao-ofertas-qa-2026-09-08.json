@@ -1,0 +1,554 @@
+{
+  "baselineMain": "5f60c8c3180ea481302c2cbb1eda629510e86458",
+  "sourceBranch": "feat/servicos-oferta-descoberta-20260908",
+  "sourceHead": "b1a80b2e2a68fee2eeb49627ab38fd2da5e577d7",
+  "npmCheck": {
+    "passed": 34,
+    "failed": 0
+  },
+  "indexableUrls": 44,
+  "sitemaps": 10,
+  "responsive": [
+    {
+      "width": 360,
+      "overflow": false,
+      "cards": [
+        {
+          "name": "Material rodante",
+          "href": "/servicos/manutencao-material-rodante/",
+          "actions": [
+            "/servicos/manutencao-material-rodante/"
+          ]
+        },
+        {
+          "name": "Cilindros hidráulicos",
+          "href": "/hidrautractor/",
+          "actions": [
+            "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+            "/hidrautractor/fabricacao-cilindros-hidraulicos/"
+          ]
+        },
+        {
+          "name": "Caldeiraria de linha amarela",
+          "href": "/calderaria/",
+          "actions": [
+            "/servicos/reforma-cacambas-conchas/"
+          ]
+        },
+        {
+          "name": "Usinagem de componentes",
+          "href": "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "actions": [
+            "/servicos/usinagem-componentes-maquinas-pesadas/"
+          ]
+        },
+        {
+          "name": "Monitoramento de rodantes",
+          "href": "/servicos/monitoramento-material-rodante/",
+          "actions": [
+            "/servicos/monitoramento-material-rodante/"
+          ]
+        },
+        {
+          "name": "Medição e avaliação em campo",
+          "href": "/services/",
+          "actions": [
+            "/services/"
+          ]
+        }
+      ],
+      "schema": {
+        "@type": "ItemList",
+        "@id": "https://newtractor.com.br/servicos/#catalogo",
+        "name": "Serviços para máquinas de linha amarela",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Material rodante",
+            "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cilindros hidráulicos",
+            "url": "https://newtractor.com.br/hidrautractor/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caldeiraria de linha amarela",
+            "url": "https://newtractor.com.br/calderaria/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usinagem de componentes",
+            "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Monitoramento de rodantes",
+            "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Medição e avaliação em campo",
+            "url": "https://newtractor.com.br/services/"
+          }
+        ]
+      },
+      "anchorTop": 209.875,
+      "headerBottom": 84.171875,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "failed": [],
+      "keyboardDetails": true
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "cards": [
+        {
+          "name": "Material rodante",
+          "href": "/servicos/manutencao-material-rodante/",
+          "actions": [
+            "/servicos/manutencao-material-rodante/"
+          ]
+        },
+        {
+          "name": "Cilindros hidráulicos",
+          "href": "/hidrautractor/",
+          "actions": [
+            "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+            "/hidrautractor/fabricacao-cilindros-hidraulicos/"
+          ]
+        },
+        {
+          "name": "Caldeiraria de linha amarela",
+          "href": "/calderaria/",
+          "actions": [
+            "/servicos/reforma-cacambas-conchas/"
+          ]
+        },
+        {
+          "name": "Usinagem de componentes",
+          "href": "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "actions": [
+            "/servicos/usinagem-componentes-maquinas-pesadas/"
+          ]
+        },
+        {
+          "name": "Monitoramento de rodantes",
+          "href": "/servicos/monitoramento-material-rodante/",
+          "actions": [
+            "/servicos/monitoramento-material-rodante/"
+          ]
+        },
+        {
+          "name": "Medição e avaliação em campo",
+          "href": "/services/",
+          "actions": [
+            "/services/"
+          ]
+        }
+      ],
+      "schema": {
+        "@type": "ItemList",
+        "@id": "https://newtractor.com.br/servicos/#catalogo",
+        "name": "Serviços para máquinas de linha amarela",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Material rodante",
+            "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cilindros hidráulicos",
+            "url": "https://newtractor.com.br/hidrautractor/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caldeiraria de linha amarela",
+            "url": "https://newtractor.com.br/calderaria/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usinagem de componentes",
+            "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Monitoramento de rodantes",
+            "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Medição e avaliação em campo",
+            "url": "https://newtractor.com.br/services/"
+          }
+        ]
+      },
+      "anchorTop": 209.59375,
+      "headerBottom": 84.171875,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "failed": [],
+      "keyboardDetails": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "cards": [
+        {
+          "name": "Material rodante",
+          "href": "/servicos/manutencao-material-rodante/",
+          "actions": [
+            "/servicos/manutencao-material-rodante/"
+          ]
+        },
+        {
+          "name": "Cilindros hidráulicos",
+          "href": "/hidrautractor/",
+          "actions": [
+            "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+            "/hidrautractor/fabricacao-cilindros-hidraulicos/"
+          ]
+        },
+        {
+          "name": "Caldeiraria de linha amarela",
+          "href": "/calderaria/",
+          "actions": [
+            "/servicos/reforma-cacambas-conchas/"
+          ]
+        },
+        {
+          "name": "Usinagem de componentes",
+          "href": "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "actions": [
+            "/servicos/usinagem-componentes-maquinas-pesadas/"
+          ]
+        },
+        {
+          "name": "Monitoramento de rodantes",
+          "href": "/servicos/monitoramento-material-rodante/",
+          "actions": [
+            "/servicos/monitoramento-material-rodante/"
+          ]
+        },
+        {
+          "name": "Medição e avaliação em campo",
+          "href": "/services/",
+          "actions": [
+            "/services/"
+          ]
+        }
+      ],
+      "schema": {
+        "@type": "ItemList",
+        "@id": "https://newtractor.com.br/servicos/#catalogo",
+        "name": "Serviços para máquinas de linha amarela",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Material rodante",
+            "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cilindros hidráulicos",
+            "url": "https://newtractor.com.br/hidrautractor/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caldeiraria de linha amarela",
+            "url": "https://newtractor.com.br/calderaria/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usinagem de componentes",
+            "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Monitoramento de rodantes",
+            "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Medição e avaliação em campo",
+            "url": "https://newtractor.com.br/services/"
+          }
+        ]
+      },
+      "anchorTop": 164.515625,
+      "headerBottom": 84.171875,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "failed": [],
+      "keyboardDetails": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "cards": [
+        {
+          "name": "Material rodante",
+          "href": "/servicos/manutencao-material-rodante/",
+          "actions": [
+            "/servicos/manutencao-material-rodante/"
+          ]
+        },
+        {
+          "name": "Cilindros hidráulicos",
+          "href": "/hidrautractor/",
+          "actions": [
+            "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+            "/hidrautractor/fabricacao-cilindros-hidraulicos/"
+          ]
+        },
+        {
+          "name": "Caldeiraria de linha amarela",
+          "href": "/calderaria/",
+          "actions": [
+            "/servicos/reforma-cacambas-conchas/"
+          ]
+        },
+        {
+          "name": "Usinagem de componentes",
+          "href": "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "actions": [
+            "/servicos/usinagem-componentes-maquinas-pesadas/"
+          ]
+        },
+        {
+          "name": "Monitoramento de rodantes",
+          "href": "/servicos/monitoramento-material-rodante/",
+          "actions": [
+            "/servicos/monitoramento-material-rodante/"
+          ]
+        },
+        {
+          "name": "Medição e avaliação em campo",
+          "href": "/services/",
+          "actions": [
+            "/services/"
+          ]
+        }
+      ],
+      "schema": {
+        "@type": "ItemList",
+        "@id": "https://newtractor.com.br/servicos/#catalogo",
+        "name": "Serviços para máquinas de linha amarela",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Material rodante",
+            "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cilindros hidráulicos",
+            "url": "https://newtractor.com.br/hidrautractor/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caldeiraria de linha amarela",
+            "url": "https://newtractor.com.br/calderaria/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usinagem de componentes",
+            "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Monitoramento de rodantes",
+            "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Medição e avaliação em campo",
+            "url": "https://newtractor.com.br/services/"
+          }
+        ]
+      },
+      "anchorTop": 165.328125,
+      "headerBottom": 90,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "failed": [],
+      "keyboardDetails": true
+    },
+    {
+      "width": 1365,
+      "overflow": false,
+      "cards": [
+        {
+          "name": "Material rodante",
+          "href": "/servicos/manutencao-material-rodante/",
+          "actions": [
+            "/servicos/manutencao-material-rodante/"
+          ]
+        },
+        {
+          "name": "Cilindros hidráulicos",
+          "href": "/hidrautractor/",
+          "actions": [
+            "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+            "/hidrautractor/fabricacao-cilindros-hidraulicos/"
+          ]
+        },
+        {
+          "name": "Caldeiraria de linha amarela",
+          "href": "/calderaria/",
+          "actions": [
+            "/servicos/reforma-cacambas-conchas/"
+          ]
+        },
+        {
+          "name": "Usinagem de componentes",
+          "href": "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "actions": [
+            "/servicos/usinagem-componentes-maquinas-pesadas/"
+          ]
+        },
+        {
+          "name": "Monitoramento de rodantes",
+          "href": "/servicos/monitoramento-material-rodante/",
+          "actions": [
+            "/servicos/monitoramento-material-rodante/"
+          ]
+        },
+        {
+          "name": "Medição e avaliação em campo",
+          "href": "/services/",
+          "actions": [
+            "/services/"
+          ]
+        }
+      ],
+      "schema": {
+        "@type": "ItemList",
+        "@id": "https://newtractor.com.br/servicos/#catalogo",
+        "name": "Serviços para máquinas de linha amarela",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Material rodante",
+            "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cilindros hidráulicos",
+            "url": "https://newtractor.com.br/hidrautractor/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Caldeiraria de linha amarela",
+            "url": "https://newtractor.com.br/calderaria/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Usinagem de componentes",
+            "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Monitoramento de rodantes",
+            "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Medição e avaliação em campo",
+            "url": "https://newtractor.com.br/services/"
+          }
+        ]
+      },
+      "anchorTop": 164.6875,
+      "headerBottom": 90,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "failed": [],
+      "keyboardDetails": true
+    }
+  ],
+  "noJavaScriptKeyboardDetails": {
+    "viewports": [
+      360,
+      1365
+    ],
+    "passed": true
+  },
+  "lighthouse": [
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:8794/servicos/",
+      "fetchTime": "2026-09-08T14:39:16.663Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 3228.9591,
+      "cls": 0,
+      "runtimeError": null,
+      "warnings": []
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:8794/servicos/",
+      "fetchTime": "2026-09-08T14:39:29.355Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 664.5721,
+      "cls": 0,
+      "runtimeError": null,
+      "warnings": []
+    }
+  ]
+}

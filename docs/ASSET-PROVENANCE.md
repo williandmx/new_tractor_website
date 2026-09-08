@@ -165,3 +165,12 @@ domínio, conforme a regra geral deste documento.
 Esses stills são derivados independentes para a frente hidráulica. Os assets de
 filme `film-hidrautractor-*` preexistentes permanecem inalterados e não devem
 ser tratados como os mesmos arquivos nem como fonte desses WebPs.
+
+## Reuso no catálogo de serviços — revisão de 08/09/2026
+
+O catálogo de seis entradas em `/servicos/` reaproveita `material-rodante`,
+`hidrau-recuperacao`, `concha-patio`, `hidrau-fabricacao`, `medicao-rolete` e
+`equipe`, todos registrados acima. Nenhum arquivo raster novo foi produzido.
+O frame de torno ilustra usinagem; a medição mostra um rolete; a foto da base
+ilustra contexto operacional, sem afirmar equipe residente ou reparo no pátio.
+As versões responsivas mantêm dimensões, texto alternativo e origem.

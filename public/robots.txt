@@ -2,31 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-# Catalogo em texto para sistemas de busca e assistentes:
-# https://newtractor.com.br/llms.txt
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
+# Catalogo complementar: https://newtractor.com.br/llms.txt
+# A indexacao tambem respeita os cabeçalhos HTTP de cada host.
 Sitemap: https://newtractor.com.br/sitemap.xml
