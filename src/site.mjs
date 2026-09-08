@@ -17,7 +17,7 @@ export const site = {
     "https://wa.me/5531993120054?text=Ol%C3%A1%2C%20New%20Tractor.%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
   address: "Rua Santos Anjos, 380 — São Gabriel, Belo Horizonte — MG",
   map:
-    "https://www.google.com/maps/search/?api=1&query=Rua%20Santos%20Anjos%2C%20380%2C%20S%C3%A3o%20Gabriel%2C%20Belo%20Horizonte%2C%20MG",
+    "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb",
   social: {
     instagram: "https://www.instagram.com/newtractor_rodante/",
     facebook: "https://www.facebook.com/100068190941426/",
@@ -658,6 +658,7 @@ const baseLocalBusiness = {
   url: `${site.origin}/`,
   image: `${site.origin}/assets/images/equipe-1200.webp`,
   logo: `${site.origin}/assets/images/logo-new-tractor.png`,
+  sameAs: [site.map],
   parentOrganization: { "@id": `${site.origin}/#organization` },
   email: site.email,
   telephone: "+55 31 3493-1476",
@@ -867,6 +868,7 @@ export const pages = [
     description: "Entre em contato com o Grupo New Tractor por e-mail, telefone ou WhatsApp. Converse sobre sua operação, uma cotação ou uma parceria industrial.",
     body: contatoBody,
     active: "contato",
+    lastModified: "2026-09-08",
     schema: [breadcrumbSchema([{ name: "Contato", route: "/contato/" }])],
   },
   {

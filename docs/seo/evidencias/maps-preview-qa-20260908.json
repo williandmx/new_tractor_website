@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-08T04:54:46.686Z",
+  "base": "https://3162019b.newtractor-site.pages.dev",
+  "checks": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/",
+      "maps": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "localSameAs": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "robots": "noindex, nofollow",
+      "overflow": false,
+      "keyboard": "MAIN"
+    },
+    {
+      "route": "/contato/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/contato/",
+      "maps": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb",
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "localSameAs": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "robots": "noindex, nofollow",
+      "overflow": false,
+      "keyboard": "MAIN"
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/",
+      "maps": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "localSameAs": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "robots": "noindex, nofollow",
+      "overflow": false,
+      "keyboard": "MAIN"
+    },
+    {
+      "route": "/contato/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/contato/",
+      "maps": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb",
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "localSameAs": [
+        "https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb"
+      ],
+      "robots": "noindex, nofollow",
+      "overflow": false,
+      "keyboard": "MAIN"
+    }
+  ]
+}

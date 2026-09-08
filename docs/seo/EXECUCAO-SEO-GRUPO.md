@@ -46,8 +46,9 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 ## Publicação e medição
 
-Publicação anterior: PR5 mesclado em `main` (`7ae51f0`), checks aprovados e medição
-de contatos confirmada no Pages estável. O PR4 (`3670e3e`) acrescentou a
+Publicação anterior: PR5 mesclado em `main` (`7ae51f0`), checks aprovados e
+instrumentação de contatos publicada e funcionalmente validada no Pages estável.
+O recebimento dos eventos no GA4 segue pendente. O PR4 (`3670e3e`) acrescentou a
 referência editorial; o PR3 (`a2d8135`) entregou as cinco rotas e a otimização
 anterior. O domínio oficial continua no WordPress anterior.
 O [roteiro de corte](PRONTIDAO-DOMINIO-2026-09-07.md) registra e-mail, redirects,
@@ -99,6 +100,12 @@ revogação. A configuração e a recepção de eventos no GA4 permanecem penden
 [QA: 32 testes e sete cenários funcionais](../QA-MEDICAO-2026-09-08.md).
 
 ## Referências e presença local
+
+O [diagnóstico do perfil público no Google](presenca-local-google-2026-09-08.md)
+confirma a identidade da base de BH e registra um cadastro duplicado/não confirmado
+na conta aberta. O acesso ao perfil principal segue pendente; a solicitação não
+foi enviada. O ajuste do site aponta o mapa para a ficha exata e associa somente
+a base física em `sameAs`. Não cria perfis por especialidade.
 
 A auditoria encontrou 17 backlinks de 13 domínios no Ubersuggest. A referência
 editorial existente na Revista M&T foi verificada e incorporada à página de
