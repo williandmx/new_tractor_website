@@ -40,6 +40,16 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 ## Publicação e medição
 
+Estado atual: PR3 mesclado em `main` (`a2d8135`), checks aprovados e nova versão
+no alias estável do Pages. O domínio oficial continua no WordPress anterior.
+O [roteiro de corte](PRONTIDAO-DOMINIO-2026-09-07.md) registra e-mail, redirects,
+medição e rollback; falta o inventário completo da zona DNS.
+
+O [projeto Ubersuggest](monitoramento-ubersuggest-2026-09-07.md) foi criado com
+44 palavras-chave em Português/Belo Horizonte, dez concorrentes e sete perguntas
+para respostas de IA. Desktop tem uma primeira amostra parcial do site antigo;
+Mobile estava com todas as consultas pendentes. Não há comparação de evolução.
+
 1. Validar o preview e manter histórico de build, commit e rollback.
 2. Preparar o corte do domínio canônico com inventário DNS completo e preservação
    de MX, SPF, DKIM, DMARC e verificações; executar redirects legados por query.

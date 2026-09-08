@@ -1,5 +1,24 @@
 # Publicação e migração do domínio
 
+## Estado atual — 07/09/2026
+
+- PR3 mesclado em `main`: `a2d813520a2e4bdd878f223fdb2137932b70a35f`.
+- GitHub Actions e Cloudflare Pages aprovaram o merge.
+- Produção do Pages: `e45e49ee-85bf-4778-8f3d-b2563b17433b`, disponível em
+  `https://e45e49ee.newtractor-site.pages.dev/` e no alias estável
+  `https://newtractor-site.pages.dev/`.
+- Home, Guias, Usinagem, sitemap e llms responderam 200 no alias estável;
+  `X-Robots-Tag: noindex, nofollow` foi preservado.
+- O domínio oficial `newtractor.com.br` ainda serve o WordPress na Task.
+  Merge e produção do Pages não representam corte do domínio ou indexação.
+- Inventário e roteiro: [prontidão do domínio](seo/PRONTIDAO-DOMINIO-2026-09-07.md).
+  Falta obter a zona completa, incluindo DKIM e subdomínios, antes do corte.
+- A zona já existe na conta Cloudflare com configuração pendente e 13 registros
+  importados; o Pages ainda não possui custom domain. Há aliases de e-mail/FTP
+  importados como Proxied que precisam ser corrigidos antes da ativação.
+
+As seções seguintes preservam o histórico dos previews e da configuração.
+
 ## Estado verificado em 01/09/2026
 
 - Domínio canônico: `newtractor.com.br`.

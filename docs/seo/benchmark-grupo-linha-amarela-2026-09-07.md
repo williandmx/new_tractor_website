@@ -66,8 +66,9 @@ individualmente e não soma variantes.
 
 No código local, o hub /guias/, três guias e a página de Usinagem acima já
 formam cinco novas rotas; títulos e H2 foram atualizados e o arquivo llms foi
-restaurado. A implementação está disponível no preview validado descrito ao final; ainda
-não representa publicação no domínio canônico nem resultado orgânico.
+restaurado. A implementação foi validada em preview e já está na main e no Pages estável,
+conforme registrado ao final; ainda não representa publicação no domínio
+canônico nem resultado orgânico.
 
 ## SERPs observadas: evidência parcial
 
@@ -251,4 +252,10 @@ território:** [relatorio-seo-minas-gerais-2026-09-07.md](relatorio-seo-minas-ge
 
 ## Implementação e validação desta etapa
 
-O conteúdo descrito foi publicado no [preview Cloudflare](https://4d52fe2d.newtractor-site.pages.dev/guias/), a partir do commit `89bf95a`. As cinco rotas novas, sitemap e llms responderam corretamente e o preview permanece sem indexação. Foram aprovados 25 testes e as verificações de leitura móvel, teclado e dados estruturados. O domínio canônico ainda depende do fluxo de migração; o resultado não representa ganho comprovado de posição no Google. [Próximas etapas](EXECUCAO-SEO-GRUPO.md).
+O conteúdo passou pelo [preview Cloudflare](https://4d52fe2d.newtractor-site.pages.dev/guias/), build `89bf95a`, e foi mesclado na `main` pelo [PR3](https://github.com/williandmx/new_tractor_website/pull/3), commit `a2d8135`. A versão está no [Pages estável](https://newtractor-site.pages.dev/guias/), com indexação desativada nesse host. As cinco rotas novas, sitemap e llms responderam corretamente; 25 testes, leitura móvel, teclado e dados estruturados foram aprovados. O domínio oficial ainda serve o WordPress anterior. Não há ganho de posição atribuível à nova versão. [Próximas etapas](EXECUCAO-SEO-GRUPO.md).
+
+## Monitoramento regional configurado
+
+O Ubersuggest agora acompanha **44 palavras-chave**, **10 concorrentes** e **sete perguntas para respostas de IA**, com recorte em Português/Belo Horizonte. A primeira amostra de Desktop exibiu manutenção de material rodante na posição 1, monitoramento de material rodante na 3 e reforma de conchas na 5. São resultados parciais das páginas antigas; 21 consultas ainda estavam pendentes e Mobile aguardava as 44. As posições são as apresentadas pela ferramenta, não posições universais para Minas Gerais.
+
+Essa referência reforça a prioridade de preservar os endereços WordPress por redirect. [Configuração e amostra completas](monitoramento-ubersuggest-2026-09-07.md) · [Preparação do domínio e e-mail](PRONTIDAO-DOMINIO-2026-09-07.md).

@@ -1,0 +1,200 @@
+{
+  "observed_local_date": "2026-09-07",
+  "timezone": "America/Sao_Paulo",
+  "provider": "Ubersuggest",
+  "access": "Interface autenticada via navegador; ferramentas MCP não expostas nesta sessão.",
+  "project": {
+    "name": "Grupo New Tractor",
+    "domain": "https://newtractor.com.br",
+    "location": "Belo Horizonte, Minas Gerais, Brasil",
+    "language": "Português",
+    "keyword_count": 44,
+    "displayed_keyword_limit": 150,
+    "devices_observed": [
+      "Desktop",
+      "Mobile"
+    ],
+    "sitemap_url": null,
+    "sitemap_note": "Não informado porque /sitemap.xml do domínio oficial ainda responde 404."
+  },
+  "urls": {
+    "rank_tracking": "https://app.neilpatel.com/en/rank-tracking",
+    "competitor_analysis": "https://app.neilpatel.com/pt/competitor-analysis/8138f5592f7a30676964b3804e1c6a97bc216ef156e9018ed4aa14a70b7dd483"
+  },
+  "competitors": [
+    {
+      "domain": "mills.com.br",
+      "reference": "Locação e manutenção de máquinas pesadas"
+    },
+    {
+      "domain": "tbm.com.br",
+      "reference": "Peças e componentes"
+    },
+    {
+      "domain": "modelaco.com.br",
+      "reference": "Caldeiraria e caçambas"
+    },
+    {
+      "domain": "acomec.ind.br",
+      "reference": "Usinagem e recuperação"
+    },
+    {
+      "domain": "itrsa.com.br",
+      "reference": "Rodantes, componentes e medição"
+    },
+    {
+      "domain": "minusa.com.br",
+      "reference": "Material rodante"
+    },
+    {
+      "domain": "cilindrica.com.br",
+      "reference": "Cilindros hidráulicos"
+    },
+    {
+      "domain": "hidraucron.com.br",
+      "reference": "Hidráulica"
+    },
+    {
+      "domain": "sotreq.com.br",
+      "reference": "Dealer, peças, serviços e tecnologia"
+    },
+    {
+      "domain": "cat.com",
+      "reference": "OEM e tecnologia; escala global"
+    }
+  ],
+  "prompts": [
+    {
+      "front": "Calderaria",
+      "text": "Quais empresas fazem reforma de caçambas de escavadeiras e conchas de carregadeiras em Belo Horizonte?"
+    },
+    {
+      "front": "Rodantes",
+      "text": "Onde encontrar manutenção e recuperação de material rodante de tratores de esteira e escavadeiras em Minas Gerais?"
+    },
+    {
+      "front": "HidrauTractor",
+      "text": "Quais empresas recuperam cilindros hidráulicos de escavadeiras em Belo Horizonte e região?"
+    },
+    {
+      "front": "Usinagem",
+      "text": "Onde fazer usinagem para recuperação dimensional de componentes de máquinas pesadas em Minas Gerais?"
+    },
+    {
+      "front": "Parts",
+      "text": "Como encontrar fornecedores de peças para escavadeiras e tratores de esteira em Minas Gerais?"
+    },
+    {
+      "front": "Services",
+      "text": "Quais empresas avaliam e medem material rodante de máquinas pesadas na operação do cliente em Minas Gerais?"
+    },
+    {
+      "front": "TechTractor",
+      "text": "Quais soluções ajudam gestores de manutenção a registrar inspeções e acompanhar o desgaste de material rodante de máquinas pesadas?"
+    }
+  ],
+  "keywords": [
+    "new tractor",
+    "grupo new tractor",
+    "hidrautractor",
+    "techtractor",
+    "material rodante",
+    "manutenção de material rodante",
+    "recuperação de material rodante",
+    "medição de material rodante",
+    "monitoramento de material rodante",
+    "roletes para escavadeira",
+    "sapata para trator de esteira",
+    "corrente para escavadeira",
+    "cilindro hidráulico",
+    "cilindros hidráulicos",
+    "recuperação de cilindros hidráulicos",
+    "reparo de cilindro hidráulico",
+    "manutenção de cilindros hidráulicos",
+    "cilindro hidráulico belo horizonte",
+    "cilindro hidráulico escavadeira",
+    "usinagem pesada",
+    "usinagem belo horizonte",
+    "recuperação de peças",
+    "mandrilhamento",
+    "embuchamento de escavadeira",
+    "usinagem de peças para tratores",
+    "caldeiraria pesada",
+    "caldeiraria em belo horizonte",
+    "reforma de caçamba de escavadeira",
+    "reforma de conchas",
+    "peças linha amarela",
+    "peças para escavadeira",
+    "peças para máquinas pesadas",
+    "fabricação de peças sob desenho",
+    "pinos e buchas para escavadeira",
+    "manutenção de máquinas pesadas",
+    "manutenção de máquinas florestais",
+    "manutenção de máquinas agrícolas",
+    "manutenção de equipamentos de mineração",
+    "gestão de manutenção de máquinas pesadas",
+    "inspeção de máquinas pesadas",
+    "serviços de campo máquinas pesadas",
+    "manutenção frota locadoras",
+    "reforma de caçambas",
+    "manutenção material rodante"
+  ],
+  "initial_partial_snapshot": {
+    "provider_last_updated": "September 7, 2026 11:41 PM",
+    "displayed_period": "Aug 08, 2026 – Sep 07, 2026",
+    "desktop": {
+      "top_3": 3,
+      "positions_4_to_10": 2,
+      "positions_11_to_100": 1,
+      "not_ranked": 17,
+      "pending": 21,
+      "ranked_rows": [
+        {
+          "keyword": "grupo new tractor",
+          "position": 1,
+          "url": "https://newtractor.com.br/"
+        },
+        {
+          "keyword": "manutenção de material rodante",
+          "position": 1,
+          "url": "https://newtractor.com.br/?p=13"
+        },
+        {
+          "keyword": "monitoramento de material rodante",
+          "position": 3,
+          "url": "https://newtractor.com.br/?p=286"
+        },
+        {
+          "keyword": "reforma de conchas",
+          "position": 5,
+          "url": "https://newtractor.com.br/?p=288"
+        },
+        {
+          "keyword": "reforma de caçamba de escavadeira",
+          "position": 10,
+          "url": "https://newtractor.com.br/?p=288"
+        },
+        {
+          "keyword": "reforma de caçambas",
+          "position": 21,
+          "url": "https://newtractor.com.br/?p=288"
+        }
+      ]
+    },
+    "mobile": {
+      "pending": 44,
+      "ranked_rows": []
+    },
+    "ai_visibility": "Prompts configurados; nenhuma coleta concluída validada nesta etapa."
+  },
+  "limitations": [
+    "A amostra é parcial e muda durante o processamento; Pending não significa ausência no Google.",
+    "As posições são as apresentadas pelo Ubersuggest para desktop em Belo Horizonte, não verificações manuais universais do Google.",
+    "O domínio oficial ainda serve o WordPress anterior. Estes dados não demonstram resultado do novo site.",
+    "O seletor geográfico do rank tracking não torna locais os 75 volumes nacionais coletados no benchmark anterior.",
+    "Não inferir profissão ou setor do usuário a partir de palavras-chave.",
+    "Consultas de demanda são hipóteses de pesquisa; não constituem declaração de capacidade da New Tractor.",
+    "Os concorrentes combinam referências locais, nacionais e OEM; não são empresas de porte ou escopo equivalentes.",
+    "A interface mostrou indicadores de dificuldade com mais de seis meses em várias linhas; não usá-los isoladamente para priorizar investimento."
+  ]
+}
