@@ -32,7 +32,26 @@
 | Cases, resultados e depoimentos | Pendente | Sem autorização e evidência | Não publicar |
 | TechTractor | Frente tecnológica em evolução para inspeções, acompanhamento de desgaste e histórico de manutenção; README local descreve painel privado de inspeções e acompanhamento de desgaste de material rodante | Plano de Marketing e Marca; README de `newtractor_conditionmonitoring` consultado somente como metadado em 2026-09-06 | Apresentar a direção de tecnologia e monitoramento; não publicar como produto pronto, acesso transacional ou oferta contratável; código local não é prova de oferta comercial |
 
-## Fontes externas de referência
+## Guias técnicos e benchmark — 2026-09-07
+
+- A pesquisa do Ubersuggest usa Brasil/português: 75 termos transcritos no
+  arquivo `docs/seo/palavras-chave-grupo-ubersuggest-2026-09-07.json`. Volumes
+  são estimados; 67 indicadores SD estavam marcados “Outdated”. Os dados não
+  identificam profissão, setor ou município do pesquisador.
+- Os novos guias de avaliação, inspeção de rodantes e cotação organizam dados
+  para uma consulta. As cinco aplicações setoriais são contextos editoriais,
+  não declarações de clientes, contratos, filiais ou oferta completa por setor.
+- A página técnica de Usinagem aprofunda os processos já sustentados neste
+  ledger; capacidade, tolerância, material e prazo seguem sujeitos à peça.
+- A redação de HidrauTractor, Parts e Services não ganha novos processos,
+  estoque, fabricação universal, equipe de campo ou reparo no pátio por causa
+  do benchmark. Detalhes operacionais continuam pendentes de confirmação.
+- O `llms.txt` foi restabelecido para cumprir o pedido de descoberta anterior.
+  A orientação de retirar bastidores e linguagem de IA da vitrine não implica
+  retirada desse arquivo. Ele não é promessa de ranking nem substitui o HTML,
+  sitemap, links internos ou indexação no domínio canônico.
+
+## Referências públicas
 
 - Armac (`https://armac.com.br/`): abertura institucional em vídeo observada
   em 2026-09-05; referência de hierarquia visual, sem reutilizar filme ou marcas.

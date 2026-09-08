@@ -36,6 +36,11 @@ permanece disponível sem JavaScript.
 - `/servicos/manutencao-material-rodante/`
 - `/servicos/reforma-cacambas-conchas/`
 - `/servicos/monitoramento-material-rodante/`
+- `/servicos/usinagem-componentes-maquinas-pesadas/`
+- `/guias/`
+- `/guias/avaliacao-maquinas-linha-amarela/`
+- `/guias/inspecao-material-rodante/`
+- `/guias/cotacao-pecas-maquinas-pesadas/`
 - `/equipamentos/`
 - `/atuacao/`
 - `/contato/`
@@ -45,13 +50,16 @@ permanece disponível sem JavaScript.
 `/services/` apresenta a empresa Services; `/servicos/` continua sendo o hub de
 soluções técnicas. Nenhuma das URLs técnicas antigas foi substituída.
 
-Conteúdo e composição global: `src/site.mjs`. Perfis comerciais das cinco
-empresas: `src/group.mjs`, importado pelo gerador principal. Limites de oferta
+Conteúdo e composição global: `src/site.mjs`. Perfis das sete frentes:
+`src/group.mjs`. Guias e aprofundamento técnico: `src/technical-content.mjs`.
+Os dois módulos são importados pelo gerador principal. Limites de oferta
 e pendências documentais: `docs/source-ledger.md` e `docs/CONTENT-REVIEW.md`.
 
-Descoberta: `/robots.txt`, `/sitemap.xml` e JSON-LD por página.
-A apresentação pública é institucional; documentos para agentes foram retirados
-por solicitação do proprietário em 07/09/2026.
+Descoberta: `/robots.txt`, `/sitemap.xml`, `/llms.txt` e JSON-LD por página.
+O pedido de retirar linguagem de bastidores da apresentação institucional não
+retirou o pedido anterior de manter os arquivos de descoberta. O `llms.txt`
+resume fatos e links canônicos do mesmo catálogo de rotas; não é garantia nem
+requisito de classificação no Google. O host `pages.dev` permanece com noindex.
 
 ## Publicação
 

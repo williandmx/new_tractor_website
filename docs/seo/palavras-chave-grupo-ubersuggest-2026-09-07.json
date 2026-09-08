@@ -1,0 +1,543 @@
+{
+  "source": "Ubersuggest / análise em lote pelo painel autenticado",
+  "source_url": "https://app.neilpatel.com/pt/keyword-bulk-analysis",
+  "consulted_local": "2026-09-07",
+  "timezone": "America/Sao_Paulo",
+  "country": "Brasil",
+  "language": "Português",
+  "method": "Transcrição de 75 resultados visíveis, sem somar variações próximas. Não é exportação integral da conta. Profissão e setor de quem pesquisou não são identificados pela ferramenta.",
+  "limitations": [
+    "Volumes nacionais estimados, não específicos de Minas Gerais.",
+    "Zeros não comprovam ausência de demanda; variantes próximas exibem dados diferentes.",
+    "67 pontuações SEO Difficulty estavam marcadas Outdated. Não foram usadas para prometer facilidade de ranking.",
+    "CPC em reais é estimativa da ferramenta, não proposta de campanha.",
+    "Não atribuir a um setor profissional as pesquisas de um termo sem dados próprios de origem e conversão."
+  ],
+  "keywords": [
+    {
+      "keyword": "cilindro hidráulico",
+      "estimated_monthly_volume": 4400,
+      "estimated_cpc_brl": 2.0,
+      "seo_difficulty": 9,
+      "sd_freshness": "Há 3 meses"
+    },
+    {
+      "keyword": "cilindros hidráulicos",
+      "estimated_monthly_volume": 880,
+      "estimated_cpc_brl": 5.64,
+      "seo_difficulty": 11,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "recuperação de cilindros hidráulicos",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": 6.13,
+      "seo_difficulty": 27,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "reparo de cilindro hidráulico",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": 4.97,
+      "seo_difficulty": 24,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de cilindros hidráulicos",
+      "estimated_monthly_volume": 70,
+      "estimated_cpc_brl": 5.72,
+      "seo_difficulty": 21,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "fabricação de cilindros hidráulicos",
+      "estimated_monthly_volume": 40,
+      "estimated_cpc_brl": 5.59,
+      "seo_difficulty": 24,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "cilindro hidráulico belo horizonte",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "reparo cilindro hidráulico belo horizonte",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "cilindro hidráulico contagem",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "cilindro hidráulico escavadeira",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": 5.46,
+      "seo_difficulty": 17,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "cilindro hidráulico retroescavadeira",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": 1.23,
+      "seo_difficulty": 34,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "retífica de cilindro hidráulico",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "brunimento de cilindros hidráulicos",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 2.82,
+      "seo_difficulty": 30,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "haste de cilindro hidráulico",
+      "estimated_monthly_volume": 50,
+      "estimated_cpc_brl": 4.31,
+      "seo_difficulty": 22,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "vedação de cilindro hidráulico",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": 2.15,
+      "seo_difficulty": 24,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "material rodante",
+      "estimated_monthly_volume": 320,
+      "estimated_cpc_brl": 5.38,
+      "seo_difficulty": 10,
+      "sd_freshness": "Há 3 meses"
+    },
+    {
+      "keyword": "manutenção material rodante",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 13,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "roletes escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 17,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "sapata trator esteira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "corrente escavadeira",
+      "estimated_monthly_volume": 40,
+      "estimated_cpc_brl": 4.23,
+      "seo_difficulty": 31,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "usinagem pesada",
+      "estimated_monthly_volume": 170,
+      "estimated_cpc_brl": 5.18,
+      "seo_difficulty": 5,
+      "sd_freshness": "Há 2 meses"
+    },
+    {
+      "keyword": "recuperação de peças",
+      "estimated_monthly_volume": 20,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 16,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "mandrilhamento",
+      "estimated_monthly_volume": 480,
+      "estimated_cpc_brl": 3.9,
+      "seo_difficulty": 32,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "embuchamento escavadeira",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": 1.74,
+      "seo_difficulty": 32,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "usinagem de peças para tratores",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 5,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "caldeiraria pesada",
+      "estimated_monthly_volume": 320,
+      "estimated_cpc_brl": 12.15,
+      "seo_difficulty": 7,
+      "sd_freshness": "Há 3 semanas"
+    },
+    {
+      "keyword": "reforma de caçambas",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": 3.95,
+      "seo_difficulty": 15,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "reforma de conchas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "solda em escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "recuperação estrutural de máquinas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "peças linha amarela",
+      "estimated_monthly_volume": 70,
+      "estimated_cpc_brl": 3.28,
+      "seo_difficulty": 31,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "peças para escavadeira",
+      "estimated_monthly_volume": 210,
+      "estimated_cpc_brl": 6.77,
+      "seo_difficulty": 8,
+      "sd_freshness": "Há 3 semanas"
+    },
+    {
+      "keyword": "peças para tratores",
+      "estimated_monthly_volume": 1600,
+      "estimated_cpc_brl": 2.82,
+      "seo_difficulty": 23,
+      "sd_freshness": "Há 2 meses"
+    },
+    {
+      "keyword": "pinos e buchas escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "fabricação de peças sob desenho",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "monitoramento material rodante",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "medição de material rodante",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 6,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "gestão manutenção máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "inspeção máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "monitoramento máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção escavadeira",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 22,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção tratores",
+      "estimated_monthly_volume": 70,
+      "estimated_cpc_brl": 4.15,
+      "seo_difficulty": 21,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção máquinas pesadas em campo",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "oficina máquinas pesadas belo horizonte",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de equipamentos de mineração",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção máquinas florestais",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção máquinas agrícolas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção máquinas terraplenagem",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção frota locadoras",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de máquinas pesadas",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": 8.23,
+      "seo_difficulty": 15,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de escavadeiras",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 15,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de tratores",
+      "estimated_monthly_volume": 140,
+      "estimated_cpc_brl": 3.13,
+      "seo_difficulty": 16,
+      "sd_freshness": "Ontem"
+    },
+    {
+      "keyword": "manutenção de máquinas agrícolas",
+      "estimated_monthly_volume": 320,
+      "estimated_cpc_brl": 2.92,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de máquinas florestais",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 6.38,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de equipamentos pesados",
+      "estimated_monthly_volume": 20,
+      "estimated_cpc_brl": 4.31,
+      "seo_difficulty": 15,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de material rodante",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "roletes para escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "sapata para trator de esteira",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 34,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "corrente para escavadeira",
+      "estimated_monthly_volume": 40,
+      "estimated_cpc_brl": 1.92,
+      "seo_difficulty": 26,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "embuchamento de escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "pinos e buchas para escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "peças para máquinas pesadas",
+      "estimated_monthly_volume": 50,
+      "estimated_cpc_brl": 4.36,
+      "seo_difficulty": 15,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "peças para máquinas de terraplenagem",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "monitoramento de máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "monitoramento de material rodante",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "gestão de manutenção de máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "inspeção de máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 12,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "manutenção de frotas",
+      "estimated_monthly_volume": 140,
+      "estimated_cpc_brl": 35.49,
+      "seo_difficulty": 18,
+      "sd_freshness": "Ontem"
+    },
+    {
+      "keyword": "manutenção de equipamentos de construção",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "caldeiraria em belo horizonte",
+      "estimated_monthly_volume": 20,
+      "estimated_cpc_brl": 6.1,
+      "seo_difficulty": 28,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "usinagem belo horizonte",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": 3.77,
+      "seo_difficulty": 22,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "reforma de caçamba de escavadeira",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "monitoramento de desgaste de material rodante",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    },
+    {
+      "keyword": "serviços de campo máquinas pesadas",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": 0.0,
+      "seo_difficulty": 4,
+      "sd_freshness": "Outdated"
+    }
+  ]
+}

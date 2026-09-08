@@ -26,6 +26,19 @@
 
 ## Preview
 
+### Expansão técnica de SEO — 07/09/2026
+
+- Preview validado: `https://4d52fe2d.newtractor-site.pages.dev/`.
+- Alias: `https://seo-linha-amarela.newtractor-site.pages.dev/`.
+- Build de aplicação: `89bf95a`, branch Git `feat/seo-linha-amarela`, branch
+  de preview Pages `seo-linha-amarela`. Upload direto com Wrangler 4.125.0.
+- Cinco rotas novas, metadados das sete frentes, sitemap e `llms.txt`.
+- QA: `QA-SEO-2026-09-07.md`. Pages.dev mantém `noindex, nofollow`.
+- O layout institucional anterior recebeu aprovação do proprietário na
+  conversa. Esta expansão tem preview próprio para revisão.
+- O domínio canônico e DNS não foram alterados; versão visual anterior
+  preservada em `https://951d4336.newtractor-site.pages.dev/`.
+
 ```bash
 npm ci
 npm run check
@@ -38,6 +51,19 @@ e às URLs versionadas de `newtractor-site.pages.dev`, sem aplicar essa regra ao
 domínio canônico.
 
 ## Produção
+
+### Configuração da integração Git corrigida em 07/09/2026
+
+O projeto Pages estava sem comando de build. O log da publicação automática
+`a6bbd73b-92d5-4446-b54e-059c16ec4d26` mostrava que a etapa foi ignorada e
+`dist` não foi encontrado. O mesmo padrão já ocorria no merge anterior de main.
+
+Configuração salva no Dashboard: framework None, comando `npm run check`,
+saída `dist` e raiz do repositório. A configuração do Wrangler continua
+declarando `./dist`. Builds passam a gerar o HTML e testar antes do upload.
+Restauração da configuração anterior: remover comando e saída no painel;
+isso reintroduziria a falha e não constitui rollback da aplicação.
+Domínio, DNS, variáveis, bindings e branch de produção não foram alterados.
 
 1. Criar ou confirmar o projeto `newtractor-site` na conta Cloudflare correta.
 2. Publicar o build aprovado com `npm run deploy:production`.

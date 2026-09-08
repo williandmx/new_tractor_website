@@ -1,4 +1,5 @@
 import { companies, companyLinks, groupIndex, createCompanyPages } from "./group.mjs";
+import { createTechnicalPages } from "./technical-content.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -273,6 +274,7 @@ const servicosBody = `
     <div class="shell">
       <div class="section-heading section-heading--split"><div><span class="eyebrow">PORTFÓLIO TÉCNICO</span><h2 id="portfolio-title">Soluções conectadas ao ciclo do componente</h2></div><p>Monitorar ajuda a planejar. Avaliar e recuperar exige escopo compatível com o desgaste, a aplicação e o conjunto.</p></div>
       ${serviceCards()}
+      <nav class="company-resources" aria-label="Mais recursos técnicos"><a class="text-link" href="/servicos/usinagem-componentes-maquinas-pesadas/">Usinagem de componentes pesados ${icon("arrow")}</a><a class="text-link" href="/guias/">Guias para manutenção e suprimentos ${icon("arrow")}</a></nav>
     </div>
   </section>
   <section class="section section--sand" aria-labelledby="faq-title">
@@ -325,7 +327,7 @@ const manutencaoBody = `
 const reformaBody = `
   ${pageHero({
     eyebrow: "REFORMA",
-    title: "Recuperação estrutural orientada ao perfil de trabalho.",
+    title: "Reforma de caçambas e conchas para máquinas pesadas",
     intro: "Reforma de caçambas e conchas com escopo definido após avaliação da condição, da geometria e da aplicação.",
     breadcrumb: [{ label: "Serviços", href: "/servicos/" }, { label: "Reforma de caçambas e conchas", href: "/servicos/reforma-cacambas-conchas/" }],
     image: "concha-patio",
@@ -449,6 +451,7 @@ const atuacaoBody = `
       <ul><li><strong>Origem</strong><span>cidade da operação, retirada ou entrega</span></li><li><strong>Componente</strong><span>tipo, quantidade, peso e dimensão disponíveis</span></li><li><strong>Prioridade</strong><span>janela desejada e impacto operacional informado</span></li><li><strong>Modalidade</strong><span>viabilidade de envio, coleta ou mobilização</span></li></ul>
     </div>
   </section>
+  <section class="section section--sand" aria-labelledby="contexto-operacao-title"><div class="shell editorial-grid"><div><h2 id="contexto-operacao-title">O contexto da operação orienta a avaliação</h2></div><div class="rich-text"><p>Mineração, florestal, agronegócio, construção civil e locação de máquinas têm rotinas distintas. Informe equipamento, componente, condição, local e janela desejada para a análise do escopo.</p><p>O <a href="/guias/avaliacao-maquinas-linha-amarela/">guia de avaliação de máquinas de linha amarela</a> mostra quais dados reunir para cada contexto. O atendimento depende da análise técnica, comercial e logística da demanda.</p></div></div></section>
   ${contactBand("Informe a cidade e o contexto da sua demanda")}`;
 
 const contatoBody = `
@@ -731,6 +734,7 @@ export const pages = [
     }],
   },
   ...createCompanyPages({ site, picture, icon, breadcrumbSchema }),
+  ...createTechnicalPages({ pageHero, contactBand, breadcrumbSchema, serviceSchema }),
   {
     route: "/empresa/",
     output: "empresa/index.html",
@@ -910,7 +914,7 @@ const header = (page) => `
 
 const footer = () => `
   <footer class="site-footer"><div class="shell footer-lead"><span>CONHECIMENTO INDUSTRIAL.<br><strong>FORÇA EM CONJUNTO.</strong></span><a href="/contato/" aria-label="Fale com o Grupo New Tractor">${icon("arrow")}</a></div>
-    <div class="shell footer-grid"><div class="footer-brand"><span class="eyebrow eyebrow--light">GRUPO</span><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt="New Tractor"><p>Especialidades que se conectam para movimentar a indústria.</p><div class="footer-social"><a href="${site.social.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div><h2>Empresas</h2><ul>${companyLinks()}</ul></div><div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas</a></li><li><a href="/parcerias/">Parcerias</a></li><li><a href="/servicos/">Soluções técnicas</a></li><li><a href="/equipamentos/">Equipamentos</a></li><li><a href="/atuacao/">Atuação</a></li><li><a href="${exposibram.route}">Notícias</a></li></ul></div><div><h2>Vamos conversar</h2><address><a href="${site.phoneHref}">${site.phoneDisplay}</a><a href="mailto:${site.email}">${site.email}</a><a href="${site.map}" target="_blank" rel="noopener noreferrer">${site.address}</a></address><a class="text-link text-link--light" href="/contato/">Todos os contatos ${icon("arrow")}</a></div></div>
+    <div class="shell footer-grid"><div class="footer-brand"><span class="eyebrow eyebrow--light">GRUPO</span><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt="New Tractor"><p>Especialidades que se conectam para movimentar a indústria.</p><div class="footer-social"><a href="${site.social.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div><h2>Empresas</h2><ul>${companyLinks()}</ul></div><div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas</a></li><li><a href="/parcerias/">Parcerias</a></li><li><a href="/servicos/">Soluções técnicas</a></li><li><a href="/guias/">Guias de manutenção</a></li><li><a href="/equipamentos/">Equipamentos</a></li><li><a href="/atuacao/">Atuação</a></li><li><a href="${exposibram.route}">Notícias</a></li></ul></div><div><h2>Vamos conversar</h2><address><a href="${site.phoneHref}">${site.phoneDisplay}</a><a href="mailto:${site.email}">${site.email}</a><a href="${site.map}" target="_blank" rel="noopener noreferrer">${site.address}</a></address><a class="text-link text-link--light" href="/contato/">Todos os contatos ${icon("arrow")}</a></div></div>
     <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor</p><a href="/privacidade/">Privacidade</a><a href="/contato/">Contato</a></div>
   </footer>
   <a class="whatsapp-float" href="${site.whatsapp}" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a New Tractor pelo WhatsApp" data-analytics="whatsapp_flutuante">${icon("phone")}<span>Vamos conversar</span></a>
@@ -981,7 +985,7 @@ export function renderPage(page) {
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   ${header(page)}
-  <main id="conteudo">${page.body}</main>
+  <main id="conteudo" tabindex="-1">${page.body}</main>
   ${footer()}
 </body>
 </html>

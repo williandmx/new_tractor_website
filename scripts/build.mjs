@@ -45,6 +45,10 @@ ${sitemapEntries}
 `;
 await writeFile(join(output, "sitemap.xml"), sitemap, "utf8");
 
+const discoveryPages = pages.filter((page) => page.indexable !== false);
+const llms = `# ${site.name}\n\n> Especialidades industriais para máquinas pesadas, com base em Belo Horizonte, Minas Gerais.\n\nManutenção, recondicionamento e monitoramento de material rodante; reforma de caçambas e conchas; recuperação dimensional de componentes. Atendimento sujeito a avaliação técnica, comercial e logística por demanda.\n\nHidrauTractor, Parts e Services recebem demandas conforme identificação, aplicação e escopo. TechTractor é uma frente tecnológica em evolução. As frentes são uma arquitetura de marca; não representam sete estabelecimentos ou pessoas jurídicas confirmadas.\n\n## Páginas e guias\n\n${discoveryPages.map((page) => `- [${page.title}](${site.origin}${page.route}): ${page.description}`).join("\n")}\n\n## Contato\n\n- E-mail: ${site.email}\n- Telefone: ${site.phoneDisplay}\n- [Condições para avaliação e canais oficiais](${site.origin}/contato/)\n`;
+await writeFile(join(output, "llms.txt"), llms, "utf8");
+
 console.log(`Built ${pages.length} HTML pages in dist/`);
 
 async function BunlessRead(path) {

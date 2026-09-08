@@ -49,6 +49,11 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
     "servicos/manutencao-material-rodante/index.html",
     "servicos/reforma-cacambas-conchas/index.html",
     "servicos/monitoramento-material-rodante/index.html",
+    "servicos/usinagem-componentes-maquinas-pesadas/index.html",
+    "guias/index.html",
+    "guias/avaliacao-maquinas-linha-amarela/index.html",
+    "guias/inspecao-material-rodante/index.html",
+    "guias/cotacao-pecas-maquinas-pesadas/index.html",
     "equipamentos/index.html",
     "atuacao/index.html",
     "contato/index.html",
@@ -57,12 +62,12 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
     "404.html",
     "robots.txt",
     "sitemap.xml",
+    "llms.txt",
     "site.webmanifest",
     "_headers",
     "_redirects",
   ];
   await Promise.all(required.map((path) => access(join(dist, path))));
-  await assert.rejects(access(join(dist, "llms.txt")), (error) => error?.code === "ENOENT");
   await assert.rejects(access(join(dist, "agents.txt")), (error) => error?.code === "ENOENT");
 });
 
@@ -78,7 +83,7 @@ test("cada página tem HTML semântico, metadados e um único H1", async () => {
     assert.match(html, /^<!doctype html>/i, relative);
     assert.match(html, /<html lang="pt-BR">/, relative);
     assert.match(html, /<meta name="viewport" content="width=device-width, initial-scale=1">/, relative);
-    assert.match(html, /<main id="conteudo">/, relative);
+    assert.match(html, /<main id="conteudo" tabindex="-1">/, `${relative}: destino do atalho aceita foco de teclado`);
     assert.match(html, /<header class="site-header"/, relative);
     assert.match(html, /<footer class="site-footer">/, relative);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, `${relative}: H1 único`);
@@ -138,7 +143,7 @@ test("todos os links internos apontam para saídas existentes", async () => {
   }
 });
 
-test("robots e sitemap descrevem somente URLs canônicas", async () => {
+test("robots, sitemap e llms mantêm as mesmas URLs canônicas indexáveis", async () => {
   const robots = await read("robots.txt");
   assert.match(robots, /^User-agent: \*\nAllow: \/$/m);
   assert.match(robots, /Sitemap: https:\/\/newtractor\.com\.br\/sitemap\.xml/);
@@ -150,6 +155,10 @@ test("robots e sitemap descrevem somente URLs canônicas", async () => {
   assert.ok(locations.every((url) => url.startsWith("https://newtractor.com.br/")));
   assert.ok(!locations.some((url) => url.includes("404")));
   assert.ok(locations.includes(`${site.origin}/parcerias/`));
+  const llms = await read("llms.txt");
+  const discoveryLinks = [...llms.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map((match) => match[1]);
+  assert.deepEqual(new Set(discoveryLinks), new Set(locations), "llms sem rotas ausentes, externas ou não indexáveis");
+  assert.doesNotMatch(llms, /pages\.dev|localhost|127\.0\.0\.1/);
 });
 
 test("a página da EXPOSIBRAM está atualizada como registro pós-evento", async () => {

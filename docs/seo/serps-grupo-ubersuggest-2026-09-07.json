@@ -1,0 +1,299 @@
+{
+  "source": "Ubersuggest — Resultados de buscas, primeira página do painel",
+  "url": "https://app.neilpatel.com/pt/keyword-bulk-analysis",
+  "country": "Brasil",
+  "language": "Português",
+  "localDate": "2026-09-07",
+  "timeZone": "America/Sao_Paulo",
+  "limitations": [
+    "Transcrição de conteúdo visível da conta; não é consulta direta ao Google nem rastreamento geolocalizado em Minas Gerais.",
+    "O ordinal exibido inclui recursos da SERP; não equivale à posição entre links orgânicos tradicionais.",
+    "Pacotes locais não mostraram nomes de estabelecimentos.",
+    "Termos amplos incluem comércio, conteúdo educacional e outras aplicações; os domínios não são todos concorrentes comerciais diretos.",
+    "A data de atualização exibida pelo painel foi 8 de setembro de 2026; a coleta ocorreu no dia 7 no fuso local."
+  ],
+  "serps": [
+    {
+      "query": "material rodante",
+      "capturedAtUTC": "2026-09-08T01:57:34.959Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": null,
+          "result": "Visão geral criada por IA"
+        },
+        {
+          "ordinal": null,
+          "result": "Imagens"
+        },
+        {
+          "ordinal": null,
+          "result": "As pessoas também perguntam"
+        },
+        {
+          "ordinal": 4,
+          "result": "engepecas.com.br"
+        },
+        {
+          "ordinal": 5,
+          "result": "loja.itrsa.com.br"
+        },
+        {
+          "ordinal": 6,
+          "result": "grupoht.com.br"
+        },
+        {
+          "ordinal": 7,
+          "result": "minusa.com.br"
+        },
+        {
+          "ordinal": 8,
+          "result": "rech.com"
+        },
+        {
+          "ordinal": 9,
+          "result": "youtube.com"
+        },
+        {
+          "ordinal": 10,
+          "result": "grupohidrautorque.com.br"
+        }
+      ]
+    },
+    {
+      "query": "usinagem pesada",
+      "capturedAtUTC": "2026-09-08T02:02:55.321Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Vídeo"
+        },
+        {
+          "ordinal": 5,
+          "result": "wartungusinagem.com"
+        },
+        {
+          "ordinal": null,
+          "result": "Imagens"
+        },
+        {
+          "ordinal": 7,
+          "result": "monforteusinagem.com.br"
+        },
+        {
+          "ordinal": null,
+          "result": "As pessoas também perguntam"
+        },
+        {
+          "ordinal": 9,
+          "result": "caxambu.com.br"
+        },
+        {
+          "ordinal": 10,
+          "result": "roscaf.com.br"
+        }
+      ]
+    },
+    {
+      "query": "reforma de caçambas",
+      "capturedAtUTC": "2026-09-08T02:04:25.501Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": null,
+          "result": "Visão geral criada por IA"
+        },
+        {
+          "ordinal": 2,
+          "result": "ciclocacambas.com.br"
+        },
+        {
+          "ordinal": null,
+          "result": "Vídeo"
+        },
+        {
+          "ordinal": 4,
+          "result": "pvtruck.com.br"
+        },
+        {
+          "ordinal": 5,
+          "result": "mglprocessosemontagens.com"
+        },
+        {
+          "ordinal": 6,
+          "result": "instagram.com"
+        },
+        {
+          "ordinal": 7,
+          "result": "renovarcarretas.com.br"
+        },
+        {
+          "ordinal": 8,
+          "result": "instagram.com"
+        },
+        {
+          "ordinal": null,
+          "result": "Vídeos curtos"
+        },
+        {
+          "ordinal": null,
+          "result": "As pessoas também perguntam"
+        }
+      ]
+    },
+    {
+      "query": "peças para escavadeira",
+      "capturedAtUTC": "2026-09-08T02:05:26.184Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": 1,
+          "result": "escavapecas.com.br"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": 5,
+          "result": "tratoraco.com.br"
+        },
+        {
+          "ordinal": null,
+          "result": "Imagens"
+        },
+        {
+          "ordinal": 7,
+          "result": "jnl.com.br"
+        },
+        {
+          "ordinal": 8,
+          "result": "gamape.com.br"
+        },
+        {
+          "ordinal": 9,
+          "result": "grupoht.com.br"
+        },
+        {
+          "ordinal": 10,
+          "result": "mbpecasrs.com.br"
+        }
+      ]
+    },
+    {
+      "query": "medição de material rodante",
+      "capturedAtUTC": "2026-09-08T02:06:32.897Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": null,
+          "result": "Visão geral criada por IA"
+        },
+        {
+          "ordinal": null,
+          "result": "Imagens"
+        },
+        {
+          "ordinal": 3,
+          "result": "itrsa.com.br"
+        },
+        {
+          "ordinal": null,
+          "result": "Vídeo"
+        },
+        {
+          "ordinal": 5,
+          "result": "pt.scribd.com"
+        },
+        {
+          "ordinal": null,
+          "result": "As pessoas também perguntam"
+        },
+        {
+          "ordinal": 7,
+          "result": "mercadolivre.com.br"
+        },
+        {
+          "ordinal": 8,
+          "result": "piritubatractor.com.br"
+        },
+        {
+          "ordinal": 9,
+          "result": "ngi.com.br"
+        },
+        {
+          "ordinal": 10,
+          "result": "materiais.itrsa.com.br"
+        }
+      ]
+    },
+    {
+      "query": "manutenção de máquinas pesadas",
+      "capturedAtUTC": "2026-09-08T02:07:50.533Z",
+      "panelUpdated": "2026-09-08",
+      "rows": [
+        {
+          "ordinal": null,
+          "result": "Visão geral criada por IA"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": null,
+          "result": "Pacote local"
+        },
+        {
+          "ordinal": 5,
+          "result": "semmachinery.com"
+        },
+        {
+          "ordinal": null,
+          "result": "As pessoas também perguntam"
+        },
+        {
+          "ordinal": 7,
+          "result": "cps.sp.gov.br"
+        },
+        {
+          "ordinal": null,
+          "result": "Imagens"
+        },
+        {
+          "ordinal": null,
+          "result": "Vídeo"
+        },
+        {
+          "ordinal": 10,
+          "result": "querobolsa.com.br"
+        }
+      ]
+    }
+  ]
+}
