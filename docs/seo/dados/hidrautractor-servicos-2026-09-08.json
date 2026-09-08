@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": [
+    "2026-09-08T13:00:24.561Z",
+    "2026-09-08T13:01:43.439Z",
+    "2026-09-08T13:01:43.442Z"
+  ],
+  "source": {
+    "provider": "Ubersuggest MCP",
+    "mode": "read-only",
+    "rawPath": "/tmp/newtractor-hidrau-mcp-20260908.json",
+    "language": "Portuguese"
+  },
+  "geographies": [
+    {
+      "name": "Brazil",
+      "locId": 2076,
+      "metricScope": "national",
+      "note": "Keyword metrics are Brazil estimates, not Minas Gerais metrics."
+    },
+    {
+      "name": "Belo Horizonte, Minas Gerais, Brasil",
+      "locId": 1001566,
+      "metricScope": "SERP location",
+      "note": "The SERP location does not turn the keyword volumes into local volume."
+    }
+  ],
+  "queries": [
+    {
+      "tool": "match_keywords",
+      "collectedAt": "2026-09-08T13:00:24.561Z",
+      "location": "Brazil",
+      "locId": 2076,
+      "keywords": [
+        {
+          "keyword": "fabricação de cilindros hidráulicos",
+          "volume": 40,
+          "metricScope": "Brazil estimate"
+        },
+        {
+          "keyword": "recuperação de cilindros hidráulicos",
+          "volume": 30,
+          "metricScope": "Brazil estimate"
+        },
+        {
+          "keyword": "brunimento de cilindros hidráulicos",
+          "volume": 10,
+          "metricScope": "Brazil estimate"
+        }
+      ],
+      "suggestions": [
+        {
+          "keyword": "fabricação de cilindros hidráulicos rj",
+          "volume": 0,
+          "metricScope": "Brazil estimate",
+          "note": "Provider returned volume 0; this is not evidence of no demand."
+        }
+      ],
+      "suggestionCount": 1,
+      "pagination": { "nextKey": null }
+    },
+    {
+      "tool": "match_keywords",
+      "collectedAt": "2026-09-08T13:01:43.439Z",
+      "location": "Brazil",
+      "locId": 2076,
+      "keywords": [
+        { "keyword": "recuperação de hastes hidráulicas", "volume": null },
+        { "keyword": "cromagem de hastes hidráulicas", "volume": null },
+        { "keyword": "cilindros hidráulicos sob medida", "volume": null }
+      ],
+      "suggestions": [],
+      "suggestionCount": 0,
+      "pagination": { "nextKey": null }
+    },
+    {
+      "tool": "serp_analysis",
+      "collectedAt": "2026-09-08T13:01:43.442Z",
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "locId": 1001566,
+      "keyword": "fabricação de cilindros hidráulicos",
+      "updated_at": "2026-09-08",
+      "newData": true,
+      "limit": 10,
+      "entries": {
+        "total": 14,
+        "byType": { "organic": 10, "local_pack": 3, "video": 1 },
+        "note": "Position fields are ordinals in a response containing SERP features; not a stable organic ranking. NODOMAIN video is preserved in the raw file and is not a publishable URL."
+      }
+    }
+  ],
+  "counts": {
+    "calls": 3,
+    "seeds": 6,
+    "seedsWithVolume": 3,
+    "seedsWithoutVolume": 3,
+    "suggestionsReturned": 1,
+    "serpEntries": 14,
+    "serpOrganicEntries": 10,
+    "serpLocalPackEntries": 3,
+    "serpVideoEntries": 1
+  },
+  "routes": [
+    {
+      "route": "/hidrautractor/",
+      "role": "Hub with two decision cards",
+      "indexable": true
+    },
+    {
+      "route": "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+      "role": "Recovery of hydraulic cylinders",
+      "indexable": true,
+      "flowSteps": 6
+    },
+    {
+      "route": "/hidrautractor/fabricacao-cilindros-hidraulicos/",
+      "role": "Manufacture of hydraulic cylinders",
+      "indexable": true,
+      "flowSteps": 6
+    }
+  ],
+  "inventory": {
+    "baselineCommit": "9f6137c",
+    "baselineIndexableUrls": 42,
+    "finalIndexableUrls": 44,
+    "baselineHydrauSitemapUrls": 2,
+    "finalHydrauSitemapUrls": 4,
+    "rootSitemaps": 10
+  },
+  "ownerConfirmation": {
+    "date": "2026-09-08",
+    "scope": "HidrauTractor executes recovery and manufacture of hydraulic cylinders",
+    "classification": "explicit owner declaration; not external certification"
+  },
+  "limitations": [
+    "Brazil keyword estimates do not establish Minas Gerais demand.",
+    "No query in this collection identifies profession, company, sector, customer, conversion, capacity or service-level agreement.",
+    "Missing volume fields remain null and are not converted to zero.",
+    "The SERP sample is one keyword and one Belo Horizonte location; listing a domain does not prove technical quality or a commercial relationship.",
+    "Standards are technical references and do not certify the business; material, pressure, tolerances, acceptance criteria, capacity, deadline, warranty and logistics remain piece-specific."
+  ],
+  "standards": [
+    { "id": "ISO 10100:2020", "url": "https://www.iso.org/standard/75271.html", "role": "Acceptance and function tests for hydraulic fluid power cylinders" },
+    { "id": "ISO 6020-1:2007", "url": "https://www.iso.org/standard/40298.html", "role": "Medium series mounting dimensions/interchangeability" },
+    { "id": "ISO 6020-2:2015", "url": "https://www.iso.org/standard/61339.html", "role": "Compact series mounting dimensions/interchangeability" },
+    { "id": "ISO 6022:2006", "url": "https://www.iso.org/standard/36109.html", "role": "25 MPa series mounting dimensions/interchangeability" },
+    { "id": "ISO 4413:2010", "url": "https://www.iso.org/standard/44781.html", "role": "General rules and safety requirements for hydraulic systems" },
+    { "id": "ISO 4406:2021", "url": "https://www.iso.org/standard/79716.html", "role": "Fluid contamination coding" },
+    { "id": "ABNT NBR ISO 10100:2022", "url": "https://www.dinmedia.de/en/standard/abnt-nbr-iso-10100/360298770", "role": "Brazilian edition record for hydraulic-cylinder acceptance/function testing" },
+    { "id": "ABNT NBR 13444", "url": "https://www.dinmedia.de/de/norm/abnt-nbr-13444/180718525", "role": "Specific 250 bar single-rod mounting dimensions; not a general fabrication rule" }
+  ]
+}

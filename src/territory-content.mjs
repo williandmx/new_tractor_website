@@ -41,7 +41,7 @@ const territoryBody = ({ pageHero, contactBand, site }) => `
   ${pageHero({
     eyebrow: "ATUAÇÃO EM MINAS GERAIS",
     title: "Manutenção de máquinas pesadas em Minas Gerais",
-    intro: "Peças, material rodante, recuperação estrutural e usinagem para operações que precisam organizar a próxima decisão, com base em Belo Horizonte.",
+    intro: "Cilindros hidráulicos, material rodante, recuperação estrutural, usinagem e peças para operações em Minas Gerais, com base em Belo Horizonte.",
     breadcrumb: [
       { label: "Atuação", href: "/atuacao/" },
       { label: "Minas Gerais", href: "/atuacao/minas-gerais/" },
@@ -55,7 +55,7 @@ const territoryBody = ({ pageHero, contactBand, site }) => `
   ${section(
     "minas-contexto",
     "Cidade, máquina e componente no mesmo pedido",
-    `<p>O Grupo New Tractor tem base em Belo Horizonte e reúne especialidades para manutenção e recuperação de máquinas pesadas. Minas Gerais conecta mineração, indústria, floresta, construção e locação em operações com rotinas e acessos diferentes.</p><p>Informe a cidade, o equipamento, o componente e a condição observada. Para uma <a href="/servicos/manutencao-material-rodante/">avaliação de material rodante</a>, descreva o conjunto e o uso. Para uma consulta hidráulica, encaminhe a identificação do cilindro e a aplicação à <a href="/hidrautractor/">HidrauTractor</a>. Peça existente com necessidade dimensional pode seguir para <a href="/usinagem/">Usinagem</a>; estruturas e implementos, para <a href="/calderaria/">Calderaria</a>; código, desenho ou especificação de peça nova, para <a href="/parts/">Parts</a>.</p><p>Os equipamentos ajudam a nomear a necessidade: consulte <a href="/equipamentos/escavadeiras/">escavadeiras</a>, <a href="/equipamentos/tratores-de-esteira/">tratores de esteira</a> e <a href="/equipamentos/pas-carregadeiras/">pás carregadeiras</a>. A <a href="/services/">Services</a> organiza a conversa de campo; a <a href="/techtractor/">TechTractor</a> apresenta uma frente tecnológica em evolução.</p>`,
+    `<p>O Grupo New Tractor tem base em Belo Horizonte e reúne especialidades para manutenção e recuperação de máquinas pesadas. Minas Gerais conecta mineração, indústria, floresta, construção e locação em operações com rotinas e acessos diferentes.</p><p>Informe a cidade, o equipamento, o componente e a condição observada. Para uma <a href="/servicos/manutencao-material-rodante/">avaliação de material rodante</a>, descreva o conjunto e o uso. A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto. Peça existente com necessidade dimensional pode seguir para <a href="/usinagem/">Usinagem</a>; estruturas e implementos, para <a href="/calderaria/">Calderaria</a>; código, desenho ou especificação de peça nova, para <a href="/parts/">Parts</a>.</p><p>Os equipamentos ajudam a nomear a necessidade: consulte <a href="/equipamentos/escavadeiras/">escavadeiras</a>, <a href="/equipamentos/tratores-de-esteira/">tratores de esteira</a> e <a href="/equipamentos/pas-carregadeiras/">pás carregadeiras</a>. A <a href="/services/">Services</a> organiza a conversa de campo; a <a href="/techtractor/">TechTractor</a> apresenta uma frente tecnológica em evolução.</p>`,
   )}
   <section class="section section--dark" aria-labelledby="corredores-mg-title">
     <div class="shell">

@@ -1,0 +1,157 @@
+{
+  "baseline": "9f6137cf01c9b1393ec0d309300594a5bc17a927",
+  "unitTests": {
+    "passed": 34,
+    "failed": 0
+  },
+  "browser": {
+    "routes": 44,
+    "navigations": 176,
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  },
+  "refinedHydraulicPages": {
+    "navigations": 8,
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  },
+  "interactions": [
+    {
+      "mode": "recuperacao",
+      "width": 360,
+      "anchor": {
+        "top": 210.390625,
+        "header": 188.765625,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    },
+    {
+      "mode": "fabricacao",
+      "width": 360,
+      "anchor": {
+        "top": 210.390625,
+        "header": 188.765625,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    },
+    {
+      "mode": "recuperacao",
+      "width": 768,
+      "anchor": {
+        "top": 165.125,
+        "header": 144.96875,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    },
+    {
+      "mode": "fabricacao",
+      "width": 768,
+      "anchor": {
+        "top": 165.125,
+        "header": 144.96875,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    },
+    {
+      "mode": "recuperacao",
+      "width": 1365,
+      "anchor": {
+        "top": 164.671875,
+        "header": 140.796875,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    },
+    {
+      "mode": "fabricacao",
+      "width": 1365,
+      "anchor": {
+        "top": 164.671875,
+        "header": 140.796875,
+        "steps": 6,
+        "overflow": false
+      },
+      "keyboardDetails": true,
+      "correctQuote": true
+    }
+  ],
+  "lighthouseLocal": [
+    {
+      "scenario": "fabricacao-mobile",
+      "url": "http://127.0.0.1:8794/hidrautractor/fabricacao-cilindros-hidraulicos/",
+      "fetchedAt": "2026-09-08T13:23:45.575Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1802.4805,
+      "cls": 0
+    },
+    {
+      "scenario": "hidrau-mobile",
+      "url": "http://127.0.0.1:8794/hidrautractor/",
+      "fetchedAt": "2026-09-08T13:23:20.819Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2103.5144,
+      "cls": 0.0002418748990448447
+    },
+    {
+      "scenario": "recuperacao-desktop",
+      "url": "http://127.0.0.1:8794/hidrautractor/recuperacao-cilindros-hidraulicos/",
+      "fetchedAt": "2026-09-08T13:23:57.843Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 409.70090000000005,
+      "cls": 0
+    },
+    {
+      "scenario": "recuperacao-mobile",
+      "url": "http://127.0.0.1:8794/hidrautractor/recuperacao-cilindros-hidraulicos/",
+      "fetchedAt": "2026-09-08T13:23:33.196Z",
+      "lighthouseVersion": "13.4.1",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1803.7732,
+      "cls": 0
+    }
+  ],
+  "scope": "Laboratório local. Não mede tráfego, ranking ou contas externas. Pages.dev preserva noindex/nofollow."
+}
