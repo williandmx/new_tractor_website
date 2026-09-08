@@ -1,7 +1,7 @@
 # HidrauTractor: recuperação e fabricação de cilindros hidráulicos
 
-**Data:** 08/09/2026 · **Status:** implementação e QA local concluídos;
-preview e merge em validação.
+**Data:** 08/09/2026 · **Status:** implementação, QA local e preview validados.
+Entrega e histórico de merge: [PR 12](https://github.com/williandmx/new_tractor_website/pull/12).
 
 ## Decisão de escopo
 
@@ -112,8 +112,8 @@ residente, coleta local ou resultado de ensaio antes da especificação.
 
 ## Antes e depois na main
 
-Referência anterior: commit `9f6137c` (PR 11). A versão desta entrega será
-identificada no registro de publicação após a validação do preview.
+Referência anterior: commit `9f6137c` (PR 11). Código desta entrega:
+`832b5186e8b4d7de7c0ccb42f08ffc397395f66a` (PR 12).
 
 | Aspecto | Antes | Implementação desta entrega |
 |---|---|---|
@@ -154,3 +154,28 @@ cabeçalho, teclado dos detalhes e roteiro de e-mail específico por serviço.
 
 Evidência compacta: [dados/hidrautractor-qa-2026-09-08.json](dados/hidrautractor-qa-2026-09-08.json).
 Scores são de laboratório; não medem ranking ou resultados de clientes.
+
+## Preview validado e publicação
+
+Preview do código `832b518`: [HidrauTractor na Cloudflare](https://1c533714.newtractor-site.pages.dev/hidrautractor/).
+Foram verificados 57 recursos: 44 páginas, dez sitemaps segmentados, índice,
+robots.txt e llms.txt. Todos HTTP 200 e idênticos ao build local. As três rotas
+hidráulicas passaram em 12 cenários de navegador, com/sem JavaScript e
+mobile/desktop, após carregamento completo do CSS.
+
+Os dois endereços novos sem barra retornaram 301 para a forma canônica. As
+imagens têm cache de 30 dias; CSS versionado tem cache de um ano e immutable.
+Googlebot e OAI-SearchBot recebem o conteúdo completo em HTML. O host Pages.dev
+preserva `X-Robots-Tag: noindex, nofollow`, conforme o projeto. Isso limita a
+indexação desse host; o trabalho não alterou DNS ou Search Console.
+
+GitHub Actions aprovou o build e os 34 testes do código em
+[34231948629](https://github.com/williandmx/new_tractor_website/actions/runs/34231948629).
+O check Cloudflare Pages confirmou o deployment
+`1c533714-c5ef-4f93-a5a4-06d1115af855`. A revisão documental seguinte não altera o
+site gerado. O merge da PR 12 aciona o deploy de produção integrado ao Git;
+a conferência final deve comparar o host de produção com este mesmo build.
+
+Rollback de código: reverter o merge da PR 12 e validar o deploy resultante.
+Referência anterior de produção: commit `9f6137c`, deployment
+`4bd77a18-6dcb-41c1-b96a-c5ecd2da1700`. Nenhuma migração de DNS está envolvida.

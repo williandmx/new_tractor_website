@@ -153,5 +153,70 @@
       "cls": 0
     }
   ],
-  "scope": "Laboratório local. Não mede tráfego, ranking ou contas externas. Pages.dev preserva noindex/nofollow."
+  "scope": "Laboratório local. Não mede tráfego, ranking ou contas externas. Pages.dev preserva noindex/nofollow.",
+  "preview": {
+    "codeCommit": "832b5186e8b4d7de7c0ccb42f08ffc397395f66a",
+    "url": "https://1c533714.newtractor-site.pages.dev",
+    "checkedAt": "2026-09-08T13:27:05.109516+00:00",
+    "resources": 57,
+    "exactBuildMatch": true,
+    "browserNavigations": 12,
+    "browserSummary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    },
+    "headers": [
+      {
+        "path": "/hidrautractor/recuperacao-cilindros-hidraulicos",
+        "status": 301,
+        "location": "/hidrautractor/recuperacao-cilindros-hidraulicos/",
+        "cache": null,
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/hidrautractor/fabricacao-cilindros-hidraulicos",
+        "status": 301,
+        "location": "/hidrautractor/fabricacao-cilindros-hidraulicos/",
+        "cache": null,
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/assets/images/hidrau-recuperacao-1280.webp",
+        "status": 200,
+        "location": null,
+        "cache": "public, max-age=2592000",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/assets/images/hidrau-fabricacao-1280.webp",
+        "status": 200,
+        "location": null,
+        "cache": "public, max-age=2592000",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "path": "/assets/css/site.20260908-hydraulic.css",
+        "status": 200,
+        "location": null,
+        "cache": "public, max-age=31536000, immutable",
+        "robots": "noindex, nofollow"
+      },
+      {
+        "userAgent": "Googlebot",
+        "status": 200,
+        "robots": "noindex, nofollow",
+        "flowInRawHTML": true,
+        "serviceInRawHTML": true
+      },
+      {
+        "userAgent": "OAI-SearchBot",
+        "status": 200,
+        "robots": "noindex, nofollow",
+        "flowInRawHTML": true,
+        "serviceInRawHTML": true
+      }
+    ],
+    "initialObservation": "Primeira captura DOMContentLoaded registrou overflow transitório antes do CSS na rota Hidrau mobile sem JS. Diagnóstico após load: stylesheet HTTP200, scrollWidth=360 em viewport360, zero elementos excedentes. Matriz repetida após load:12/12 aprovados."
+  }
 }
