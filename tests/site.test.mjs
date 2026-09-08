@@ -305,21 +305,34 @@ test("Pessoas tem filme sob demanda, texto equivalente e descoberta", async () =
   assert.match(await read("sitemap.xml"), /https:\/\/newtractor\.com\.br\/pessoas\//);
 });
 
-test("a documentação preserva as cinco regras de migração por query string", async () => {
+test("o pacote de migração preserva os cinco destinos canônicos e permanece desativado", async () => {
   const deployment = await readFile(join(root, "docs/DEPLOYMENT.md"), "utf8");
   const urlMap = await readFile(join(root, "docs/url-map.md"), "utf8");
+  const ruleset = JSON.parse(await readFile(join(root, "docs/migration/wordpress-single-redirects.json"), "utf8"));
   const mappings = [
     ["p=470", "/empresa/"],
-    ["p=13", "/servicos/"],
+    ["p=13", "/servicos/manutencao-material-rodante/"],
     ["p=288", "/servicos/reforma-cacambas-conchas/"],
     ["p=286", "/servicos/monitoramento-material-rodante/"],
     ["p=477", "/contato/"],
   ];
 
-  assert.match(deployment, /criar cinco \*\*Single Redirect Rules\*\*/);
+  assert.match(deployment, /migration\/wordpress-single-redirects\.json/);
+  assert.equal(ruleset.kind, "zone");
+  assert.equal(ruleset.phase, "http_request_dynamic_redirect");
+  assert.equal(ruleset.rules.length, mappings.length);
+  assert.equal(new Set(ruleset.rules.map((rule) => rule.ref)).size, mappings.length);
   for (const [query, destination] of mappings) {
-    assert.ok(deployment.includes(`query eq "${query}"`), `${query}: regra Cloudflare documentada`);
-    assert.ok(deployment.includes(`https://newtractor.com.br${destination}`), `${query}: destino Cloudflare documentado`);
+    const rule = ruleset.rules.find((entry) => entry.ref === `wordpress-${query.slice(2)}`);
+    assert.ok(rule, `${query}: regra identificada`);
+    assert.equal(rule.enabled, false, `${query}: pacote não ativa redirects antes do corte`);
+    assert.equal(rule.action, "redirect");
+    assert.equal(rule.action_parameters.from_value.status_code, 301);
+    assert.equal(rule.action_parameters.from_value.preserve_query_string, false);
+    const canonical = `https://newtractor.com.br${destination}`;
+    assert.equal(rule.action_parameters.from_value.target_url.value, canonical);
+    assert.ok((await read("sitemap.xml")).includes(`<loc>${canonical}</loc>`), `${query}: destino indexável no sitemap`);
+    await access(join(dist, destination.slice(1), "index.html"));
     assert.ok(urlMap.includes(`\`/?${query}\` | \`${destination}\``), `${query}: mapa de URLs coerente`);
   }
 });

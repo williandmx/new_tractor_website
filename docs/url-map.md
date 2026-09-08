@@ -1,6 +1,6 @@
 # Mapa de URLs e migração
 
-## Rotas comerciais novas — status local, não publicado
+## Rotas comerciais — Pages publicado, domínio oficial ainda pendente
 
 Decisão atualizada em 2026-09-06: a home apresenta o Grupo New Tractor e
 as sete frentes abaixo. São rotas de arquitetura de marca, não prova de
@@ -39,7 +39,7 @@ O estado de publicação é registrado em `DEPLOYMENT.md`.
 | Origem antiga | Destino novo | Observação |
 |---|---|---|
 | `/?p=470` | `/empresa/` | Empresa |
-| `/?p=13` | `/servicos/` | Hub de soluções conforme a regra de migração aprovada |
+| `/?p=13` | `/servicos/manutencao-material-rodante/` | Revisão de 08/09/2026: preservar título, assunto principal e consultas de manutenção/recuperação |
 | `/?p=288` | `/servicos/reforma-cacambas-conchas/` | Reforma |
 | `/?p=286` | `/servicos/monitoramento-material-rodante/` | Monitoramento |
 | `/?p=477` | `/contato/` | Contato |
@@ -48,6 +48,17 @@ O estado de publicação é registrado em `DEPLOYMENT.md`.
 | `/exposibram-2026` | `/noticias/new-tractor-na-exposibram-2026/` | Conteúdo histórico |
 
 ## Regra técnica importante
+
+Revisão de 08/09/2026: os cinco `/?page_id=ID` foram observados fazendo 301
+para o `/?p=ID` correspondente no WordPress. Incluir os dois formatos na mesma
+regra de destino durante o corte. O ID 13 passa do hub para o serviço específico,
+mais fiel ao título e assunto principal; o serviço mantém links para o hub,
+monitoramento e reforma. O conjunto anterior permanece no histórico Git.
+
+O pacote de regras para revisão fica em
+[`migration/wordpress-single-redirects.json`](migration/wordpress-single-redirects.json).
+Ele não foi ativado na zona; aceitar parâmetros adicionais não significa
+preservar a query WordPress no destino canônico.
 
 O arquivo `_redirects` do Cloudflare Pages não diferencia query string para as
 URLs `?p=`/`?page_id=` do WordPress. Esses redirects devem ser configurados em

@@ -322,6 +322,13 @@ const manutencaoBody = `
       <ul class="check-list"><li>${icon("check")} Tratores de esteira</li><li>${icon("check")} Escavadeiras</li><li>${icon("check")} Máquinas perfuratrizes</li><li>${icon("check")} Colheitadeiras</li></ul>
     </div>
   </section>
+  <section class="section section--light" aria-labelledby="rodantes-referencias-title">
+    <div class="shell editorial-grid">
+      <div><span class="eyebrow">NA IMPRENSA</span><h2 id="rodantes-referencias-title">New Tractor na Revista M&amp;T</h2></div>
+      <div class="rich-text"><p>A reportagem <cite>Vida útil plena para esteiras</cite>, da edição de abril de 2025, reúne perspectivas sobre conservação, medição e viabilidade de recuperação do material rodante, com participação da New Tractor.</p><p><a class="text-link" href="https://revistamt.com.br/Materias/Exibir/manutencao">Ler a reportagem na Revista M&amp;T ${icon("arrow")}</a></p></div>
+    </div>
+    <div class="shell"><nav class="company-resources" aria-label="Serviços e orientações relacionados ao material rodante"><a class="text-link" href="/servicos/monitoramento-material-rodante/">Monitoramento de desgaste ${icon("arrow")}</a><a class="text-link" href="/guias/inspecao-material-rodante/">Como organizar os registros de inspeção ${icon("arrow")}</a><a class="text-link" href="/servicos/reforma-cacambas-conchas/">Reforma de caçambas e conchas ${icon("arrow")}</a><a class="text-link" href="/servicos/">Todas as soluções ${icon("arrow")}</a></nav></div>
+  </section>
   ${contactBand("Precisa avaliar um componente de material rodante?")}`;
 
 const reformaBody = `
