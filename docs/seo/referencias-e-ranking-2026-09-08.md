@@ -6,7 +6,10 @@ A oportunidade mais concreta encontrada nesta rodada é uma referência já
 existente: a New Tractor participa da reportagem [“Vida útil plena para esteiras”,
 Revista M&T, abril de 2025](https://revistamt.com.br/Materias/Exibir/manutencao).
 A matéria contém link para o domínio. Ela passou a ser citada na página de
-manutenção como registro histórico, com resumo próprio.
+manutenção como registro histórico, com resumo próprio. A alteração foi
+mesclada pelo [PR4](https://github.com/williandmx/new_tractor_website/pull/4)
+e confirmada no [Pages estável](https://newtractor-site.pages.dev/servicos/manutencao-material-rodante/),
+ainda com indexação desativada nesse host.
 
 ## Referências do domínio
 

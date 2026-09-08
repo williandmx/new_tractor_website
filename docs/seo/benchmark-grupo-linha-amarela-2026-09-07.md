@@ -270,7 +270,7 @@ oito de serviço, todas nas páginas do WordPress antigo. Mobile continuava pend
 A auditoria de links exibiu 17 backlinks de 13 domínios. Foi confirmada a
 participação histórica da New Tractor na reportagem “Vida útil plena para
 esteiras”, da Revista M&T, e a referência foi incorporada à página de manutenção
-em preview. A comparação de Hidraucron, Cilíndrica e Minusa revelou contextos de
+no Pages estável após o [PR4](https://github.com/williandmx/new_tractor_website/pull/4). A comparação de Hidraucron, Cilíndrica e Minusa revelou contextos de
 redes de fabricantes, imprensa, eventos e entidades; cada oportunidade depende
 de vínculo ou contribuição real.
 

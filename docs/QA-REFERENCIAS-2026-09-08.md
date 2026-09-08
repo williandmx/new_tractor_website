@@ -35,3 +35,14 @@ restrição de borda por cliente, sem alteração de regras de segurança.
 As notas do Lighthouse são medições de laboratório e não demonstram posição
 no Google ou aquisição de clientes. O domínio oficial continua no WordPress;
 DNS, e-mail e regras de redirect não foram alterados.
+
+## Publicação no Pages
+
+[PR4](https://github.com/williandmx/new_tractor_website/pull/4) mesclado em
+`main`, commit `3670e3efb895520270baf138fa1bd52bda596671`, em 08/09/2026.
+O build e os testes do GitHub passaram, assim como o check da Cloudflare
+(deployment `7b114727-299a-41ef-8fcd-9cd024954491`).
+
+A [rota estável](https://newtractor-site.pages.dev/servicos/manutencao-material-rodante/)
+respondeu HTTP 200 com `X-Robots-Tag: noindex, nofollow`, um H1 e a referência
+M&T no HTML estático. O corte do domínio oficial permanece pendente.

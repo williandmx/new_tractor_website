@@ -40,8 +40,9 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 ## Publicação e medição
 
-Estado atual: PR3 mesclado em `main` (`a2d8135`), checks aprovados e nova versão
-no alias estável do Pages. O domínio oficial continua no WordPress anterior.
+Estado atual: PR4 mesclado em `main` (`3670e3e`), checks aprovados e referência
+editorial confirmada no alias estável do Pages. O PR3 (`a2d8135`) entregou as
+cinco rotas e a otimização anterior. O domínio oficial continua no WordPress anterior.
 O [roteiro de corte](PRONTIDAO-DOMINIO-2026-09-07.md) registra e-mail, redirects,
 medição e rollback; falta o inventário completo da zona DNS.
 
@@ -71,7 +72,7 @@ pendentes. Não há comparação de evolução.
 
 A auditoria encontrou 17 backlinks de 13 domínios no Ubersuggest. A referência
 editorial existente na Revista M&T foi verificada e incorporada à página de
-manutenção no preview de 08/09. Cinco contextos setoriais de referências dos
+manutenção, validada no preview e publicada no Pages em 08/09. Cinco contextos setoriais de referências dos
 concorrentes foram verificados; pedidos de cadastro dependem de vínculo real.
 O destino legado `?p=13` foi refinado para manutenção de material rodante,
 com aliases `page_id` no [pacote desativado de migração](../migration/README.md).
