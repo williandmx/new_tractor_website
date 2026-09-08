@@ -127,3 +127,13 @@ Os fluxos não fixam pressão, material, acabamento, tolerância, capacidade,
 garantia ou prazo; esses dados dependem da peça, aplicação, norma adotada e
 requisitos contratuais. As referências ISO exibidas contextualizam o projeto e
 os ensaios, sem certificar a empresa.
+
+## Catálogo integrado de serviços — 08/09/2026
+
+`src/service-offers.mjs` reúne seis entradas comerciais consumidas por
+`src/site.mjs`: material rodante, cilindros, caldeiraria, usinagem,
+monitoramento e avaliação em campo. A página `/servicos/` renderiza cards com
+fotos, links HTML e ItemList correspondente; recuperação e fabricação hidráulica
+mantêm suas rotas próprias. Os três slugs genéricos propostos são aliases 301
+para os hubs existentes, não novas páginas concorrentes. O módulo faz parte
+do lint. O inventário continua com 44 URLs/10 sitemaps.

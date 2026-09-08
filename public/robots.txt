@@ -2,4 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
+# Catalogo complementar: https://newtractor.com.br/llms.txt
+# A indexacao tambem respeita os cabeçalhos HTTP de cada host.
 Sitemap: https://newtractor.com.br/sitemap.xml

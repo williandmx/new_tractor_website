@@ -126,3 +126,17 @@ sitemaps no índice raiz. Não são aliases de `/servicos/` nem páginas municip
 O proprietário confirmou a recuperação e a fabricação em 08/09/2026; material,
 pressão, tolerância, critérios de ensaio, capacidade, prazo, garantia e logística
 continuam sujeitos à avaliação e ao escopo de cada peça.
+
+## Consolidação das entradas propostas em 08/09/2026
+
+Os caminhos propostos na branch `feat/servicos-oferta-descoberta-20260908` não
+chegaram a gerar páginas. A revisão cria aliases 301, com e sem barra final:
+
+| Caminho proposto | Destino canônico |
+|---|---|
+| `/servicos/cilindros-hidraulicos/` | `/hidrautractor/` |
+| `/servicos/inspecao-manutencao-campo/` | `/services/` |
+| `/servicos/caldeiraria-linha-amarela/` | `/calderaria/` |
+
+Os cards usam diretamente os destinos canônicos. Os aliases não entram no
+sitemap nem no `llms.txt`; mantêm-se 44 URLs indexáveis e dez sitemaps.
