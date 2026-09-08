@@ -1,7 +1,7 @@
 # Auditoria da coleta MCP — aplicações, território e HidrauTractor
 
-**Data da coleta:** 08/09/2026  
-**Fontes cruzadas:** `/tmp/newtractor-territorio-mcp-20260908.json` e `/tmp/newtractor-hidrau-escopo-material-20260908.md`.  
+**Data da coleta:** 08/09/2026
+**Fontes cruzadas:** `/tmp/newtractor-territorio-mcp-20260908.json` e `/tmp/newtractor-hidrau-escopo-material-20260908.md`.
 **Regra:** números abaixo são a fotografia retornada pelo provedor para português/Brasil ou para a localização declarada pela chamada. Não somar volumes, não tratar ausência de campo como zero e não transferir oferta de concorrentes ou de um escopo do Grupo para outro.
 
 ## Contagem exata da execução

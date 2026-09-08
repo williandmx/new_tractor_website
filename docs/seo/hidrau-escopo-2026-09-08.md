@@ -1,6 +1,6 @@
 # Evidência local sobre escopo hidráulico e modalidades de atendimento — Grupo New Tractor
 
-**Data:** 08/09/2026  
+**Data:** 08/09/2026
 **Escopo:** leitura somente de materiais públicos/autorizados já presentes no repositório do site e em `New_tractor/Midia`. Não foram abertos painéis, projetos privados, credenciais, dados de clientes, imagens ou vídeos para inferência. Não houve classificação por ML, edição, build ou publicação.
 
 ## Critério e arquivos consultados

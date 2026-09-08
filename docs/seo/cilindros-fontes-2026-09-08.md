@@ -1,7 +1,7 @@
 # Cilindros hidráulicos por aplicação: evidência e arquitetura editorial
 
-**Data:** 08/09/2026  
-**Escopo:** escavadeiras, tratores de esteira e pás carregadeiras, com recorte de consulta e manutenção em MG/Brasil.  
+**Data:** 08/09/2026
+**Escopo:** escavadeiras, tratores de esteira e pás carregadeiras, com recorte de consulta e manutenção em MG/Brasil.
 **Natureza:** pesquisa somente leitura para orientar uma eventual expansão de conteúdo. Não altera o site nem comprova oferta da HidrauTractor.
 
 ## Limites da evidência
