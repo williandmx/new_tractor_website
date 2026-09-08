@@ -4,6 +4,17 @@ Atualização: 08/09/2026. Objetivo permanente: aumentar a descoberta e a prefer
 pelo grupo nas sete frentes de linha amarela, com foco comercial em Minas Gerais.
 O benchmark não demonstra liderança atual nem permite prometer posições.
 
+## Aceite vigente — escopo definido pelo proprietário em 08/09
+
+A entrega atual termina na `main`: análise por especialidade, aplicação editorial,
+conteúdo setorial, descoberta técnica, validação e merge. DNS, Search Console,
+configuração de contas externas e comprovação de crescimento de ranking pertencem
+à operação posterior. Não são bloqueios para concluir esta implementação.
+
+A análise MCP e as decisões desta rodada estão em
+[benchmark-mcp-grupo-2026-09-08.md](benchmark-mcp-grupo-2026-09-08.md).
+As seções históricas abaixo preservam as entregas e observações de cada rodada.
+
 ## Evidência reunida
 
 - Dez concorrentes mineiros de hidráulica e diagnóstico inicial da New Tractor:
