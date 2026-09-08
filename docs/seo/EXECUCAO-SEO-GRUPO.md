@@ -40,9 +40,10 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 ## Publicação e medição
 
-Estado atual: PR4 mesclado em `main` (`3670e3e`), checks aprovados e referência
-editorial confirmada no alias estável do Pages. O PR3 (`a2d8135`) entregou as
-cinco rotas e a otimização anterior. O domínio oficial continua no WordPress anterior.
+Estado atual: PR5 mesclado em `main` (`7ae51f0`), checks aprovados e medição
+de contatos confirmada no Pages estável. O PR4 (`3670e3e`) acrescentou a
+referência editorial; o PR3 (`a2d8135`) entregou as cinco rotas e a otimização
+anterior. O domínio oficial continua no WordPress anterior.
 O [roteiro de corte](PRONTIDAO-DOMINIO-2026-09-07.md) registra e-mail, redirects,
 medição e rollback; falta o inventário completo da zona DNS.
 
@@ -75,9 +76,10 @@ Search Console e não apresentou contas no Tag Manager. Foi solicitada a
 identificação do responsável. O [plano de medição](MEDICAO-AQUISICAO.md) registra
 os eventos e filtros comerciais, sem chamar clique de lead.
 
-A correção local cobre contatos do rodapé e das sete especialidades, preserva
+A correção publicada no Pages cobre contatos do rodapé e das sete especialidades, preserva
 o aceite em memória quando o armazenamento falha e implementa o caminho de
 revogação. A configuração e a recepção de eventos no GA4 permanecem pendentes.
+[QA: 32 testes e sete cenários funcionais](../QA-MEDICAO-2026-09-08.md).
 
 ## Referências e presença local
 

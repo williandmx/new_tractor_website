@@ -1,0 +1,287 @@
+{
+  "started_at": "2026-09-08T03:54:17.919Z",
+  "base_url": "http://127.0.0.1:8794",
+  "browser": "Playwright Chromium, fresh unauthenticated context",
+  "tracking_interception": "GTM/GA and related Google tracking hosts fulfilled locally; no third-party tracking request sent",
+  "tests": [
+    {
+      "name": "sem consentimento não há GTM nem eventos; Só essenciais mantém isso",
+      "status": "PASS",
+      "duration_ms": 1309,
+      "details": {
+        "google_requests": 0,
+        "tracking_events": 0
+      }
+    },
+    {
+      "name": "aceite carrega um GTM e cada CTA de contato gera um evento",
+      "status": "PASS",
+      "duration_ms": 1877,
+      "details": {
+        "google_requests": [
+          {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3RNZ98",
+            "method": "GET",
+            "resource_type": "script"
+          }
+        ],
+        "cta_events": [
+          {
+            "event": "site_cta_click",
+            "cta_name": "whatsapp_contato",
+            "cta_channel": "whatsapp",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "telefone_contato",
+            "cta_channel": "phone",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "email_contato",
+            "cta_channel": "email",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "email_rfq_contato",
+            "cta_channel": "email",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "email_homologacao",
+            "cta_channel": "email",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "mapa_contato",
+            "cta_channel": "map",
+            "page_path": "/contato/"
+          },
+          {
+            "event": "site_cta_click",
+            "cta_name": "whatsapp_contato",
+            "cta_channel": "whatsapp",
+            "page_path": "/contato/"
+          }
+        ],
+        "observed_ctas": 7
+      }
+    },
+    {
+      "name": "com storage indisponível, aceite funciona em memória e não persiste após reload",
+      "status": "PASS",
+      "duration_ms": 1795,
+      "details": {
+        "first_document_cta_events": 1,
+        "google_requests": 1,
+        "banner_after_reload": true
+      }
+    },
+    {
+      "name": "revisar preferência → Só essenciais remove GTM e interrompe eventos futuros",
+      "status": "PASS",
+      "duration_ms": 2656,
+      "details": {
+        "google_requests": 1,
+        "gtm_scripts_after_revocation": 0,
+        "cta_events_after_revocation": 0
+      }
+    },
+    {
+      "name": "privacidade em 360px não transborda e fluxo de consentimento funciona por teclado",
+      "status": "PASS",
+      "duration_ms": 1729,
+      "details": {
+        "viewport": 360,
+        "initial_overflow": {
+          "inner_width": 360,
+          "client_width": 360,
+          "document_scroll_width": 360,
+          "body_scroll_width": 360,
+          "overflow": false
+        },
+        "final_overflow": {
+          "inner_width": 360,
+          "client_width": 360,
+          "document_scroll_width": 360,
+          "body_scroll_width": 360,
+          "overflow": false
+        },
+        "keyboard_path": "Aceitar → Revisar → Tab → Só essenciais",
+        "google_requests": 1,
+        "gtm_scripts_after_review": 0
+      }
+    },
+    {
+      "name": "storage somente leitura com aceite legado é tratado como não verificável sem gerar erro",
+      "status": "PASS",
+      "duration_ms": 1667,
+      "details": {
+        "legacy_value_observed": "accepted",
+        "legacy_accepted_policy": "rejected as unverifiable because writability probe failed",
+        "storage_mutation": "read-only (set/remove/clear throw)",
+        "page_errors": [],
+        "google_requests": 0,
+        "gtm_scripts_after_reload": 0,
+        "banner_after_reload": true,
+        "note": "o valor antigo accepted permanece legível, mas não habilita tracking até que o navegador permita verificar revogação"
+      }
+    },
+    {
+      "name": "cada CTA novo de home, parceria, contato e empresas tem instrumentação",
+      "status": "PASS",
+      "duration_ms": 13251,
+      "details": {
+        "ctas": [
+          {
+            "route": "/",
+            "label": "faixa → contato",
+            "selector": ".contact-band a[data-analytics='contato_rodape']",
+            "analytics": "contato_rodape"
+          },
+          {
+            "route": "/",
+            "label": "faixa → telefone",
+            "selector": ".contact-band a[data-analytics='telefone_faixa_contato']",
+            "analytics": "telefone_faixa_contato"
+          },
+          {
+            "route": "/",
+            "label": "rodapé → telefone",
+            "selector": ".footer-grid address a[data-analytics='telefone_rodape']",
+            "analytics": "telefone_rodape"
+          },
+          {
+            "route": "/",
+            "label": "rodapé → e-mail",
+            "selector": ".footer-grid address a[data-analytics='email_rodape']",
+            "analytics": "email_rodape"
+          },
+          {
+            "route": "/",
+            "label": "rodapé → mapa",
+            "selector": ".footer-grid address a[data-analytics='mapa_rodape']",
+            "analytics": "mapa_rodape"
+          },
+          {
+            "route": "/parcerias/",
+            "label": "cliente → contato",
+            "selector": ".partnership-grid article:first-child a[href='/contato/']",
+            "analytics": "contato_parcerias"
+          },
+          {
+            "route": "/parcerias/",
+            "label": "fornecedor → e-mail",
+            "selector": ".partnership-grid article:nth-child(2) a[href^='mailto:']",
+            "analytics": "email_fornecedor"
+          },
+          {
+            "route": "/parcerias/",
+            "label": "parceiro → e-mail",
+            "selector": ".partnership-grid article:nth-child(3) a[href^='mailto:']",
+            "analytics": "email_parceria"
+          },
+          {
+            "route": "/parcerias/",
+            "label": "faixa de contato",
+            "selector": ".contact-band a.button[href='/contato/']",
+            "analytics": "contato_rodape"
+          },
+          {
+            "route": "/parcerias/",
+            "label": "faixa → telefone",
+            "selector": ".contact-band a[data-analytics='telefone_faixa_contato']",
+            "analytics": "telefone_faixa_contato"
+          },
+          {
+            "route": "/contato/",
+            "label": "WhatsApp",
+            "selector": ".contact-cards a[href^='https://wa.me/']",
+            "analytics": "whatsapp_contato"
+          },
+          {
+            "route": "/contato/",
+            "label": "telefone",
+            "selector": ".contact-cards a[href^='tel:']",
+            "analytics": "telefone_contato"
+          },
+          {
+            "route": "/contato/",
+            "label": "e-mail comercial",
+            "selector": ".contact-cards a[href^='mailto:']",
+            "analytics": "email_contato"
+          },
+          {
+            "route": "/contato/",
+            "label": "RFQ",
+            "selector": "a[href^='mailto:'][href*='subject=RFQ']",
+            "analytics": "email_rfq_contato"
+          },
+          {
+            "route": "/contato/",
+            "label": "homologação",
+            "selector": "a[href^='mailto:'][href*='homologa']",
+            "analytics": "email_homologacao"
+          },
+          {
+            "route": "/contato/",
+            "label": "Google Maps",
+            "selector": "a[href*='google.com/maps']",
+            "analytics": "mapa_contato"
+          },
+          {
+            "route": "/rodantes/",
+            "label": "rodantes → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_rodantes_alternativo\"]",
+            "analytics": "email_rodantes_alternativo"
+          },
+          {
+            "route": "/hidrautractor/",
+            "label": "hidrautractor → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_hidrautractor_alternativo\"]",
+            "analytics": "email_hidrautractor_alternativo"
+          },
+          {
+            "route": "/usinagem/",
+            "label": "usinagem → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_usinagem_alternativo\"]",
+            "analytics": "email_usinagem_alternativo"
+          },
+          {
+            "route": "/calderaria/",
+            "label": "calderaria → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_calderaria_alternativo\"]",
+            "analytics": "email_calderaria_alternativo"
+          },
+          {
+            "route": "/parts/",
+            "label": "parts → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_parts_alternativo\"]",
+            "analytics": "email_parts_alternativo"
+          },
+          {
+            "route": "/services/",
+            "label": "services → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_services_alternativo\"]",
+            "analytics": "email_services_alternativo"
+          },
+          {
+            "route": "/techtractor/",
+            "label": "techtractor → e-mail alternativo",
+            "selector": "a[data-analytics=\"email_techtractor_alternativo\"]",
+            "analytics": "email_techtractor_alternativo"
+          }
+        ],
+        "routes_checked": 10
+      }
+    }
+  ],
+  "finished_at": "2026-09-08T03:54:42.521Z",
+  "failed": 0,
+  "passed": 7
+}

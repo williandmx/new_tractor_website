@@ -2,6 +2,10 @@
 
 08/09/2026 · Grupo New Tractor
 
+Correção publicada no Pages após o [PR5](https://github.com/williandmx/new_tractor_website/pull/5).
+[Validação técnica e funcional](../QA-MEDICAO-2026-09-08.md). O domínio oficial
+ainda mantém o WordPress anterior.
+
 ## Acesso verificado
 
 A conta Google aberta no navegador não possui acesso à propriedade de domínio
