@@ -39,6 +39,11 @@ prazo, estoque, garantia ou estrutura societária.
 | `/servicos/manutencao-material-rodante/` | serviço de rodantes |
 | `/servicos/reforma-cacambas-conchas/` | serviço de caçambas/conchas |
 | `/servicos/monitoramento-material-rodante/` | medição e monitoramento |
+| `/servicos/usinagem-componentes-maquinas-pesadas/` | recuperação dimensional, conforme peça e escopo |
+| `/guias/` | hub de orientações para manutenção e suprimentos |
+| `/guias/avaliacao-maquinas-linha-amarela/` | dados da máquina, componente e cinco contextos setoriais |
+| `/guias/inspecao-material-rodante/` | organização dos registros de inspeção |
+| `/guias/cotacao-pecas-maquinas-pesadas/` | preparação da consulta de peças e recuperação |
 | `/equipamentos/` | máquinas, componentes e informações para avaliação |
 | `/atuacao/` | Brasil, corredores prioritários e logística por demanda |
 | `/contato/` | canais, RFQ e homologação de fornecedor |
@@ -58,8 +63,9 @@ prazo, estoque, garantia ou estrutura societária.
 
 - `sitemap.xml` com URLs canônicas e indexáveis;
 - `robots.txt` permissivo em produção;
-- `llms.txt` e `agents.txt` retirados da publicação por decisão editorial do
-  proprietário em 07/09/2026; nenhum link ou discurso sobre IA no site;
+- `llms.txt` resume fatos e links canônicos do catálogo, conforme o pedido de
+  descoberta; não representa fator de ranking. `agents.txt` não é gerado;
+- a linguagem pública continua institucional, sem bastidores de IA/SEO;
 - JSON-LD de `Organization`, `LocalBusiness`, `WebSite`, `Service`,
   `BreadcrumbList` e `Article` quando aplicável;
 - preview `pages.dev` protegido por header `noindex, nofollow`.

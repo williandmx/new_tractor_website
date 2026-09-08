@@ -1,0 +1,303 @@
+{
+  "method": "Transcrição dos resumos e da análise em lote visíveis no painel autenticado. Não é exportação integral da ferramenta.",
+  "date_local": "2026-09-07",
+  "timezone": "America/Sao_Paulo",
+  "country": "BR",
+  "language": "pt",
+  "traffic_period": "Mês anterior / gráfico até agosto 2026",
+  "domains": [
+    {
+      "name": "Hidraucron",
+      "domain": "hidraucron.com.br",
+      "published_base": "Belo Horizonte",
+      "estimated_organic_traffic": 6,
+      "organic_keywords": 14,
+      "domain_authority": 13,
+      "backlinks": 139,
+      "keyword_examples": "hidraucron · posição 1; bh cromo · 6",
+      "interpretation": "Página inicial e cromo duro; presença por marca e serviços adjacentes.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=hidraucron.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "Cilíndrica",
+      "domain": "cilindrica.com.br",
+      "published_base": "Belo Horizonte",
+      "estimated_organic_traffic": 8,
+      "organic_keywords": 12,
+      "domain_authority": 13,
+      "backlinks": 122,
+      "keyword_examples": "hidropneumático · 8; reparo bombas hidraulicas · 17",
+      "interpretation": "Páginas específicas de componente e localização aparecem; parte dos termos busca peças usadas.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=cilindrica.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "CETEME",
+      "domain": "ceteme.com.br",
+      "published_base": "Contagem",
+      "estimated_organic_traffic": 0,
+      "organic_keywords": 3,
+      "domain_authority": 9,
+      "backlinks": 21,
+      "keyword_examples": "o que é brunimento · 24",
+      "interpretation": "Artigo sobre brunimento aparece na base, com intenção informativa.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=ceteme.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "Hidráulica Maranata",
+      "domain": "hidraulicamaranata.com.br",
+      "published_base": "Uberlândia",
+      "estimated_organic_traffic": null,
+      "organic_keywords": null,
+      "domain_authority": null,
+      "backlinks": null,
+      "keyword_examples": "Sem relatório numérico",
+      "interpretation": "O painel mostrou mensagem de pouco tráfego, sem tabela; não equivale a zero comprovado.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=hidraulicamaranata.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "PH Hidráulica",
+      "domain": "phhidraulica.com.br",
+      "published_base": "Contagem",
+      "estimated_organic_traffic": 80,
+      "organic_keywords": 10,
+      "domain_authority": 1,
+      "backlinks": 2,
+      "keyword_examples": "ph hidraulica · 1; ph bombas · 8",
+      "interpretation": "Página inicial concentra as visitas estimadas; principal termo é a marca.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=phhidraulica.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "MECFLUID",
+      "domain": "mecfluid.com.br",
+      "published_base": "Pequi",
+      "estimated_organic_traffic": 1,
+      "organic_keywords": 4,
+      "domain_authority": 11,
+      "backlinks": 98,
+      "keyword_examples": "mecflux lubrificantes · 18",
+      "interpretation": "Termos exibidos pouco aderentes ao serviço de cilindros; relevância exige verificação.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=mecfluid.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "Krome",
+      "domain": "krome.com.br",
+      "published_base": "Contagem",
+      "estimated_organic_traffic": 185,
+      "organic_keywords": 14,
+      "domain_authority": 13,
+      "backlinks": 123,
+      "keyword_examples": "krome · 1; bh cromo · 26",
+      "interpretation": "Marca concentra a estimativa. Maior tráfego deste recorte não comprova liderança em cilindros.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=krome.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "Hidraup",
+      "domain": "hidraup.com.br",
+      "published_base": "Betim",
+      "estimated_organic_traffic": 0,
+      "organic_keywords": 0,
+      "domain_authority": 15,
+      "backlinks": 373,
+      "keyword_examples": "Nenhum termo exibido",
+      "interpretation": "Há backlinks na base, mas a ferramenta não mostrou palavras-chave orgânicas.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=hidraup.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "MTGS",
+      "domain": "mtgsind.com.br",
+      "published_base": "Contagem",
+      "estimated_organic_traffic": 0,
+      "organic_keywords": 2,
+      "domain_authority": 9,
+      "backlinks": 127,
+      "keyword_examples": "mundo das engrenagens · 29",
+      "interpretation": "A página encontrada é de engrenagem, não a oferta de cilindros.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=mtgsind.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "Hidraumontes",
+      "domain": "hidraumontes.com.br",
+      "published_base": "Montes Claros",
+      "estimated_organic_traffic": 0,
+      "organic_keywords": 8,
+      "domain_authority": 10,
+      "backlinks": 58,
+      "keyword_examples": "hidraumontes montes claros · 1",
+      "interpretation": "Marca e mangueiras aparecem; há divergência entre estimativas dos blocos do painel.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=hidraumontes.com.br&mode=domain&lang=pt&locId=2076"
+    },
+    {
+      "name": "New Tractor",
+      "domain": "newtractor.com.br",
+      "published_base": "Belo Horizonte",
+      "estimated_organic_traffic": 141,
+      "organic_keywords": 3,
+      "domain_authority": 6,
+      "backlinks": 17,
+      "keyword_examples": "newtractor · 1; nova tratores · 68; new parts sinop · 41",
+      "interpretation": "Referência inicial do domínio atual; não mede o desempenho do preview novo.",
+      "source": "https://app.neilpatel.com/pt/traffic-analyzer/overview?domain=newtractor.com.br&mode=domain&lang=pt&locId=2076"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "cilindro hidráulico",
+      "estimated_monthly_volume": 4400,
+      "estimated_cpc_brl": "2,00",
+      "seo_difficulty": 9,
+      "sd_freshness": "Há 3 meses"
+    },
+    {
+      "keyword": "cilindros hidráulicos",
+      "estimated_monthly_volume": 880,
+      "estimated_cpc_brl": "5,64",
+      "seo_difficulty": 11,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "recuperação de cilindros hidráulicos",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": "6,13",
+      "seo_difficulty": 27,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "reparo de cilindro hidráulico",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": "4,97",
+      "seo_difficulty": 24,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "manutenção de cilindros hidráulicos",
+      "estimated_monthly_volume": 70,
+      "estimated_cpc_brl": "5,72",
+      "seo_difficulty": 21,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "fabricação de cilindros hidráulicos",
+      "estimated_monthly_volume": 40,
+      "estimated_cpc_brl": "5,59",
+      "seo_difficulty": 24,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "cilindro hidráulico belo horizonte",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": "0,00",
+      "seo_difficulty": 4,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "reparo cilindro hidráulico belo horizonte",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": "0,00",
+      "seo_difficulty": 4,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "cilindro hidráulico contagem",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": "0,00",
+      "seo_difficulty": 12,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "cilindro hidráulico escavadeira",
+      "estimated_monthly_volume": 90,
+      "estimated_cpc_brl": "5,46",
+      "seo_difficulty": 17,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "cilindro hidráulico retroescavadeira",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": "1,23",
+      "seo_difficulty": 34,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "retífica de cilindro hidráulico",
+      "estimated_monthly_volume": 0,
+      "estimated_cpc_brl": "0,00",
+      "seo_difficulty": 4,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "brunimento de cilindros hidráulicos",
+      "estimated_monthly_volume": 10,
+      "estimated_cpc_brl": "2,82",
+      "seo_difficulty": 30,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "haste de cilindro hidráulico",
+      "estimated_monthly_volume": 50,
+      "estimated_cpc_brl": "4,31",
+      "seo_difficulty": 22,
+      "sd_freshness": "Desatualizado"
+    },
+    {
+      "keyword": "vedação de cilindro hidráulico",
+      "estimated_monthly_volume": 30,
+      "estimated_cpc_brl": "2,15",
+      "seo_difficulty": 24,
+      "sd_freshness": "Desatualizado"
+    }
+  ],
+  "serp_details": {
+    "source": "https://app.neilpatel.com/pt/keyword-bulk-analysis",
+    "updated_label": "8 de setembro de 2026",
+    "scope": "Primeira página exibida por termo. Numeração inclui recursos da busca. Configuração Brasil, sem cidade no seletor.",
+    "queries": [
+      {
+        "query": "recuperação de cilindros hidráulicos",
+        "displayed_domains": {
+          "4": "modrali.com.br",
+          "5": "olivertechidraulicos.com.br",
+          "9": "brasmeca.com.br",
+          "10": "vedacil.com.br"
+        },
+        "features": [
+          "pacote local",
+          "imagens",
+          "vídeo",
+          "as pessoas também perguntam"
+        ]
+      },
+      {
+        "query": "reparo de cilindro hidráulico",
+        "displayed_domains": {
+          "2": "lista.mercadolivre.com.br",
+          "5": "bgvedacoes.com.br",
+          "8": "loja.tblagropecas.com.br",
+          "10": "hidrautini.com.br"
+        },
+        "features": [
+          "visão geral por IA",
+          "imagens",
+          "vídeo",
+          "produtos populares",
+          "as pessoas também perguntam",
+          "vídeos curtos"
+        ]
+      },
+      {
+        "query": "cilindro hidráulico belo horizonte",
+        "displayed_domains": {
+          "4": "hidraucron.com.br",
+          "5": "cilindrica.com.br",
+          "6": "americcatools.com.br",
+          "7": "cilindrica.com.br",
+          "8": "indusloc.com.br",
+          "9": "fabricamineira.com.br",
+          "10": "bhhidraulica.com.br"
+        },
+        "features": [
+          "pacote local: 3 entradas sem nomes de empresas"
+        ]
+      }
+    ]
+  }
+}

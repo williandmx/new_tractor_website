@@ -49,6 +49,14 @@ direitos de uso de todos os arquivos do site anterior.
 
 ## Regra para novas captações
 
+### Guias e página técnica — 2026-09-07
+
+Os guias reutilizam `material-rodante-*`, `equipe-*`, `medicao-rolete-*` e
+`componentes-industriais-*`. A página técnica de Usinagem reutiliza
+`componentes-industriais-*` como acervo de componentes, sem representar
+estoque, capacidade ou execução de um processo específico. Nenhuma mídia foi
+gerada ou alterada nesta etapa.
+
 ### Reuso na arquitetura do grupo — 2026-09-06
 
 As páginas comerciais reutilizam somente o acervo acima: `material-rodante-*`

@@ -25,6 +25,17 @@ representam intenções distintas.
 
 ## URLs estáveis
 
+Cinco rotas técnicas adicionadas em 07/09/2026, sem substituir URLs existentes:
+
+- `/guias/`
+- `/guias/avaliacao-maquinas-linha-amarela/`
+- `/guias/inspecao-material-rodante/`
+- `/guias/cotacao-pecas-maquinas-pesadas/`
+- `/servicos/usinagem-componentes-maquinas-pesadas/`
+
+Cada uma tem normalização 301 de sua versão sem barra em `_redirects`.
+O estado de publicação é registrado em `DEPLOYMENT.md`.
+
 | Origem antiga | Destino novo | Observação |
 |---|---|---|
 | `/?p=470` | `/empresa/` | Empresa |
