@@ -1,0 +1,231 @@
+
+> newtractor-site@1.0.0 check
+> npm run lint && npm run build && npm test
+
+
+> newtractor-site@1.0.0 lint
+> node --check src/site.mjs && node --check src/group.mjs && node --check src/technical-content.mjs && node --check src/sector-content.mjs && node --check src/main.js && node --check src/hero-video.js && node --check scripts/build.mjs && node --check tests/site.test.mjs
+
+
+> newtractor-site@1.0.0 build
+> node scripts/build.mjs
+
+Built 34 HTML pages in dist/
+
+> newtractor-site@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: sem aceite ou só essenciais, não carrega GTM nem registra clique
+ok 1 - sem aceite ou só essenciais, não carrega GTM nem registra clique
+  ---
+  duration_ms: 6.428063
+  type: 'test'
+  ...
+# Subtest: aceite com localStorage bloqueado mantém o estado em memória e registra uma vez
+ok 2 - aceite com localStorage bloqueado mantém o estado em memória e registra uma vez
+  ---
+  duration_ms: 3.449851
+  type: 'test'
+  ...
+# Subtest: aceite explícito funciona em storage somente leitura, mas aceite antigo não é reutilizado
+ok 3 - aceite explícito funciona em storage somente leitura, mas aceite antigo não é reutilizado
+  ---
+  duration_ms: 2.473455
+  type: 'test'
+  ...
+# Subtest: revisar e escolher só essenciais envia negação e recarrega a página
+ok 4 - revisar e escolher só essenciais envia negação e recarrega a página
+  ---
+  duration_ms: 1.414729
+  type: 'test'
+  ...
+# Subtest: escolha aceita repetida não duplica script, comandos ou listeners
+ok 5 - escolha aceita repetida não duplica script, comandos ou listeners
+  ---
+  duration_ms: 1.271016
+  type: 'test'
+  ...
+# Subtest: site_cta_click classifica canais sem transportar URL ou query
+ok 6 - site_cta_click classifica canais sem transportar URL ou query
+  ---
+  duration_ms: 1.425443
+  type: 'test'
+  ...
+# Subtest: revogação recebida por storage entre abas nega analytics e não duplica a reação
+ok 7 - revogação recebida por storage entre abas nega analytics e não duplica a reação
+  ---
+  duration_ms: 1.53801
+  type: 'test'
+  ...
+# Subtest: todas as páginas indexáveis são alcançáveis por links HTML a partir da home
+ok 8 - todas as páginas indexáveis são alcançáveis por links HTML a partir da home
+  ---
+  duration_ms: 25.563365
+  type: 'test'
+  ...
+# Subtest: links de fragmento chegam a IDs únicos em páginas existentes
+ok 9 - links de fragmento chegam a IDs únicos em páginas existentes
+  ---
+  duration_ms: 18.742683
+  type: 'test'
+  ...
+# Subtest: o grupo tem sete frentes distintas, com conteúdo próprio em páginas reais
+ok 10 - o grupo tem sete frentes distintas, com conteúdo próprio em páginas reais
+  ---
+  duration_ms: 21.726675
+  type: 'test'
+  ...
+# Subtest: a home apresenta as sete frentes, a rota de parcerias e a descoberta canônica
+ok 11 - a home apresenta as sete frentes, a rota de parcerias e a descoberta canônica
+  ---
+  duration_ms: 5.000683
+  type: 'test'
+  ...
+# Subtest: as conversas das frentes usam o e-mail real e contexto específico
+ok 12 - as conversas das frentes usam o e-mail real e contexto específico
+  ---
+  duration_ms: 9.889641
+  type: 'test'
+  ...
+# Subtest: Services mantém intenção distinta de Serviços e TechTractor preserva a direção tecnológica
+ok 13 - Services mantém intenção distinta de Serviços e TechTractor preserva a direção tecnológica
+  ---
+  duration_ms: 11.631975
+  type: 'test'
+  ...
+# Subtest: links com fragmentos apontam para destinos reais
+ok 14 - links com fragmentos apontam para destinos reais
+  ---
+  duration_ms: 39.02495
+  type: 'test'
+  ...
+# Subtest: preferência {"reduced":true} evita download até play explícito
+ok 15 - preferência {"reduced":true} evita download até play explícito
+  ---
+  duration_ms: 7.812711
+  type: 'test'
+  ...
+# Subtest: preferência {"saveData":true} evita download até play explícito
+ok 16 - preferência {"saveData":true} evita download até play explícito
+  ---
+  duration_ms: 1.422476
+  type: 'test'
+  ...
+# Subtest: seleciona versão móvel, só toca visível e mantém pausa manual
+ok 17 - seleciona versão móvel, só toca visível e mantém pausa manual
+  ---
+  duration_ms: 1.337863
+  type: 'test'
+  ...
+# Subtest: pausa em aba oculta e retoma quando visível
+ok 18 - pausa em aba oculta e retoma quando visível
+  ---
+  duration_ms: 1.072556
+  type: 'test'
+  ...
+# Subtest: erro mantém poster e autoplay rejeitado oferece tentativa manual
+ok 19 - erro mantém poster e autoplay rejeitado oferece tentativa manual
+  ---
+  duration_ms: 1.336204
+  type: 'test'
+  ...
+# Subtest: play pendente não desfaz pausa explícita do usuário
+ok 20 - play pendente não desfaz pausa explícita do usuário
+  ---
+  duration_ms: 0.87425
+  type: 'test'
+  ...
+# Subtest: menu móvel bloqueia superfícies externas e Escape devolve foco
+ok 21 - menu móvel bloqueia superfícies externas e Escape devolve foco
+  ---
+  duration_ms: 5.082061
+  type: 'test'
+  ...
+# Subtest: sair do breakpoint móvel fecha menu e restaura interação e rolagem
+ok 22 - sair do breakpoint móvel fecha menu e restaura interação e rolagem
+  ---
+  duration_ms: 1.414975
+  type: 'test'
+  ...
+# Subtest: o build contém todas as rotas e arquivos de descoberta
+ok 23 - o build contém todas as rotas e arquivos de descoberta
+  ---
+  duration_ms: 13.070367
+  type: 'test'
+  ...
+# Subtest: cada página tem HTML semântico, metadados e um único H1
+ok 24 - cada página tem HTML semântico, metadados e um único H1
+  ---
+  duration_ms: 49.706478
+  type: 'test'
+  ...
+# Subtest: todos os links internos apontam para saídas existentes
+ok 25 - todos os links internos apontam para saídas existentes
+  ---
+  duration_ms: 142.106567
+  type: 'test'
+  ...
+# Subtest: robots, sitemap e llms mantêm as mesmas URLs canônicas indexáveis
+ok 26 - robots, sitemap e llms mantêm as mesmas URLs canônicas indexáveis
+  ---
+  duration_ms: 4.997262
+  type: 'test'
+  ...
+# Subtest: a página da EXPOSIBRAM está atualizada como registro pós-evento
+ok 27 - a página da EXPOSIBRAM está atualizada como registro pós-evento
+  ---
+  duration_ms: 1.889122
+  type: 'test'
+  ...
+# Subtest: headers e redirects preservam segurança e URLs antigas úteis
+ok 28 - headers e redirects preservam segurança e URLs antigas úteis
+  ---
+  duration_ms: 1.627901
+  type: 'test'
+  ...
+# Subtest: a jornada de suprimentos oferece referências e RFQ por e-mail
+ok 29 - a jornada de suprimentos oferece referências e RFQ por e-mail
+  ---
+  duration_ms: 6.93867
+  type: 'test'
+  ...
+# Subtest: FAQ visível e dados estruturados permanecem equivalentes
+ok 30 - FAQ visível e dados estruturados permanecem equivalentes
+  ---
+  duration_ms: 1.382415
+  type: 'test'
+  ...
+# Subtest: a home usa vídeo de hero com fallback estático
+ok 31 - a home usa vídeo de hero com fallback estático
+  ---
+  duration_ms: 7.764874
+  type: 'test'
+  ...
+# Subtest: CSS inclui os componentes responsivos e proteções móveis do novo site
+ok 32 - CSS inclui os componentes responsivos e proteções móveis do novo site
+  ---
+  duration_ms: 1.601359
+  type: 'test'
+  ...
+# Subtest: Pessoas tem filme sob demanda, texto equivalente e descoberta
+ok 33 - Pessoas tem filme sob demanda, texto equivalente e descoberta
+  ---
+  duration_ms: 1.700702
+  type: 'test'
+  ...
+# Subtest: o pacote de migração preserva os cinco destinos canônicos e permanece desativado
+ok 34 - o pacote de migração preserva os cinco destinos canônicos e permanece desativado
+  ---
+  duration_ms: 3.57772
+  type: 'test'
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 522.337851

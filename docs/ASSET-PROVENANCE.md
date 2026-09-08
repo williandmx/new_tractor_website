@@ -1,5 +1,13 @@
 # Proveniência de assets
 
+## Reuso editorial — 08/09/2026
+
+As novas páginas setoriais e os guias de cilindros hidráulicos e caçambas/conchas
+reutilizam as imagens já documentadas abaixo. Nenhuma imagem externa, sintética
+ou nova alegação de processo foi adicionada nesta expansão. Os atributos
+responsivos, dimensões e textos alternativos são gerados pelos componentes
+existentes; as cenas ilustram contexto e não comprovam uma relação comercial.
+
 As imagens e o logo deste projeto foram derivados de arquivos já publicados no
 site oficial `https://newtractor.com.br/`, conforme solicitação de reconstruir o
 site preservando a identidade existente.

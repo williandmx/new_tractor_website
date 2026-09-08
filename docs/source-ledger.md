@@ -99,3 +99,33 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 - A página Pessoas publica somente filme e visão institucional; nenhuma fala,
   resultado ou recomendação foi inventada. Roteiros permanecem em documento de
   trabalho, sujeitos a autorização das pessoas e empresas.
+
+
+## Entrega da main orientada pelo benchmark — 2026-09-08
+
+- O proprietário redefiniu o aceite para análises e modificações de SEO prontas
+  na `main`, nas sete especialidades. Alteração de DNS e Search Console estão
+  fora desta entrega; liderança de ranking não é seu critério de conclusão.
+- O MCP Ubersuggest foi autenticado e usado para consultas de palavras-chave,
+  páginas de concorrentes, sementes de Belo Horizonte e SERPs. Dados crus,
+  datas, recortes e interpretações estão em
+  `docs/seo/benchmark-mcp-grupo-2026-09-08.json` e `.md`.
+- As páginas das sete frentes aprofundam identificação de componentes,
+  decisões de avaliação e encaminhamento entre comprador, manutenção e mecânico.
+  Vocabulário de busca não constitui comprovação de oferta ou capacidade.
+- Cinco páginas setoriais e dois guias adicionais organizam o contexto de
+  mineração, florestal, agronegócio, construção/terraplenagem e locadoras,
+  e a avaliação de cilindros e caçambas/conchas. São orientações editoriais:
+  não alegam carteira de clientes, contratos, filiais, homologação ou reparo
+  no pátio. Os assets reutilizados permanecem os do acervo com origem registrada.
+- O guia de cilindros trata dados para avaliação e diferencia escopos.
+  Não publica fabricação, brunimento, cromo, pressão, bancada ou teste como
+  capacidade confirmada da HidrauTractor. A oferta de tais processos continua
+  sujeita a prova própria antes de eventual ampliação comercial.
+- A prioridade de cilindros hidráulicos foi solicitada pelo proprietário na
+  estratégia de busca. Na frente HidrauTractor, o termo identifica o assunto
+  da consulta e os dados a reunir, não uma capacidade de reparo, fabricação,
+  fornecimento ou ensaio confirmada. A revisão final tornou essa distinção
+  explícita também no resumo usado pelo JSON-LD `Brand`.
+- TechTractor conserva o estágio em evolução. A referência de concorrentes
+  com sensores, aplicativos e telemetria não se transfere para a New Tractor.

@@ -1,5 +1,7 @@
 # Do Google ao pátio do cliente
 
+> Atualização de 08/09/2026: veja o [relatório de entrega para a main](entrega-main-seo-grupo-2026-09-08.html), com evidência e aplicação nas sete especialidades. Este documento preserva o plano e as observações originais.
+
 **Plano de SEO e aquisição B2B para o Grupo New Tractor em Minas Gerais**
 Pesquisa e verificação: **07 de setembro de 2026** · Horizonte de execução proposto: **90 dias**
 

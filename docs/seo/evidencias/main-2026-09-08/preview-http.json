@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-09-08T07:52:58.639451+00:00",
+  "deployment": "https://d93cae5b.newtractor-site.pages.dev",
+  "applicationCommit": "966f1364475878bd0fac17c9aba22405e09bfd76",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 33048,
+      "sha256": "8057e8f3a6e51b5f0d3c957e36a82551427febb59d3015ff26fa7a0341a68076",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/rodantes/",
+      "status": 200,
+      "bytes": 26728,
+      "sha256": "a3d99a924f7477a3fa3465b6824e4b4481ea34849514761e7e38d93c22d37e91",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/hidrautractor/",
+      "status": 200,
+      "bytes": 27315,
+      "sha256": "42f8180814311af819ff2cf7e32f97f663495094dbf75eac2459f9794906cabf",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/usinagem/",
+      "status": 200,
+      "bytes": 26748,
+      "sha256": "45548591a5a8b71fd975ad71de09b75997c5d4b65c852a5d1521e3a0db58501b",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/calderaria/",
+      "status": 200,
+      "bytes": 26868,
+      "sha256": "3586eaf9e628fc38974ca3585f017c5905cc1e1da00297577c301fb450695c43",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/parts/",
+      "status": 200,
+      "bytes": 26576,
+      "sha256": "1c66249c06edfaff7ad6c3e0e82e4dbefe7f499b35ea745146c9cd35d1c6814b",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/services/",
+      "status": 200,
+      "bytes": 26563,
+      "sha256": "5ad2beb1feb5fe3ddaf9eb159036d9c2b0fe4f31e9a38c6a28d638a78e6d5a48",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/techtractor/",
+      "status": 200,
+      "bytes": 26372,
+      "sha256": "e66c2df097fb02beef86b2865c3d5cc9a6e5e38310798fc281dec27c0fa9a38b",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/",
+      "status": 200,
+      "bytes": 16783,
+      "sha256": "6cacc96fa333dc318fe4cf31485e28d53afad2513ab9ccb59bbb0a7fcf2b94fd",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/avaliacao-maquinas-linha-amarela/",
+      "status": 200,
+      "bytes": 20567,
+      "sha256": "6f5dab0283b0fa1f4de927bf29648ff806888e7088257ce02e0df95e37c12613",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/avaliacao-cilindros-hidraulicos/",
+      "status": 200,
+      "bytes": 20654,
+      "sha256": "1a1bbb47e1acee9a501fcfba88e27638074cd32bde5f43ff70129615a9c68f81",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/avaliacao-cacambas-conchas/",
+      "status": 200,
+      "bytes": 20240,
+      "sha256": "9eb9e567768d68314e711f1d46832c614ac14620302a7c4636b6677a4a1e4afe",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/inspecao-material-rodante/",
+      "status": 200,
+      "bytes": 18684,
+      "sha256": "f9b6cfbc066847f812a853878f1fd76ae868fdbf2e4e75bc9307eb9051b0bf80",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+      "status": 200,
+      "bytes": 18729,
+      "sha256": "bdb47d92d62f3134525683c150b93ae3f7a04cc6ca557262fcc70c06717d1831",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+      "status": 200,
+      "bytes": 18921,
+      "sha256": "90c6a1dd9c98069fa431cb7434109c71de626fe07e9e84207422a4a29da9610f",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/",
+      "status": 200,
+      "bytes": 17461,
+      "sha256": "be7dbec906cc6259919413d5fe18ee172cbd0c1bc8254e5eb447e45982711602",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/mineracao/",
+      "status": 200,
+      "bytes": 18250,
+      "sha256": "8cb7c6395aa5eee0a6aa813538c8c7debe970de1e5f148f2cec169e5ba1b8dbb",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/florestal/",
+      "status": 200,
+      "bytes": 18011,
+      "sha256": "5162749105864135c018ba2927a379b026d74e67a042dbe20f04cf45522e6d38",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/agronegocio/",
+      "status": 200,
+      "bytes": 17941,
+      "sha256": "2362fc1b4548b35b4ea25b9b1605d44d998781b1eeb52a50b902a796d591a4aa",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/construcao-terraplenagem/",
+      "status": 200,
+      "bytes": 17873,
+      "sha256": "469d838b0dc6a7ea21ef6f4dfa429699c0b1a5f5f50144b927bfb14166d83f64",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/setores/locadoras/",
+      "status": 200,
+      "bytes": 17983,
+      "sha256": "b3926391196e553c6ef33b51faf1364d5469c3c9b93933040a7ff2552afafdf4",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/empresa/",
+      "status": 200,
+      "bytes": 19613,
+      "sha256": "f280e547c5b2c88f63cb6807dbb7f6b6cb579f343280fbb8a5150df616e88642",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/parcerias/",
+      "status": 200,
+      "bytes": 18727,
+      "sha256": "24a24e125cf36c8bce0be9b046752e9a6e1bf1951680430080f9cc315b736c89",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/pessoas/",
+      "status": 200,
+      "bytes": 18002,
+      "sha256": "65b68ec3c9e9d21e07e36cfbf6fa7c46dc07b24400425fb23e330338661b4580",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/servicos/",
+      "status": 200,
+      "bytes": 22798,
+      "sha256": "6aeb0a86e003f5756f81ccb0ddbf869ac8d4645f79583603a241efab492d3c46",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/servicos/manutencao-material-rodante/",
+      "status": 200,
+      "bytes": 22883,
+      "sha256": "67b6819b08d7a80d21899015369915aef063f5d61ea9b23f87570759cc5a0a0a",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/servicos/reforma-cacambas-conchas/",
+      "status": 200,
+      "bytes": 19504,
+      "sha256": "55439011a1fb6165d5cca8ebc551f7bf397ea20668ab4a7fc53c7df614151a28",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/servicos/monitoramento-material-rodante/",
+      "status": 200,
+      "bytes": 19818,
+      "sha256": "88605eaa8ff6142eb18e4b48b15328e2674d9407fd15cc685f2cb663542badc8",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/equipamentos/",
+      "status": 200,
+      "bytes": 20504,
+      "sha256": "7efd6b657ba9bf732284755abb629bbd2644fd47ff1adfc942d770aa009a4b9e",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/atuacao/",
+      "status": 200,
+      "bytes": 18011,
+      "sha256": "cc43c193c4a6855598b5ee94ff602181d63538dc0451e2107b0ea8cf4b7e2553",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/contato/",
+      "status": 200,
+      "bytes": 22218,
+      "sha256": "5210fd13bb55765b653e9d280fdc858ff838f1833594ad39f51a02c9159fd5ea",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/noticias/new-tractor-na-exposibram-2026/",
+      "status": 200,
+      "bytes": 21705,
+      "sha256": "1666db91f298f428da293f2ff5139219932cfd7d46a1d4cbc2fd0149edcd5a22",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/privacidade/",
+      "status": 200,
+      "bytes": 15262,
+      "sha256": "9dbdfc3943d9afa085758ed06edd16ee14d28a53e53eab5efa446e3fbac053a4",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bytes": 3823,
+      "sha256": "3e3798c6c763e29f0e1805e329103aa29a92afcb51dba583a857909c504c75f8",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "bytes": 91,
+      "sha256": "a955411ed675073d6b0a50aaf9c647dba0ab3543d1fde4d830224be0aa94acf2",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    },
+    {
+      "route": "/llms.txt",
+      "status": 200,
+      "bytes": 9310,
+      "sha256": "24ecf847a5ca38e4b9502b941042861e4a36ec158683b61075266f7178cf9b76",
+      "identicalToBuild": true,
+      "robots": "noindex, nofollow",
+      "canonicalFound": true
+    }
+  ]
+}

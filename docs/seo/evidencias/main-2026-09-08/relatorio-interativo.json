@@ -1,0 +1,275 @@
+{
+  "url": "http://127.0.0.1:8793/entrega-main-seo-grupo-2026-09-08.html",
+  "checkedAt": "2026-09-08T07:51:42.284Z",
+  "http": {
+    "status": 200,
+    "ok": true,
+    "title": "SEO do Grupo New Tractor — entrega para a main",
+    "lang": "pt-BR",
+    "robots": "noindex,nofollow"
+  },
+  "viewports": {
+    "mobile": {
+      "innerWidth": 360,
+      "bodyScrollWidth": 360,
+      "documentScrollWidth": 360,
+      "bodyScrollHeight": 22237,
+      "outside": [],
+      "clipped": [],
+      "keywordScroll": {
+        "clientWidth": 326,
+        "scrollWidth": 1219,
+        "overflowX": "auto"
+      }
+    },
+    "desktop": {
+      "innerWidth": 1365,
+      "bodyScrollWidth": 1365,
+      "documentScrollWidth": 1365,
+      "bodyScrollHeight": 17502,
+      "outside": [],
+      "clipped": [],
+      "keywordScroll": {
+        "clientWidth": 1238,
+        "scrollWidth": 1238,
+        "overflowX": "auto"
+      }
+    }
+  },
+  "filters": {
+    "initial": {
+      "rows": 165,
+      "count": "165 associações exibidas",
+      "formVisible": true
+    },
+    "domain": {
+      "value": "minusa.com.br",
+      "rows": 30,
+      "count": "30 associações exibidas",
+      "allRowsMatch": true
+    },
+    "accents": {
+      "accented": {
+        "rows": 5,
+        "count": "5 associações exibidas"
+      },
+      "unaccented": {
+        "rows": 5,
+        "count": "5 associações exibidas"
+      },
+      "equivalent": true
+    },
+    "noResults": {
+      "rows": 0,
+      "count": "0 associações exibidas"
+    },
+    "clear": {
+      "rows": 165,
+      "count": "165 associações exibidas",
+      "domainValue": "",
+      "termValue": ""
+    }
+  },
+  "noJavascript": {
+    "tableVisible": true,
+    "rows": 165,
+    "formHiddenAttribute": "",
+    "tableScrollRegion": {
+      "parentOverflowX": "auto",
+      "parentClientWidth": 326,
+      "tableScrollWidth": 1219
+    }
+  },
+  "keyboard": {
+    "firstFocus": {
+      "tag": "A",
+      "className": "skip",
+      "href": "#conteudo"
+    },
+    "skipResult": {
+      "hash": "#conteudo",
+      "activeId": "conteudo",
+      "activeTag": "MAIN"
+    },
+    "tabbed": [
+      {
+        "id": "",
+        "tag": "A",
+        "className": "skip"
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "",
+        "tag": "A",
+        "className": ""
+      },
+      {
+        "id": "domain",
+        "tag": "SELECT",
+        "className": ""
+      },
+      {
+        "id": "term",
+        "tag": "INPUT",
+        "className": ""
+      },
+      {
+        "id": "clear",
+        "tag": "BUTTON",
+        "className": ""
+      }
+    ],
+    "controlsReached": true,
+    "detailsToggleOpened": true
+  },
+  "anchors": {
+    "internalFragmentLinks": 7,
+    "missing": [],
+    "allNavTargetsPresent": true
+  },
+  "screenshots": {
+    "mobile": "/tmp/newtractor-report-360.png",
+    "desktop": "/tmp/newtractor-report-1365.png"
+  },
+  "findings": [],
+  "overall": "PASS"
+}
