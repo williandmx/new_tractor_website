@@ -68,6 +68,17 @@ pendentes. Não há comparação de evolução.
    possibilidade de atender. É esse registro que permite conhecer o comprador;
    uma ferramenta de palavras-chave não revela sua profissão.
 
+## Acesso aos dados e medição de contatos
+
+Em 08/09, a conta Google aberta não teve acesso à propriedade de domínio no
+Search Console e não apresentou contas no Tag Manager. Foi solicitada a
+identificação do responsável. O [plano de medição](MEDICAO-AQUISICAO.md) registra
+os eventos e filtros comerciais, sem chamar clique de lead.
+
+A correção local cobre contatos do rodapé e das sete especialidades, preserva
+o aceite em memória quando o armazenamento falha e implementa o caminho de
+revogação. A configuração e a recepção de eventos no GA4 permanecem pendentes.
+
 ## Referências e presença local
 
 A auditoria encontrou 17 backlinks de 13 domínios no Ubersuggest. A referência
