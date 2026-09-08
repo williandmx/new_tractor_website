@@ -8,6 +8,8 @@ const fronts = [
   ["parts", "Parts", ["/parts/", "/guias/cotacao-pecas-maquinas-pesadas/"]],
   ["services", "Services", ["/services/", "/guias/avaliacao-maquinas-linha-amarela/"]],
   ["techtractor", "TechTractor", ["/techtractor/", "/guias/inspecao-material-rodante/"]],
+  ["equipamentos", "Equipamentos e aplicações", ["/equipamentos/", "/equipamentos/escavadeiras/", "/equipamentos/tratores-de-esteira/", "/equipamentos/pas-carregadeiras/"]],
+  ["atuacao", "Atuação e Minas Gerais", ["/atuacao/", "/atuacao/minas-gerais/"]],
 ];
 
 export function discoveryGroups(pages) {

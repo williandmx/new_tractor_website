@@ -134,3 +134,6 @@ Nenhuma mídia nova foi criada ou importada. As páginas de componentes reutiliz
 A foto de medição é identificada pelo componente mostrado, sem tratá-la como um case de articulação ou de pinos/buchas. `pageHero` usa o helper de imagem com srcset, sizes, width, height e alt. Origem e condições de uso seguem o registro prévio dos assets públicos.
 
 As fotos específicas de roda-guia, rosário e medição têm fonte disponível de 640 px. O layout se adapta à viewport com dimensões e srcset; não foi feito aumento artificial de resolução. Uma futura captação em maior resolução pode melhorar a apresentação em telas de alta densidade.
+# Reuso na ampliação por equipamento e território — 08/09/2026
+
+As novas páginas reaproveitam somente imagens já registradas neste documento: `equipe-{640,1200}.webp` (escavadeiras e Minas Gerais; proporção 1200×675), `material-rodante-{640,1200}.webp` (tratores de esteira; 1200×675) e `concha-patio-{640,1200}.webp` (pás carregadeiras; 1200×612). Mantidos `width`, `height`, `alt`, `srcset` e `sizes`, sem geração, alteração raster ou ampliação artificial. As fotos ilustram ativos e contexto próprios; não são prova de execução ou bancada hidráulica, atendimento municipal ou compatibilidade por modelo.

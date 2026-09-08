@@ -1,0 +1,4129 @@
+{
+  "codeCommit": "834b1c509849cd12e7c30c0bb699e261d9c087cd",
+  "baseline": "ef32c45b24cb26ff1efb189cca2653aee97ac64e",
+  "pr": "https://github.com/williandmx/new_tractor_website/pull/11",
+  "tests": {
+    "command": "npm run check",
+    "passed": 34,
+    "failed": 0
+  },
+  "inventory": {
+    "pages": [
+      {
+        "route": "/",
+        "title": "Grupo New Tractor | Máquinas de linha amarela em Minas Gerais",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/rodantes/",
+        "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/hidrautractor/",
+        "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/usinagem/",
+        "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/calderaria/",
+        "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/parts/",
+        "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/services/",
+        "title": "Consulta de manutenção por componente | New Tractor Services",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/techtractor/",
+        "title": "Inspeção e histórico de desgaste | TechTractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/",
+        "title": "Guias de manutenção para máquinas de linha amarela | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/avaliacao-maquinas-linha-amarela/",
+        "title": "Avaliação de máquinas de linha amarela: dados úteis | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/avaliacao-cacambas-conchas/",
+        "title": "Avaliação de caçambas e conchas de máquinas pesadas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/inspecao-material-rodante/",
+        "title": "Inspeção de material rodante: como organizar registros | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+        "title": "Cotação de peças para máquinas pesadas: dados úteis | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+        "title": "Usinagem pesada e mandrilhamento em BH | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/",
+        "title": "Máquinas de linha amarela por setor | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/mineracao/",
+        "title": "Manutenção de máquinas pesadas para mineração | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/florestal/",
+        "title": "Máquinas pesadas para operações florestais | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/agronegocio/",
+        "title": "Máquinas de linha amarela no agronegócio | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/construcao-terraplenagem/",
+        "title": "Máquinas de construção e terraplenagem | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/setores/locadoras/",
+        "title": "Manutenção de frotas de locadoras de máquinas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/componentes/",
+        "title": "Componentes de material rodante para máquinas pesadas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/componentes/rodas-guia/",
+        "title": "Recuperação de rodas-guia para máquinas de esteira | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/componentes/roletes-de-esteira/",
+        "title": "Recuperação de roletes de esteira | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/componentes/correntes-sapatas-esteiras/",
+        "title": "Correntes, rosários e sapatas de esteiras | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/guias/folgas-pinos-buchas-alojamentos/",
+        "title": "Folgas em pinos, buchas e alojamentos | Guia New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "title": "Cilindros hidráulicos de escavadeiras em MG | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "title": "Cilindros hidráulicos de tratores de esteira em MG | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "title": "Cilindros hidráulicos de pás carregadeiras em MG | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/empresa/",
+        "title": "Grupo New Tractor | Estrutura para máquinas pesadas desde 2010",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/parcerias/",
+        "title": "Parcerias e conexões industriais | Grupo New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/pessoas/",
+        "title": "Pessoas que movem a New Tractor | Equipe e operação",
+        "lastModified": "2026-09-05"
+      },
+      {
+        "route": "/servicos/",
+        "title": "Serviços para máquinas de linha amarela em MG | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/servicos/manutencao-material-rodante/",
+        "title": "Manutenção de material rodante | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/servicos/reforma-cacambas-conchas/",
+        "title": "Reforma de caçambas e conchas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/servicos/monitoramento-material-rodante/",
+        "title": "Monitoramento de material rodante | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/equipamentos/",
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/atuacao/",
+        "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/contato/",
+        "title": "Fale com o Grupo New Tractor | Contato e relacionamento",
+        "lastModified": "2026-09-08"
+      },
+      {
+        "route": "/noticias/new-tractor-na-exposibram-2026/",
+        "title": "EXPOSIBRAM 2026 e manutenção pesada | New Tractor"
+      },
+      {
+        "route": "/privacidade/",
+        "title": "Privacidade | New Tractor",
+        "lastModified": "2026-09-08"
+      }
+    ],
+    "sitemaps": [
+      {
+        "file": "sitemap-rodantes.xml",
+        "label": "Rodantes",
+        "routes": [
+          "/rodantes/",
+          "/componentes/rodas-guia/",
+          "/componentes/roletes-de-esteira/",
+          "/componentes/correntes-sapatas-esteiras/",
+          "/servicos/manutencao-material-rodante/",
+          "/servicos/monitoramento-material-rodante/"
+        ]
+      },
+      {
+        "file": "sitemap-hidrautractor.xml",
+        "label": "HidrauTractor",
+        "routes": [
+          "/hidrautractor/",
+          "/guias/avaliacao-cilindros-hidraulicos/"
+        ]
+      },
+      {
+        "file": "sitemap-usinagem.xml",
+        "label": "Usinagem",
+        "routes": [
+          "/usinagem/",
+          "/servicos/usinagem-componentes-maquinas-pesadas/",
+          "/guias/folgas-pinos-buchas-alojamentos/"
+        ]
+      },
+      {
+        "file": "sitemap-calderaria.xml",
+        "label": "Calderaria",
+        "routes": [
+          "/calderaria/",
+          "/guias/avaliacao-cacambas-conchas/",
+          "/servicos/reforma-cacambas-conchas/"
+        ]
+      },
+      {
+        "file": "sitemap-parts.xml",
+        "label": "Parts",
+        "routes": [
+          "/parts/",
+          "/guias/cotacao-pecas-maquinas-pesadas/"
+        ]
+      },
+      {
+        "file": "sitemap-services.xml",
+        "label": "Services",
+        "routes": [
+          "/services/",
+          "/guias/avaliacao-maquinas-linha-amarela/"
+        ]
+      },
+      {
+        "file": "sitemap-techtractor.xml",
+        "label": "TechTractor",
+        "routes": [
+          "/techtractor/",
+          "/guias/inspecao-material-rodante/"
+        ]
+      },
+      {
+        "file": "sitemap-equipamentos.xml",
+        "label": "Equipamentos e aplicações",
+        "routes": [
+          "/equipamentos/escavadeiras/",
+          "/equipamentos/tratores-de-esteira/",
+          "/equipamentos/pas-carregadeiras/",
+          "/equipamentos/"
+        ]
+      },
+      {
+        "file": "sitemap-atuacao.xml",
+        "label": "Atuação e Minas Gerais",
+        "routes": [
+          "/atuacao/minas-gerais/",
+          "/atuacao/"
+        ]
+      },
+      {
+        "file": "sitemap-grupo.xml",
+        "label": "Grupo, componentes e setores",
+        "routes": [
+          "/",
+          "/guias/",
+          "/setores/",
+          "/setores/mineracao/",
+          "/setores/florestal/",
+          "/setores/agronegocio/",
+          "/setores/construcao-terraplenagem/",
+          "/setores/locadoras/",
+          "/componentes/",
+          "/empresa/",
+          "/parcerias/",
+          "/pessoas/",
+          "/servicos/",
+          "/contato/",
+          "/noticias/new-tractor-na-exposibram-2026/",
+          "/privacidade/"
+        ]
+      }
+    ]
+  },
+  "responsive": {
+    "generatedAt": "2026-09-08T10:35:46.440Z",
+    "baseUrl": "http://127.0.0.1:8794",
+    "routes": [
+      "/atuacao/",
+      "/atuacao/minas-gerais/",
+      "/calderaria/",
+      "/equipamentos/",
+      "/equipamentos/escavadeiras/",
+      "/equipamentos/pas-carregadeiras/",
+      "/equipamentos/tratores-de-esteira/",
+      "/guias/avaliacao-cilindros-hidraulicos/",
+      "/hidrautractor/",
+      "/parts/",
+      "/rodantes/",
+      "/services/",
+      "/techtractor/",
+      "/usinagem/"
+    ],
+    "discoveredRouteCount": 42,
+    "routeCount": 14,
+    "matrixCount": 56,
+    "matrix": [
+      {
+        "route": "/atuacao/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/calderaria/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+        "canonical": "https://newtractor.com.br/calderaria/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de escavadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/escavadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de pás carregadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/pas-carregadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de tratores de esteira em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/tratores-de-esteira/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/guias/avaliacao-cilindros-hidraulicos/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/hidrautractor/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+        "canonical": "https://newtractor.com.br/hidrautractor/",
+        "images": 3,
+        "ctas": 13,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/parts/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+        "canonical": "https://newtractor.com.br/parts/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/rodantes/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+        "canonical": "https://newtractor.com.br/rodantes/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/services/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta de manutenção por componente | New Tractor Services",
+        "canonical": "https://newtractor.com.br/services/",
+        "images": 3,
+        "ctas": 12,
+        "details": 4,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/techtractor/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Inspeção e histórico de desgaste | TechTractor",
+        "canonical": "https://newtractor.com.br/techtractor/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/usinagem/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+        "canonical": "https://newtractor.com.br/usinagem/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/calderaria/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+        "canonical": "https://newtractor.com.br/calderaria/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de escavadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/escavadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de pás carregadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/pas-carregadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de tratores de esteira em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/tratores-de-esteira/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/guias/avaliacao-cilindros-hidraulicos/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/hidrautractor/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+        "canonical": "https://newtractor.com.br/hidrautractor/",
+        "images": 3,
+        "ctas": 13,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/parts/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+        "canonical": "https://newtractor.com.br/parts/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/rodantes/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+        "canonical": "https://newtractor.com.br/rodantes/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/services/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta de manutenção por componente | New Tractor Services",
+        "canonical": "https://newtractor.com.br/services/",
+        "images": 3,
+        "ctas": 12,
+        "details": 4,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/techtractor/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Inspeção e histórico de desgaste | TechTractor",
+        "canonical": "https://newtractor.com.br/techtractor/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/usinagem/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+        "canonical": "https://newtractor.com.br/usinagem/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/calderaria/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+        "canonical": "https://newtractor.com.br/calderaria/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de escavadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/escavadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de pás carregadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/pas-carregadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de tratores de esteira em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/tratores-de-esteira/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/guias/avaliacao-cilindros-hidraulicos/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/hidrautractor/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+        "canonical": "https://newtractor.com.br/hidrautractor/",
+        "images": 3,
+        "ctas": 13,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/parts/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+        "canonical": "https://newtractor.com.br/parts/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/rodantes/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+        "canonical": "https://newtractor.com.br/rodantes/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/services/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta de manutenção por componente | New Tractor Services",
+        "canonical": "https://newtractor.com.br/services/",
+        "images": 3,
+        "ctas": 12,
+        "details": 4,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/techtractor/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Inspeção e histórico de desgaste | TechTractor",
+        "canonical": "https://newtractor.com.br/techtractor/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/usinagem/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+        "canonical": "https://newtractor.com.br/usinagem/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/calderaria/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+        "canonical": "https://newtractor.com.br/calderaria/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de escavadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/escavadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de pás carregadeiras em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/pas-carregadeiras/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Cilindros hidráulicos de tratores de esteira em MG | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/tratores-de-esteira/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+        "canonical": "https://newtractor.com.br/guias/avaliacao-cilindros-hidraulicos/",
+        "images": 3,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/hidrautractor/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+        "canonical": "https://newtractor.com.br/hidrautractor/",
+        "images": 3,
+        "ctas": 13,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/parts/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+        "canonical": "https://newtractor.com.br/parts/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/rodantes/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+        "canonical": "https://newtractor.com.br/rodantes/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/services/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Consulta de manutenção por componente | New Tractor Services",
+        "canonical": "https://newtractor.com.br/services/",
+        "images": 3,
+        "ctas": 12,
+        "details": 4,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/techtractor/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Inspeção e histórico de desgaste | TechTractor",
+        "canonical": "https://newtractor.com.br/techtractor/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/usinagem/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+        "canonical": "https://newtractor.com.br/usinagem/",
+        "images": 3,
+        "ctas": 12,
+        "details": 3,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      }
+    ],
+    "keyboard": [
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/hidrautractor/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/",
+        "viewport": "mobile",
+        "js": true,
+        "issues": []
+      }
+    ],
+    "issues": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  },
+  "finalTerritoryRecheck": {
+    "generatedAt": "2026-09-08T10:36:25.497Z",
+    "baseUrl": "http://127.0.0.1:8794",
+    "routes": [
+      "/atuacao/minas-gerais/"
+    ],
+    "discoveredRouteCount": 42,
+    "routeCount": 1,
+    "matrixCount": 4,
+    "matrix": [
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      }
+    ],
+    "keyboard": [],
+    "issues": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  },
+  "lighthouseLocal": [
+    {
+      "scenario": "carregadeiras-mobile",
+      "url": "http://127.0.0.1:8794/equipamentos/pas-carregadeiras/",
+      "fetchTime": "2026-09-08T10:37:14.383Z",
+      "version": "13.4.1",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2104.6799,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "scenario": "escavadeiras-mobile",
+      "url": "http://127.0.0.1:8794/equipamentos/escavadeiras/",
+      "fetchTime": "2026-09-08T10:36:49.874Z",
+      "version": "13.4.1",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2404.8635,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "scenario": "minas-desktop",
+      "url": "http://127.0.0.1:8794/atuacao/minas-gerais/",
+      "fetchTime": "2026-09-08T10:37:39.202Z",
+      "version": "13.4.1",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 522.5731000000001,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "scenario": "minas-mobile",
+      "url": "http://127.0.0.1:8794/atuacao/minas-gerais/",
+      "fetchTime": "2026-09-08T10:37:26.713Z",
+      "version": "13.4.1",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2402.8314,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 0
+      },
+      "runtimeError": null
+    },
+    {
+      "scenario": "tratores-mobile",
+      "url": "http://127.0.0.1:8794/equipamentos/tratores-de-esteira/",
+      "fetchTime": "2026-09-08T10:37:02.180Z",
+      "version": "13.4.1",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2552.8514999999998,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 0
+      },
+      "runtimeError": null
+    }
+  ],
+  "preview": {
+    "base": "https://db3b3d8e.newtractor-site.pages.dev",
+    "checkedAt": "2026-09-08T10:39:43.095874+00:00",
+    "resources": 55,
+    "pass": true,
+    "records": [
+      {
+        "route": "/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cc27f70c28098af15072f4b78b211d21f7f4b4af5340f5b0b7bd97fcfc44579b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/rodantes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b221e66debad77f36cdbe5a54230f8e3248536dfcdc410a96db519dbfbf3286e",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/hidrautractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "0dd92531b6c78a46b9d1550728a066082a5a6d1f7aec78164d99cb86c85f5ae7",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/usinagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cc0e67a8c898e9ea4cd529aa9461950ef09044af7cb9599a96f2369e4d2e0470",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/calderaria/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "402e0291865a873375602387ff305051c832d9cf8c175ea8724141d643f2bf0a",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parts/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "21b605cc6276598084196924442173c3684e9f7828895051f05691fc9a287eb0",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/services/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d96c619980d206604f35dd1cb66fec98d4209ef40b2f3ce11a928ceb50107be0",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/techtractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9434a3247184003a0f95b9df4f50948b36f76e9acf5fc939afd6b036efc3fd50",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "1ec21aebc078a4513b634b38be14761d9c9580ef344b533a81255314cd2a0f7f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-maquinas-linha-amarela/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be56528c7b3341888a447edc88ccf1de2c755cda95eb47c733a81f398c96a530",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "76257eaec430877112b091d38904dcc71901d1ec62caddde177a8768760b1ba9",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "54aab5893a0f5d6fb1276d7a74fe2a819dd3db474f1b96e65ebd61f689b49f49",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/inspecao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7ba91399149ab0da4c0e04030a320fc22d1764a55fd83a62ec234a7c5463e1c6",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "29c1f8245c49bc40136c83f462178cfabc8ad70ed37ca1dd75f944e4e13b6f87",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b2d80b4d1e00d87b938706f83e6a4a37fd1de6075fa6f8080aa47814ed132315",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be85525e31ec70cbdc7b6d4b752a65ca6887405d4a64db07ce2078b711e19a4d",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/mineracao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3b7bf79a3344b46f9651b4e3ba0012305717b9350398e6c87863fc55cf8f6951",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/florestal/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ba7c8c733efde90585be296948bc944800d8abd60987204f014f70e52b21c1b2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/agronegocio/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d94bec41b94ba7499036fcc91f79be3e97c5ec43466c019af8c7c583e4f5a882",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/construcao-terraplenagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "450d97a22715d0a448a06edbffb36027002807e77b2e983b69a4421475c7d70f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/locadoras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b53e897a087e7768cb92adc2b4c78b85cd214f51bb04062c7dc9ab91b0fab028",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7e0b533094c2b578d3bc3d51ed51e36e27ba05bc3564246980773a7ca96dd108",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/rodas-guia/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3c0a6fd8a1ec16d15c95bf10374d5f1454ea3fe709a745a14290184ad3e264af",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/roletes-de-esteira/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "e8b04dc546bfcb70e6e29189a8bef533a0edba0cee67e9b3da820308e56d06e9",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/correntes-sapatas-esteiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "aef21a3903ae3df92e72609f331108bf65e0886133b150c9d733681be4b63b38",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/folgas-pinos-buchas-alojamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac89ae9966883f3852cf0051b04ecc5b5b970f0be9298f96b06b94b4e6d550a7",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a44b2bc2cd6e47ddeff0bf3c1d641a93a8a5402454008388d2d81a5c662d9e76",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "c4e42ed272003f01416b50fab9c934af58163e1348c59d1d3f982d32876b5bd6",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7893241bd392b7b1a8a4e083303d8ab328d30da1d97a7818fc7fca4ee5ae3399",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "db8e729be2b3095ca4bce19eba0ec268654ec90265a6626d978f908c145306cd",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/empresa/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "783d2e1d1a2f977ce6bf36e14ed8e52ca2f19ac05e812f8ffb6164b09e49fc14",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parcerias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d60d282d4f418743102b8ffdb328f6422d8e040276e00394f1a07e386c928515",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/pessoas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "2250cba5f33a196259b25de2ee13899434aef7959696d83450f8a1a87adae399",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f8442b37f666fb30a7dcb98dc4d58f6a0cb8fdcee5a3b92d2267dc617d521791",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/manutencao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a2c2d677c30f07021eb366114ece461655f3d0ef9d2e417f863cc3816667cfa1",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/reforma-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "247d99e78091e36c7ffd3bfcd8dda0a93b23a75efd76bc2ae3f23b5bca67d869",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/monitoramento-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "944d22d820ad4c4eb09b6052e129b38f4fda5681fe935c02d60254e84e18a740",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "aea09891faf0c1004b2a7f9b552b99b412cb22c1a141c44290a34ba1bccb9c31",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/atuacao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "57f411eb722e3b7f216ae4b0fccaaadb4bcfa43a2d93754b45d48e1c431ff514",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/contato/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "100b51aa7195513917c6b94e743f74bdc1d7f97e084b3ead5303daeacc09b3bc",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/noticias/new-tractor-na-exposibram-2026/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "07cc8632231faf807bf859e8199f8e07006afe83eb8d2fc8794de0d703c2bb40",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/privacidade/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac674f65c38149528056ae1749552ce1c5b81a4e849f3790cbdfe833751cb15b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-rodantes.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "4a1f3a1bc01c1cbce11f340d15efd50942c31e5da5b797a0d43d264508a110b3",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-hidrautractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "366e2bc698e25d6419187af49af55992368bb629e4e46ef98ed439b58b2bdea6",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-usinagem.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "942686e7720c9f53e4a923706353ef10d4abfcc203130319491554161eda38d8",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-calderaria.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f9d145aad3de0a7b0498f7a2598075a0003ca6e65dc24b305460411d57fb2433",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-parts.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9ae0ce7b9ecc5ca897c61a3092cd2d6148de64080885f2780f1e00034ccb6218",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-services.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "df31c292055e18e4b96a677e3c63cf3b6af1b7046acd1615893e8c17067bc863",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-techtractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "5a0690c66a8a89708f9d3b43f47613412bee9668d7e5570efd7895e7934497f5",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-equipamentos.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "07b0deaf0c725d9bbc4b7e2c137276a2ee07d2855b35308bae2daf968b919498",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-atuacao.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "abc8868bd5d58d3eef45efa2bce4ab5c9d93d2c07702123a1b9c22ab6f0f19fc",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-grupo.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "23ca4398c58dd5223cd9f96824bca9ba073ee670eb5046041695d2a19c64e2a0",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9f21e2560e954ed5309d98c37d6d2cf333628cff859f0af46fc4ae5eceb0c2e7",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/robots.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a955411ed675073d6b0a50aaf9c647dba0ab3543d1fde4d830224be0aa94acf2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/llms.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "92153f781671ee36b8e0817c84f5aec99ff6bf23f16cb8e3d7f1905249b9cce5",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      }
+    ]
+  },
+  "limits": [
+    "Sem DNS ou Search Console",
+    "pages.dev preserva noindex,nofollow",
+    "Métricas Lighthouse são de laboratório, sem estimativa de ranking, tráfego ou vendas",
+    "Oferta específica de execução hidráulica ainda não comprovada"
+  ],
+  "previewAdditionalChecks": [
+    {
+      "route": "/equipamentos/escavadeiras",
+      "finalUrl": "https://db3b3d8e.newtractor-site.pages.dev/equipamentos/escavadeiras/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "route": "/equipamentos/tratores-de-esteira",
+      "finalUrl": "https://db3b3d8e.newtractor-site.pages.dev/equipamentos/tratores-de-esteira/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "route": "/equipamentos/pas-carregadeiras",
+      "finalUrl": "https://db3b3d8e.newtractor-site.pages.dev/equipamentos/pas-carregadeiras/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "route": "/atuacao/minas-gerais",
+      "finalUrl": "https://db3b3d8e.newtractor-site.pages.dev/atuacao/minas-gerais/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "userAgent": "Googlebot",
+      "status": 200,
+      "hasArticle": true,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "userAgent": "OAI-SearchBot/1.0",
+      "status": 200,
+      "hasArticle": true,
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "lighthousePreview": {
+    "url": "https://db3b3d8e.newtractor-site.pages.dev/atuacao/minas-gerais/",
+    "fetchTime": "2026-09-08T10:43:29.383Z",
+    "version": "13.4.1",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "seoFailure": "is-crawlable: X-Robots-Tag noindex, nofollow intencional no pages.dev",
+    "metrics": {
+      "largest-contentful-paint": 1837.7295,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 7
+    }
+  },
+  "reportQA": {
+    "url": "http://127.0.0.1:8793/expansao-equipamentos-cidades-2026-09-08.html",
+    "capturedAt": "2026-09-08T10:43:41.667Z",
+    "environment": {
+      "browser": "Chromium",
+      "headless": true,
+      "viewports": [
+        360,
+        375,
+        768,
+        1024,
+        1365
+      ]
+    },
+    "enabled": {
+      "base": {
+        "viewport": {
+          "width": 360,
+          "height": 780
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 7,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      },
+      "scrollInteraction": {
+        "tested": 7,
+        "moved": 7,
+        "probes": [
+          {
+            "aria": "Critério",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Consulta",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Tipo",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Tipo",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Tipo",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Tipo",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          },
+          {
+            "aria": "Tipo",
+            "before": 0,
+            "after": 160,
+            "moved": true
+          }
+        ]
+      },
+      "filters": {
+        "queryCounts": {
+          "escavadeira": {
+            "countText": "5 termos exibidos",
+            "visibleRows": 5
+          },
+          "trator": {
+            "countText": "6 termos exibidos",
+            "visibleRows": 6
+          },
+          "pás": {
+            "countText": "1 termos exibidos",
+            "visibleRows": 1
+          },
+          "termo-sem-resultado-qa": {
+            "countText": "0 termos exibidos",
+            "visibleRows": 0
+          }
+        },
+        "afterReset": {
+          "value": "",
+          "countText": "83 termos exibidos",
+          "visibleRows": 83,
+          "activeElement": {
+            "id": "term",
+            "tag": "INPUT"
+          }
+        },
+        "expectedInitialRows": 83
+      },
+      "keyboard": {
+        "tabSequence": [
+          {
+            "tag": "A",
+            "id": null,
+            "className": "skip",
+            "text": "Pular para o conteúdo"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Antes e depois"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Benchmarks"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Termos"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Cidades"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "SERPs"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Evolução"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Validação"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "PR11"
+          },
+          {
+            "tag": "DIV",
+            "id": null,
+            "className": "scroll",
+            "text": "CritérioAntes · ef32c45 / PR10AgoraConsequência práticaURLs "
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "relatório anterior"
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Critérios oficiais do Google para resultados locais"
+          }
+        ],
+        "skipFocused": {
+          "className": "skip",
+          "top": 10,
+          "visible": true,
+          "outlineWidth": "3px",
+          "scrollY": 0
+        },
+        "skipDestination": {
+          "hash": "#conteudo",
+          "activeId": "conteudo",
+          "activeTag": "MAIN"
+        },
+        "inputFocused": {
+          "id": "term",
+          "outlineWidth": "3px",
+          "outlineStyle": "solid"
+        }
+      }
+    },
+    "noJavaScript": {
+      "viewport": {
+        "width": 360,
+        "height": 780
+      },
+      "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+      "h1Count": 1,
+      "h1Text": "Encontrar a máquina.Entender a demanda.",
+      "headingCount": 22,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Encontrar a máquina.Entender a demanda."
+        },
+        {
+          "tag": "H2",
+          "text": "Mais respostas por máquina e território."
+        },
+        {
+          "tag": "H2",
+          "text": "Antes na main × ampliação atual"
+        },
+        {
+          "tag": "H2",
+          "text": "O que os resultados de busca indicam"
+        },
+        {
+          "tag": "H3",
+          "text": "Escavadeiras"
+        },
+        {
+          "tag": "H3",
+          "text": "Trator não é sempre linha amarela"
+        },
+        {
+          "tag": "H3",
+          "text": "Contagem e Betim"
+        },
+        {
+          "tag": "H2",
+          "text": "Como a amostra foi transformada em conteúdo"
+        },
+        {
+          "tag": "H2",
+          "text": "Cidades com contexto e conteúdo próprio"
+        },
+        {
+          "tag": "H2",
+          "text": "Dez mapas para acompanhar a cobertura"
+        },
+        {
+          "tag": "H2",
+          "text": "Resultados locais preservados"
+        },
+        {
+          "tag": "H3",
+          "text": "manutenção de cilindros de escavadeira"
+        },
+        {
+          "tag": "H3",
+          "text": "cilindro hidráulico trator"
+        },
+        {
+          "tag": "H3",
+          "text": "recuperação de cilindros hidráulicos"
+        },
+        {
+          "tag": "H3",
+          "text": "manutenção de cilindros hidráulicos"
+        },
+        {
+          "tag": "H3",
+          "text": "recuperação de cilindros hidráulicos itabira"
+        },
+        {
+          "tag": "H2",
+          "text": "O que esperar com o tempo"
+        },
+        {
+          "tag": "H3",
+          "text": "Primeiras semanas"
+        },
+        {
+          "tag": "H3",
+          "text": "30 a 90 dias"
+        },
+        {
+          "tag": "H3",
+          "text": "3 a 6 meses"
+        },
+        {
+          "tag": "H3",
+          "text": "6 a 12 meses"
+        },
+        {
+          "tag": "H2",
+          "text": "Validação e publicação"
+        }
+      ],
+      "rowCount": 83,
+      "visibleRowCount": 83,
+      "formHiddenAttribute": "",
+      "formVisible": false,
+      "countText": null,
+      "skip": {
+        "exists": true,
+        "focused": false,
+        "rect": {
+          "top": -80,
+          "left": 20,
+          "width": 177.421875,
+          "height": 28.046875
+        }
+      },
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "className": ""
+      },
+      "badImages": [],
+      "documentHorizontalOverflow": 0,
+      "bodyHorizontalOverflow": 0,
+      "scrollRegions": [
+        {
+          "aria": "Critério",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Consulta",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Tipo",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Tipo",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Tipo",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Tipo",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        },
+        {
+          "aria": "Tipo",
+          "clientWidth": 326,
+          "scrollWidth": 780,
+          "horizontalOverflow": true,
+          "overflowX": "auto"
+        }
+      ],
+      "scrollRegionsWithOverflow": 7,
+      "scrollRegionsNotScrollable": 0,
+      "externalLinkCount": 0
+    },
+    "visual": {
+      "360": {
+        "viewport": {
+          "width": 360,
+          "height": 780
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 326,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 7,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      },
+      "375": {
+        "viewport": {
+          "width": 375,
+          "height": 780
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 341,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 7,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      },
+      "768": {
+        "viewport": {
+          "width": 768,
+          "height": 820
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 718,
+            "scrollWidth": 780,
+            "horizontalOverflow": true,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 7,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      },
+      "1024": {
+        "viewport": {
+          "width": 1024,
+          "height": 820
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 974,
+            "scrollWidth": 974,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 0,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      },
+      "1365": {
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        },
+        "title": "Máquinas, cilindros e cidades · expansão New Tractor",
+        "h1Count": 1,
+        "h1Text": "Encontrar a máquina.Entender a demanda.",
+        "headingCount": 22,
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Encontrar a máquina.Entender a demanda."
+          },
+          {
+            "tag": "H2",
+            "text": "Mais respostas por máquina e território."
+          },
+          {
+            "tag": "H2",
+            "text": "Antes na main × ampliação atual"
+          },
+          {
+            "tag": "H2",
+            "text": "O que os resultados de busca indicam"
+          },
+          {
+            "tag": "H3",
+            "text": "Escavadeiras"
+          },
+          {
+            "tag": "H3",
+            "text": "Trator não é sempre linha amarela"
+          },
+          {
+            "tag": "H3",
+            "text": "Contagem e Betim"
+          },
+          {
+            "tag": "H2",
+            "text": "Como a amostra foi transformada em conteúdo"
+          },
+          {
+            "tag": "H2",
+            "text": "Cidades com contexto e conteúdo próprio"
+          },
+          {
+            "tag": "H2",
+            "text": "Dez mapas para acompanhar a cobertura"
+          },
+          {
+            "tag": "H2",
+            "text": "Resultados locais preservados"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros de escavadeira"
+          },
+          {
+            "tag": "H3",
+            "text": "cilindro hidráulico trator"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "manutenção de cilindros hidráulicos"
+          },
+          {
+            "tag": "H3",
+            "text": "recuperação de cilindros hidráulicos itabira"
+          },
+          {
+            "tag": "H2",
+            "text": "O que esperar com o tempo"
+          },
+          {
+            "tag": "H3",
+            "text": "Primeiras semanas"
+          },
+          {
+            "tag": "H3",
+            "text": "30 a 90 dias"
+          },
+          {
+            "tag": "H3",
+            "text": "3 a 6 meses"
+          },
+          {
+            "tag": "H3",
+            "text": "6 a 12 meses"
+          },
+          {
+            "tag": "H2",
+            "text": "Validação e publicação"
+          }
+        ],
+        "rowCount": 83,
+        "visibleRowCount": 83,
+        "formHiddenAttribute": false,
+        "formVisible": true,
+        "countText": "83 termos exibidos",
+        "skip": {
+          "exists": true,
+          "focused": false,
+          "rect": {
+            "top": -80,
+            "left": 20,
+            "width": 177.421875,
+            "height": 28.046875
+          }
+        },
+        "active": {
+          "tag": "BODY",
+          "id": "",
+          "className": ""
+        },
+        "badImages": [],
+        "documentHorizontalOverflow": 0,
+        "bodyHorizontalOverflow": 0,
+        "scrollRegions": [
+          {
+            "aria": "Critério",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Consulta",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          },
+          {
+            "aria": "Tipo",
+            "clientWidth": 1238,
+            "scrollWidth": 1238,
+            "horizontalOverflow": false,
+            "overflowX": "auto"
+          }
+        ],
+        "scrollRegionsWithOverflow": 0,
+        "scrollRegionsNotScrollable": 0,
+        "externalLinkCount": 0
+      }
+    },
+    "issues": []
+  },
+  "baseValidationCommit": "de21bb3e48b3b132fafd9a0eb00a2a593a1b17b7",
+  "lighthouseSourceCommit": "de21bb3e48b3b132fafd9a0eb00a2a593a1b17b7",
+  "reviewedPagesRecheck": {
+    "generatedAt": "2026-09-08T10:46:28.639Z",
+    "baseUrl": "http://127.0.0.1:8794",
+    "chrome": "/home/willian/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "routes": [
+      "/atuacao/minas-gerais/",
+      "/equipamentos/"
+    ],
+    "discoveredRouteCount": 42,
+    "routeCount": 2,
+    "matrixCount": 8,
+    "matrix": [
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "mobile",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "desktop",
+        "js": false,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": false,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "mobile",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Manutenção de máquinas pesadas em Minas Gerais | New Tractor",
+        "canonical": "https://newtractor.com.br/atuacao/minas-gerais/",
+        "images": 3,
+        "ctas": 16,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      },
+      {
+        "route": "/equipamentos/",
+        "viewport": "desktop",
+        "js": true,
+        "status": 200,
+        "h1Count": 1,
+        "title": "Equipamentos e componentes para avaliação | New Tractor",
+        "canonical": "https://newtractor.com.br/equipamentos/",
+        "images": 9,
+        "ctas": 11,
+        "details": 0,
+        "tables": [],
+        "overflow": false,
+        "jsClass": true,
+        "issues": []
+      }
+    ],
+    "keyboard": [],
+    "screenshots": [],
+    "issues": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  },
+  "reviewCorrections": [
+    "ItemList com os 5 equipamentos visíveis, URL só para aplicações com destino próprio",
+    "Data original de publicação fixada em 08/09/2026, independente de atualizações futuras",
+    "Fonte Gerdau 2024 acrescentada à página territorial",
+    "Referência Parker mista retirada do comentário técnico",
+    "Validação diferencia citação externa hospedada em CMS de dependência de renderização ou rota antiga do próprio site"
+  ],
+  "finalCodePreview": {
+    "base": "https://4cdf6dee.newtractor-site.pages.dev",
+    "checkedAt": "2026-09-08T10:48:54.204139+00:00",
+    "resources": 55,
+    "pass": true,
+    "records": [
+      {
+        "route": "/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cc27f70c28098af15072f4b78b211d21f7f4b4af5340f5b0b7bd97fcfc44579b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/rodantes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b221e66debad77f36cdbe5a54230f8e3248536dfcdc410a96db519dbfbf3286e",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/hidrautractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "0dd92531b6c78a46b9d1550728a066082a5a6d1f7aec78164d99cb86c85f5ae7",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/usinagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "cc0e67a8c898e9ea4cd529aa9461950ef09044af7cb9599a96f2369e4d2e0470",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/calderaria/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "402e0291865a873375602387ff305051c832d9cf8c175ea8724141d643f2bf0a",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parts/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "21b605cc6276598084196924442173c3684e9f7828895051f05691fc9a287eb0",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/services/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d96c619980d206604f35dd1cb66fec98d4209ef40b2f3ce11a928ceb50107be0",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/techtractor/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9434a3247184003a0f95b9df4f50948b36f76e9acf5fc939afd6b036efc3fd50",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "1ec21aebc078a4513b634b38be14761d9c9580ef344b533a81255314cd2a0f7f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-maquinas-linha-amarela/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be56528c7b3341888a447edc88ccf1de2c755cda95eb47c733a81f398c96a530",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cilindros-hidraulicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "76257eaec430877112b091d38904dcc71901d1ec62caddde177a8768760b1ba9",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/avaliacao-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "54aab5893a0f5d6fb1276d7a74fe2a819dd3db474f1b96e65ebd61f689b49f49",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/inspecao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7ba91399149ab0da4c0e04030a320fc22d1764a55fd83a62ec234a7c5463e1c6",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "29c1f8245c49bc40136c83f462178cfabc8ad70ed37ca1dd75f944e4e13b6f87",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b2d80b4d1e00d87b938706f83e6a4a37fd1de6075fa6f8080aa47814ed132315",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "be85525e31ec70cbdc7b6d4b752a65ca6887405d4a64db07ce2078b711e19a4d",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/mineracao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3b7bf79a3344b46f9651b4e3ba0012305717b9350398e6c87863fc55cf8f6951",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/florestal/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ba7c8c733efde90585be296948bc944800d8abd60987204f014f70e52b21c1b2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/agronegocio/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d94bec41b94ba7499036fcc91f79be3e97c5ec43466c019af8c7c583e4f5a882",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/construcao-terraplenagem/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "450d97a22715d0a448a06edbffb36027002807e77b2e983b69a4421475c7d70f",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/setores/locadoras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "b53e897a087e7768cb92adc2b4c78b85cd214f51bb04062c7dc9ab91b0fab028",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7e0b533094c2b578d3bc3d51ed51e36e27ba05bc3564246980773a7ca96dd108",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/rodas-guia/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "3c0a6fd8a1ec16d15c95bf10374d5f1454ea3fe709a745a14290184ad3e264af",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/roletes-de-esteira/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "e8b04dc546bfcb70e6e29189a8bef533a0edba0cee67e9b3da820308e56d06e9",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/componentes/correntes-sapatas-esteiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "aef21a3903ae3df92e72609f331108bf65e0886133b150c9d733681be4b63b38",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/guias/folgas-pinos-buchas-alojamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac89ae9966883f3852cf0051b04ecc5b5b970f0be9298f96b06b94b4e6d550a7",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/escavadeiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a44b2bc2cd6e47ddeff0bf3c1d641a93a8a5402454008388d2d81a5c662d9e76",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/tratores-de-esteira/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "c4e42ed272003f01416b50fab9c934af58163e1348c59d1d3f982d32876b5bd6",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/pas-carregadeiras/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "7893241bd392b7b1a8a4e083303d8ab328d30da1d97a7818fc7fca4ee5ae3399",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/atuacao/minas-gerais/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "6bc2548a0ecd7acb53480251e5dc1f119e544ef9333f19525e80385a82c11a60",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/empresa/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "783d2e1d1a2f977ce6bf36e14ed8e52ca2f19ac05e812f8ffb6164b09e49fc14",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/parcerias/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "d60d282d4f418743102b8ffdb328f6422d8e040276e00394f1a07e386c928515",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/pessoas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "2250cba5f33a196259b25de2ee13899434aef7959696d83450f8a1a87adae399",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f8442b37f666fb30a7dcb98dc4d58f6a0cb8fdcee5a3b92d2267dc617d521791",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/manutencao-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a2c2d677c30f07021eb366114ece461655f3d0ef9d2e417f863cc3816667cfa1",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/reforma-cacambas-conchas/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "247d99e78091e36c7ffd3bfcd8dda0a93b23a75efd76bc2ae3f23b5bca67d869",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/servicos/monitoramento-material-rodante/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "944d22d820ad4c4eb09b6052e129b38f4fda5681fe935c02d60254e84e18a740",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/equipamentos/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f514123bf5ffa86b9f5c0143c56f7703568c01fb1f72b120bc0179e0f9d9ac19",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/atuacao/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "57f411eb722e3b7f216ae4b0fccaaadb4bcfa43a2d93754b45d48e1c431ff514",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/contato/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "100b51aa7195513917c6b94e743f74bdc1d7f97e084b3ead5303daeacc09b3bc",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/noticias/new-tractor-na-exposibram-2026/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "07cc8632231faf807bf859e8199f8e07006afe83eb8d2fc8794de0d703c2bb40",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/privacidade/",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "ac674f65c38149528056ae1749552ce1c5b81a4e849f3790cbdfe833751cb15b",
+        "robots": "noindex, nofollow",
+        "contentType": "text/html; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-rodantes.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "4a1f3a1bc01c1cbce11f340d15efd50942c31e5da5b797a0d43d264508a110b3",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-hidrautractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "366e2bc698e25d6419187af49af55992368bb629e4e46ef98ed439b58b2bdea6",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-usinagem.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "942686e7720c9f53e4a923706353ef10d4abfcc203130319491554161eda38d8",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-calderaria.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "f9d145aad3de0a7b0498f7a2598075a0003ca6e65dc24b305460411d57fb2433",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-parts.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9ae0ce7b9ecc5ca897c61a3092cd2d6148de64080885f2780f1e00034ccb6218",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-services.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "df31c292055e18e4b96a677e3c63cf3b6af1b7046acd1615893e8c17067bc863",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-techtractor.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "5a0690c66a8a89708f9d3b43f47613412bee9668d7e5570efd7895e7934497f5",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-equipamentos.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "07b0deaf0c725d9bbc4b7e2c137276a2ee07d2855b35308bae2daf968b919498",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-atuacao.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "abc8868bd5d58d3eef45efa2bce4ab5c9d93d2c07702123a1b9c22ab6f0f19fc",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap-grupo.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "23ca4398c58dd5223cd9f96824bca9ba073ee670eb5046041695d2a19c64e2a0",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/sitemap.xml",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "9f21e2560e954ed5309d98c37d6d2cf333628cff859f0af46fc4ae5eceb0c2e7",
+        "robots": "noindex, nofollow",
+        "contentType": "application/xml",
+        "pass": true
+      },
+      {
+        "route": "/robots.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "a955411ed675073d6b0a50aaf9c647dba0ab3543d1fde4d830224be0aa94acf2",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      },
+      {
+        "route": "/llms.txt",
+        "status": 200,
+        "sameAsBuild": true,
+        "sha256": "92153f781671ee36b8e0817c84f5aec99ff6bf23f16cb8e3d7f1905249b9cce5",
+        "robots": "noindex, nofollow",
+        "contentType": "text/plain; charset=utf-8",
+        "pass": true
+      }
+    ]
+  }
+}

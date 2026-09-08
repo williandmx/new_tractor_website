@@ -101,3 +101,13 @@ intenção original.
 | `/guias/folgas-pinos-buchas-alojamentos/` | Registro de folgas e distinção peça/alojamento | 301 para a canônica |
 
 O sitemap raiz agora é um índice de oito mapas por frente editorial; o conjunto mantém cada uma das 38 URLs indexáveis uma única vez. DNS e Search Console permanecem fora desta entrega.
+# Rotas acrescentadas — aplicações e Minas Gerais, 08/09/2026
+
+| Canônica | Intenção e conteúdo | Entrada HTML | Sitemap |
+|---|---|---|---|
+| `/equipamentos/escavadeiras/` | Cilindros de lança, braço e caçamba; identificação, condição e encaminhamento | Equipamentos, HidrauTractor, guia de cilindros e MG | equipamentos |
+| `/equipamentos/tratores-de-esteira/` | Cilindros da lâmina, movimentos e ripper conforme configuração; separar agrícola | Equipamentos, HidrauTractor, guia de cilindros e MG | equipamentos |
+| `/equipamentos/pas-carregadeiras/` | Elevação, inclinação e direção; ligação com caçamba e estrutura | Equipamentos, HidrauTractor, guia de cilindros e MG | equipamentos |
+| `/atuacao/minas-gerais/` | Operação, componente e logística em quatro contextos mineiros | Atuação, sete frentes, Equipamentos e novas aplicações | atuacao |
+
+As versões sem barra final redirecionam com 301 para as canônicas acima. Não há rotas municipais em massa, redirecionamentos por palavra-chave ou mudança de domínio/DNS nesta ampliação.

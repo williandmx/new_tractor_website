@@ -133,3 +133,10 @@ aplicáveis, QA técnico/editorial e rollback de DNS e e-mail.
 - Como a edição terminou em 27/08/2026, a página foi convertida em registro
   pós-evento do anúncio institucional. Sem fotos ou relatório autorizados, ela
   não afirma presença realizada, reuniões, cases ou resultados.
+# Revisão incremental — aplicações e Minas Gerais, 08/09/2026
+
+As páginas `/equipamentos/escavadeiras/`, `/equipamentos/tratores-de-esteira/` e `/equipamentos/pas-carregadeiras/` descrevem movimentos, identificação, sinais observáveis e consulta. Não anunciam reparo, fabricação, cromagem, brunimento ou testes pela HidrauTractor. O guia geral distingue cilindro, pistão/êmbolo e reparo como kit versus intervenção.
+
+`/atuacao/minas-gerais/` reúne quatro contextos regionais com fontes territoriais. A única base representada continua Belo Horizonte. Cidade identifica origem e logística da demanda, sem prometer filial, equipe, coleta, atendimento imediato ou relação comercial com os operadores citados nas fontes.
+
+A consulta ao proprietário sobre execução hidráulica e modalidades de atendimento permanece sem resposta registrada. Essa confirmação é necessária para redigir futuras ofertas específicas de manutenção; a camada atual de informação e consulta está limitada ao escopo documentado.
