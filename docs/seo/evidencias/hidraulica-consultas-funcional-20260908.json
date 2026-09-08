@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-08T05:12:56.259Z",
+  "url": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.html",
+  "browser": {
+    "executablePath": "/home/willian/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "headless": true,
+    "isolatedContext": true,
+    "tmpdir": "/var/tmp/nt-mapqa"
+  },
+  "viewports": [
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "css": {
+        "innerWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollWidth": 360,
+        "globalOverflow": false,
+        "bodyFont": "system-ui, sans-serif",
+        "h1Text": "Quem chega por qual busca.",
+        "h1Visible": true,
+        "consultasVisible": true,
+        "nonScrollableOverflow": []
+      },
+      "navAnchors": [
+        {
+          "text": "Decisão",
+          "href": "#visao",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Concorrentes",
+          "href": "#concorrentes",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Explorar consultas",
+          "href": "#consultas",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Aplicação no grupo",
+          "href": "#orientacao",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Fontes e limites",
+          "href": "#fontes",
+          "targetExists": true,
+          "visible": true
+        }
+      ],
+      "keyboard": {
+        "sequence": [
+          {
+            "tag": "A",
+            "className": "skip",
+            "text": "Ir à análise",
+            "href": "#visao",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Dados completos em JSON",
+            "href": "consultas-destinos-hidraulica-2026-09-08.json",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Versão em texto",
+            "href": "consultas-destinos-hidraulica-2026-09-08.md",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Decisão",
+            "href": "#visao",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Concorrentes",
+            "href": "#concorrentes",
+            "focusVisible": true,
+            "visible": true
+          }
+        ],
+        "firstIsSkip": true,
+        "firstFocusVisible": true,
+        "allVisible": true
+      },
+      "navigationConsultas": {
+        "clicked": true,
+        "method": "nav-visible-0",
+        "hash": "#consultas",
+        "exists": true,
+        "top": 24,
+        "bottom": 5529,
+        "scrollY": 3023,
+        "innerHeight": 800,
+        "stableSamples": 5,
+        "elapsedMs": 1400
+      },
+      "filters": {
+        "initial": {
+          "countText": "65 de 65 linhas exibidas",
+          "visibleRows": 65,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "cilindrica": {
+          "countText": "11 de 65 linhas exibidas",
+          "visibleRows": 11,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "maranata": {
+          "countText": "0 de 65 linhas exibidas",
+          "visibleRows": 0,
+          "emptyHidden": false,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "warningVisible": true,
+        "cleared": {
+          "countText": "65 de 65 linhas exibidas",
+          "visibleRows": 65,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "brunimento": {
+          "countText": "3 de 65 linhas exibidas",
+          "visibleRows": 3,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "brunimentoTerms": [
+          "o que é brunir",
+          "o que é brunimento",
+          "o'que é brunimento"
+        ],
+        "hidropneumatico": {
+          "countText": "1 de 65 linhas exibidas",
+          "visibleRows": 1,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "finalBrunimento": {
+          "countText": "3 de 65 linhas exibidas",
+          "visibleRows": 3,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        }
+      },
+      "filteredOverflow": {
+        "innerWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollWidth": 360,
+        "globalOverflow": false,
+        "bodyFont": "system-ui, sans-serif",
+        "h1Text": "Quem chega por qual busca.",
+        "h1Visible": true,
+        "consultasVisible": true,
+        "nonScrollableOverflow": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "badResponses": [],
+      "screenshot": "/tmp/newtractor-hidraulica-report-mobile-filter.png"
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "css": {
+        "innerWidth": 1350,
+        "documentScrollWidth": 1350,
+        "bodyScrollWidth": 1350,
+        "globalOverflow": false,
+        "bodyFont": "system-ui, sans-serif",
+        "h1Text": "Quem chega por qual busca.",
+        "h1Visible": true,
+        "consultasVisible": true,
+        "nonScrollableOverflow": []
+      },
+      "navAnchors": [
+        {
+          "text": "Decisão",
+          "href": "#visao",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Concorrentes",
+          "href": "#concorrentes",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Explorar consultas",
+          "href": "#consultas",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Aplicação no grupo",
+          "href": "#orientacao",
+          "targetExists": true,
+          "visible": true
+        },
+        {
+          "text": "Fontes e limites",
+          "href": "#fontes",
+          "targetExists": true,
+          "visible": true
+        }
+      ],
+      "keyboard": {
+        "sequence": [
+          {
+            "tag": "A",
+            "className": "skip",
+            "text": "Ir à análise",
+            "href": "#visao",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Dados completos em JSON",
+            "href": "consultas-destinos-hidraulica-2026-09-08.json",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Versão em texto",
+            "href": "consultas-destinos-hidraulica-2026-09-08.md",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Decisão",
+            "href": "#visao",
+            "focusVisible": true,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "className": "",
+            "text": "Concorrentes",
+            "href": "#concorrentes",
+            "focusVisible": true,
+            "visible": true
+          }
+        ],
+        "firstIsSkip": true,
+        "firstFocusVisible": true,
+        "allVisible": true
+      },
+      "navigationConsultas": {
+        "clicked": true,
+        "method": "nav-visible-0",
+        "hash": "#consultas",
+        "exists": true,
+        "top": 24,
+        "bottom": 4183,
+        "scrollY": 2044,
+        "innerHeight": 940,
+        "stableSamples": 5,
+        "elapsedMs": 1200
+      },
+      "filters": {
+        "initial": {
+          "countText": "65 de 65 linhas exibidas",
+          "visibleRows": 65,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "cilindrica": {
+          "countText": "11 de 65 linhas exibidas",
+          "visibleRows": 11,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "maranata": {
+          "countText": "0 de 65 linhas exibidas",
+          "visibleRows": 0,
+          "emptyHidden": false,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "warningVisible": true,
+        "cleared": {
+          "countText": "65 de 65 linhas exibidas",
+          "visibleRows": 65,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "brunimento": {
+          "countText": "3 de 65 linhas exibidas",
+          "visibleRows": 3,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "brunimentoTerms": [
+          "o que é brunir",
+          "o que é brunimento",
+          "o'que é brunimento"
+        ],
+        "hidropneumatico": {
+          "countText": "1 de 65 linhas exibidas",
+          "visibleRows": 1,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        },
+        "finalBrunimento": {
+          "countText": "3 de 65 linhas exibidas",
+          "visibleRows": 3,
+          "emptyHidden": true,
+          "emptyText": "Nenhuma linha corresponde ao filtro. Maranata e Hidraup não tiveram palavras-chave apresentadas neste recorte."
+        }
+      },
+      "filteredOverflow": {
+        "innerWidth": 1350,
+        "documentScrollWidth": 1350,
+        "bodyScrollWidth": 1350,
+        "globalOverflow": false,
+        "bodyFont": "system-ui, sans-serif",
+        "h1Text": "Quem chega por qual busca.",
+        "h1Visible": true,
+        "consultasVisible": true,
+        "nonScrollableOverflow": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "badResponses": [],
+      "screenshot": "/tmp/newtractor-hidraulica-report-desktop-filter.png"
+    }
+  ],
+  "noJavascript": {
+    "rows": 65,
+    "filtersHidden": true,
+    "countText": "65 de 65 linhas exibidas",
+    "h1": "Quem chega por qual busca.",
+    "overflow": {
+      "innerWidth": 360,
+      "documentScrollWidth": 360,
+      "bodyScrollWidth": 360,
+      "globalOverflow": false,
+      "bodyFont": "system-ui, sans-serif",
+      "h1Text": "Quem chega por qual busca.",
+      "h1Visible": true,
+      "consultasVisible": true,
+      "nonScrollableOverflow": []
+    }
+  },
+  "links": [
+    {
+      "href": "consultas-destinos-hidraulica-2026-09-08.json",
+      "url": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.json",
+      "status": 200,
+      "ok": true,
+      "contentType": "application/json",
+      "finalUrl": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.json",
+      "bytes": 15019
+    },
+    {
+      "href": "consultas-destinos-hidraulica-2026-09-08.md",
+      "url": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/markdown",
+      "finalUrl": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.md",
+      "bytes": 15392
+    }
+  ],
+  "issues": []
+}
