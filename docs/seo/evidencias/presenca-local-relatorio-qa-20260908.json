@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-08T04:54:35.527Z",
+  "url": "http://127.0.0.1:8793/benchmark-grupo-linha-amarela-2026-09-07.html#08-local",
+  "browser": {
+    "executablePath": "/home/willian/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "headless": true,
+    "isolatedContext": true
+  },
+  "viewports": [
+    {
+      "name": "360",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "anchors": [
+        {
+          "text": "08Presença local",
+          "href": "#08-local",
+          "visible": false
+        },
+        {
+          "text": "08. Presença local",
+          "href": "#08-local",
+          "visible": true
+        }
+      ],
+      "navigationSection08": {
+        "clicked": true,
+        "method": "mobile-details-anchor-1",
+        "hash": "#08-local",
+        "targetExists": true,
+        "top": 44,
+        "bottom": 139,
+        "scrollY": 17688,
+        "innerHeight": 800,
+        "stableSamples": 5,
+        "elapsedMs": 2000
+      },
+      "overflow": {
+        "innerWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollWidth": 360,
+        "globalOverflow": false,
+        "offenders": []
+      },
+      "consoleErrors": [
+        {
+          "text": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "location": {
+            "url": "http://127.0.0.1:8793/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "pageErrors": [],
+      "badResponses": []
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "anchors": [
+        {
+          "text": "08Presença local",
+          "href": "#08-local",
+          "visible": true
+        },
+        {
+          "text": "08. Presença local",
+          "href": "#08-local",
+          "visible": false
+        }
+      ],
+      "navigationSection08": {
+        "clicked": true,
+        "method": "visible-anchor-0",
+        "hash": "#08-local",
+        "targetExists": true,
+        "top": 214,
+        "bottom": 283,
+        "scrollY": 12442,
+        "innerHeight": 940,
+        "stableSamples": 5,
+        "elapsedMs": 2000
+      },
+      "overflow": {
+        "innerWidth": 1350,
+        "documentScrollWidth": 1350,
+        "bodyScrollWidth": 1350,
+        "globalOverflow": false,
+        "offenders": []
+      },
+      "consoleErrors": [
+        {
+          "text": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "location": {
+            "url": "http://127.0.0.1:8793/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "pageErrors": [],
+      "badResponses": []
+    }
+  ],
+  "links": [
+    {
+      "href": "presenca-local-google-2026-09-08.md",
+      "url": "http://127.0.0.1:8793/presenca-local-google-2026-09-08.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/markdown",
+      "finalUrl": "http://127.0.0.1:8793/presenca-local-google-2026-09-08.md",
+      "bytes": 4689
+    }
+  ],
+  "issues": []
+}
