@@ -62,23 +62,55 @@ document.querySelectorAll("[data-current-year]").forEach((element) => {
 
 const getConsent = () => {
   try {
-    return window.localStorage.getItem(consentKey);
+    const value = window.localStorage.getItem(consentKey);
+    if (value === "accepted") {
+      // Não reutilizar um aceite que o navegador já não permite revogar.
+      const probeKey = `${consentKey}-writable`;
+      window.localStorage.setItem(probeKey, "1");
+      window.localStorage.removeItem(probeKey);
+    }
+    return value === "accepted" || value === "essential" ? value : null;
   } catch {
     return null;
   }
 };
 
+let currentConsent = getConsent();
+
 const saveConsent = (value) => {
+  currentConsent = value;
   try {
     window.localStorage.setItem(consentKey, value);
   } catch {
     // A escolha permanece válida apenas nesta página quando o armazenamento está indisponível.
+    if (value !== "accepted") {
+      try {
+        window.localStorage.removeItem(consentKey);
+      } catch {
+        // O navegador também pode impedir a remoção da preferência anterior.
+      }
+    }
   }
+};
+
+function pushTagCommand() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(arguments);
+}
+
+const updateTagConsent = (value, command = "update") => {
+  pushTagCommand("consent", command, {
+    analytics_storage: value === "accepted" ? "granted" : "denied",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+  });
 };
 
 const loadGtm = () => {
   if (document.querySelector(`script[data-gtm="${gtmId}"]`)) return;
-  window.dataLayer = window.dataLayer || [];
+  updateTagConsent("essential", "default");
+  updateTagConsent("accepted");
   window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
   const script = document.createElement("script");
   script.async = true;
@@ -88,17 +120,27 @@ const loadGtm = () => {
 };
 
 const applyConsent = (value) => {
+  currentConsent = value;
   consentBanner?.setAttribute("hidden", "");
   document.body.classList.remove("consent-visible");
-  if (value === "accepted") loadGtm();
+  if (value === "accepted") {
+    loadGtm();
+  } else if (document.querySelector(`script[data-gtm="${gtmId}"]`)) {
+    updateTagConsent("essential");
+    // Recarregar encerra também o runtime de tags que já tenham sido executadas.
+    window.location.reload();
+  }
 };
 
-const savedConsent = getConsent();
-if (savedConsent) {
-  applyConsent(savedConsent);
-} else {
+const showConsent = () => {
   consentBanner?.removeAttribute("hidden");
   document.body.classList.add("consent-visible");
+};
+
+if (currentConsent) {
+  applyConsent(currentConsent);
+} else {
+  showConsent();
 }
 
 consentButtons.forEach((button) => {
@@ -110,23 +152,28 @@ consentButtons.forEach((button) => {
 });
 
 resetConsent?.addEventListener("click", () => {
-  try {
-    window.localStorage.removeItem(consentKey);
-  } catch {
-    // Sem armazenamento persistente, basta reabrir o painel nesta página.
-  }
-  consentBanner?.removeAttribute("hidden");
-  document.body.classList.add("consent-visible");
+  showConsent();
   consentBanner?.querySelector("button")?.focus();
+});
+
+window.addEventListener("storage", (event) => {
+  if (event.key !== consentKey && event.key !== null) return;
+  const nextConsent = getConsent();
+  if (nextConsent === currentConsent) return;
+  applyConsent(nextConsent);
+  if (!nextConsent) showConsent();
 });
 
 document.querySelectorAll("[data-analytics]").forEach((link) => {
   link.addEventListener("click", () => {
-    if (getConsent() !== "accepted") return;
+    if (currentConsent !== "accepted") return;
+    const ctaName = link.dataset.analytics;
+    const channel = { whatsapp: "whatsapp", email: "email", telefone: "phone", mapa: "map" }[ctaName.split("_")[0]] ?? "site";
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: "site_cta_click",
-      cta_name: link.dataset.analytics,
+      cta_name: ctaName,
+      cta_channel: channel,
       page_path: window.location.pathname,
     });
   });

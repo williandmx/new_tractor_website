@@ -253,7 +253,7 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
         </section>
         <section class="section company-request" aria-labelledby="rfq-title">
           <div class="shell company-request__grid">
-            <div><span class="eyebrow eyebrow--light">CONVERSE COM ${company.slug === "techtractor" ? "O GRUPO" : "A " + company.label.toLocaleUpperCase("pt-BR")}</span><h2 id="rfq-title">${company.requestTitle}</h2><p>${company.requestIntro}</p><a class="button button--primary" href="${emailLink}" data-analytics="email_${company.slug}_rfq">${company.action} ${icon("mail")}</a><p class="company-request__email">Ou escreva para <a href="mailto:${site.email}">${site.email}</a>.</p></div>
+            <div><span class="eyebrow eyebrow--light">CONVERSE COM ${company.slug === "techtractor" ? "O GRUPO" : "A " + company.label.toLocaleUpperCase("pt-BR")}</span><h2 id="rfq-title">${company.requestTitle}</h2><p>${company.requestIntro}</p><a class="button button--primary" href="${emailLink}" data-analytics="email_${company.slug}_rfq">${company.action} ${icon("mail")}</a><p class="company-request__email">Ou escreva para <a href="mailto:${site.email}" data-analytics="email_${company.slug}_alternativo">${site.email}</a>.</p></div>
             <div class="company-checklist"><h3>O que incluir na conversa</h3><ul>${company.checklist.map((item) => `<li>${icon("check")}<span>${item}</span></li>`).join("")}</ul><p>O botão abre seu aplicativo de e-mail; inclua os anexos antes de enviar. Atendimento em todo o Brasil, sujeito a avaliação técnica, comercial e logística por demanda.</p></div>
           </div>
         </section>

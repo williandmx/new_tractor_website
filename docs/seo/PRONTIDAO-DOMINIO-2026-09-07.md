@@ -180,3 +180,12 @@ redirect legado, canonical/indexação ou medição aprovada.
 As auditorias preservadas em `evidencias/` são fotografias do estado observado naquela janela. O
 commit e o deployment indicados no início são o estado autoritativo informado
 para esta etapa; a troca do domínio ainda exige validação operacional posterior.
+
+
+## Atualização de medição — 08/09
+
+A tentativa autenticada confirmou falta de acesso ao Search Console do domínio
+e ausência de contas no Tag Manager para a conta aberta. Não foram criados
+recursos paralelos. O [contrato de eventos e roteiro de validação](MEDICAO-AQUISICAO.md)
+passa a orientar o corte: cliques de contato devem ser distintos de navegação
+e de leads efetivamente qualificados.
