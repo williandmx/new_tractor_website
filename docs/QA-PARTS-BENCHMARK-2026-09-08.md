@@ -51,3 +51,23 @@ institucional, que possui seus próprios assets.
 
 Preview, testes e relatório não demonstram ganho de posição, clientes obtidos
 ou redução de parada. O domínio canônico ainda serve o WordPress anterior.
+
+
+## Preview final
+
+O código do commit `5c720fc` foi publicado e validado em
+[80768b7f — Parts](https://80768b7f.newtractor-site.pages.dev/parts/).
+As quatro rotas alteradas passaram em 360×800 e 1350×940: oito verificações,
+HTTP 200, um H1, canonical correto, JSON-LD parseável, skip link com foco no
+main, nenhum overflow global e nenhum texto afirmando fabricação. Ambos os
+CTAs principais de Parts cabem na viewport e usam o e-mail real.
+O header permaneceu `noindex, nofollow`.
+[Evidência do preview](seo/evidencias/parts-preview-qa-20260908.json).
+
+A verificação inicial supunha um CTA único; a página tem dois, no início e no
+final. O roteiro passou a verificar ambos. A execução seguinte usou uma página
+isolada por rota para não carregar foco/navegação de uma verificação anterior.
+Oito verificações passaram sem alteração adicional no código da aplicação.
+
+Código, revisão e publicação são rastreáveis pelo
+[PR6](https://github.com/williandmx/new_tractor_website/pull/6).
