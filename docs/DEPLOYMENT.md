@@ -26,6 +26,19 @@
 
 ## Preview
 
+### Expansão técnica de SEO — 07/09/2026
+
+- Preview validado: `https://4d52fe2d.newtractor-site.pages.dev/`.
+- Alias: `https://seo-linha-amarela.newtractor-site.pages.dev/`.
+- Build de aplicação: `89bf95a`, branch Git `feat/seo-linha-amarela`, branch
+  de preview Pages `seo-linha-amarela`. Upload direto com Wrangler 4.125.0.
+- Cinco rotas novas, metadados das sete frentes, sitemap e `llms.txt`.
+- QA: `QA-SEO-2026-09-07.md`. Pages.dev mantém `noindex, nofollow`.
+- O layout institucional anterior recebeu aprovação do proprietário na
+  conversa. Esta expansão tem preview próprio para revisão.
+- O domínio canônico e DNS não foram alterados; versão visual anterior
+  preservada em `https://951d4336.newtractor-site.pages.dev/`.
+
 ```bash
 npm ci
 npm run check

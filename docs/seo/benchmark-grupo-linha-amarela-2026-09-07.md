@@ -248,3 +248,7 @@ alcançada.
 
 **Arquivo de dados:** [palavras-chave-grupo-ubersuggest-2026-09-07.json](palavras-chave-grupo-ubersuggest-2026-09-07.json). **Referências de
 território:** [relatorio-seo-minas-gerais-2026-09-07.md](relatorio-seo-minas-gerais-2026-09-07.md).
+
+## Implementação e validação desta etapa
+
+O conteúdo descrito foi publicado no [preview Cloudflare](https://4d52fe2d.newtractor-site.pages.dev/guias/), a partir do commit `89bf95a`. As cinco rotas novas, sitemap e llms responderam corretamente e o preview permanece sem indexação. Foram aprovados 25 testes e as verificações de leitura móvel, teclado e dados estruturados. O domínio canônico ainda depende do fluxo de migração; o resultado não representa ganho comprovado de posição no Google. [Próximas etapas](EXECUCAO-SEO-GRUPO.md).
