@@ -122,5 +122,10 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
   Não publica fabricação, brunimento, cromo, pressão, bancada ou teste como
   capacidade confirmada da HidrauTractor. A oferta de tais processos continua
   sujeita a prova própria antes de eventual ampliação comercial.
+- A prioridade de cilindros hidráulicos foi solicitada pelo proprietário na
+  estratégia de busca. Na frente HidrauTractor, o termo identifica o assunto
+  da consulta e os dados a reunir, não uma capacidade de reparo, fabricação,
+  fornecimento ou ensaio confirmada. A revisão final tornou essa distinção
+  explícita também no resumo usado pelo JSON-LD `Brand`.
 - TechTractor conserva o estágio em evolução. A referência de concorrentes
   com sensores, aplicativos e telemetria não se transfere para a New Tractor.
