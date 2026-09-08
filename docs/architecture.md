@@ -80,7 +80,7 @@ prazo, estoque, garantia ou estrutura societária.
 
 ## Entrega de SEO das sete especialidades — 08/09/2026
 
-O inventário contém 33 URLs indexáveis, alcançáveis por links HTML desde a home.
+O inventário contém 38 URLs indexáveis, alcançáveis por links HTML desde a home.
 As cinco páginas setoriais usam contexto próprio de operação, componentes e
 perguntas de compradores, manutenção e mecânicos; não criam filiais, carteira
 de clientes ou promessa de atendimento local. A matriz de evidência e aplicação

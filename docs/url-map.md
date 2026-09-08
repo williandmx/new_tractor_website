@@ -51,7 +51,7 @@ guias de componentes, preservando as URLs anteriores:
 Todas normalizam a versão sem barra com 301. O alias proposto
 `/setores/locacao-de-equipamentos/`, com ou sem barra, redireciona para
 `/setores/locadoras/`; não é outra página indexável. Sitemap e `llms.txt`
-usam as 33 URLs canônicas do inventário final.
+usavam as 33 URLs canônicas na etapa PR9; a ampliação abaixo leva o inventário atual a 38.
 
 | Origem antiga | Destino novo | Observação |
 |---|---|---|

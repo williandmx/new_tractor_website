@@ -1,0 +1,282 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "title": "Grupo New Tractor | Máquinas de linha amarela em Minas Gerais",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/rodantes/",
+      "title": "Material rodante de escavadeira e trator | New Tractor Rodantes",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/hidrautractor/",
+      "title": "Consulta sobre cilindros hidráulicos | HidrauTractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/usinagem/",
+      "title": "Usinagem pesada e mandrilhamento de componentes | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/calderaria/",
+      "title": "Caldeiraria pesada de máquinas em BH | New Tractor Calderaria",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/parts/",
+      "title": "Peças para máquinas de linha amarela | New Tractor Parts",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/services/",
+      "title": "Consulta de manutenção por componente | New Tractor Services",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/techtractor/",
+      "title": "Inspeção e histórico de desgaste | TechTractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/",
+      "title": "Guias de manutenção para máquinas de linha amarela | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/avaliacao-maquinas-linha-amarela/",
+      "title": "Avaliação de máquinas de linha amarela: dados úteis | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/avaliacao-cilindros-hidraulicos/",
+      "title": "Avaliação de cilindros hidráulicos para máquinas pesadas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/avaliacao-cacambas-conchas/",
+      "title": "Avaliação de caçambas e conchas de máquinas pesadas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/inspecao-material-rodante/",
+      "title": "Inspeção de material rodante: como organizar registros | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/cotacao-pecas-maquinas-pesadas/",
+      "title": "Cotação de peças para máquinas pesadas: dados úteis | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/servicos/usinagem-componentes-maquinas-pesadas/",
+      "title": "Usinagem pesada e mandrilhamento em BH | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/",
+      "title": "Máquinas de linha amarela por setor | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/mineracao/",
+      "title": "Manutenção de máquinas pesadas para mineração | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/florestal/",
+      "title": "Máquinas pesadas para operações florestais | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/agronegocio/",
+      "title": "Máquinas de linha amarela no agronegócio | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/construcao-terraplenagem/",
+      "title": "Máquinas de construção e terraplenagem | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/setores/locadoras/",
+      "title": "Manutenção de frotas de locadoras de máquinas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/componentes/",
+      "title": "Componentes de material rodante para máquinas pesadas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/componentes/rodas-guia/",
+      "title": "Recuperação de rodas-guia para máquinas de esteira | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/componentes/roletes-de-esteira/",
+      "title": "Recuperação de roletes de esteira | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/componentes/correntes-sapatas-esteiras/",
+      "title": "Correntes, rosários e sapatas de esteiras | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/guias/folgas-pinos-buchas-alojamentos/",
+      "title": "Folgas em pinos, buchas e alojamentos | Guia New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/empresa/",
+      "title": "Grupo New Tractor | Estrutura para máquinas pesadas desde 2010",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/parcerias/",
+      "title": "Parcerias e conexões industriais | Grupo New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/pessoas/",
+      "title": "Pessoas que movem a New Tractor | Equipe e operação",
+      "lastModified": "2026-09-05"
+    },
+    {
+      "route": "/servicos/",
+      "title": "Serviços para máquinas de linha amarela em MG | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/servicos/manutencao-material-rodante/",
+      "title": "Manutenção de material rodante | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/servicos/reforma-cacambas-conchas/",
+      "title": "Reforma de caçambas e conchas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/servicos/monitoramento-material-rodante/",
+      "title": "Monitoramento de material rodante | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/equipamentos/",
+      "title": "Equipamentos e componentes para avaliação | New Tractor",
+      "lastModified": "2026-09-07"
+    },
+    {
+      "route": "/atuacao/",
+      "title": "Atendimento nacional em máquinas pesadas | New Tractor",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/contato/",
+      "title": "Fale com o Grupo New Tractor | Contato e relacionamento",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "route": "/noticias/new-tractor-na-exposibram-2026/",
+      "title": "EXPOSIBRAM 2026 e manutenção pesada | New Tractor",
+      "lastModified": "2026-09-07"
+    },
+    {
+      "route": "/privacidade/",
+      "title": "Privacidade | New Tractor",
+      "lastModified": "2026-09-08"
+    }
+  ],
+  "sitemaps": [
+    {
+      "file": "sitemap-rodantes.xml",
+      "label": "Rodantes",
+      "routes": [
+        "/rodantes/",
+        "/componentes/rodas-guia/",
+        "/componentes/roletes-de-esteira/",
+        "/componentes/correntes-sapatas-esteiras/",
+        "/servicos/manutencao-material-rodante/",
+        "/servicos/monitoramento-material-rodante/"
+      ]
+    },
+    {
+      "file": "sitemap-hidrautractor.xml",
+      "label": "HidrauTractor",
+      "routes": [
+        "/hidrautractor/",
+        "/guias/avaliacao-cilindros-hidraulicos/"
+      ]
+    },
+    {
+      "file": "sitemap-usinagem.xml",
+      "label": "Usinagem",
+      "routes": [
+        "/usinagem/",
+        "/servicos/usinagem-componentes-maquinas-pesadas/",
+        "/guias/folgas-pinos-buchas-alojamentos/"
+      ]
+    },
+    {
+      "file": "sitemap-calderaria.xml",
+      "label": "Calderaria",
+      "routes": [
+        "/calderaria/",
+        "/guias/avaliacao-cacambas-conchas/",
+        "/servicos/reforma-cacambas-conchas/"
+      ]
+    },
+    {
+      "file": "sitemap-parts.xml",
+      "label": "Parts",
+      "routes": [
+        "/parts/",
+        "/guias/cotacao-pecas-maquinas-pesadas/"
+      ]
+    },
+    {
+      "file": "sitemap-services.xml",
+      "label": "Services",
+      "routes": [
+        "/services/",
+        "/guias/avaliacao-maquinas-linha-amarela/"
+      ]
+    },
+    {
+      "file": "sitemap-techtractor.xml",
+      "label": "TechTractor",
+      "routes": [
+        "/techtractor/",
+        "/guias/inspecao-material-rodante/"
+      ]
+    },
+    {
+      "file": "sitemap-grupo.xml",
+      "label": "Grupo, componentes e setores",
+      "routes": [
+        "/",
+        "/guias/",
+        "/setores/",
+        "/setores/mineracao/",
+        "/setores/florestal/",
+        "/setores/agronegocio/",
+        "/setores/construcao-terraplenagem/",
+        "/setores/locadoras/",
+        "/componentes/",
+        "/empresa/",
+        "/parcerias/",
+        "/pessoas/",
+        "/servicos/",
+        "/equipamentos/",
+        "/atuacao/",
+        "/contato/",
+        "/noticias/new-tractor-na-exposibram-2026/",
+        "/privacidade/"
+      ]
+    }
+  ]
+}

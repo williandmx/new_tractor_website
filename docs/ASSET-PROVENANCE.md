@@ -132,3 +132,5 @@ Nenhuma mídia nova foi criada ou importada. As páginas de componentes reutiliz
 | `/guias/folgas-pinos-buchas-alojamentos/` | `medicao-rolete-640.webp` | 640 × 427 |
 
 A foto de medição é identificada pelo componente mostrado, sem tratá-la como um case de articulação ou de pinos/buchas. `pageHero` usa o helper de imagem com srcset, sizes, width, height e alt. Origem e condições de uso seguem o registro prévio dos assets públicos.
+
+As fotos específicas de roda-guia, rosário e medição têm fonte disponível de 640 px. O layout se adapta à viewport com dimensões e srcset; não foi feito aumento artificial de resolução. Uma futura captação em maior resolução pode melhorar a apresentação em telas de alta densidade.
