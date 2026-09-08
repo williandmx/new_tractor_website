@@ -312,3 +312,13 @@ do WhatsApp publicado no perfil difere do site e exige validação de entrega.
 As especialidades não justificam criar perfis separados para a mesma empresa.
 A base em BH tampouco garante alcance no Maps em todo o estado.
 [Evidências públicas, orientação do Google e próximos passos](presenca-local-google-2026-09-08.md).
+
+
+## 09. Consultas e destinos dos concorrentes hidráulicos
+
+O Keyword Coverage foi consultado para os dez domínios: 65 associações consulta→URL
+em oito deles. Maranata e Hidraup não apresentaram linhas no recorte Brasil/português.
+O detalhe distingue marca, serviço, componente/usados e informação, sem identificar
+compradores ou resultados comerciais.
+[Explorador das consultas e implicações para a HidrauTractor](consultas-destinos-hidraulica-2026-09-08.html) ·
+[Dados com datas, URLs e limites](consultas-destinos-hidraulica-2026-09-08.json).

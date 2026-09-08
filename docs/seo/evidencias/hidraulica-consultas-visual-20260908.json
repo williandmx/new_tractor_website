@@ -1,0 +1,564 @@
+{
+  "date": "2026-09-08T05:14:47.283Z",
+  "url": "http://127.0.0.1:8793/consultas-destinos-hidraulica-2026-09-08.html",
+  "scope": "visual recheck after #queries CSS adjustment; functional QA preserved separately",
+  "browser": {
+    "executablePath": "/home/willian/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "headless": true,
+    "isolatedContext": true,
+    "tmpdir": "/var/tmp/nt-mapqa"
+  },
+  "viewports": [
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "httpStatus": 200,
+      "screenshot": "/tmp/newtractor-hidraulica-report-mobile-filter-updated.png",
+      "layoutUpdated": {
+        "innerWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollWidth": 360,
+        "globalOverflow": false,
+        "filterValue": "brunimento",
+        "countText": "3 de 65 linhas exibidas",
+        "visibleRows": 3,
+        "table": {
+          "clientWidth": 302,
+          "scrollWidth": 1000,
+          "tableScrollWidth": 1000
+        },
+        "termCells": [
+          {
+            "text": "o que é brunir",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          },
+          {
+            "text": "o que é brunimento",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          },
+          {
+            "text": "o'que é brunimento",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          }
+        ],
+        "urlCells": [
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330
+          },
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330
+          },
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330
+          }
+        ],
+        "cells": [
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 29
+          },
+          {
+            "text": "o que é brunir",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          },
+          {
+            "text": "27",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 80,
+            "scrollWidth": 80,
+            "width": 80,
+            "x": 379
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 459
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 579
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330,
+            "width": 330,
+            "x": 699
+          },
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 29
+          },
+          {
+            "text": "o que é brunimento",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          },
+          {
+            "text": "24",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 80,
+            "scrollWidth": 80,
+            "width": 80,
+            "x": 379
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 459
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 579
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330,
+            "width": 330,
+            "x": 699
+          },
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 29
+          },
+          {
+            "text": "o'que é brunimento",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 230,
+            "scrollWidth": 230,
+            "width": 230,
+            "x": 149
+          },
+          {
+            "text": "32",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 80,
+            "scrollWidth": 80,
+            "width": 80,
+            "x": 379
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 459
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 120,
+            "scrollWidth": 120,
+            "width": 120,
+            "x": 579
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 330,
+            "scrollWidth": 330,
+            "width": 330,
+            "x": 699
+          }
+        ],
+        "heading": "Explore as 65 associações"
+      },
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "httpStatus": 200,
+      "screenshot": "/tmp/newtractor-hidraulica-report-desktop-filter-updated.png",
+      "layoutUpdated": {
+        "innerWidth": 1350,
+        "documentScrollWidth": 1350,
+        "bodyScrollWidth": 1350,
+        "globalOverflow": false,
+        "filterValue": "brunimento",
+        "countText": "3 de 65 linhas exibidas",
+        "visibleRows": 3,
+        "table": {
+          "clientWidth": 1168,
+          "scrollWidth": 1168,
+          "tableScrollWidth": 1168
+        },
+        "termCells": [
+          {
+            "text": "o que é brunir",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          },
+          {
+            "text": "o que é brunimento",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          },
+          {
+            "text": "o'que é brunimento",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          }
+        ],
+        "urlCells": [
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408
+          },
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408
+          },
+          {
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408
+          }
+        ],
+        "cells": [
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 129,
+            "scrollWidth": 129,
+            "width": 129,
+            "x": 91
+          },
+          {
+            "text": "o que é brunir",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          },
+          {
+            "text": "27",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 86,
+            "scrollWidth": 86,
+            "width": 86,
+            "x": 467
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 552
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 702
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408,
+            "width": 408,
+            "x": 851
+          },
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 129,
+            "scrollWidth": 129,
+            "width": 129,
+            "x": 91
+          },
+          {
+            "text": "o que é brunimento",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          },
+          {
+            "text": "24",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 86,
+            "scrollWidth": 86,
+            "width": 86,
+            "x": 467
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 552
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 702
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408,
+            "width": 408,
+            "x": 851
+          },
+          {
+            "text": "CETEME",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 129,
+            "scrollWidth": 129,
+            "width": 129,
+            "x": 91
+          },
+          {
+            "text": "o'que é brunimento",
+            "tag": "TH",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 247,
+            "scrollWidth": 247,
+            "width": 247,
+            "x": 220
+          },
+          {
+            "text": "32",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 86,
+            "scrollWidth": 86,
+            "width": 86,
+            "x": 467
+          },
+          {
+            "text": "0",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 552
+          },
+          {
+            "text": "170",
+            "tag": "TD",
+            "overflowWrap": "normal",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 149,
+            "scrollWidth": 149,
+            "width": 149,
+            "x": 702
+          },
+          {
+            "text": "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+            "tag": "TD",
+            "overflowWrap": "anywhere",
+            "wordBreak": "normal",
+            "whiteSpace": "normal",
+            "clientWidth": 408,
+            "scrollWidth": 408,
+            "width": 408,
+            "x": 851
+          }
+        ],
+        "heading": "Explore as 65 associações"
+      },
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  ],
+  "issues": []
+}

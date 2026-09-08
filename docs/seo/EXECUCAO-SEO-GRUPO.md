@@ -20,6 +20,13 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
   linha amarela separado da oportunidade comercial.
   [Análise e prioridades por frente](paginas-e-buscas-concorrentes-2026-09-08.md).
 
+- Detalhamento de Keywords by Traffic dos dez hidráulicos: 65 associações
+  consulta→URL em oito domínios, com ausência de linhas BR/PT nos outros dois.
+  [Painel por empresa e termo](consultas-destinos-hidraulica-2026-09-08.html),
+  com distinção entre marca, componentes/usados, processos e informação.
+  Mantidos os limites de período, endpoints e geografia; não é tráfego de
+  página somável nem identificação de compradores.
+
 ## Alterações desta etapa
 
 - Metadados e subtítulos das sete frentes orientados pela especialidade.

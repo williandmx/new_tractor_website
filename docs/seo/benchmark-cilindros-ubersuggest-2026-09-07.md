@@ -4,6 +4,8 @@
 
 Este complemento ao plano de SEO traz consultas reais ao Ubersuggest: dez empresas mineiras, o domínio atual da New Tractor e quinze expressões de busca. O conector foi confirmado como instalado e habilitado; nesta execução os dados foram coletados pelo painel autenticado, pois suas ferramentas MCP não ficaram disponíveis.
 
+**Complemento de 08/09:** [65 associações consulta→URL com filtros por empresa](consultas-destinos-hidraulica-2026-09-08.html). Esta coleta permanece como fotografia inicial; o complemento detalha destinos e intenções.
+
 ## 01. A decisão que os dados sustentam
 
 **Priorizar uma página técnica de recuperação e manutenção de cilindros, após confirmar o escopo da HidrauTractor, conectada a um pedido de avaliação com dados da máquina.** O termo genérico tem maior volume, mas as buscas específicas deixam mais claro o serviço procurado. A estratégia deve combinar descoberta por componente, aplicação real e atendimento a partir de Belo Horizonte.

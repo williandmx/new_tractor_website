@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "source": "Ubersuggest / Keywords by Traffic (Keyword Coverage)",
+  "sourceUrl": "https://app.neilpatel.com/en/keyword-coverage",
+  "collectionDate": "2026-09-08",
+  "method": "Interface autenticada; modo Domain; Portuguese / Brazil; leitura integral da tabela exibida de cada domínio. Sem atualização paga de SD.",
+  "country": "Brazil",
+  "language": "Portuguese",
+  "monthlyChartLastLabel": "Aug 26",
+  "keywordTablePeriod": null,
+  "limitations": [
+    "A data individual das posições, volumes e visitas da tabela não foi identificada. A data da coluna SD não é data da posição.",
+    "O total Monthly Keyword Coverage e o total de linhas divergem em alguns domínios; preservados sem reconciliação ou alegação de evolução.",
+    "Maranata e Hidraup: nenhuma linha para BR/PT; a ferramenta declara rankings em outras localidades, não verificadas. Não é prova de tráfego zero.",
+    "Variantes não são somadas; visitas e volumes são estimativas nacionais, não pessoas, compradores ou pedidos.",
+    "URLs HTTP preservadas como exibidas pela ferramenta; não comprovam protocolo final, disponibilidade atual ou canonical."
+  ],
+  "columns": [
+    "keyword",
+    "position",
+    "estimatedMonthlyVisits",
+    "estimatedMonthlySearchVolume",
+    "rankingUrl",
+    "seoDifficultyAndRelativeDate"
+  ],
+  "domains": [
+    {
+      "domain": "hidraucron.com.br",
+      "observedAt": "2026-09-08T05:00:20.186Z",
+      "monthlyKeywords": 14,
+      "footer": "Showing 20 of 20 results",
+      "message": null,
+      "rows": [
+        [
+          "hidraucron",
+          1,
+          66,
+          140,
+          "http://hidraucron.com.br/",
+          "25\nToday"
+        ],
+        [
+          "bh cromo",
+          6,
+          5,
+          170,
+          "http://hidraucron.com.br/servicos/cromo-duro/8",
+          "23\nThis week"
+        ],
+        [
+          "bascular bh",
+          12,
+          2,
+          480,
+          "http://hidraucron.com.br/",
+          "32\nOne month ago"
+        ],
+        [
+          "kit hidráulico hyva preço",
+          19,
+          1,
+          140,
+          "http://hidraucron.com.br/produtos-hyva/kits-hidraulicos-hyva/29",
+          "19\nYesterday"
+        ],
+        [
+          "bh cromos",
+          10,
+          1,
+          170,
+          "http://hidraucron.com.br/servicos/cromo-duro/8",
+          "23\nThis week"
+        ],
+        [
+          "hidraucom",
+          9,
+          1,
+          170,
+          "http://hidraucron.com.br/",
+          "12\n2 months ago"
+        ],
+        [
+          "cromagem em bh",
+          20,
+          1,
+          210,
+          "http://hidraucron.com.br/servicos/cromo-duro/8",
+          "13\nOne week ago"
+        ],
+        [
+          "materiais hidraulicos em bh",
+          20,
+          1,
+          260,
+          "http://hidraucron.com.br/",
+          "22\n3 weeks ago"
+        ],
+        [
+          "bascular peças e acessórios para caminhões unidade belo horizonte",
+          23,
+          1,
+          480,
+          "http://hidraucron.com.br/",
+          "32\nOne month ago"
+        ],
+        [
+          "kit hidraulico hyva preço",
+          18,
+          1,
+          140,
+          "http://hidraucron.com.br/produtos-hyva/kits-hidraulicos-hyva/29",
+          "19\nYesterday"
+        ],
+        [
+          "hidraucromo",
+          54,
+          0,
+          170,
+          "http://hidraucron.com.br/principais-clientes",
+          "17\nThis week"
+        ],
+        [
+          "ultracron",
+          87,
+          0,
+          170,
+          "http://hidraucron.com.br/contato",
+          "18\n2 months ago"
+        ],
+        [
+          "hyva do brasil hidraulica ltda",
+          24,
+          0,
+          170,
+          "http://hidraucron.com.br/produtos-hyva/kits-hidraulicos-hyva/29",
+          "19\n2 months ago"
+        ],
+        [
+          "valcron",
+          25,
+          0,
+          480,
+          "http://hidraucron.com.br/",
+          "25\nOne month ago"
+        ],
+        [
+          "kit hidráulico hyva",
+          21,
+          0,
+          170,
+          "http://hidraucron.com.br/produtos-hyva/kits-hidraulicos-hyva/29",
+          "16\nThis week"
+        ],
+        [
+          "hidrocomando bombas ltda",
+          46,
+          0,
+          480,
+          "http://hidraucron.com.br/",
+          "18\nOne month ago"
+        ],
+        [
+          "hidraumontes montes claros",
+          31,
+          0,
+          140,
+          "http://hidraucron.com.br/",
+          "12\nYesterday"
+        ],
+        [
+          "cromagem americana",
+          46,
+          0,
+          170,
+          "http://hidraucron.com.br/servicos/cromo-duro/8",
+          "9\n2 months ago"
+        ],
+        [
+          "hidraucat",
+          25,
+          0,
+          170,
+          "http://hidraucron.com.br/",
+          "16\nThis week"
+        ],
+        [
+          "cromagem americana bh",
+          23,
+          0,
+          170,
+          "http://hidraucron.com.br/servicos/cromo-duro/8",
+          "9\n2 months ago"
+        ]
+      ]
+    },
+    {
+      "domain": "cilindrica.com.br",
+      "observedAt": "2026-09-08T05:00:56.821Z",
+      "monthlyKeywords": 12,
+      "footer": "Showing 11 of 11 results",
+      "message": null,
+      "rows": [
+        [
+          "hidropneumático",
+          8,
+          5,
+          260,
+          "http://cilindrica.com.br/cilindro-hidropneumatico",
+          "7\n3 weeks ago"
+        ],
+        [
+          "pistão hidráulico usado olx",
+          18,
+          1,
+          140,
+          "http://cilindrica.com.br/pistao-hidraulico-belo-horizonte",
+          "22\n2 months ago"
+        ],
+        [
+          "pistão hidraulico usado olx",
+          19,
+          1,
+          140,
+          "http://cilindrica.com.br/pistao-hidraulico-belo-horizonte",
+          "22\n2 months ago"
+        ],
+        [
+          "reparo bombas hidraulicas",
+          17,
+          1,
+          320,
+          "http://cilindrica.com.br/conserto-bomba-hidraulica-belo-horizonte",
+          "6\nOne month ago"
+        ],
+        [
+          "pistão hidráulico usado",
+          29,
+          0,
+          260,
+          "http://cilindrica.com.br/valor-pistao-hidraulico",
+          "9\n3 weeks ago"
+        ],
+        [
+          "pistoes hidraulicos",
+          21,
+          0,
+          170,
+          "http://cilindrica.com.br/valor-pistao-hidraulico",
+          "6\nOne week ago"
+        ],
+        [
+          "pistão hidraulico usado",
+          26,
+          0,
+          260,
+          "http://cilindrica.com.br/valor-pistao-hidraulico",
+          "10\n3 weeks ago"
+        ],
+        [
+          "manutenção de bombas hidráulicas",
+          30,
+          0,
+          140,
+          "http://cilindrica.com.br/manutencao-bomba-hidraulica-belo-horizonte",
+          "7\n2 months ago"
+        ],
+        [
+          "manutenção de bombas hidraulicas",
+          67,
+          0,
+          140,
+          "http://cilindrica.com.br/manutencao-bomba-hidraulica-belo-horizonte",
+          "8\n2 months ago"
+        ],
+        [
+          "fabricante de pistão hidráulico",
+          20,
+          0,
+          70,
+          "http://cilindrica.com.br/pistao-hidraulico-belo-horizonte",
+          "31\nOutdated"
+        ],
+        [
+          "pistões hidráulicos usados",
+          31,
+          0,
+          260,
+          "http://cilindrica.com.br/valor-pistao-hidraulico",
+          "8\n3 weeks ago"
+        ]
+      ]
+    },
+    {
+      "domain": "ceteme.com.br",
+      "observedAt": "2026-09-08T05:01:17.819Z",
+      "monthlyKeywords": 3,
+      "footer": "Showing 3 of 3 results",
+      "message": null,
+      "rows": [
+        [
+          "o que é brunir",
+          27,
+          0,
+          170,
+          "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+          "21\nOne week ago"
+        ],
+        [
+          "o que é brunimento",
+          24,
+          0,
+          170,
+          "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+          "7\nOne week ago"
+        ],
+        [
+          "o'que é brunimento",
+          32,
+          0,
+          170,
+          "http://ceteme.com.br/brunimento-de-cilindro-e-sua-importancia-na-industria/",
+          "7\nOne week ago"
+        ]
+      ]
+    },
+    {
+      "domain": "hidraulicamaranata.com.br",
+      "observedAt": "2026-09-08T05:02:56.975Z",
+      "monthlyKeywords": null,
+      "footer": null,
+      "message": "No keywords for selected location; provider states rankings in other locations",
+      "rows": []
+    },
+    {
+      "domain": "phhidraulica.com.br",
+      "observedAt": "2026-09-08T05:01:46.059Z",
+      "monthlyKeywords": 10,
+      "footer": "Showing 11 of 11 results",
+      "message": null,
+      "rows": [
+        [
+          "ph hidraulica",
+          1,
+          77,
+          170,
+          "http://phhidraulica.com.br/",
+          "18\n2 months ago"
+        ],
+        [
+          "ph hidropneumática",
+          14,
+          1,
+          260,
+          "http://phhidraulica.com.br/",
+          "29\n3 weeks ago"
+        ],
+        [
+          "dph hidráulica",
+          20,
+          1,
+          210,
+          "http://phhidraulica.com.br/",
+          "17\nOne week ago"
+        ],
+        [
+          "ph bombas",
+          8,
+          1,
+          140,
+          "http://phhidraulica.com.br/",
+          "16\n2 months ago"
+        ],
+        [
+          "top hidraulica",
+          52,
+          0,
+          320,
+          "http://phhidraulica.com.br/",
+          "18\nOne month ago"
+        ],
+        [
+          "ph soluções",
+          34,
+          0,
+          170,
+          "http://phhidraulica.com.br/",
+          "14\n2 months ago"
+        ],
+        [
+          "dph hidraulica",
+          22,
+          0,
+          210,
+          "http://phhidraulica.com.br/",
+          "19\nOne week ago"
+        ],
+        [
+          "tecnohidraulica",
+          39,
+          0,
+          140,
+          "http://phhidraulica.com.br/",
+          "12\nToday"
+        ],
+        [
+          "mg hidraulica",
+          32,
+          0,
+          170,
+          "http://phhidraulica.com.br/",
+          "20\nOne week ago"
+        ],
+        [
+          "hidrau bruno",
+          43,
+          0,
+          260,
+          "http://phhidraulica.com.br/",
+          "32\n3 weeks ago"
+        ],
+        [
+          "phm indústria",
+          43,
+          0,
+          170,
+          "http://phhidraulica.com.br/",
+          "15\n2 months ago"
+        ]
+      ]
+    },
+    {
+      "domain": "mecfluid.com.br",
+      "observedAt": "2026-09-08T05:01:55.813Z",
+      "monthlyKeywords": 4,
+      "footer": "Showing 3 of 3 results",
+      "message": null,
+      "rows": [
+        [
+          "mecflux lubrificantes",
+          18,
+          1,
+          140,
+          "http://mecfluid.com.br/",
+          "32\n2 months ago"
+        ],
+        [
+          "cemec freios",
+          49,
+          0,
+          390,
+          "http://mecfluid.com.br/",
+          "14\nOne month ago"
+        ],
+        [
+          "mec soluções em mecânica",
+          23,
+          0,
+          140,
+          "http://mecfluid.com.br/",
+          "15\n2 months ago"
+        ]
+      ]
+    },
+    {
+      "domain": "krome.com.br",
+      "observedAt": "2026-09-08T05:02:05.414Z",
+      "monthlyKeywords": 14,
+      "footer": "Showing 11 of 11 results",
+      "message": null,
+      "rows": [
+        [
+          "krome",
+          1,
+          181,
+          390,
+          "http://krome.com.br/",
+          "16\nOne month ago"
+        ],
+        [
+          "bh cromos",
+          33,
+          0,
+          170,
+          "http://krome.com.br/",
+          "23\nThis week"
+        ],
+        [
+          "cromagem americana",
+          65,
+          0,
+          170,
+          "http://krome.com.br/",
+          "9\n2 months ago"
+        ],
+        [
+          "total cromo",
+          39,
+          0,
+          390,
+          "http://krome.com.br/",
+          "27\nOne month ago"
+        ],
+        [
+          "cromagem vitória",
+          50,
+          0,
+          170,
+          "http://krome.com.br/",
+          "21\n2 months ago"
+        ],
+        [
+          "bh cromo",
+          26,
+          0,
+          170,
+          "http://krome.com.br/",
+          "23\nThis week"
+        ],
+        [
+          "cromagem vitoria",
+          64,
+          0,
+          170,
+          "http://krome.com.br/",
+          "14\nThis week"
+        ],
+        [
+          "cromagem em bh",
+          51,
+          0,
+          210,
+          "http://krome.com.br/",
+          "13\nOne week ago"
+        ],
+        [
+          "cromagem americana bh",
+          54,
+          0,
+          170,
+          "http://krome.com.br/",
+          "9\n2 months ago"
+        ],
+        [
+          "cromo duro",
+          50,
+          0,
+          590,
+          "http://krome.com.br/eletroposicao.htm",
+          "8\nOne month ago"
+        ],
+        [
+          "cormem",
+          28,
+          0,
+          210,
+          "http://krome.com.br/",
+          "20\nOne week ago"
+        ]
+      ]
+    },
+    {
+      "domain": "hidraup.com.br",
+      "observedAt": "2026-09-08T05:02:20.740Z",
+      "monthlyKeywords": null,
+      "footer": null,
+      "message": "No keywords for selected location; provider states rankings in other locations",
+      "rows": []
+    },
+    {
+      "domain": "mtgsind.com.br",
+      "observedAt": "2026-09-08T05:02:35.561Z",
+      "monthlyKeywords": 2,
+      "footer": "Showing 1 of 1 results",
+      "message": null,
+      "rows": [
+        [
+          "mundo das engrenagens",
+          29,
+          0,
+          170,
+          "http://mtgsind.com.br/mtgsengrenagem/",
+          "16\nOne week ago"
+        ]
+      ]
+    },
+    {
+      "domain": "hidraumontes.com.br",
+      "observedAt": "2026-09-08T05:02:47.036Z",
+      "monthlyKeywords": 8,
+      "footer": "Showing 5 of 5 results",
+      "message": null,
+      "rows": [
+        [
+          "hidraumontes montes claros",
+          1,
+          65,
+          140,
+          "http://hidraumontes.com.br/",
+          "12\nYesterday"
+        ],
+        [
+          "casa das mangueiras montes claros",
+          3,
+          2,
+          170,
+          "http://hidraumontes.com.br/75-produtos-mangueiras-montes-claros-mg",
+          "15\nThis week"
+        ],
+        [
+          "multi reparos montes claros",
+          26,
+          0,
+          140,
+          "http://hidraumontes.com.br/",
+          "24\n2 months ago"
+        ],
+        [
+          "osni direção hidráulica",
+          29,
+          0,
+          140,
+          "http://hidraumontes.com.br/",
+          "15\n2 months ago"
+        ],
+        [
+          "hidrocenter distribuidora",
+          53,
+          0,
+          260,
+          "http://hidraumontes.com.br/",
+          "17\n3 weeks ago"
+        ]
+      ]
+    }
+  ]
+}
