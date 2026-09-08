@@ -129,3 +129,12 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
   explícita também no resumo usado pelo JSON-LD `Brand`.
 - TechTractor conserva o estágio em evolução. A referência de concorrentes
   com sensores, aplicativos e telemetria não se transfere para a New Tractor.
+
+
+## 08/09/2026 — expansão por intenção e componente
+
+- **Evidência de procura:** Ubersuggest MCP, 21 sementes BR/pt e 268 sugestões retornadas, seis novas SERPs de Belo Horizonte. JSONs crus em `docs/seo/dados/`; filtro e limitações em `docs/seo/cobertura-semantica-grupo-2026-09-08.md`. Volume BR não é volume MG; ausência de indicador não demonstra ausência de mercado.
+- **Decisão editorial:** explicitar corrente/rosário, material rodante de escavadeira, roletes, roda-guia, usinagem pesada/mandrilhamento/mandrilamento, caldeiraria de máquinas e pinos/buchas/alojamentos. Não introduz serviço de motor, transmissão, fabricação hidráulica, testes, estoque ou mandrilhamento em campo.
+- **Fatos de operação preservados:** reforma de rosário com giro/troca de pino e bucha; recuperação de sapatas; preparação/enchimento/usinagem de roletes; soldagem e usinagem de pista de roda-guia. São processos já registrados em `src/site.mjs` na base anterior, reaproveitados nas páginas específicas, não inferidos dos concorrentes.
+- **Referências primárias de vocabulário (não prova de oferta do grupo):** Minusa [rodas-guia](https://www.minusa.com.br/produto/rodas-guia) e [roletes](https://www.minusa.com.br/roletes-para-tratores-de-esteira); ITR [kit de medição](https://www.itrsa.com.br/site/kit-de-medicao-de-material-rodante-itr/) e [sapatas](https://www.itrsa.com.br/site/sapatas-de-esteira/); Parker [cilindros móveis](https://discover.parker.com/MobileCylinderProducts) e [catálogo hidráulico](https://www.parker.com/literature/Schrader%20Bellows/Schrader/Cat/English/SB0106-8_SectionC.pdf); Hydratight [line boring](https://www.hydratight.com/en-apac/on-site-machining-services/line-boring/).
+- **Limites:** sete frentes de marca, uma base real em BH, avaliação por demanda. Oferta e compatibilidade continuam sujeitas a documentação própria. TechTractor permanece em evolução. Comparação final da main não usa WordPress como régua.

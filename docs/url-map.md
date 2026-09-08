@@ -51,7 +51,7 @@ guias de componentes, preservando as URLs anteriores:
 Todas normalizam a versão sem barra com 301. O alias proposto
 `/setores/locacao-de-equipamentos/`, com ou sem barra, redireciona para
 `/setores/locadoras/`; não é outra página indexável. Sitemap e `llms.txt`
-usam as 33 URLs canônicas do inventário final.
+usavam as 33 URLs canônicas na etapa PR9; a ampliação abaixo leva o inventário atual a 38.
 
 | Origem antiga | Destino novo | Observação |
 |---|---|---|
@@ -88,3 +88,16 @@ O `_redirects` continua responsável pelas rotas de caminho e normalização.
 Páginas de exemplo ou conteúdo vazio (`?p=2`, `?p=43`, `?p=44`) devem retornar
 404/410. Não redirecionar tudo para a home, pois isso cria soft-404 e perde a
 intenção original.
+
+
+## Rotas acrescentadas na ampliação semântica de 08/09/2026
+
+| Rota canônica | Papel | Variante sem barra |
+|---|---|---|
+| `/componentes/` | Hub de identificação do material rodante | 301 para a canônica |
+| `/componentes/rodas-guia/` | Função, sinais e recuperação da pista | 301 para a canônica |
+| `/componentes/roletes-de-esteira/` | Superiores/inferiores, condição e recuperação | 301 para a canônica |
+| `/componentes/correntes-sapatas-esteiras/` | Corrente/rosário, articulação e sapatas | 301 para a canônica |
+| `/guias/folgas-pinos-buchas-alojamentos/` | Registro de folgas e distinção peça/alojamento | 301 para a canônica |
+
+O sitemap raiz agora é um índice de oito mapas por frente editorial; o conjunto mantém cada uma das 38 URLs indexáveis uma única vez. DNS e Search Console permanecem fora desta entrega.
