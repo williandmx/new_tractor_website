@@ -106,25 +106,26 @@ export const companies = [
     slug: "parts",
     label: "Parts",
     name: "New Tractor Parts",
-    specialty: "Fabricação de peças novas",
-    summary: "Fabricação de peças novas para máquinas pesadas, a partir de código, desenho ou especificação técnica.",
+    lastModified: "2026-09-08",
+    specialty: "Consulta de peças novas",
+    summary: "Consulta de peças novas para máquinas pesadas, a partir de código, desenho ou especificação técnica.",
     title: "Peças para máquinas de linha amarela | New Tractor Parts",
     description: "A New Tractor Parts avalia demandas de peças novas para máquinas pesadas a partir do código, desenho, especificação e aplicação.",
     headline: "A peça nova começa com a informação certa.",
     intro: "A New Tractor Parts aproxima a necessidade da operação do desenho e da especificação da peça. Código, aplicação e requisitos técnicos orientam a avaliação de cada demanda.",
-    caption: "New Tractor Parts · fabricação de peças novas",
+    caption: "New Tractor Parts · consulta de peças novas",
     sectionTitle: "Do desenho à peça que a operação precisa.",
     context: "Código, fabricante, modelo, desenho e aplicação formam a referência para analisar compatibilidade e escopo. Documentos claros agilizam a conversa com suprimentos e manutenção.",
     pillars: [
       ["Identificação", "Informe código, fabricante e modelo. Na ausência de código, fotos, desenho ou especificação ajudam a caracterizar a peça."],
-      ["Fabricação", "Peças, conjuntos e componentes sob desenho passam por análise de material, geometria, requisitos e quantidade."],
+      ["Avaliação", "Peças, conjuntos e componentes são analisados a partir de código, desenho, especificação, requisitos e quantidade."],
       ["Proposta", "A definição comercial reúne compatibilidade, disponibilidade e prazo de cada solicitação."],
     ],
     links: [["Dados para cotação de peças", "/guias/cotacao-pecas-maquinas-pesadas/"], ["Usinagem", "/usinagem/"], ["Calderaria", "/calderaria/"], ["Equipamentos e aplicações", "/equipamentos/"]],
     requestTitle: "Sua equipe precisa de uma peça nova?",
     requestIntro: "Envie código, desenho ou especificação para que a demanda seja avaliada com contexto.",
     checklist: ["Código, descrição ou desenho da peça", "Equipamento e aplicação previstos", "Quantidade e requisitos técnicos", "Cidade de destino e necessidade de prazo"],
-    action: "Consultar fabricação de peças",
+    action: "Consultar peça por código ou desenho",
   },
   {
     slug: "services",
@@ -185,7 +186,7 @@ export const groupIndex = (icon) => `
     <div class="shell">
       <div class="section-heading section-heading--split">
         <div><span class="eyebrow eyebrow--light">AS FRENTES DO GRUPO</span><h2 id="empresas-title">Sete especialidades para acompanhar o ciclo da máquina.</h2></div>
-        <p>O Grupo New Tractor reúne frentes de avaliação, recuperação, fabricação, medição e tecnologia para máquinas pesadas. Conheça cada especialidade.</p>
+        <p>O Grupo New Tractor reúne frentes de avaliação, recuperação, medição e tecnologia para máquinas pesadas. Conheça cada especialidade.</p>
       </div>
       <div class="company-grid">${companies.map((company, index) => `
         <a class="company-card" href="/${company.slug}/" data-analytics="empresa_${company.slug}">
@@ -222,7 +223,7 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
       description: company.description,
       active: company.slug,
       film: true,
-      lastModified: "2026-09-07",
+      lastModified: company.lastModified ?? "2026-09-07",
       ogImage: `/assets/images/${poster}-1280.webp`,
       ogImageWidth: 1280,
       ogImageHeight: 720,

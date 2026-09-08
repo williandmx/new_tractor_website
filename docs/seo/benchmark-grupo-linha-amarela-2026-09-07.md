@@ -277,3 +277,23 @@ de vínculo ou contribuição real.
 [Relatório com posições e ações](referencias-e-ranking-2026-09-08.md) ·
 [Dados e fontes](referencias-e-ranking-2026-09-08.json) ·
 [Validação desta alteração](../QA-REFERENCIAS-2026-09-08.md).
+
+
+## Complemento de 08/09: páginas de entrada e buscas associadas
+
+O [novo levantamento de Top Pages](paginas-e-buscas-concorrentes-2026-09-08.md)
+consulta sete domínios, transcreve 30 páginas principais e abre palavras-chave
+de sete páginas. Os [dados estruturados](paginas-e-buscas-concorrentes-2026-09-08.json)
+preservam URLs de consulta, país, estimativas e limites.
+
+Minusa associa rodas-guia a “roda guia” (volume 320, posição 8); a Modelaço
+associa corte e dobra a “corte e dobra de chapas” (1.600, posição 4); a ITR
+associa seu guia a “horimetro trator” (590, posição 7). As páginas exibem,
+respectivamente, 14, 500 e 48 visitas mensais estimadas. A coleta é nacional,
+sem mês de referência exibido; não revela compradores nem conversões.
+
+As buscas abertas de Serviços em campo e VisionLink da Sotreq são de marca.
+Vagas, telhas e implementos rodoviários não entram como meta comercial do Grupo.
+A Açomec não apresentou páginas na base; isso não demonstra tráfego real zero.
+O relatório complementar separa observação, aplicação editorial e evidência
+operacional pendente para cada frente.
