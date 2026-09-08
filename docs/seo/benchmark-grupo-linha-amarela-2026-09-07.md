@@ -66,8 +66,8 @@ individualmente e não soma variantes.
 
 No código local, o hub /guias/, três guias e a página de Usinagem acima já
 formam cinco novas rotas; títulos e H2 foram atualizados e o arquivo llms foi
-restaurado. Isso registra estado de implementação local, não publicação ou
-resultado orgânico.
+restaurado. A implementação está disponível no preview validado descrito ao final; ainda
+não representa publicação no domínio canônico nem resultado orgânico.
 
 ## SERPs observadas: evidência parcial
 
