@@ -1,0 +1,1900 @@
+[
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "manutenção de cilindros hidráulicos",
+        "cilindro hidráulico escavadeira",
+        "cilindro hidráulico trator"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 100
+    },
+    "collectedAt": "2026-09-08",
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "dl manutenção de cilindros hidráulicos",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "cilindro hidráulico trator massey ferguson",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 2,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "manutenção de cilindros hidráulicos",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 1.115,
+          "sd": 21,
+          "pd": 51,
+          "competition": 0.51
+        },
+        {
+          "keyword": "cilindro hidráulico escavadeira",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 1.065,
+          "sd": 17,
+          "pd": 10,
+          "competition": 0.1
+        },
+        {
+          "keyword": "cilindro hidráulico trator",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0,
+          "sd": 42,
+          "pd": 95,
+          "competition": 0.95
+        }
+      ]
+    }
+  },
+  {
+    "tool": "location_suggest",
+    "args": {
+      "query": "Minas Gerais",
+      "lang": "pt",
+      "limit": 12
+    },
+    "collectedAt": "2026-09-08",
+    "data": {
+      "results": [
+        {
+          "id": 9074284,
+          "name": "Alem Paraiba, Alem Paraiba, Estado de Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1031420,
+          "name": "Alem Paraíba, Estado de Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1001562,
+          "name": "Alfenas, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 9047697,
+          "name": "Alpinópolis, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 9047699,
+          "name": "Andradas, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 9047703,
+          "name": "Aracuai, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 9074256,
+          "name": "Araguari, Araguari, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1031438,
+          "name": "Araguari, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1001563,
+          "name": "Araxa, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1001564,
+          "name": "Arcos, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 9047708,
+          "name": "Bambui, Minas Gerais, Brasil",
+          "is_country": false
+        },
+        {
+          "id": 1001565,
+          "name": "Barbacena, Minas Gerais, Brasil",
+          "is_country": false
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "recuperação de cilindros hidráulicos",
+        "cilindro hidráulico pá carregadeira",
+        "hidráulica minas gerais"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 100
+    },
+    "collectedAt": "2026-09-08",
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "recuperação de cilindros hidráulicos",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 1.195,
+          "sd": 27,
+          "pd": 70,
+          "competition": 0.7
+        },
+        {
+          "keyword": "cilindro hidráulico pá carregadeira",
+          "search_intent": null
+        },
+        {
+          "keyword": "hidráulica minas gerais",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindro escavadeira",
+        "pistão hidráulico",
+        "conserto cilindro hidráulico",
+        "reparo cilindro hidráulico escavadeira",
+        "manutenção hidráulica máquinas pesadas"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 100
+    },
+    "collectedAt": "2026-09-08T10:19:53.992Z",
+    "isError": true,
+    "data": {
+      "error_code": "INVALID_ARGUMENT"
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindros hidráulicos belo horizonte",
+        "cilindros hidráulicos contagem",
+        "cilindros hidráulicos betim",
+        "cilindros hidráulicos itabira",
+        "cilindros hidráulicos uberlândia"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:19:56.116Z",
+    "isError": true,
+    "data": {
+      "error_code": "INVALID_ARGUMENT"
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "manutenção de cilindros de escavadeira",
+        "manutenção de cilindros de trator",
+        "reforma de cilindro hidráulico",
+        "cilindro hidráulico trator de esteira"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:19:59.263Z",
+    "isError": true,
+    "data": {
+      "error_code": "INVALID_ARGUMENT"
+    }
+  },
+  {
+    "tool": "location_suggest",
+    "args": {
+      "query": "Contagem",
+      "lang": "pt",
+      "limit": 4
+    },
+    "collectedAt": "2026-09-08T10:19:55.150Z",
+    "isError": false,
+    "data": {
+      "results": [
+        {
+          "id": 1031586,
+          "name": "Contagem, Estado de Minas Gerais, Brasil",
+          "is_country": false
+        }
+      ]
+    }
+  },
+  {
+    "tool": "location_suggest",
+    "args": {
+      "query": "Betim",
+      "lang": "pt",
+      "limit": 4
+    },
+    "collectedAt": "2026-09-08T10:19:53.125Z",
+    "isError": false,
+    "data": {
+      "results": [
+        {
+          "id": 1031483,
+          "name": "Betim, Minas Gerais, Brasil",
+          "is_country": false
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindro escavadeira",
+        "pistão hidráulico",
+        "conserto cilindro hidráulico"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:22.238Z",
+    "isError": false,
+    "data": {
+      "suggestions": [
+        {
+          "keyword": "pistão hidráulico pequeno",
+          "search_intent": "Transactional",
+          "volume": 480,
+          "cpc": 0.09,
+          "sd": 19,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico 1 metro",
+          "search_intent": "Transactional",
+          "volume": 320,
+          "cpc": 0.21,
+          "sd": 16,
+          "pd": 99,
+          "competition": 0.99
+        },
+        {
+          "keyword": "pistão hidráulico usado",
+          "search_intent": "Transactional",
+          "volume": 260,
+          "cpc": 0.2,
+          "sd": 9,
+          "pd": 56,
+          "competition": 0.56
+        },
+        {
+          "keyword": "reparo para pistão hidráulico",
+          "search_intent": "Commercial",
+          "volume": 210,
+          "cpc": 0.64,
+          "sd": 9,
+          "pd": 89,
+          "competition": 0.89
+        },
+        {
+          "keyword": "pistão hidráulico 2 toneladas",
+          "search_intent": "Transactional",
+          "volume": 210,
+          "cpc": 0.16,
+          "sd": 19,
+          "pd": 72,
+          "competition": 0.72
+        },
+        {
+          "keyword": "pistão hidráulico caseiro",
+          "search_intent": "Transactional",
+          "volume": 170,
+          "cpc": 0,
+          "sd": 32,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico 5 toneladas",
+          "search_intent": "Commercial",
+          "volume": 170,
+          "cpc": 0.17,
+          "sd": 22,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico 20 toneladas",
+          "search_intent": "Transactional",
+          "volume": 170,
+          "cpc": 0.2,
+          "sd": 10,
+          "pd": 96,
+          "competition": 0.96
+        },
+        {
+          "keyword": "mini pistão hidráulico",
+          "search_intent": "Transactional",
+          "volume": 170,
+          "cpc": 0.09,
+          "sd": 22,
+          "pd": 98,
+          "competition": 0.98
+        },
+        {
+          "keyword": "reparo de pistão hidráulico",
+          "search_intent": "Commercial",
+          "volume": 170,
+          "cpc": 0.75,
+          "sd": 7,
+          "pd": 78,
+          "competition": 0.78
+        },
+        {
+          "keyword": "pistão hidráulico usado olx",
+          "search_intent": "Transactional",
+          "volume": 140,
+          "cpc": 0.42,
+          "sd": 22,
+          "pd": 7,
+          "competition": 0.07
+        },
+        {
+          "keyword": "pistão hidráulico elétrico",
+          "search_intent": "Transactional",
+          "volume": 140,
+          "cpc": 0.18,
+          "sd": 20,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico usado à venda",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.3,
+          "sd": 13,
+          "pd": 97,
+          "competition": 0.97
+        },
+        {
+          "keyword": "pistão hidráulico 2 metros",
+          "search_intent": "Transactional",
+          "volume": 140,
+          "cpc": 0.23,
+          "sd": 19,
+          "pd": 97,
+          "competition": 0.97
+        },
+        {
+          "keyword": "pistão hidráulico 500 kg",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.17,
+          "sd": 13,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico para trator",
+          "search_intent": "Transactional",
+          "volume": 140,
+          "cpc": 0.14,
+          "sd": 7,
+          "pd": 94,
+          "competition": 0.94
+        },
+        {
+          "keyword": "pistão hidráulico 1 tonelada",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.17,
+          "sd": 21,
+          "pd": 99,
+          "competition": 0.99
+        },
+        {
+          "keyword": "pistão hidráulico para caçamba basculante",
+          "search_intent": "Commercial",
+          "volume": 140,
+          "cpc": 0.33,
+          "sd": 10,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico 50 cm",
+          "search_intent": "Transactional",
+          "volume": 140,
+          "cpc": 0.15,
+          "sd": 17,
+          "pd": 94,
+          "competition": 0.94
+        },
+        {
+          "keyword": "pistão hidráulico 3 toneladas",
+          "search_intent": null,
+          "volume": 110,
+          "cpc": 0.215,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico para prensa",
+          "search_intent": null,
+          "volume": 110,
+          "cpc": 0.33,
+          "sd": 21,
+          "pd": 52,
+          "competition": 0.52
+        },
+        {
+          "keyword": "pistão hidráulico para plataforma",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.325,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "conserto de pistão hidráulico",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.67,
+          "sd": 26,
+          "pd": 67,
+          "competition": 0.67
+        },
+        {
+          "keyword": "pistão hidráulico para carreta basculante",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.36,
+          "sd": 34,
+          "pd": 95,
+          "competition": 0.95
+        },
+        {
+          "keyword": "pistão hidráulico para girafa",
+          "search_intent": null,
+          "volume": 90,
+          "cpc": 0.165,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "como trocar reparo de pistão hidráulico",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico preço",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.34,
+          "sd": 44,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "fábrica de pistão hidráulico",
+          "search_intent": null,
+          "volume": 70,
+          "cpc": 0.925,
+          "sd": 34,
+          "pd": 95,
+          "competition": 0.95
+        },
+        {
+          "keyword": "válvula de segurança para pistão hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.33,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "reparo do pistão hidráulico",
+          "search_intent": null,
+          "volume": 50,
+          "cpc": 0.815,
+          "sd": 28,
+          "pd": 75,
+          "competition": 0.75
+        },
+        {
+          "keyword": "pistão hidráulico para cadeira de barbeiro",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.34,
+          "sd": 33,
+          "pd": 91,
+          "competition": 0.91
+        },
+        {
+          "keyword": "pistão hidráulico para prancha",
+          "search_intent": null,
+          "volume": 30,
+          "cpc": 0.285,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico como funciona",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "reforma de pistão hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.72,
+          "sd": 22,
+          "pd": 56,
+          "competition": 0.56
+        },
+        {
+          "keyword": "elevador com pistão hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.51,
+          "sd": 27,
+          "pd": 71,
+          "competition": 0.71
+        },
+        {
+          "keyword": "tipos de pistão hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0.325,
+          "sd": 33,
+          "pd": 92,
+          "competition": 0.92
+        },
+        {
+          "keyword": "pistão hidráulico pequeno para trator",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 35,
+          "pd": 98,
+          "competition": 0.98
+        },
+        {
+          "keyword": "como desmontar pistão hidráulico",
+          "search_intent": null,
+          "volume": 20,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "como fazer pistão hidráulico com amortecedor",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 5,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 44,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "pistão hidráulico para cadeira de cabeleireiro",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0,
+          "sd": 36,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "bomba para pistão hidráulico",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.175,
+          "sd": 30,
+          "pd": 80,
+          "competition": 0.8
+        },
+        {
+          "keyword": "pistão hidráulico para prensa manual",
+          "search_intent": null,
+          "volume": 10,
+          "cpc": 0.35,
+          "sd": 15,
+          "pd": 33,
+          "competition": 0.33
+        },
+        {
+          "keyword": "bomba de óleo para pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "quem inventou o pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "empresa de pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "êmbolo pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para empilhadeira manual",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "recuperação de pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "atuador linear pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para grade niveladora",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "fabricando pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "bomba hidráulica para pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para cadeira de escritório",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "onde comprar pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "bomba de pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para prensa enfardadeira",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico sem força",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "troca de reparo de pistão hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "cilindro escavadeira caterpillar",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 12,
+          "pd": 1,
+          "competition": 0
+        },
+        {
+          "keyword": "pistão hidráulico para máquina",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ],
+      "suggestionCount": 158,
+      "nextKey": 114,
+      "searched_keywords": [
+        {
+          "keyword": "cilindro escavadeira",
+          "search_intent": null,
+          "volume": 40,
+          "cpc": 0.26,
+          "sd": 24,
+          "pd": 17,
+          "competition": 0.17
+        },
+        {
+          "keyword": "pistão hidráulico",
+          "search_intent": null,
+          "volume": 4400,
+          "cpc": 0.48,
+          "sd": 50,
+          "pd": 100,
+          "competition": 1
+        },
+        {
+          "keyword": "conserto cilindro hidráulico",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "reparo cilindro hidráulico escavadeira",
+        "manutenção hidráulica máquinas pesadas"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:18.312Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "reparo cilindro hidráulico escavadeira",
+          "search_intent": null
+        },
+        {
+          "keyword": "manutenção hidráulica máquinas pesadas",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindros hidráulicos belo horizonte",
+        "cilindros hidráulicos contagem",
+        "cilindros hidráulicos betim"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:24.735Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "cilindros hidráulicos belo horizonte",
+          "search_intent": null
+        },
+        {
+          "keyword": "cilindros hidráulicos contagem",
+          "search_intent": null
+        },
+        {
+          "keyword": "cilindros hidráulicos betim",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindros hidráulicos itabira",
+        "cilindros hidráulicos uberlândia"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:23.559Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "cilindros hidráulicos itabira",
+          "search_intent": null
+        },
+        {
+          "keyword": "cilindros hidráulicos uberlândia",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "manutenção de cilindros de escavadeira",
+        "manutenção de cilindros de trator",
+        "reforma de cilindro hidráulico"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:20.664Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "manutenção de cilindros de escavadeira",
+          "search_intent": null
+        },
+        {
+          "keyword": "manutenção de cilindros de trator",
+          "search_intent": null
+        },
+        {
+          "keyword": "reforma de cilindro hidráulico",
+          "search_intent": null,
+          "volume": 0,
+          "cpc": 0,
+          "sd": 4,
+          "pd": 1,
+          "competition": 0
+        }
+      ]
+    }
+  },
+  {
+    "tool": "match_keywords",
+    "args": {
+      "keywords": [
+        "cilindro hidráulico trator de esteira"
+      ],
+      "language": "pt",
+      "locId": 2076,
+      "limit": 60
+    },
+    "collectedAt": "2026-09-08T10:20:19.447Z",
+    "isError": false,
+    "data": {
+      "suggestions": [],
+      "suggestionCount": 0,
+      "nextKey": null,
+      "searched_keywords": [
+        {
+          "keyword": "cilindro hidráulico trator de esteira",
+          "search_intent": null
+        }
+      ]
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "manutenção de cilindros de escavadeira",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T10:21:22.793Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://ferquin.com.br/reparos-em-cilindros-hidraulicos-para-escavadeiras",
+          "title": "Reparos em Cilindros Hidráulicos para Escavadeiras - Ferquin",
+          "domain": "ferquin.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 11,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 1,
+          "type": "ai_overview"
+        },
+        {
+          "url": "http://itrsa.com.br/site/como-fazer-a-manutencao-correta-dos-cilindros-hidraulicos-de-escavadeiras/",
+          "title": "Como fazer a manutenção correta dos cilindros hidráulicos ...",
+          "domain": "itrsa.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 18,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": "Vídeos curtos",
+          "domain": "NODOMAIN",
+          "position": 2,
+          "type": "short_videos"
+        },
+        {
+          "url": "http://facebook.com/Psimangueiras/posts/a-manuten%C3%A7%C3%A3o-em-cilindros-hidr%C3%A1ulicos-de-escavadeiras-de-grande-porte-%C3%A9-fundamen/1037433427814929/",
+          "title": "A manutenção em cilindros hidráulicos de escavadeiras ...",
+          "domain": "facebook.com",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 96,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://gfmparts.com/pt/causas-e-manutencao-do-cilindro-hidraulico-da-escavadeira/",
+          "title": "Causas e Manutenção do Cilindro Hidráulico da Escavadeira",
+          "domain": "gfmparts.com",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.youtube.com/watch?v=hP3ibhuRUiw",
+          "title": "INSPEÇÃO E MANUTENÇÃO ESCAVADEIRA",
+          "domain": "youtube.com",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 100,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 5,
+          "type": "video"
+        },
+        {
+          "url": "http://tz-cylinder.com/pt/2024/01/02/maintaining-the-boom-and-arm-cylinder-assemblies-of-an-excavator-ensuring-optimal-performance-and-productivity/",
+          "title": "Manutenção dos conjuntos de cilindros de lança e braço de ...",
+          "domain": "tz-cylinder.com",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 9,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://facebook.com/j.paulousinagem/videos/servi%C3%A7o-de-desmonte-troca-de-kit-de-reparos-com-reparos-originais-e-montagem-de-/1475813729655466/",
+          "title": "SERVIÇO DE DESMONTE, TROCA DE KIT DE REPAROS ...",
+          "domain": "facebook.com",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 96,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://hydraulicapex.com/pt/a-the-importance-of-maintaining-your-excavator-hydraulic-cylinder.html",
+          "title": "A importância da manutenção do cilindro hidráulico da sua ...",
+          "domain": "hydraulicapex.com",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 15,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://instagram.com/p/DccDp0JARYD/",
+          "title": "Manutenção em Cilindro de Giro Retroescavadeira - Troca ...",
+          "domain": "instagram.com",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://pt.scribd.com/document/412291540/cartilha-Escavadeira",
+          "title": "Manutenção de Escavadeiras Hidráulicas | PDF",
+          "domain": "pt.scribd.com",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "manutenção de cilindros de escavadeira",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "cilindro hidráulico trator",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T10:21:43.245Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://diversa.ind.br/categorias/cilindro-hidraulico-completo",
+          "title": "Cilindro Hidráulico Completo",
+          "domain": "diversa.ind.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://google.com/search?fir=_m4zI5kWLKZ5_M%2CvGUABLB0jrWDoM%2C_%3BLYrlAFOwRLLeiM%2CnAdPRxwzsYF_8M%2C_%3Bu57UrmHutya4-M%2CZOfX2abX0ebFDM%2C_%3BmhRcrTT602ogKM%2Cq70V11SttcJeBM%2C_%3B5AQ2DqXWD055kM%2CjBSEFw-c2bTfKM%2C_%3BSVFNvS3ev2yXXM%2CvVhWgxcsqtBXJM%2C_%3BEj67xu2dc1s2PM%2CTPGL7RTKl8xFGM%2C_%3BcC6nNYelmzPKjM%2CBkFsRfTMcJzvVM%2C_&gl=BR&hl=pt&q=cilindro hidráulico trator&sa=X&sca_esv=3aa3b3cf03932886&source=univ&sxsrf=APpeQnvfuIhpcf4VhLLt1l4Jlhoogt4Ulw:1788862884735&udm=2&usg=AI4_-kQv7R5Jrk0BqTj_Kw4MKAsjlGacQw&ved=2ahUKEwjy6a7G4d6WAxUTRDABHQk5JDUQ7Al6BAgaEAU",
+          "title": "Imagens",
+          "domain": "google.com",
+          "position": 1,
+          "type": "images"
+        },
+        {
+          "url": "http://www.olx.com.br/anuncios/cilindro-hidraulico-trator",
+          "title": "\"cilindro hidraulico trator\" no Brasil",
+          "domain": "olx.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 82,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://lista.mercadolivre.com.br/cilindro-hidraulico-para-tratores",
+          "title": "Cilindro Hidraulico Para Tratores",
+          "domain": "lista.mercadolivre.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 93,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "popular_products"
+        },
+        {
+          "url": "http://www.ferrosulagricola.com.br/hidraulico/cilindros",
+          "title": "CILINDROS: Componentes para seu trator John Deere",
+          "domain": "ferrosulagricola.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 4,
+          "type": "popular_products"
+        },
+        {
+          "url": "http://fernaodiesel.com.br/blog/artigos/cilindro-hidraulico-para-tratores-aumente-a-produtividade-no-campo-e-na-construcao",
+          "title": "Cilindro Hidráulico para Tratores: Aumente a ...",
+          "domain": "fernaodiesel.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 14,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://agrotstratores.com.br/acessorios/terceiro-ponto-hidraulico/cilindro-hidraulico-braco-nivelador-para-trator-massey-ferguson-4275",
+          "title": "Cilindro Hidráulico Braço Nivelador Para Trator Massey ...",
+          "domain": "agrotstratores.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 6,
+          "type": "ai_overview"
+        },
+        {
+          "url": "http://www.cilindroshidraulico.com.br/cilindro-hidraulico-trator",
+          "title": "Cilindro hidraulico trator",
+          "domain": "cilindroshidraulico.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 31,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://valparts.com.br/produtos/cilindro-hidraulico-32-x-1-2-0920001/",
+          "title": "Cilindro hidráulico 32 x 1/2 0920001 - Valparts Máquinas",
+          "domain": "valparts.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 4,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 8,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://tratorforte.com.br/cilindros-multi-uso/cilindro-hidraulico-multi-uso-curso-345mm",
+          "title": "Cilindro hidráulico multi uso - curso 345mm",
+          "domain": "tratorforte.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 5,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://lojabrasilvapor.com.br/terceiro-ponto-700x1100-cilindro-hidraulico-para-trator-aco-carbono",
+          "title": "Cilindro Hidráulico Terceiro Ponto 700 x 1100 para Trator",
+          "domain": "lojabrasilvapor.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 6,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "cilindro hidráulico trator",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "recuperação de cilindros hidráulicos",
+      "language": "pt",
+      "locId": 1031586,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T10:21:56.456Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://modrali.com.br/recuperacao-cilindros-hidraulicos",
+          "title": "Recuperação de cilindros hidráulicos",
+          "domain": "modrali.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://hidraucron.com.br/",
+          "title": "Hidraucron - Recuperação cilindros hidráulicos",
+          "domain": "hidraucron.com.br",
+          "position": 1,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://olivertechidraulicos.com.br/recuperacao",
+          "title": "Recuperação de Cilindros Hidráulicos",
+          "domain": "olivertechidraulicos.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://chromeservice.com.br/",
+          "title": "Chrome Service - Tecnologia em Recuperação Hidraulica",
+          "domain": "chromeservice.com.br",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.wernek.com.br/recuperacao-de-cilindro-hidraulico",
+          "title": "Recuperação de Cilindro Hidráulico",
+          "domain": "wernek.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 4,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://vedacil.com.br/recuperacao-de-componentes-hidraulicos-quando-vale-a-pena-e-como-funciona/",
+          "title": "Recuperação de Componentes Hidráulicos - Vedacil",
+          "domain": "vedacil.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://google.com/search?fir=Oncg9XwlrcjKbM%2CcfgoA9FnW3rS5M%2C_%3BKLiSs6Ssi0iU7M%2CHQzDZLpAMKJViM%2C_%3B4EWPyK4DJ9HnXM%2CS0Boa_KSOt7qZM%2C_%3B1C6AhNivsr4_uM%2Cd_yRApRLFu9lWM%2C_%3BhFw7V2xhLtz8tM%2Cujj1qguMVAMRHM%2C_%3BinALTs836GenbM%2CBl3lSSSFWv6cbM%2C_%3B3n6QB2SQ78bELM%2Cd_yRApRLFu9lWM%2C_%3BV_a9kbvXirDaAM%2CvBP2U35bboJbmM%2C_%3Bka_Jl_SG3fNwTM%2C1Yd6MOMAvQ3wuM%2C_&gl=BR&hl=pt&q=recuperação de cilindros hidráulicos&sa=X&sca_esv=3aa3b3cf03932886&source=univ&udm=2&usg=AI4_-kRGRBhu3ur-ezwDGDCvA6HQVR3H7g&ved=2ahUKEwif7IzQ4d6WAxUdNvsDHXZPDw8Q7Al6BAgbEAU",
+          "title": "Imagens",
+          "domain": "google.com",
+          "position": 4,
+          "type": "images"
+        },
+        {
+          "url": "http://globalhp.com.br/quando-recuperar-um-cilindro-hidraulico-e-quando-fabricar-um-novo-analise-tecnica-e-economica/",
+          "title": "Quando recuperar um cilindro hidráulico e quando fabricar ...",
+          "domain": "globalhp.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 5,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://bertechservicos.com.br/recuperacao-cilindro-hidraulico",
+          "title": "Recuperação de cilindro hidráulico - Bertech",
+          "domain": "bertechservicos.com.br",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://cilindrica.com.br/reparo-cilindro-hidraulico-belo-horizonte",
+          "title": "Reparo de cilindro hidráulico em Belo Horizonte - Cilíndrica",
+          "domain": "cilindrica.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 13,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 7,
+          "type": "video"
+        },
+        {
+          "url": "http://brasmeca.com.br/recuperacao-cilindro-hidraulico-sao-paulo-sp/",
+          "title": "Recuperação de Cilindro Hidráulico em São Paulo – SP",
+          "domain": "brasmeca.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 17,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://sulcromo.com.br/industrias/reparo-de-cilindro-hidraulico-saiba-mais-sobre-esse-processo",
+          "title": "Reparo de cilindro hidráulico: saiba mais sobre esse ...",
+          "domain": "sulcromo.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 15,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.hidralpress.com.br/blog/categorias/artigos/conserto-de-cilindro-hidraulico-guia-completo",
+          "title": "Conserto de Cilindro Hidráulico: Guia Completo",
+          "domain": "hidralpress.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "recuperação de cilindros hidráulicos",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Contagem, Estado de Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "manutenção de cilindros hidráulicos",
+      "language": "pt",
+      "locId": 1031483,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T10:22:23.265Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://fluitec.com.br/manutencao-de-cilindros-hidraulicos.php",
+          "title": "Manutenção de Cilindros Hidráulicos - Fluitec",
+          "domain": "fluitec.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://hidraucron.com.br/",
+          "title": "Hidraucron - Recuperação cilindros hidráulicos",
+          "domain": "hidraucron.com.br",
+          "position": 1,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.serv-o.com/conserto-cilindro-hidraulico.html",
+          "title": "Conserto de cilindro hidráulico - SERV-O",
+          "domain": "serv-o.com",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 15,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://chromeservice.com.br/",
+          "title": "Chrome Service - Tecnologia em Recuperação Hidraulica",
+          "domain": "chromeservice.com.br",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://www.smierveda.com.br/post/30/cilindros-hidraulicos-funcionamento-manutencao-e-a-importancia-das-vedacoes/",
+          "title": "Cilindros Hidráulicos: Funcionamento, Manutenção e a ...",
+          "domain": "smierveda.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": "Hidrautractor",
+          "domain": "NODOMAIN",
+          "position": 3,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://achidraulica.com.br/cuidados-essenciais-na-manutencao-de-cilindros-hidraulicos/",
+          "title": "Cuidados essenciais na manutenção de cilindros hidráulicos",
+          "domain": "achidraulica.com.br",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 7,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.cilindroshidraulico.com.br/blog/categorias/artigos/reparo-de-cilindro-hidr-aacute-ulico-guia-completo-para-manuten-ccedil-atilde-o-e-efici-ecirc-ncia",
+          "title": "Reparo de cilindro hidráulico: guia completo para ...",
+          "domain": "cilindroshidraulico.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 31,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://www.dicasdeinstrumentacao.com/dicas-manter-reparar-cilindros-hidraulicos/",
+          "title": "Como Manter e Reparar Cilindros Hidráulicos",
+          "domain": "dicasdeinstrumentacao.com",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 6,
+          "type": "people_also_ask"
+        },
+        {
+          "url": "http://hidralpress.com.br/blog/categorias/artigos/guia-completo-sobre-manutencao-de-cilindros-dicas-e-tecnicas-essenciais",
+          "title": "Guia Completo sobre Manutenção de Cilindros: Dicas e ...",
+          "domain": "hidralpress.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": null,
+          "domain": "NODOMAIN",
+          "position": 7,
+          "type": "video"
+        },
+        {
+          "url": "http://hshidraulica.com.br/blog/categorias/artigos/manuten-ccedil-atilde-o-de-cilindros-hidr-aacute-ulicos-dicas-essenciais-para-seguran-ccedil-a-e-efici-ecirc-ncia",
+          "title": "Manutenção de Cilindros Hidráulicos: Dicas Essenciais ...",
+          "domain": "hshidraulica.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 11,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://hidrautini.com.br/manutencao-cilindros-hidraulicos",
+          "title": "Manutenção cilindros hidráulicos",
+          "domain": "hidrautini.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 17,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://modrali.com.br/recuperacao-cilindros-hidraulicos",
+          "title": "Recuperação de cilindros hidráulicos",
+          "domain": "modrali.com.br",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "manutenção de cilindros hidráulicos",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Betim, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  },
+  {
+    "tool": "serp_analysis",
+    "args": {
+      "keyword": "recuperação de cilindros hidráulicos itabira",
+      "language": "pt",
+      "locId": 1001566,
+      "limit": 10
+    },
+    "collectedAt": "2026-09-08T10:22:08.907Z",
+    "isError": false,
+    "data": {
+      "serpEntries": [
+        {
+          "url": "http://hshidraulica.com.br/reparo-de-cilindro-hidraulico-em-mg",
+          "title": "reparo de cilindro hidráulico em mg",
+          "domain": "hshidraulica.com.br",
+          "position": 1,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 11,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://modrali.com.br/recuperacao-cilindros-hidraulicos",
+          "title": "Recuperação de cilindros hidráulicos",
+          "domain": "modrali.com.br",
+          "position": 2,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 16,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://NODOMAIN",
+          "title": "Dr. Reformas e pequenos reparos",
+          "domain": "NODOMAIN",
+          "position": 2,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://northcromo.com.br/manutencao-reparo-cilindros-hidraulicos",
+          "title": "Manutenção e reparo de cilindros hidráulicos",
+          "domain": "northcromo.com.br",
+          "position": 3,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 20,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://instagram.com/bombeirohidraulicoitabira/",
+          "title": "Gigante Multiserviços",
+          "domain": "instagram.com",
+          "position": 3,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://instagram.com/p/DRNj0XoEto3/",
+          "title": "Cilindro hidráulico pedindo reparo? A Hidraucron resolve ...",
+          "domain": "instagram.com",
+          "position": 4,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://facebook.com/macrav",
+          "title": "Macrav Serviços Elétricos",
+          "domain": "facebook.com",
+          "position": 4,
+          "type": "local_pack"
+        },
+        {
+          "url": "http://olivertechidraulicos.com.br/reparacao-de-cilindros-hidraulicos",
+          "title": "Reparação de Cilindros Hidráulicos",
+          "domain": "olivertechidraulicos.com.br",
+          "position": 5,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 10,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://instagram.com/reel/DQ49x7kDzWw/",
+          "title": "Aqui na Hidráulica Rafael nós cuidamos do seu equipamento ...",
+          "domain": "instagram.com",
+          "position": 6,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 94,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://kithidraulico.com.br/manutencao-de-cilindro-hidraulico",
+          "title": "Manutenção De Cilindro Hidraulico - HIDROESTE",
+          "domain": "kithidraulico.com.br",
+          "position": 7,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 14,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://cohybra.com.br/conserto-cilindro-hidraulico.html",
+          "title": "Conserto de cilindro hidráulico",
+          "domain": "cohybra.com.br",
+          "position": 8,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 19,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://drilpress.com.br/recuperacao-de-cilindros-hidraulicos",
+          "title": "Recuperação de Cilindros Hidráulicos - Dril-Press",
+          "domain": "drilpress.com.br",
+          "position": 9,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 1,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        },
+        {
+          "url": "http://facebook.com/macrav/?locale=pt_BR",
+          "title": "Macrav Serviços Elétricos e Hidráulicos | Itabira MG",
+          "domain": "facebook.com",
+          "position": 10,
+          "type": "organic",
+          "clicks": -1,
+          "domainAuthority": 96,
+          "facebookShares": null,
+          "pinterestShares": null,
+          "redditShares": null
+        }
+      ],
+      "newData": true,
+      "keyword": "recuperação de cilindros hidráulicos itabira",
+      "updated_at": "2026-09-08",
+      "limits": {
+        "monthly_keyword_metrics_updates_limits": 500,
+        "monthly_keyword_metrics_updates_used": 0
+      },
+      "location": "Belo Horizonte, Minas Gerais, Brasil",
+      "language": "Portuguese"
+    }
+  }
+]

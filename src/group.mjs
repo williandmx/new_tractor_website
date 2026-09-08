@@ -98,7 +98,7 @@ export const companies = [
       ["Quais dados ajudam na primeira conversa?", "Fabricante, modelo, código ou plaqueta, fotos, função do componente, comportamento observado, intervenções anteriores, cidade e prioridade ajudam a organizar a consulta."],
       ["A consulta já confirma reparo, teste ou disponibilidade?", "Não. A frente recebe a demanda hidráulica e avalia o escopo técnico e comercial; processos, testes, capacidade e disponibilidade são definidos conforme o componente e a aplicação."],
     ],
-    links: [["Conhecer a estrutura do grupo", "/empresa/"], ["Como apresentar máquina e componente", "/guias/avaliacao-maquinas-linha-amarela/"], ["Avaliação de cilindros hidráulicos", "/guias/avaliacao-cilindros-hidraulicos/"], ["Documentação para cotação", "/contato/"], ["Setores e aplicações", "/setores/"]],
+    links: [["Cilindros de escavadeiras", "/equipamentos/escavadeiras/"], ["Cilindros de tratores de esteira", "/equipamentos/tratores-de-esteira/"], ["Cilindros de pás carregadeiras", "/equipamentos/pas-carregadeiras/"], ["Avaliação de cilindros hidráulicos", "/guias/avaliacao-cilindros-hidraulicos/"], ["Documentação para cotação", "/contato/"], ["Setores e aplicações", "/setores/"]],
     requestTitle: "Vamos conversar sobre sua demanda hidráulica?",
     requestIntro: "Compartilhe os dados do equipamento e do componente para que o grupo conduza a análise.",
     checklist: ["Equipamento, modelo e aplicação", "Identificação e código do componente, se disponíveis", "Condição observada, fotos e documentação técnica", "Local da operação e prioridade desejada"],
@@ -436,7 +436,7 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
           <div class="shell">
             <div class="section-heading section-heading--split"><div><span class="eyebrow">${company.specialty.toLocaleUpperCase("pt-BR")}</span><h2 id="escopo-title">${company.sectionTitle}</h2></div><p>${company.context}</p></div>
             <div class="company-pillars">${company.pillars.map(([title, text], number) => `<article><span class="company-pillars__number" aria-hidden="true">0${number + 1}</span><h3>${title}</h3><p>${text}</p></article>`).join("")}</div>
-            <nav class="company-resources" aria-label="Conteúdo relacionado a ${company.label}">${company.links.map(([label, href]) => `<a class="text-link" href="${href}">${label} ${icon("arrow")}</a>`).join("")}</nav>
+            <nav class="company-resources" aria-label="Conteúdo relacionado a ${company.label}">${company.links.map(([label, href]) => `<a class="text-link" href="${href}">${label} ${icon("arrow")}</a>`).join("")}<a class="text-link" href="/atuacao/minas-gerais/">Operações em Minas Gerais ${icon("arrow")}</a></nav>
           </div>
         </section>
         ${companyDetailSections(company)}

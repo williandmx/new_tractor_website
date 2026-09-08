@@ -97,3 +97,10 @@ A arquitetura passa de 33 para 38 URLs indexáveis, mantendo a 404 fora da desco
 `src/discovery.mjs` atribui cada URL a uma frente editorial. `/sitemap.xml` torna-se índice de oito mapas na raiz: Rodantes, HidrauTractor, Usinagem, Calderaria, Parts, Services, TechTractor e grupo/compartilhados. O llms usa a mesma atribuição. A divisão facilita auditoria por frente e não é requisito de volume nem fator de ranking. Os testes leem os XMLs de saída e verificam cobertura, exclusividade, host, entradas completas e correspondência com páginas/llms.
 
 A coleta e o filtro editorial estão em `docs/seo/cobertura-semantica-grupo-2026-09-08.md`. O comparativo usa main `938c434`, etapa `46752a8` e esta rodada, sem avaliar qualidade contra o WordPress.
+# Ampliação por aplicação e território — 08/09/2026
+
+A base da rodada é `ef32c45` (PR10, 38 URLs). Acrescentam-se três páginas em `/equipamentos/` e uma em `/atuacao/minas-gerais/`, totalizando 42 URLs indexáveis no código. Fontes editoriais novas: `src/equipment-content.mjs` e `src/territory-content.mjs`, integradas por `src/site.mjs`.
+
+`src/discovery.mjs` distribui 42 URLs em dez mapas: Rodantes 6; HidrauTractor 2; Usinagem 3; Calderaria 3; Parts 2; Services 2; TechTractor 2; Equipamentos 4; Atuação 2; Grupo 16. O índice `sitemap.xml` aponta para os dez arquivos; `llms.txt` deriva da mesma coleção. A segmentação serve à auditoria de cobertura, não a um ganho de ranking pelo número de XMLs.
+
+Os hubs Equipamentos e Atuação, as sete frentes e o guia de cilindros fornecem entradas HTML para os novos destinos. As aplicações possuem conteúdo próprio por movimento e configuração, Article/Breadcrumb e metadados específicos; a página territorial possui Breadcrumb e assunto AdministrativeArea, sem criar estabelecimentos locais. Não são produzidas combinações automáticas serviço × município.

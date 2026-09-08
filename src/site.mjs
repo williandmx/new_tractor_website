@@ -2,6 +2,8 @@ import { companies, companyLinks, groupIndex, createCompanyPages } from "./group
 import { createTechnicalPages } from "./technical-content.mjs";
 import { createSectorPages, sectorLinks } from "./sector-content.mjs";
 import { createComponentPages } from "./component-content.mjs";
+import { createEquipmentPages, equipmentLinks } from "./equipment-content.mjs";
+import { createTerritoryPages } from "./territory-content.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -421,10 +423,11 @@ const equipamentosBody = `
     <div class="shell">
       <div class="section-heading section-heading--split"><div><span class="eyebrow">MÁQUINAS E APLICAÇÕES</span><h2 id="maquinas-title">Diferentes máquinas. Conhecimento em comum.</h2></div><p>Marca, modelo, configuração, aplicação e condição são necessários para avaliar compatibilidade e viabilidade.</p></div>
       <div class="equipment-grid">
-        <article><span>01</span><h3>Tratores de esteira</h3><p>Conjuntos sujeitos a abrasão, impacto e esforço de tração em terraplenagem, mineração e abertura de áreas.</p></article>
-        <article><span>02</span><h3>Escavadeiras</h3><p>Material rodante, caçambas e conchas aplicados a escavação, carga, infraestrutura e mineração.</p></article>
+        <article><span>01</span><h3>Tratores de esteira</h3><p>Material rodante, lâmina e cilindros de elevação, inclinação ou angulação, conforme a configuração.</p><a class="text-link" href="/equipamentos/tratores-de-esteira/">Cilindros e componentes de tratores de esteira</a></article>
+        <article><span>02</span><h3>Escavadeiras</h3><p>Cilindros de lança, braço e caçamba, articulações e material rodante: identifique o conjunto envolvido na demanda.</p><a class="text-link" href="/equipamentos/escavadeiras/">Cilindros e componentes de escavadeiras</a></article>
         <article><span>03</span><h3>Perfuratrizes</h3><p>Componentes de deslocamento avaliados conforme modelo, ambiente e condição observada.</p></article>
         <article><span>04</span><h3>Colheitadeiras</h3><p>Sistemas de esteira e componentes associados a operações agrícolas e janelas sazonais.</p></article>
+        <article><span>05</span><h3>Pás carregadeiras</h3><p>Elevação, inclinação e direção têm funções distintas. Relacione cilindro, implemento e condição da caçamba.</p><a class="text-link" href="/equipamentos/pas-carregadeiras/">Cilindros e componentes de pás carregadeiras</a></article>
       </div>
     </div>
   </section>
@@ -447,6 +450,7 @@ const equipamentosBody = `
       <ul class="check-list"><li>${icon("check")} Fabricante, modelo e número de série, quando aplicável</li><li>${icon("check")} Aplicação, horímetro e condição observada</li><li>${icon("check")} Componente, quantidade, fotos e medidas disponíveis</li><li>${icon("check")} Cidade da operação, prazo desejado e prioridade</li></ul>
     </div>
   </section>
+  <section class="section section--light" aria-labelledby="equipamentos-mg-title"><div class="shell editorial-grid"><div><h2 id="equipamentos-mg-title">Máquina, componente e cidade da operação</h2></div><div class="rich-text"><p>A prioridade de uma escavadeira na mineração pode ser diferente da de um trator em preparação de terreno ou de uma carregadeira em um pátio. Informe a tarefa e a condição de operação para encaminhar sua consulta.</p><p>Conheça os <a href="/atuacao/minas-gerais/">contextos de manutenção em Minas Gerais</a> e os dados para avaliar a logística a partir da base em Belo Horizonte.</p></div></div></section>
   ${contactBand("Qual máquina e componente você precisa avaliar?")}`;
 
 const atuacaoBody = `
@@ -483,7 +487,7 @@ const atuacaoBody = `
       <ul><li><strong>Origem</strong><span>cidade da operação, retirada ou entrega</span></li><li><strong>Componente</strong><span>tipo, quantidade, peso e dimensão disponíveis</span></li><li><strong>Prioridade</strong><span>janela desejada e impacto operacional informado</span></li><li><strong>Modalidade</strong><span>viabilidade de envio, coleta ou mobilização</span></li></ul>
     </div>
   </section>
-  <section class="section section--sand" aria-labelledby="contexto-operacao-title"><div class="shell editorial-grid"><div><h2 id="contexto-operacao-title">O contexto da operação orienta a avaliação</h2></div><div class="rich-text"><p>Mineração, florestal, agronegócio, construção civil e locação de máquinas têm rotinas distintas. Informe equipamento, componente, condição, local e janela desejada para a análise do escopo.</p><p>Consulte as <a href="/setores/">orientações por setor e operação</a> e o <a href="/guias/avaliacao-maquinas-linha-amarela/">guia de avaliação de máquinas de linha amarela</a> para reunir os dados da demanda. O atendimento depende da análise técnica, comercial e logística da demanda.</p></div></div></section>
+  <section class="section section--sand" aria-labelledby="contexto-operacao-title"><div class="shell editorial-grid"><div><h2 id="contexto-operacao-title">O contexto da operação orienta a avaliação</h2></div><div class="rich-text"><p>Mineração, florestal, agronegócio, construção civil e locação de máquinas têm rotinas distintas. Informe equipamento, componente, condição, local e janela desejada para a análise do escopo.</p><p>Veja a página de <a href="/atuacao/minas-gerais/">máquinas pesadas e componentes em Minas Gerais</a>, com os contextos da Região Metropolitana de Belo Horizonte, polos minerais, florestais e do Triângulo Mineiro.</p><p>Consulte as <a href="/setores/">orientações por setor e operação</a> e o <a href="/guias/avaliacao-maquinas-linha-amarela/">guia de avaliação de máquinas de linha amarela</a> para reunir os dados da demanda. O atendimento depende da análise técnica, comercial e logística da demanda.</p></div></div></section>
   ${contactBand("Informe a cidade e o contexto da sua demanda")}`;
 
 const contatoBody = `
@@ -777,6 +781,8 @@ export const pages = [
   ...createTechnicalPages({ site, pageHero, contactBand, breadcrumbSchema, serviceSchema }),
   ...createSectorPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createComponentPages({ site, pageHero, contactBand, breadcrumbSchema }),
+  ...createEquipmentPages({ site, pageHero, contactBand, breadcrumbSchema }),
+  ...createTerritoryPages({ site, pageHero, contactBand, breadcrumbSchema }),
   {
     route: "/empresa/",
     output: "empresa/index.html",
@@ -869,8 +875,9 @@ export const pages = [
     route: "/equipamentos/",
     output: "equipamentos/index.html",
     title: "Equipamentos e componentes para avaliação | New Tractor",
-    description: "Conheça as aplicações da New Tractor em tratores de esteira, escavadeiras, perfuratrizes e colheitadeiras, além dos principais componentes.",
+    description: "Identifique cilindros e componentes de escavadeiras, tratores de esteira e pás carregadeiras para consultar as especialidades da New Tractor.",
     body: equipamentosBody,
+    lastModified: "2026-09-08",
     active: "equipamentos",
     ogImage: "/assets/images/componentes-industriais-1600.webp",
     ogImageWidth: 1600,
@@ -881,10 +888,11 @@ export const pages = [
       {
         "@type": "ItemList",
         name: "Equipamentos e aplicações da New Tractor",
-        itemListElement: ["Tratores de esteira", "Escavadeiras", "Perfuratrizes", "Colheitadeiras"].map((name, index) => ({
+        itemListElement: equipmentLinks.slice(1).map(([name, route], index) => ({
           "@type": "ListItem",
           position: index + 1,
           name,
+          url: `${site.origin}${route}`,
         })),
       },
     ],
