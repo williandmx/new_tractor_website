@@ -52,6 +52,19 @@ domínio canônico.
 
 ## Produção
 
+### Configuração da integração Git corrigida em 07/09/2026
+
+O projeto Pages estava sem comando de build. O log da publicação automática
+`a6bbd73b-92d5-4446-b54e-059c16ec4d26` mostrava que a etapa foi ignorada e
+`dist` não foi encontrado. O mesmo padrão já ocorria no merge anterior de main.
+
+Configuração salva no Dashboard: framework None, comando `npm run check`,
+saída `dist` e raiz do repositório. A configuração do Wrangler continua
+declarando `./dist`. Builds passam a gerar o HTML e testar antes do upload.
+Restauração da configuração anterior: remover comando e saída no painel;
+isso reintroduziria a falha e não constitui rollback da aplicação.
+Domínio, DNS, variáveis, bindings e branch de produção não foram alterados.
+
 1. Criar ou confirmar o projeto `newtractor-site` na conta Cloudflare correta.
 2. Publicar o build aprovado com `npm run deploy:production`.
 3. Adicionar `newtractor.com.br` como Custom Domain do projeto.
