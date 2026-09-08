@@ -15,6 +15,18 @@ A análise MCP e as decisões desta rodada estão em
 [benchmark-mcp-grupo-2026-09-08.md](benchmark-mcp-grupo-2026-09-08.md).
 As seções históricas abaixo preservam as entregas e observações de cada rodada.
 
+## Implementação consolidada para a main — PR9
+
+- Sete especialidades aprofundadas, com contexto de componentes, dados de
+  avaliação, encaminhamento e perguntas frequentes próprias.
+- Cinco páginas setoriais e hub; guias de cilindros hidráulicos e de
+  caçambas/conchas, somando cinco guias editoriais.
+- 33 URLs indexáveis conectadas por links HTML; sitemap e `llms.txt` atualizados.
+- Sete identidades de marca, 21 FAQs equivalentes ao HTML e cinco guias com
+  `Article`, autoria editorial e data.
+- Evidências e aplicação por empresa: [relatório final](entrega-main-seo-grupo-2026-09-08.html).
+  Validação: [QA da entrega](../QA-SEO-MAIN-2026-09-08.md).
+
 ## Evidência reunida
 
 - Dez concorrentes mineiros de hidráulica e diagnóstico inicial da New Tractor:

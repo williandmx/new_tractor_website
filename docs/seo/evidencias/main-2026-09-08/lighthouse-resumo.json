@@ -1,0 +1,290 @@
+[
+  {
+    "file": "lighthouse-cilindros-desktop.json.gz",
+    "url": "http://127.0.0.1:8794/guias/avaliacao-cilindros-hidraulicos/",
+    "fetchTime": "2026-09-08T08:02:44.825Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "e19798c1d93405bbd183ed9b85a82ab27e6bb40a6a937e1eb0a79b8eb8cc2001",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 282.8919,
+        "display": "0.3 s"
+      },
+      "largest-contentful-paint": {
+        "value": 482.8919,
+        "display": "0.5 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 282.8919,
+        "display": "0.3 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-cilindros-mobile.json.gz",
+    "url": "http://127.0.0.1:8794/guias/avaliacao-cilindros-hidraulicos/",
+    "fetchTime": "2026-09-08T07:57:11.059Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "1cc99cacfcb123fd6409d5838e9048fa78596c82ba62358230f8356b9be84066",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1052.8751,
+        "display": "1.1 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2552.8750999999997,
+        "display": "2.6 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1052.8751,
+        "display": "1.1 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-hidrautractor-desktop.json.gz",
+    "url": "http://127.0.0.1:8794/hidrautractor/",
+    "fetchTime": "2026-09-08T07:56:47.361Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "91bfa59c93d829cd77e02dc10fcc52f949a5687926534b0eac731ddad30c669d",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 332.8181,
+        "display": "0.3 s"
+      },
+      "largest-contentful-paint": {
+        "value": 402.81809999999996,
+        "display": "0.4 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 5.249384957781974e-05,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 332.8181,
+        "display": "0.3 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-hidrautractor-mobile.json.gz",
+    "url": "http://127.0.0.1:8794/hidrautractor/",
+    "fetchTime": "2026-09-08T07:54:03.883Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "df2a07655c0f9a34401868ad8b5a5edfa23bd013d13d7537a2ce87f03d262a79",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1203.4978,
+        "display": "1.2 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1803.4978,
+        "display": "1.8 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0002418748990448447,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1203.4978,
+        "display": "1.2 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-home-desktop.json.gz",
+    "url": "http://127.0.0.1:8794/",
+    "fetchTime": "2026-09-08T08:01:55.642Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "74c1104aca5a151031ea360879606e64addd85c47b98f4edefe898068c9a82d2",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 293.2863,
+        "display": "0.3 s"
+      },
+      "largest-contentful-paint": {
+        "value": 463.2863,
+        "display": "0.5 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 5.249384957781974e-05,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 481.5503152545987,
+        "display": "0.5 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-home-mobile.json.gz",
+    "url": "http://127.0.0.1:8794/",
+    "fetchTime": "2026-09-08T07:53:28.837Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "126fa93ac659a3d6c063f419355cf567f500e20d75c26b42f9ff89ef5e817c08",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1204.3982999999998,
+        "display": "1.2 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2329.3983,
+        "display": "2.3 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0002418748990448447,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1204.3982999999998,
+        "display": "1.2 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-mineracao-desktop.json.gz",
+    "url": "http://127.0.0.1:8794/setores/mineracao/",
+    "fetchTime": "2026-09-08T07:55:15.086Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "c11b00c0786d9ad460bef1b356653e84aba230891884fb24f3481d7cea24ce53",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 283.4211,
+        "display": "0.3 s"
+      },
+      "largest-contentful-paint": {
+        "value": 523.4211,
+        "display": "0.5 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 283.4211,
+        "display": "0.3 s"
+      }
+    }
+  },
+  {
+    "file": "lighthouse-mineracao-mobile.json.gz",
+    "url": "http://127.0.0.1:8794/setores/mineracao/",
+    "fetchTime": "2026-09-08T07:54:27.843Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "sha256Uncompressed": "91685d8f77d7d477a20ec83d5834da95eb8d15239af3d423fe71579488988870",
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1052.8286,
+        "display": "1.1 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2552.8286,
+        "display": "2.6 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1052.8286,
+        "display": "1.1 s"
+      }
+    }
+  }
+]

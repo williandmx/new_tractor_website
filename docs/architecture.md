@@ -44,6 +44,14 @@ prazo, estoque, garantia ou estrutura societária.
 | `/guias/avaliacao-maquinas-linha-amarela/` | dados da máquina, componente e cinco contextos setoriais |
 | `/guias/inspecao-material-rodante/` | organização dos registros de inspeção |
 | `/guias/cotacao-pecas-maquinas-pesadas/` | preparação da consulta de peças e recuperação |
+| `/guias/avaliacao-cilindros-hidraulicos/` | identificação do cilindro, sintomas e dados para consulta técnica |
+| `/guias/avaliacao-cacambas-conchas/` | condição estrutural e aplicação em escavadeiras e carregadeiras |
+| `/setores/` | hub das cinco jornadas por contexto de operação |
+| `/setores/mineracao/` | máquina, componente e avaliação em operações de mineração |
+| `/setores/florestal/` | componentes de máquinas pesadas no contexto florestal |
+| `/setores/agronegocio/` | linha amarela e componentes pesados no apoio ao agronegócio |
+| `/setores/construcao-terraplenagem/` | componentes, frente de obra e logística de terraplenagem |
+| `/setores/locadoras/` | condição na entrega, devolução e manutenção da frota locada |
 | `/equipamentos/` | máquinas, componentes e informações para avaliação |
 | `/atuacao/` | Brasil, corredores prioritários e logística por demanda |
 | `/contato/` | canais, RFQ e homologação de fornecedor |
@@ -52,7 +60,6 @@ prazo, estoque, garantia ou estrutura societária.
 
 ## Expansões condicionadas a evidência
 
-- páginas de mineração, construção pesada e agrícola;
 - três hubs regionais (Sudeste, Bahia e Goiás);
 - cases autorizados;
 - conteúdo técnico assinado/revisado por especialista;
@@ -67,5 +74,15 @@ prazo, estoque, garantia ou estrutura societária.
   descoberta; não representa fator de ranking. `agents.txt` não é gerado;
 - a linguagem pública continua institucional, sem bastidores de IA/SEO;
 - JSON-LD de `Organization`, `LocalBusiness`, `WebSite`, `Service`,
-  `BreadcrumbList` e `Article` quando aplicável;
+  `BreadcrumbList`, sete identidades `Brand`, `FAQPage` equivalente às perguntas
+  visíveis e `Article` nos cinco guias, com crédito editorial e data;
 - preview `pages.dev` protegido por header `noindex, nofollow`.
+
+## Entrega de SEO das sete especialidades — 08/09/2026
+
+O inventário contém 33 URLs indexáveis, alcançáveis por links HTML desde a home.
+As cinco páginas setoriais usam contexto próprio de operação, componentes e
+perguntas de compradores, manutenção e mecânicos; não criam filiais, carteira
+de clientes ou promessa de atendimento local. A matriz de evidência e aplicação
+está no [relatório de entrega](seo/entrega-main-seo-grupo-2026-09-08.md).
+DNS, Search Console e comprovação posterior de ranking não fazem parte deste aceite.

@@ -36,6 +36,23 @@ Cinco rotas técnicas adicionadas em 07/09/2026, sem substituir URLs existentes:
 Cada uma tem normalização 301 de sua versão sem barra em `_redirects`.
 O estado de publicação é registrado em `DEPLOYMENT.md`.
 
+Oito rotas adicionadas em 08/09/2026 completam as jornadas setoriais e dois
+guias de componentes, preservando as URLs anteriores:
+
+- `/setores/`
+- `/setores/mineracao/`
+- `/setores/florestal/`
+- `/setores/agronegocio/`
+- `/setores/construcao-terraplenagem/`
+- `/setores/locadoras/`
+- `/guias/avaliacao-cilindros-hidraulicos/`
+- `/guias/avaliacao-cacambas-conchas/`
+
+Todas normalizam a versão sem barra com 301. O alias proposto
+`/setores/locacao-de-equipamentos/`, com ou sem barra, redireciona para
+`/setores/locadoras/`; não é outra página indexável. Sitemap e `llms.txt`
+usam as 33 URLs canônicas do inventário final.
+
 | Origem antiga | Destino novo | Observação |
 |---|---|---|
 | `/?p=470` | `/empresa/` | Empresa |

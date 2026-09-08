@@ -1,0 +1,50 @@
+[
+  {
+    "url": "http://127.0.0.1:8793/benchmark-grupo-linha-amarela-2026-09-07.html",
+    "width": 360,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 1
+  },
+  {
+    "url": "http://127.0.0.1:8793/relatorio-seo-minas-gerais-2026-09-07.html",
+    "width": 360,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 1
+  },
+  {
+    "url": "https://d93cae5b.newtractor-site.pages.dev/hidrautractor/",
+    "width": 360,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 0
+  },
+  {
+    "url": "http://127.0.0.1:8793/benchmark-grupo-linha-amarela-2026-09-07.html",
+    "width": 1365,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 1
+  },
+  {
+    "url": "http://127.0.0.1:8793/relatorio-seo-minas-gerais-2026-09-07.html",
+    "width": 1365,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 1
+  },
+  {
+    "url": "https://d93cae5b.newtractor-site.pages.dev/hidrautractor/",
+    "width": 1365,
+    "status": 200,
+    "noOverflow": true,
+    "headings": 1,
+    "deliveryLink": 0
+  }
+]

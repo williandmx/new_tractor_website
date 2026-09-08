@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/setores",
+    "status": 301,
+    "location": "/setores/",
+    "ok": true
+  },
+  {
+    "path": "/setores/mineracao",
+    "status": 301,
+    "location": "/setores/mineracao/",
+    "ok": true
+  },
+  {
+    "path": "/setores/florestal",
+    "status": 301,
+    "location": "/setores/florestal/",
+    "ok": true
+  },
+  {
+    "path": "/setores/agronegocio",
+    "status": 301,
+    "location": "/setores/agronegocio/",
+    "ok": true
+  },
+  {
+    "path": "/setores/construcao-terraplenagem",
+    "status": 301,
+    "location": "/setores/construcao-terraplenagem/",
+    "ok": true
+  },
+  {
+    "path": "/setores/locadoras",
+    "status": 301,
+    "location": "/setores/locadoras/",
+    "ok": true
+  },
+  {
+    "path": "/guias/avaliacao-cilindros-hidraulicos",
+    "status": 301,
+    "location": "/guias/avaliacao-cilindros-hidraulicos/",
+    "ok": true
+  },
+  {
+    "path": "/guias/avaliacao-cacambas-conchas",
+    "status": 301,
+    "location": "/guias/avaliacao-cacambas-conchas/",
+    "ok": true
+  },
+  {
+    "path": "/setores/locacao-de-equipamentos",
+    "status": 301,
+    "location": "/setores/locadoras/",
+    "ok": true
+  },
+  {
+    "path": "/setores/locacao-de-equipamentos/",
+    "status": 301,
+    "location": "/setores/locadoras/",
+    "ok": true
+  }
+]

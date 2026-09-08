@@ -1,6 +1,23 @@
 # Publicação e migração do domínio
 
-## Estado atual — 07/09/2026
+## Entrega das sete especialidades — 08/09/2026
+
+- Implementação: `966f1364475878bd0fac17c9aba22405e09bfd76`, entregue pelo
+  [PR9](https://github.com/williandmx/new_tractor_website/pull/9).
+- Preview validado da aplicação: `d93cae5b-2e1c-4e8c-a44c-b662eb345909`,
+  [abrir preview](https://d93cae5b.newtractor-site.pages.dev/).
+- As 33 páginas, sitemap, robots e `llms.txt` responderam 200, com corpo
+  idêntico ao build local e `X-Robots-Tag: noindex, nofollow`.
+- Evidências de responsividade, acessibilidade, Lighthouse, links e dados
+  estruturados: [QA da entrega](QA-SEO-MAIN-2026-09-08.md).
+- A integração Git publica o merge da `main` no alias estável
+  `https://newtractor-site.pages.dev/`; o estado terminal do build e o commit
+  correspondente ficam nos checks do PR e no histórico do Pages.
+- DNS e Search Console estão fora do aceite definido pelo proprietário.
+  O canonical continua `https://newtractor.com.br`; esta entrega não faz o
+  corte do domínio nem afirma que o novo conteúdo já foi indexado.
+
+## Histórico — 07/09/2026
 
 - PR3 mesclado em `main`: `a2d813520a2e4bdd878f223fdb2137932b70a35f`.
 - GitHub Actions e Cloudflare Pages aprovaram o merge.

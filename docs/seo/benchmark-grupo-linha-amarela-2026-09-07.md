@@ -1,5 +1,7 @@
 # Benchmark integrado do Grupo New Tractor — linha amarela
 
+> Atualização de 08/09/2026: veja o [relatório de entrega para a main](entrega-main-seo-grupo-2026-09-08.html), com evidência e aplicação nas sete especialidades. Este documento preserva o plano e as observações originais.
+
 **Data:** 07/09/2026 · **País/idioma da base de palavras-chave:** Brasil /
 português · **Escopo:** HidrauTractor, Rodantes, Usinagem, Calderaria, Parts,
 TechTractor e Services, com cinco contextos setoriais. Este documento integra
