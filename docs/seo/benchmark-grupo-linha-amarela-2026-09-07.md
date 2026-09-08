@@ -297,3 +297,18 @@ Vagas, telhas e implementos rodoviários não entram como meta comercial do Grup
 A Açomec não apresentou páginas na base; isso não demonstra tráfego real zero.
 O relatório complementar separa observação, aplicação editorial e evidência
 operacional pendente para cada frente.
+
+
+## 08. Presença local no Google
+
+O perfil público New Tractor - Material Rodante foi confirmado por endereço,
+telefone e domínio. O ajuste do site leva os botões de mapa à ficha exata e
+associa somente a base física em `LocalBusiness.sameAs`. A conta aberta possui
+cadastro marcado como cópia, duplicado e não confirmado; obter acesso ao perfil
+principal é prioridade. O formulário de solicitação não foi enviado.
+
+Revisar canais, horários, serviços e fotos próprias depois do acesso. O formato
+do WhatsApp publicado no perfil difere do site e exige validação de entrega.
+As especialidades não justificam criar perfis separados para a mesma empresa.
+A base em BH tampouco garante alcance no Maps em todo o estado.
+[Evidências públicas, orientação do Google e próximos passos](presenca-local-google-2026-09-08.md).

@@ -4,13 +4,13 @@ Documento operacional interno para o corte de `newtractor.com.br`. Reúne as
 observações públicas disponíveis e a sequência necessária para trocar a camada
 web preservando e-mail, subdomínios e retorno. Não altera DNS, contas ou código.
 
-## Estado autoritativo desta entrega
+## Referência de publicação — atualizada em 08/09/2026
 
-- O PR3 foi mesclado na `main` no commit
-  `a2d813520a2e4bdd878f223fdb2137932b70a35f`.
+- Última publicação validada ao atualizar este roteiro: [PR6](https://github.com/williandmx/new_tractor_website/pull/6),
+  mesclado na `main` no commit `64911afa161535d9ba4657cf0ef19b88131fe485`.
 - O deployment Pages correspondente é
-  `e45e49ee-85bf-4778-8f3d-b2563b17433b`; a URL versionada é
-  `https://e45e49ee.newtractor-site.pages.dev/` e o alias estável é
+  `c391b406-4931-4602-83fd-8ebf86c21cc8`; a URL versionada é
+  `https://c391b406.newtractor-site.pages.dev/` e o alias estável é
   `https://newtractor-site.pages.dev/`.
 - Os hosts `pages.dev` permanecem com `X-Robots-Tag: noindex, nofollow`.
   O Pages de produção entrega a apresentação institucional, mas seu canonical ainda
@@ -23,7 +23,9 @@ web preservando e-mail, subdomínios e retorno. Não altera DNS, contas ou códi
   custom domain associado. A lista DNS da zona está acessível e contém 13 registros.
 
 Os previews e builds mais antigos citados em `docs/DEPLOYMENT.md` são histórico.
-Para o corte, usar a última versão aprovada no Pages; o commit acima registra a etapa de 07/09.
+O PR3 é o marco histórico das novas rotas. Para o corte, resolver novamente o
+commit da `main`, os checks e o deployment correspondente; não congelar a
+publicação futura no identificador deste documento.
 
 ## Evidências públicas que condicionam o corte
 
@@ -103,7 +105,7 @@ pendentes da resposta 404/410 apropriada e não devem ser enviados à home.
 ## Sequência de corte
 
 1. **Congelar a referência web.** Confirmar que o projeto Pages correto serve o
-   commit acima, que o domínio customizado e `www` estão disponíveis na conta
+   último commit aprovado, que o domínio customizado e `www` estão disponíveis na conta
    correta e que o `noindex` continua restrito aos hosts `pages.dev` quando o
    apex for ativado.
 2. **Registrar a zona atual.** Obter um export completo no provedor autoritativo:

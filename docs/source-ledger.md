@@ -61,6 +61,17 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 
 ## Referências públicas
 
+- Google Maps, consulta de 08/09/2026: o perfil “New Tractor - Material Rodante”
+  apresenta Rua Santos Anjos, 380, São Gabriel, Belo Horizonte, telefone
+  (31) 3493-1476 e website newtractor.com.br, coerentes com a base documentada.
+  Perfil público: `https://www.google.com/maps/place/New+Tractor+-+Material+Rodante/data=!4m2!3m1!1s0xa69b3d77ceabe5:0xf73237839e7dbddb`.
+  Usado no link de mapa e em `sameAs` somente da base `LocalBusiness`, sem
+  afirmar que cada frente possui uma ficha própria. Avaliações, horários e
+  descrição do Google não acrescentam capacidade, clientes ou garantias ao site.
+  A conta aberta apresenta cadastro duplicado/não confirmado; acesso ao perfil
+  principal e divergência do formato do WhatsApp seguem pendentes em
+  `docs/seo/presenca-local-google-2026-09-08.md`.
+
 - Armac (`https://armac.com.br/`): abertura institucional em vídeo observada
   em 2026-09-05; referência de hierarquia visual, sem reutilizar filme ou marcas.
 - Direção do proprietário (`https://newtractor.grok.me/`): grupo como centro
