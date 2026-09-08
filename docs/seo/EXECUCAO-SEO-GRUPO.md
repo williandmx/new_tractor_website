@@ -14,6 +14,12 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
   além das três buscas hidráulicas já registradas. Os JSON preservam as fontes,
   datas, limitações e ordinais exibidos. Não são pesquisas geolocalizadas em MG.
 
+- Páginas de entrada de sete domínios: 30 páginas principais e sete detalhes de
+  palavras-chave em Português/Brasil, consultados em 08/09. Associação concreta
+  entre serviço/componente e URL; tráfego de vagas, marcas e ofertas fora de
+  linha amarela separado da oportunidade comercial.
+  [Análise e prioridades por frente](paginas-e-buscas-concorrentes-2026-09-08.md).
+
 ## Alterações desta etapa
 
 - Metadados e subtítulos das sete frentes orientados pela especialidade.
@@ -30,7 +36,7 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 | Frente | Entrega seguinte | Evidência necessária |
 |---|---|---|
-| Rodantes | Conteúdo próprio de componentes e leitura de desgaste, começando por roletes, sapatas e correntes | Fotos, identificação, processo e limites técnicos próprios; não copiar limites OEM |
+| Rodantes | Conteúdo próprio de componentes e leitura de desgaste, começando por rodas-guia (associação de busca observada na Minusa), roletes, sapatas e correntes | Fotos, identificação, processo e limites técnicos próprios; não copiar limites OEM |
 | HidrauTractor | Página de recuperação de cilindros se o processo for confirmado | Recuperação/fabricação, bombas/vedações, equipamentos de teste e aplicações realmente executadas |
 | Usinagem | Exemplos documentados de recuperação dimensional e perguntas de cotação | Desenho autorizado, condição inicial, processo e critérios de aceitação por peça |
 | Calderaria | Aprofundar caçambas de escavadeira e conchas de carregadeira | Registros próprios, diagnóstico, materiais e procedimento aplicável; evitar a ambiguidade com caçambas de caminhões |
@@ -40,7 +46,7 @@ O benchmark não demonstra liderança atual nem permite prometer posições.
 
 ## Publicação e medição
 
-Estado atual: PR5 mesclado em `main` (`7ae51f0`), checks aprovados e medição
+Publicação anterior: PR5 mesclado em `main` (`7ae51f0`), checks aprovados e medição
 de contatos confirmada no Pages estável. O PR4 (`3670e3e`) acrescentou a
 referência editorial; o PR3 (`a2d8135`) entregou as cinco rotas e a otimização
 anterior. O domínio oficial continua no WordPress anterior.
@@ -68,6 +74,17 @@ pendentes. Não há comparação de evolução.
 6. Registrar no atendimento setor, cidade, equipamento, componente, urgência e
    possibilidade de atender. É esse registro que permite conhecer o comprador;
    uma ferramenta de palavras-chave não revela sua profissão.
+
+## Consulta de Parts e páginas dos concorrentes — 08/09
+
+O [PR6](https://github.com/williandmx/new_tractor_website/pull/6) reúne a consulta
+por código/desenho de Parts, a consistência dessa apresentação e o novo
+levantamento de páginas/buscas. O [preview final](https://80768b7f.newtractor-site.pages.dev/parts/)
+passou nas oito verificações de quatro rotas em mobile e desktop; 32 testes
+passaram. [QA e evidências](../QA-PARTS-BENCHMARK-2026-09-08.md).
+A fabricação/revenda de Parts permanece pendente de confirmação. As novas
+páginas de componentes requerem registros próprios; o benchmark não é prova
+de capacidade da New Tractor.
 
 ## Acesso aos dados e medição de contatos
 

@@ -1,0 +1,513 @@
+{
+  "collected_date": "2026-09-08",
+  "timezone": "America/Sao_Paulo",
+  "source": "Ubersuggest authenticated browser; Competitive Research > Top Pages by Traffic",
+  "database": "Portuguese / Brazil",
+  "provider_month": null,
+  "method": "Consulta de sete domínios: cinco primeiras páginas por domínio com dados, mais duas páginas selecionadas da Sotreq. Detalhes de palavras-chave de sete páginas abertas. Transcrição manual de dados renderizados na interface autenticada.",
+  "notes": [
+    "Estimates, not measured visits or Google Search Console positions. National database, not Belo Horizonte rank tracking.",
+    "Provider did not show data month in this panel. Observation date is not measurement-period date.",
+    "Monthly unit confirmed in opened page detail. Page and keyword estimates are distinct and not additive; ITR keyword estimates do not sum to page estimate.",
+    "Keyword spelling variants may overlap demand. Do not sum their search volumes.",
+    "CPC raw numeric strings preserved; currency not exposed. No costly refresh performed.",
+    "Açomec: mensagem de ausência de páginas na base; não demonstra tráfego real zero.",
+    "Top Pages consultado separadamente do ranking de 44 termos em Belo Horizonte. Não comparar posições dessas bases como evolução.",
+    "Cinco de oito termos da Modelaço foram transcritos; demais detalhes limitados a cinco linhas ou ao total menor disponível."
+  ],
+  "domains": [
+    {
+      "domain": "minusa.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=minusa.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "total_results_displayed": 20,
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "Minusa - O maior fabricante de material rodante do Brasil",
+          "url": "http://www.minusa.com.br/",
+          "est_visits_displayed": 655,
+          "backlinks_displayed": 202
+        },
+        {
+          "rank": 2,
+          "title": "LÂMINA PARA MOTONIVELADORA",
+          "url": "http://www.minusa.com.br/lamina-para-motoniveladora",
+          "est_visits_displayed": 17,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 3,
+          "title": "RODAS GUIA PARA TRATORES DE ESTEIRA",
+          "url": "http://www.minusa.com.br/rodas-guia-para-tratores-de-esteira",
+          "est_visits_displayed": 14,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 4,
+          "title": "Cabeçote Florestal H61",
+          "url": "http://www.minusa.com.br/produto/cabecote-florestal-h61",
+          "est_visits_displayed": 12,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 5,
+          "title": "DENTES E UNHAS PARA CAÇAMBA DE ESCAVADEIRA",
+          "url": "http://www.minusa.com.br/dentes-e-unhas-para-cacamba-de-escavadeira",
+          "est_visits_displayed": 11,
+          "backlinks_displayed": 0
+        }
+      ],
+      "additional_selected_pages": [],
+      "keyword_details": [
+        {
+          "page_url": "http://www.minusa.com.br/rodas-guia-para-tratores-de-esteira",
+          "page_est_visits": 14,
+          "keywords": [
+            {
+              "keyword": "roda guia",
+              "volume": 320,
+              "position": 8,
+              "est_visits": 14,
+              "cpc": "7.79486856",
+              "seo_difficulty": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "tbm.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=tbm.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "total_results_displayed": 9,
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "TBM Indústria – Inteligência em materiais de desgaste",
+          "url": "http://tbm.com.br/",
+          "est_visits_displayed": 146,
+          "backlinks_displayed": 20
+        },
+        {
+          "rank": 2,
+          "title": "Contato",
+          "url": "http://tbm.com.br/contato/",
+          "est_visits_displayed": 4,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 3,
+          "title": "A Empresa",
+          "url": "http://tbm.com.br/empresa/",
+          "est_visits_displayed": 1,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 4,
+          "title": "Notícias",
+          "url": "http://tbm.com.br/noticias/",
+          "est_visits_displayed": 0,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 5,
+          "title": "Chapas de Desgaste",
+          "url": "http://tbm.com.br/chapas-de-desgaste/",
+          "est_visits_displayed": 0,
+          "backlinks_displayed": 0
+        }
+      ],
+      "additional_selected_pages": [],
+      "keyword_details": [
+        {
+          "page_url": "http://tbm.com.br/chapas-de-desgaste/",
+          "page_est_visits": 0,
+          "keywords": [
+            {
+              "keyword": "placas de desgaste",
+              "volume": 140,
+              "position": 61,
+              "est_visits": 0,
+              "cpc": "2.794870635",
+              "seo_difficulty": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "itrsa.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=itrsa.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "total_results_displayed": 51,
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "ITR South America - Peças para tratores e equipamentos ...",
+          "url": "http://www.itrsa.com.br/site/",
+          "est_visits_displayed": 214,
+          "backlinks_displayed": 918
+        },
+        {
+          "rank": 2,
+          "title": "Como instalar um horímetro no trator",
+          "url": "http://www.itrsa.com.br/site/como-instalar-um-horimetro-no-trator/",
+          "est_visits_displayed": 48,
+          "backlinks_displayed": 2
+        },
+        {
+          "rank": 3,
+          "title": "Tipos de pneus para retroescavadeira",
+          "url": "http://www.itrsa.com.br/site/tipos-de-pneus-para-retroescavadeira/",
+          "est_visits_displayed": 39,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 4,
+          "title": "Peças Liebherr",
+          "url": "http://www.itrsa.com.br/site/pecas-liebherr/",
+          "est_visits_displayed": 11,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 5,
+          "title": "Peças Caterpillar",
+          "url": "http://www.itrsa.com.br/site/pecas-caterpillar/",
+          "est_visits_displayed": 10,
+          "backlinks_displayed": 0
+        }
+      ],
+      "additional_selected_pages": [],
+      "keyword_details": [
+        {
+          "page_url": "http://www.itrsa.com.br/site/como-instalar-um-horimetro-no-trator/",
+          "page_est_visits": 48,
+          "keywords": [
+            {
+              "keyword": "horimetro trator",
+              "volume": 590,
+              "position": 7,
+              "est_visits": 27,
+              "cpc": "0.5128203",
+              "seo_difficulty": 9
+            },
+            {
+              "keyword": "horímetro trator",
+              "volume": 590,
+              "position": 9,
+              "est_visits": 20,
+              "cpc": "0.5128203",
+              "seo_difficulty": 9
+            },
+            {
+              "keyword": "horímetro de trator",
+              "volume": 170,
+              "position": 8,
+              "est_visits": 15,
+              "cpc": "0.46153827",
+              "seo_difficulty": 8
+            },
+            {
+              "keyword": "o que é horímetro",
+              "volume": 480,
+              "position": 26,
+              "est_visits": 1,
+              "cpc": "0",
+              "seo_difficulty": 9
+            },
+            {
+              "keyword": "o'que é horimetro",
+              "volume": 480,
+              "position": 30,
+              "est_visits": 0,
+              "cpc": "0",
+              "seo_difficulty": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "sotreq.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=sotreq.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "total_results_displayed": 149,
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "Sotreq | Homepage",
+          "url": "http://www.sotreq.com.br/",
+          "est_visits_displayed": 4339,
+          "backlinks_displayed": 160826
+        },
+        {
+          "rank": 2,
+          "title": "Trabalhe conosco",
+          "url": "http://www.sotreq.com.br/trabalhe-conosco",
+          "est_visits_displayed": 3494,
+          "backlinks_displayed": 1
+        },
+        {
+          "rank": 3,
+          "title": "Filiais Sumaré - São Paulo",
+          "url": "http://www.sotreq.com.br/filial-sotreq/11",
+          "est_visits_displayed": 1206,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 4,
+          "title": "Filial: Salvador - Simões Filho/Bahia",
+          "url": "http://www.sotreq.com.br/filial-sotreq/21",
+          "est_visits_displayed": 582,
+          "backlinks_displayed": 0
+        },
+        {
+          "rank": 5,
+          "title": "Filial: Serra - Serra/Espírito Santo",
+          "url": "http://www.sotreq.com.br/filial-sotreq/15",
+          "est_visits_displayed": 358,
+          "backlinks_displayed": 0
+        }
+      ],
+      "additional_selected_pages": [
+        {
+          "title": "VisionLink",
+          "url": "http://www.sotreq.com.br/visionlink",
+          "est_visits_displayed": 8,
+          "backlinks_displayed": 0
+        },
+        {
+          "title": "Servicos Campo",
+          "url": "http://www.sotreq.com.br/servicos-campo",
+          "est_visits_displayed": 1,
+          "backlinks_displayed": 0
+        }
+      ],
+      "keyword_details": [
+        {
+          "page_url": "http://www.sotreq.com.br/servicos-campo",
+          "page_est_visits": 1,
+          "keywords": [
+            {
+              "keyword": "sotreqlink",
+              "volume": 480,
+              "position": 17,
+              "est_visits": 1,
+              "cpc": "3.64102413",
+              "seo_difficulty": 17
+            },
+            {
+              "keyword": "sotreq são josé dos campos",
+              "volume": 140,
+              "position": 49,
+              "est_visits": 0,
+              "cpc": "15.58973712",
+              "seo_difficulty": 18
+            },
+            {
+              "keyword": "sotreq campo grande",
+              "volume": 880,
+              "position": 42,
+              "est_visits": 0,
+              "cpc": "2.5641015",
+              "seo_difficulty": 18
+            }
+          ]
+        },
+        {
+          "page_url": "http://www.sotreq.com.br/visionlink",
+          "page_est_visits": 8,
+          "keywords": [
+            {
+              "keyword": "sotreqlink",
+              "volume": 480,
+              "position": 7,
+              "est_visits": 8,
+              "cpc": "3.64102413",
+              "seo_difficulty": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "cilindrica.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=cilindrica.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "results_label": "Showing 5 of 5 results",
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "Cilindro hidropneumático - Cilíndrica",
+          "url": "http://www.cilindrica.com.br/cilindro-hidropneumatico",
+          "est_visits_displayed": 5,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 2,
+          "title": "Pistão hidráulico em Belo Horizonte - Cilíndrica",
+          "url": "http://www.cilindrica.com.br/pistao-hidraulico-belo-horizonte",
+          "est_visits_displayed": 2,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 3,
+          "title": "Conserto de bomba hidráulica em Belo Horizonte - Cilíndrica",
+          "url": "http://www.cilindrica.com.br/conserto-bomba-hidraulica-belo-horizonte",
+          "est_visits_displayed": 1,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 4,
+          "title": "Valor pistão hidráulico - Cilíndrica",
+          "url": "http://www.cilindrica.com.br/valor-pistao-hidraulico",
+          "est_visits_displayed": 0,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 5,
+          "title": "Manutenção de bomba hidráulica em Belo Horizonte - Cilíndrica",
+          "url": "http://www.cilindrica.com.br/manutencao-bomba-hidraulica-belo-horizonte",
+          "est_visits_displayed": 0,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        }
+      ],
+      "keyword_details": [
+        {
+          "page_url": "http://www.cilindrica.com.br/conserto-bomba-hidraulica-belo-horizonte",
+          "detail_text": "This page gets an estimated 1 visits a month from Google. Here are the keywords that generate those visits.",
+          "keywords_returned": 2,
+          "keywords": [
+            {
+              "keyword": "reparo bombas hidraulicas",
+              "volume": 320,
+              "position": 24,
+              "est_visits": 1,
+              "cpc": "1.17948669",
+              "seo_difficulty": 6
+            },
+            {
+              "keyword": "manutenção de bombas hidraulicas",
+              "volume": 140,
+              "position": 43,
+              "est_visits": 0,
+              "cpc": "9.89743179",
+              "seo_difficulty": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "modelaco.com.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=modelaco.com.br&lang=pt&locId=2076",
+      "status": "data",
+      "results_label": "Selected 0 of 67; first 5 rows transcribed",
+      "top_pages": [
+        {
+          "rank": 1,
+          "title": "Corte e Dobra de Chapas | Modelaço (31) 3592-8124",
+          "url": "http://modelaco.com.br/produtos-e-servicos/corte-e-conformacao/corte-e-dobra-de-chapas/",
+          "est_visits_displayed": 500,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 2,
+          "title": "Telhas sanduíche: Diferenças entre PU e EPS",
+          "url": "http://www.modelaco.com.br/telhas-sanduiche-diferencas-entre-pu-poliuretano-e-eps-poliestireno/",
+          "est_visits_displayed": 102,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 3,
+          "title": "O que é Veneziana Industrial?",
+          "url": "http://modelaco.com.br/o-que-e-veneziana-industrial/",
+          "est_visits_displayed": 77,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 4,
+          "title": "Modelaço: Produtos e Serviços em Aço 31 3592-8124",
+          "url": "http://modelaco.com.br/",
+          "est_visits_displayed": 66,
+          "backlinks_displayed": 65,
+          "keyword_count_displayed": null
+        },
+        {
+          "rank": 5,
+          "title": "Fabricação de Caçambas Roll-On/Off em Belo Horizonte",
+          "url": "http://modelaco.com.br/produtos-e-servicos/implementos-rodoviarios/cacambas-roll-on-roll-off/minas-gerais/belo-horizonte/",
+          "est_visits_displayed": 57,
+          "backlinks_displayed": 0,
+          "keyword_count_displayed": null
+        }
+      ],
+      "keyword_details": [
+        {
+          "page_url": "http://modelaco.com.br/produtos-e-servicos/corte-e-conformacao/corte-e-dobra-de-chapas/",
+          "detail_text": "This page gets an estimated 500 visits a month from Google. Here are the keywords that generate those visits.",
+          "keywords_returned": 8,
+          "keywords": [
+            {
+              "keyword": "corte e dobra de chapas",
+              "volume": 1600,
+              "position": 4,
+              "est_visits": 496,
+              "cpc": "9.02563728",
+              "seo_difficulty": 6
+            },
+            {
+              "keyword": "corte e dobra de aco",
+              "volume": 390,
+              "position": 27,
+              "est_visits": 2,
+              "cpc": "4.7692287900000006",
+              "seo_difficulty": 16
+            },
+            {
+              "keyword": "bh corte e dobra",
+              "volume": 320,
+              "position": 11,
+              "est_visits": 1,
+              "cpc": "9.33332946",
+              "seo_difficulty": 13
+            },
+            {
+              "keyword": "corte e dobra de aço",
+              "volume": 390,
+              "position": 20,
+              "est_visits": 1,
+              "cpc": "6.71794593",
+              "seo_difficulty": 8
+            },
+            {
+              "keyword": "corte e dobra de chapa de aço",
+              "volume": 170,
+              "position": 33,
+              "est_visits": 0,
+              "cpc": "6.41025375",
+              "seo_difficulty": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "acomec.ind.br",
+      "query_url": "https://app.neilpatel.com/en/traffic-analyzer/top-pages?domain=acomec.ind.br&lang=pt&locId=2076",
+      "status": "no_data",
+      "message_displayed": "This domain does not have any pages ranking organically",
+      "top_pages": [],
+      "keyword_details": []
+    }
+  ]
+}

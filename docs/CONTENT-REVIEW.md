@@ -30,10 +30,11 @@ grupo” deve seguir essa leitura institucional.
 - **Calderaria:** frente de recuperação por caldeiraria e solda para estruturas,
   caçambas e componentes pesados. Procedimentos, materiais, capacidade,
   tolerância e prazo devem ser definidos a partir da condição da peça.
-- **Parts:** nome confirmado como frente de marca para demandas de peças novas.
-  Não há confirmação pública de estoque, disponibilidade imediata, fabricação
-  universal, engenharia reversa ou limites dimensionais; solicitar código,
-  desenho, especificação, fotos e aplicação.
+- **Parts:** nome confirmado como frente de marca para consulta de peças novas.
+  A apresentação pública usa código, desenho ou especificação para iniciar a
+  avaliação. Não há confirmação pública de estoque, disponibilidade imediata,
+  fabricação específica ou universal, engenharia reversa ou limites
+  dimensionais; solicitar código, desenho, especificação, fotos e aplicação.
 - **Services:** nome confirmado como frente integradora para medições de
   máquinas em campo. A proposta não comprova contrato único, reforma integrada,
   garantia, equipe residente, SLA, prazo ou pós-venda formal; copy descreve a

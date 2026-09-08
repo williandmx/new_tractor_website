@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-08T04:24:42.279Z",
+  "url": "http://127.0.0.1:8793/benchmark-grupo-linha-amarela-2026-09-07.html#07-paginas",
+  "browser": {
+    "executablePath": "/home/willian/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "headless": true,
+    "isolatedContext": true
+  },
+  "viewports": [
+    {
+      "name": "360",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "screenshot": "/tmp/newtractor-top-pages-report-360.png",
+      "focus": {
+        "first": {
+          "tag": "A",
+          "id": null,
+          "className": "skip",
+          "text": "Ir ao relatório",
+          "href": "#relatorio",
+          "visible": true,
+          "focusVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 10,
+            "width": 127,
+            "height": 51
+          }
+        },
+        "sequence": [
+          {
+            "tag": "A",
+            "id": null,
+            "className": "skip",
+            "text": "Ir ao relatório",
+            "href": "#relatorio",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 20,
+              "y": 10,
+              "width": 127,
+              "height": 51
+            }
+          },
+          {
+            "tag": "SUMMARY",
+            "id": null,
+            "className": "",
+            "text": "Navegar pelo relatório",
+            "href": null,
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 28,
+              "y": 729,
+              "width": 304,
+              "height": 27
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Versão editável",
+            "href": "benchmark-grupo-linha-amarela-2026-09-07.md",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 10,
+              "y": 792,
+              "width": 101,
+              "height": 37
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "JSON · 75 termos",
+            "href": "palavras-chave-grupo-ubersuggest-2026-09-07.json",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 120,
+              "y": 792,
+              "width": 109,
+              "height": 37
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "JSON · SERPs",
+            "href": "serps-grupo-ubersuggest-2026-09-07.json",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 238,
+              "y": 792,
+              "width": 88,
+              "height": 37
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "Plano territorial",
+            "href": "relatorio-seo-minas-gerais-2026-09-07.html",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 10,
+              "y": 833,
+              "width": 103,
+              "height": 37
+            }
+          }
+        ],
+        "firstIsSkip": true,
+        "allVisible": true,
+        "allFocusVisible": true
+      },
+      "navigationSection07": {
+        "clicked": true,
+        "method": "visible-anchor-2",
+        "hash": "#07-paginas",
+        "scrollY": 11536,
+        "targetExists": true,
+        "targetInViewport": true,
+        "targetTop": 44
+      },
+      "overflow": {
+        "innerWidth": 360,
+        "documentScrollWidth": 360,
+        "bodyScrollWidth": 360,
+        "globalOverflow": false,
+        "offenders": []
+      },
+      "consoleErrors": [
+        {
+          "text": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "location": {
+            "url": "http://127.0.0.1:8793/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "pageErrors": [],
+      "badResponses": []
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "screenshot": "/tmp/newtractor-top-pages-report-desktop.png",
+      "focus": {
+        "first": {
+          "tag": "A",
+          "id": null,
+          "className": "skip",
+          "text": "Ir ao relatório",
+          "href": "#relatorio",
+          "visible": true,
+          "focusVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 10,
+            "width": 127,
+            "height": 51
+          }
+        },
+        "sequence": [
+          {
+            "tag": "A",
+            "id": null,
+            "className": "skip",
+            "text": "Ir ao relatório",
+            "href": "#relatorio",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 20,
+              "y": 10,
+              "width": 127,
+              "height": 51
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "01Leitura dos dados",
+            "href": "#01-leitura",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 21,
+              "y": 155,
+              "width": 236,
+              "height": 39
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "02Sete frentes",
+            "href": "#02-frentes",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 21,
+              "y": 193,
+              "width": 236,
+              "height": 39
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "03SERPs observadas",
+            "href": "#03-serps",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 21,
+              "y": 232,
+              "width": 236,
+              "height": 39
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "04Cinco setores",
+            "href": "#04-setores",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 21,
+              "y": 271,
+              "width": 236,
+              "height": 39
+            }
+          },
+          {
+            "tag": "A",
+            "id": null,
+            "className": "",
+            "text": "05Jornadas hipotéticas",
+            "href": "#05-jornadas",
+            "visible": true,
+            "focusVisible": true,
+            "rect": {
+              "x": 21,
+              "y": 310,
+              "width": 236,
+              "height": 39
+            }
+          }
+        ],
+        "firstIsSkip": true,
+        "allVisible": true,
+        "allFocusVisible": true
+      },
+      "navigationSection07": {
+        "clicked": true,
+        "method": "visible-anchor-0",
+        "hash": "#07-paginas",
+        "scrollY": 9109,
+        "targetExists": true,
+        "targetInViewport": true,
+        "targetTop": 44
+      },
+      "overflow": {
+        "innerWidth": 1350,
+        "documentScrollWidth": 1350,
+        "bodyScrollWidth": 1350,
+        "globalOverflow": false,
+        "offenders": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "badResponses": []
+    }
+  ],
+  "links": [
+    {
+      "href": "paginas-e-buscas-concorrentes-2026-09-08.md",
+      "url": "http://127.0.0.1:8793/paginas-e-buscas-concorrentes-2026-09-08.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/markdown",
+      "finalUrl": "http://127.0.0.1:8793/paginas-e-buscas-concorrentes-2026-09-08.md"
+    },
+    {
+      "href": "paginas-e-buscas-concorrentes-2026-09-08.json",
+      "url": "http://127.0.0.1:8793/paginas-e-buscas-concorrentes-2026-09-08.json",
+      "status": 200,
+      "ok": true,
+      "contentType": "application/json",
+      "finalUrl": "http://127.0.0.1:8793/paginas-e-buscas-concorrentes-2026-09-08.json"
+    }
+  ],
+  "issues": []
+}

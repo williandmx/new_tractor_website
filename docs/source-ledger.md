@@ -1,6 +1,6 @@
 # Registro de fontes, fatos e pendências
 
-Última revisão: 2026-09-07
+Última revisão: 2026-09-08
 
 Complemento de 2026-09-08: a Revista M&T, edição 292 (abril de 2025), publicou
 “Vida útil plena para esteiras”, de Antonio Santomauro, com declarações atribuídas
@@ -26,7 +26,7 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | HidrauTractor | Nome de frente confirmado; escopo hidráulico detalhado ainda não comprovado na presença pública | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Apresentar como frente sob avaliação; não inventar componentes, testes, capacidade ou certificações |
 | New Tractor Usinagem | Frente de marca para recuperação dimensional de componentes pesados | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar torno, mandrilhadora e centro de usinagem como processos divulgados; validar capacidade, tolerância, dimensões, materiais e prazo por peça |
 | New Tractor Calderaria | Frente de marca para recuperação de estruturas, caçambas e componentes pesados por caldeiraria e solda | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar recuperação estrutural; validar procedimentos, materiais, capacidade, tolerância e prazo por condição |
-| New Tractor Parts | Nome de frente confirmado; peças, disponibilidade e fabricação específica ainda não comprovadas | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Receber desenhos, especificações e fotos para avaliação; não afirmar estoque ou fabricação universal |
+| New Tractor Parts | Nome de frente confirmado; consulta de peças novas por código, desenho ou especificação; disponibilidade e fabricação específica ainda não comprovadas | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06; correção editorial de 2026-09-08 em `src/group.mjs` | Apresentar a demanda como consulta e avaliação; receber código, desenhos, especificações e fotos; não afirmar estoque, pronta-entrega ou fabricação universal |
 | New Tractor Services | Nome de frente confirmado como arquitetura integradora; oferta end-to-end, contrato único e garantia não comprovados | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Descrever como coordenação de demandas sob avaliação; não afirmar SLA, prazo, garantia, equipe ou contrato |
 | Engenharia para manter máquinas pesadas produzindo | Direção aprovada de marca | Plano de Marketing e Marca | Publicar como posicionamento |
 | 15 logos da carteira | Publicados historicamente | Seção “Nossos clientes” do site anterior | Publicar como referências históricas divulgadas, sem contrato atual implícito |

@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-08T04:30:08.015Z",
+  "base": "https://80768b7f.newtractor-site.pages.dev",
+  "checks": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/parts/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/parts/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/empresa/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/empresa/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/parcerias/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/parcerias/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/parts/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/parts/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/empresa/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/empresa/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    },
+    {
+      "route": "/parcerias/",
+      "viewport": {
+        "width": 1350,
+        "height": 940
+      },
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://newtractor.com.br/parcerias/",
+      "jsonldValid": true,
+      "globalOverflow": false,
+      "skipTarget": "MAIN",
+      "robots": "noindex, nofollow",
+      "fabricationMention": false
+    }
+  ]
+}
