@@ -2,7 +2,6 @@
 // Business facts and research rationale: docs/source-ledger.md and docs/seo/.
 // Primary technical references consulted on 2026-09-08:
 // https://discover.parker.com/MobileCylinderProducts
-// https://www.parker.com/literature/Schrader%20Bellows/Schrader/Cat/English/SB0106-8_SectionC.pdf
 // https://www.hydratight.com/en-apac/on-site-machining-services/line-boring/
 // Parker supports the single/double-acting and component vocabulary; Hydratight
 // supports the distinction between shop and portable on-site line boring. These

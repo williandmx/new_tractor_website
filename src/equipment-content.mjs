@@ -43,7 +43,7 @@ const articleSchema = (site, entry) => ({
   "@id": `${site.origin}${entry.route}#article`,
   headline: entry.title,
   description: entry.description,
-  datePublished: entry.lastModified ?? "2026-09-08",
+  datePublished: "2026-09-08",
   dateModified: entry.lastModified ?? "2026-09-08",
   inLanguage: "pt-BR",
   mainEntityOfPage: { "@id": `${site.origin}${entry.route}#webpage` },

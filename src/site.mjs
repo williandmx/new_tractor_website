@@ -888,11 +888,13 @@ export const pages = [
       {
         "@type": "ItemList",
         name: "Equipamentos e aplicações da New Tractor",
-        itemListElement: equipmentLinks.slice(1).map(([name, route], index) => ({
+        itemListElement: ["Tratores de esteira", "Escavadeiras", "Perfuratrizes", "Colheitadeiras", "Pás carregadeiras"].map((name, index) => ({
           "@type": "ListItem",
           position: index + 1,
           name,
-          url: `${site.origin}${route}`,
+          ...(equipmentLinks.some(([label]) => label === name)
+            ? { url: `${site.origin}${equipmentLinks.find(([label]) => label === name)[1]}` }
+            : {}),
         })),
       },
     ],
