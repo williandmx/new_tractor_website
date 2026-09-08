@@ -274,7 +274,7 @@ export const companies = [
       ["03 · Encaminhar", "A demanda é avaliada quanto a escopo, logística e mobilização. O registro pode orientar Rodantes, Usinagem, Calderaria ou Parts conforme o componente."],
     ],
     faq: [
-      ["A Services oferece curso ou recebe candidatura a vaga?", "A Services recebe consultas de serviço de manutenção por componente e de medição quando esse escopo for possível. Curso e vaga são demandas diferentes; descreva o componente e a necessidade de manutenção para o encaminhamento correto."],
+      ["Como encaminhar uma necessidade de manutenção para a Services?", "Informe qual máquina está envolvida, o componente e a condição observada. A Services recebe a demanda e organiza o encaminhamento para a especialidade compatível, com escopo, modalidade de atendimento e logística avaliados para a operação."],
       ["A Services agenda automaticamente uma medição em campo?", "Não. A consulta informa equipamento, componente, local e objetivo; escopo, mobilização, logística e prazo são avaliados para cada demanda."],
       ["Uma medição autoriza a máquina a continuar operando?", "Não. O registro apoia a análise, mas a decisão de segurança e liberação da máquina cabe aos responsáveis pela operação e manutenção."],
       ["Que resultado a equipe deve trazer para a conversa?", "Traga o ponto a medir, a unidade ou referência disponível, histórico, fotos, instrumento conhecido, local e a decisão que a medição precisa apoiar."],
