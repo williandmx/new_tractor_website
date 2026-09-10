@@ -426,7 +426,7 @@ export const groupIndex = (icon) => `
         <p>O Grupo New Tractor conecta serviço de campo, manutenção, recuperação, fabricação de peças sob demanda e tecnologia de inspeção para máquinas pesadas. Agilidade e tecnologia orientam cada etapa, da avaliação ao reparo e aos sobressalentes previstos em contrato.</p>
       </div>
       <div class="company-grid">${companies.map((company, index) => `
-        <a class="company-card" href="/${company.slug}/" aria-label="${company.cardCta}" data-analytics="empresa_${company.slug}">
+        <a class="company-card" href="/${company.slug}/" data-analytics="empresa_${company.slug}">
           ${companyImageTag(company)}
           <div class="company-card__body">
             <span class="company-card__number" aria-hidden="true">0${index + 1}</span>

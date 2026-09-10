@@ -57,5 +57,11 @@ fixo ou equipe residente.
 
 `npm run check`: 34 testes aprovados, incluindo HTML semântico, metadados,
 links, dados estruturados, equivalência das FAQs e canais de contato reais.
-O relatório visual e a evidência do preview são conferidos antes do merge e da
-verificação final no domínio oficial.
+QA visual: 16 cenários em celular, tablet, computador e HTML sem JavaScript,
+sem overflow, falhas de carregamento ou erros. Preview Cloudflare: 59 verificações
+HTTP aprovadas, incluindo as 44 páginas e os arquivos de descoberta.
+
+Lighthouse local: Services mobile 100/100/100/100; Parts mobile
+98/100/100/100; home desktop 100/100/100/100, na ordem desempenho,
+acessibilidade, boas práticas e SEO. O rótulo redundante dos cartões da home
+foi retirado para que seu nome acessível corresponda ao conteúdo visível.
