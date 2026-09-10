@@ -32,6 +32,17 @@ for (const file of staticFiles) {
   await cp(join(root, "public", file), join(output, file));
 }
 
+// Preserve historical aliases and normalize every real HTML route permanently.
+// The asset host's automatic slash normalization otherwise returns HTTP 307.
+const manualRedirects = await BunlessRead(join(root, "public", "_redirects"));
+const manualRules = manualRedirects.split(/\r?\n/).filter(line => line.trim() && !line.trim().startsWith("#"));
+const redirectSources = new Set(manualRules.map(line => line.trim().split(/\s+/)[0]));
+const canonicalRedirects = pages
+  .filter(page => page.indexable !== false && page.route !== "/" && page.route.endsWith("/") && !redirectSources.has(page.route.slice(0, -1)))
+  .map(page => `${page.route.slice(0, -1)} ${page.route} 301`);
+if (manualRules.length + canonicalRedirects.length > 2000) throw new Error("Static redirect limit exceeded; review route architecture before publishing");
+await writeFile(join(output, "_redirects"), `${manualRedirects.trimEnd()}\n\n# Generated canonical routes\n${canonicalRedirects.join("\n")}\n`, "utf8");
+
 for (const { file, content } of renderSitemaps(pages, site)) {
   await writeFile(join(output, file), content, "utf8");
 }

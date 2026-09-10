@@ -198,6 +198,12 @@ test("headers e redirects preservam segurança e URLs antigas úteis", async () 
   assert.match(redirects, /\/equipamentos \/equipamentos\/ 301/);
   assert.match(redirects, /\/atuacao \/atuacao\/ 301/);
   assert.match(redirects, /\/exposibram-2026 \/noticias\/new-tractor-na-exposibram-2026\/ 301/);
+  const rules = redirects.split(/\r?\n/).filter(line => line.trim() && !line.startsWith("#")).map(line => line.trim().split(/\s+/));
+  assert.equal(new Set(rules.map(([source]) => source)).size, rules.length, "sem origens de redirect duplicadas");
+  assert.ok(rules.length <= 2000, "limite de redirects estáticos Cloudflare");
+  for (const page of pages.filter(page => page.indexable !== false && page.route !== "/" && page.route.endsWith("/"))) {
+    assert.ok(rules.some(([from, to, status]) => from === page.route.slice(0, -1) && to === page.route && status === "301"), `${page.route}: variante sem barra permanente`);
+  }
 });
 
 test("a jornada de suprimentos oferece referências e orçamento por e-mail", async () => {
