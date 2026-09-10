@@ -1,6 +1,19 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "newtractor-site",
+  "name": "new-tractor-website",
+  "account_id": "15586705c7bc857acbd94b5e48ed6d6b",
   "compatibility_date": "2026-08-20",
-  "pages_build_output_dir": "./dist"
+  "workers_dev": false,
+  "preview_urls": true,
+  "routes": [
+    {
+      "pattern": "*.newtractor.com.br/*",
+      "zone_name": "newtractor.com.br"
+    }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
 }

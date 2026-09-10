@@ -31,3 +31,9 @@ https://newtractor-site.pages.dev/*
 
 https://:version.newtractor-site.pages.dev/*
   X-Robots-Tag: noindex, nofollow
+
+https://new-tractor-website.williandmx.workers.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:version-new-tractor-website.williandmx.workers.dev/*
+  X-Robots-Tag: noindex, nofollow

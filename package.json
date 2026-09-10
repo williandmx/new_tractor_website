@@ -9,9 +9,9 @@
     "lint": "node --check src/site.mjs && node --check src/group.mjs && node --check src/technical-content.mjs && node --check src/sector-content.mjs && node --check src/component-content.mjs && node --check src/equipment-content.mjs && node --check src/territory-content.mjs && node --check src/hydraulic-content.mjs && node --check src/service-offers.mjs && node --check src/discovery.mjs && node --check src/main.js && node --check src/hero-video.js && node --check scripts/build.mjs && node --check tests/site.test.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "npm run lint && npm run build && npm test",
-    "dev": "npm run build && wrangler pages dev dist --port 8788",
-    "deploy:preview": "npm run check && wrangler pages deploy dist --project-name newtractor-site --branch preview",
-    "deploy:production": "npm run check && wrangler pages deploy dist --project-name newtractor-site --branch main"
+    "dev": "npm run build && wrangler dev --port 8788",
+    "deploy:preview": "npm run check && wrangler versions upload",
+    "deploy:production": "npm run check && wrangler deploy"
   },
   "engines": {
     "node": ">=20"
