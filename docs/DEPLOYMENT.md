@@ -21,6 +21,12 @@ franquia de invocações existente. Não foi contratado ou ampliado plano.
 
 Evidências, limites de acesso e rollback: [ativação SEO](seo/ATIVACAO-2026-09-10.md).
 
+Política de crawlers atualizada em 10/09/2026: o arquivo do projeto permite
+busca e IA, inclusive treinamento. O robots gerenciado e o bloqueio de bots
+de treinamento da Cloudflare foram desativados somente nesta zona. Manter
+essa configuração para não sobrepor regras conflitantes ao arquivo próprio.
+Evidências e rollback: [acesso público por IA](seo/AI-CRAWLERS-2026-09-10.md).
+
 ## Histórico anterior
 
 ## Entrega das sete especialidades — 08/09/2026

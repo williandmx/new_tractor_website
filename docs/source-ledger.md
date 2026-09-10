@@ -2,6 +2,12 @@
 
 Última revisão: 2026-09-10
 
+Política pública de rastreamento de 10/09/2026: o usuário solicitou acesso para
+buscadores e plataformas de IA e confirmou a inclusão de treinamento. A decisão,
+os limites e as alterações restritas à New Tractor estão registrados em
+[acesso por IA](seo/AI-CRAWLERS-2026-09-10.md). Não implica garantia de indexação
+ou citação nem direitos adicionais sobre materiais de terceiros.
+
 Complemento de 2026-09-08: a Revista M&T, edição 292 (abril de 2025), publicou
 “Vida útil plena para esteiras”, de Antonio Santomauro, com declarações atribuídas
 a Roger Fumega, apresentado à época como diretor da New Tractor. A matéria
