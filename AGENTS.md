@@ -32,9 +32,13 @@ pesadas.
   atuais, resultados ou autorização para depoimentos.
 - Cobertura nacional é sujeita a avaliação técnica, comercial e logística por
   demanda. Não sugerir filial, equipe ou prazo local onde não existem.
-- Não criar páginas municipais em massa. Uma rota local exige evidência e
-  conteúdo próprio; listas de cidades são dados de priorização, não uma fábrica
-  de páginas para busca.
+- Expansão autorizada pelo proprietário em 10/09/2026: municípios de Minas
+  Gerais acima de 100.000 habitantes e polos selecionados de mineração,
+  florestal, agro e indústria, com páginas por especialidade/cidade e
+  especialidade/setor. Esta decisão substitui a restrição anterior de manter
+  apenas cobertura consolidada para esse recorte. Cada município ainda exige
+  fonte, contexto próprio e orientação útil; não inventar presença local ou
+  criar combinações cidade × setor × serviço sem nova decisão editorial.
 
 ## Desenvolvimento e QA
 

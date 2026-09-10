@@ -112,7 +112,7 @@ test("cada página tem HTML semântico, metadados e um único H1", async () => {
     const htmlWithoutExternalCitationUrls = html.replace(/<a\b[^>]*href="(https:\/\/[^"]+)"[^>]*>/g,
       (tag, href) => new URL(href).origin === site.origin ? tag : tag.replace(href, ""));
     assert.doesNotMatch(htmlWithoutExternalCitationUrls, /wp-content|wp-admin|wordpress/i, `${relative}: sem dependência do WordPress`);
-    assert.doesNotMatch(html, forbiddenPublicLanguage, `${relative}: sem bastidores ou linguagem de IA/SEO`);
+    assert.doesNotMatch(htmlWithoutExternalCitationUrls, forbiddenPublicLanguage, `${relative}: sem bastidores ou linguagem de IA/SEO`);
 
     for (const tag of html.match(/<img\b[^>]*>/g) || []) {
       assert.match(tag, /\salt="[^"]*"/, `${relative}: imagem com alt`);

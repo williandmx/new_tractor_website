@@ -6,6 +6,7 @@ import { createEquipmentPages, equipmentLinks } from "./equipment-content.mjs";
 import { createTerritoryPages } from "./territory-content.mjs";
 import { createHydraulicPages, hydraulicRoutes } from "./hydraulic-content.mjs";
 import { serviceOfferCards, serviceOfferListSchema } from "./service-offers.mjs";
+import { createRegionalPages, regionalNavigation } from "./regional-pages.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -13,7 +14,7 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260910-services-photo.css",
+  cssFile: "site.20260910-minas-v3.css",
   jsFile: "site.20260910-indexation.js",
   email: "comercial2@newtractor.com.br",
   phoneDisplay: "+55 31 9312-0054",
@@ -748,6 +749,7 @@ export const pages = [
   ...createComponentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createEquipmentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createTerritoryPages({ site, pageHero, contactBand, breadcrumbSchema }),
+  ...createRegionalPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createHydraulicPages({ site, picture, breadcrumbSchema, serviceSchema }),
   {
     route: "/empresa/",
@@ -947,6 +949,10 @@ const footer = () => `
   <aside class="consent" role="region" aria-live="polite" aria-labelledby="consent-title" aria-describedby="consent-copy" data-consent-banner hidden><div><strong id="consent-title">Sua privacidade importa.</strong><p id="consent-copy">Podemos usar cookies de análise para melhorar sua experiência? <a href="/privacidade/">Saiba mais</a>.</p></div><div><button type="button" class="button button--primary button--small" data-consent="accepted">Aceitar</button><button type="button" class="button button--ghost button--small" data-consent="essential">Só essenciais</button></div></aside>`;
 
 export function renderPage(page) {
+  const regionalLinks = regionalNavigation(page);
+  const body = regionalLinks && page.body.includes('<section class="contact-band"')
+    ? page.body.replace('<section class="contact-band"', regionalLinks + '<section class="contact-band"')
+    : page.body + regionalLinks;
   const canonical = `${site.origin}${page.route === "/404.html" ? "/404.html" : page.route}`;
   const company = companies.find(entry => page.route === `/${entry.slug}/`);
   const pageSchema = {
@@ -1013,7 +1019,7 @@ export function renderPage(page) {
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   ${header(page)}
-  <main id="conteudo" tabindex="-1">${page.body}</main>
+  <main id="conteudo" tabindex="-1">${body}</main>
   ${footer()}
 </body>
 </html>

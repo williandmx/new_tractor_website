@@ -165,3 +165,20 @@ para fontes oficiais e separa referência técnica de certificação. A evidênc
 busca no relatório usa métricas estimadas Brasil/português e uma SERP de Belo
 Horizonte; não se apresenta como volume, ranking ou demanda comprovada de Minas
 Gerais.
+
+## Expansão municipal e setorial — 10/09/2026
+
+O proprietário confirmou Minas Gerais, cidades acima de 100 mil habitantes e
+polos relevantes dos quatro setores. O pedido autoriza a expansão geográfica
+descrita em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`; não transforma cada cidade
+em unidade da empresa. As páginas distinguem fonte econômica local de escopo
+próprio e de aplicação que precisa ser confirmada pelo solicitante.
+
+A seleção de polos é editorial e documentada, não ranking exaustivo da economia
+mineira. Dados populacionais servem ao recorte; não substituem pesquisa de demanda.
+Não se promete indexação, posição, tráfego ou cotação aceita por cidade.
+
+Antes da publicação, conferir contexto próprio e fonte por cidade, canais de
+cotação reais, TechTractor em desenvolvimento, referências do acervo, H1,
+canonical, ligações entre páginas e sitemaps. A expansão usa somente recursos
+da New Tractor. Sem alterações de DNS, contas Google ou projetos de terceiros.

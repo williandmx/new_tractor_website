@@ -191,3 +191,24 @@ Gerais nem substitui o escopo confirmado pelo proprietário.
 fluxos públicos de recuperação e fabricação. As fotos ilustram o acervo e não
 substituem ficha de processo, relatório de ensaio ou comprovação de capacidade.
 Direitos e proveniência continuam sujeitos aos registros próprios de assets.
+
+## Municípios e setores de Minas Gerais — decisão de 10/09/2026
+
+- O proprietário confirmou o recorte **acima de 100.000 habitantes em Minas
+  Gerais**, acrescido de polos de mineração, florestal, agro e indústria. A
+  decisão substitui a restrição anterior de manter somente a página estadual
+  para esta expansão; não autoriza cidades de outros estados nem filiais fictícias.
+- A implementação separa município × especialidade e especialidade × setor.
+  Não gera o produto triplo município × especialidade × setor. A fórmula e as
+  rotas estão em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
+- População e seleção setorial têm fontes distintas, registradas em
+  `src/minas-cities.mjs` e `docs/seo/MINAS-FONTES-2026-09-10.md`. População não
+  demonstra vocação industrial, volume de busca, cliente ou demanda comercial.
+- O contexto econômico documenta a cidade, não relacionamento entre operadores
+  citados e New Tractor. Base, escopo e canais reais permanecem os da empresa;
+  avaliação técnica, comercial e logística segue necessária por demanda.
+- TechTractor permanece uma frente em desenvolvimento, sem oferta de plataforma
+  pronta ou marcação `Service` nas novas páginas. Fotografias são do acervo do
+  grupo, sem atribuição de local de atendimento ao município da página.
+- A referência Guimarães foi consultada somente para arquitetura. Não houve
+  mudança em repositório, contas, analytics, domínio ou conteúdo de outro cliente.

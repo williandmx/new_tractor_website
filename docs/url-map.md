@@ -140,3 +140,26 @@ chegaram a gerar páginas. A revisão cria aliases 301, com e sem barra final:
 
 Os cards usam diretamente os destinos canônicos. Os aliases não entram no
 sitemap nem no `llms.txt`; mantêm-se 44 URLs indexáveis e dez sitemaps.
+
+## Expansão autorizada em Minas Gerais — 10/09/2026
+
+As 44 rotas anteriores são preservadas. Para `N` municípios selecionados em
+`src/minas-cities.mjs`, acrescentam-se `8N + 30` rotas:
+
+| Padrão canônico | Papel | Mapa |
+|---|---|---|
+| `/atuacao/minas-gerais/cidades/` | Diretório regional navegável | atuação |
+| `/atuacao/minas-gerais/{cidade}/` | Contexto e sete especialidades | atuação |
+| `/atuacao/minas-gerais/{cidade}/{especialidade}/` | Escopo e consulta por origem da demanda | respectiva especialidade |
+| `/{empresa}/setores/{setor}/` | Sete especialidades × quatro setores | respectiva especialidade |
+| `/setores/industrial/` | Nova entrada de aplicação industrial | grupo |
+
+Os slugs públicos das especialidades são `material-rodante`,
+`cilindros-hidraulicos`, `usinagem`, `caldeiraria`, `pecas-sob-demanda`,
+`servico-de-campo` e `tecnologia-manutencao`. O nome de marca **Calderaria** e a
+rota de empresa `/calderaria/` permanecem; o slug local usa a grafia do serviço.
+
+O índice continua com dez sitemaps, sem URLs duplicadas. As novas rotas usam
+barra final, canonical próprio e são alcançáveis por links HTML. Não se criam
+aliases por combinação de palavra-chave nem o cruzamento triplo cidade ×
+especialidade × setor. O host de preview permanece não indexável.
