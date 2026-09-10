@@ -65,7 +65,7 @@ const makeStorage = (initialValue, { getThrows = false, setThrows = false, remov
   };
 };
 
-function setup({ storedConsent = null, storageOptions = {}, pathname = "/contato/", ctaNames = ["whatsapp_contato"] } = {}) {
+function setup({ storedConsent = null, storageOptions = {}, origin = "https://newtractor.com.br", pathname = "/contato/", ctaNames = ["whatsapp_contato"] } = {}) {
   const storage = makeStorage(storedConsent, storageOptions);
   const header = makeElement();
   const navToggle = makeElement();
@@ -124,6 +124,7 @@ function setup({ storedConsent = null, storageOptions = {}, pathname = "/contato
     matchMedia: () => breakpoint,
     localStorage: storage,
     location: {
+      origin,
       pathname,
       reload() {
         reloads += 1;

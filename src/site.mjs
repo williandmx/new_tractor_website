@@ -14,7 +14,7 @@ export const site = {
   locale: "pt_BR",
   lastModified: "2026-09-07",
   cssFile: "site.20260910-services-photo.css",
-  jsFile: "site.20260908-measurement.js",
+  jsFile: "site.20260910-indexation.js",
   email: "comercial2@newtractor.com.br",
   phoneDisplay: "+55 31 9312-0054",
   phoneHref: "tel:+553193120054",
