@@ -244,7 +244,14 @@ export const companies = [
   },
   {
     slug: "services",
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
+    photo: {
+      name: "medicao-rolete",
+      widths: [640],
+      width: 640,
+      height: 427,
+      alt: "Paquímetro posicionado para medir o diâmetro externo de um rolete de esteira",
+    },
     label: "Services",
     name: "New Tractor Services",
     specialty: "Consulta por componente",
@@ -253,7 +260,7 @@ export const companies = [
     description: "A New Tractor Services recebe consultas de manutenção por componente e organiza medições conforme equipamento, condição e logística.",
     headline: "A manutenção começa pelo componente certo.",
     intro: "A New Tractor Services funciona como frente integradora para consultas de manutenção por componente. Quando a demanda pede medição no ambiente de operação, equipamento, condição e logística orientam o escopo possível.",
-    caption: "Medição de máquinas em campo · New Tractor Services",
+    caption: "Medição do diâmetro de rolete · Acervo New Tractor",
     sectionTitle: "Serviço de manutenção por componente e medição de campo.",
     context: "Equipamento, local, componente e objetivo da medição orientam o registro. A informação reunida pode apoiar decisões sobre material rodante, usinagem, caldeiraria ou peças, conforme o escopo confirmado.",
     pillars: [
@@ -391,6 +398,17 @@ const companyScopeSection = (company, { site, picture, icon }) => {
         </section>`;
 };
 
+const companyImage = (company) => company.photo ?? {
+  name: `film-${company.slug}`, widths: [640, 1280], width: 1280, height: 720, alt: "",
+};
+
+const companyImageTag = (company, hero = false) => {
+  const photo = companyImage(company);
+  const source = `/assets/images/${photo.name}-${hero ? photo.widths.at(-1) : photo.widths[0]}.webp`;
+  const srcset = photo.widths.map((width) => `/assets/images/${photo.name}-${width}.webp ${width}w`).join(", ");
+  return `<img class="${hero ? "hero__poster" : "company-card__image"}"${company.photo ? " data-static-photo" : ""} src="${source}" srcset="${srcset}" sizes="${hero ? "(max-width: 860px) 100vw, 46vw" : "(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"}" width="${photo.width}" height="${photo.height}" alt="${photo.alt}" loading="${hero ? "eager" : "lazy"}" decoding="async">`;
+};
+
 export const groupIndex = (icon) => `
   <section class="section group-companies" id="empresas" aria-labelledby="empresas-title">
     <div class="shell">
@@ -400,7 +418,7 @@ export const groupIndex = (icon) => `
       </div>
       <div class="company-grid">${companies.map((company, index) => `
         <a class="company-card" href="/${company.slug}/" data-analytics="empresa_${company.slug}">
-          <img class="company-card__image" src="/assets/images/film-${company.slug}-640.webp" srcset="/assets/images/film-${company.slug}-640.webp 640w, /assets/images/film-${company.slug}-1280.webp 1280w" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          ${companyImageTag(company)}
           <div class="company-card__body">
             <span class="company-card__number" aria-hidden="true">0${index + 1}</span>
             <h3>${company.label}</h3>
@@ -419,11 +437,11 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
     const subject = `${company.slug === "techtractor" ? "Conversa" : "RFQ"} | ${company.name}`;
     const mailBody = `Olá, ${company.name}.\r\n\r\n${company.checklist.map((item) => `${item}: `).join("\r\n")}\r\n\r\nNome e empresa: \r\nTelefone para retorno: `;
     const emailLink = `mailto:${site.email}?subject=${encodeURIComponent(subject)}&amp;body=${encodeURIComponent(mailBody)}`;
-    const poster = `film-${company.slug}`;
-    const visual = `<figure class="company-hero__visual company-hero__visual--film" data-hero-film>
-      <img class="hero__poster" src="/assets/images/${poster}-1280.webp" srcset="/assets/images/${poster}-640.webp 640w, /assets/images/${poster}-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 46vw" width="1280" height="720" alt="" loading="eager" decoding="async">
-      <video id="film-${company.slug}" class="hero__video" muted loop playsinline preload="none" width="1280" height="720" aria-hidden="true" tabindex="-1" data-desktop="/assets/videos/company-${company.slug}-desktop.mp4" data-mobile="/assets/videos/company-${company.slug}-mobile.mp4"></video>
-      <button class="film-toggle" type="button" aria-controls="film-${company.slug}" data-film-toggle hidden>Reproduzir vídeo</button>
+    const photo = companyImage(company);
+    const visual = `<figure class="company-hero__visual company-hero__visual--${company.photo ? "photo" : "film"}"${company.photo ? "" : " data-hero-film"}>
+      ${companyImageTag(company, true)}
+      ${company.photo ? "" : `<video id="film-${company.slug}" class="hero__video" muted loop playsinline preload="none" width="1280" height="720" aria-hidden="true" tabindex="-1" data-desktop="/assets/videos/company-${company.slug}-desktop.mp4" data-mobile="/assets/videos/company-${company.slug}-mobile.mp4"></video>
+      <button class="film-toggle" type="button" aria-controls="film-${company.slug}" data-film-toggle hidden>Reproduzir vídeo</button>`}
       <figcaption>${company.caption}</figcaption>
     </figure>`;
     return {
@@ -432,12 +450,12 @@ export function createCompanyPages({ site, picture, icon, breadcrumbSchema }) {
       title: company.title,
       description: company.description,
       active: company.slug,
-      film: true,
+      film: !company.photo,
       lastModified: company.lastModified ?? "2026-09-07",
-      ogImage: `/assets/images/${poster}-1280.webp`,
-      ogImageWidth: 1280,
-      ogImageHeight: 720,
-      ogImageAlt: company.caption,
+      ogImage: `/assets/images/${photo.name}-${photo.widths.at(-1)}.webp`,
+      ogImageWidth: photo.width,
+      ogImageHeight: photo.height,
+      ogImageAlt: photo.alt || company.caption,
       schema: [
         breadcrumbSchema([{ name: "Empresas do grupo", route: "/#empresas" }, { name: company.name, route }]),
         ...(company.faq?.length ? [companyFaqSchema(company.faq)] : []),

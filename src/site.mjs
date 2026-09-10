@@ -13,7 +13,7 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260908-catalog.css",
+  cssFile: "site.20260910-services-photo.css",
   jsFile: "site.20260908-measurement.js",
   email: "solucao@newtractor.com.br",
   phoneDisplay: "(31) 3493-1476",
