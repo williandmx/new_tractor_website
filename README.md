@@ -63,7 +63,12 @@ requisito de classificação no Google. O host `pages.dev` permanece com noindex
 
 ## Publicação
 
-O projeto usa Cloudflare Pages via Wrangler. Consulte
+O projeto usa Cloudflare Workers Static Assets (`new-tractor-website`) via Wrangler.
+O Worker em `src/worker.mjs` consolida HTTPS/apex e os cinco IDs WordPress,
+preservando os arquivos estáticos e as respostas 404. O `run_worker_first`
+é necessário para que redirects por query sejam executados antes da home.
+URLs de preview permanecem `noindex, nofollow`, sem coleta de Analytics.
+Consulte o [estado da ativação SEO](docs/seo/ATIVACAO-2026-09-10.md) e
 [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) antes de alterar o domínio. As
 evidências da entrega estão em [`docs/QA.md`](docs/QA.md) e o checklist de
 corte em [`docs/RELEASE.md`](docs/RELEASE.md).
