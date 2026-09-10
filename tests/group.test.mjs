@@ -49,7 +49,7 @@ test("a home apresenta as sete frentes, a rota de parcerias e a descoberta canô
   assert.match(parcerias, /<h1>[\s\S]*?<\/h1>/);
   for (const company of companies) {
     assert.ok(index.includes(`href="/${company.slug}/"`));
-    assert.ok(index.includes(`/assets/images/film-${company.slug}-640.webp`));
+    assert.ok(index.includes(`/assets/images/${company.photo?.name ?? `film-${company.slug}`}-640.webp`));
     assert.ok(sitemap.includes(`${site.origin}/${company.slug}/`));
   }
   assert.ok(sitemap.includes(`${site.origin}/parcerias/`));
@@ -89,6 +89,11 @@ test("Services mantém intenção distinta de Serviços e TechTractor preserva a
   assert.doesNotMatch(tech, /<form\b/i);
   for (const company of companies) {
     const html = await read(`${company.slug}/index.html`);
+    if (company.photo) {
+      assert.doesNotMatch(html, /<video\b|data-hero-film|data-film-toggle/);
+      await access(new URL(`../dist/assets/images/${company.photo.name}-${company.photo.width}.webp`, import.meta.url));
+      continue;
+    }
     assert.match(html, new RegExp(`data-desktop="/assets/videos/company-${company.slug}-desktop\\.mp4"`));
     assert.match(html, new RegExp(`data-mobile="/assets/videos/company-${company.slug}-mobile\\.mp4"`));
     const video = await stat(new URL(`../dist/assets/videos/company-${company.slug}-desktop.mp4`, import.meta.url));

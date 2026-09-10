@@ -264,6 +264,9 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; line-height
 .company-hero .button-row, .company-hero__copy > .button { margin-top: 28px; }
 .company-hero__visual { position: relative; margin: 0; overflow: hidden; min-width: 0; }
 .company-hero__visual > img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.company-hero__visual--photo { max-width: 640px; }
+.company-hero__visual--photo > img { aspect-ratio: auto; }
+.company-card__image[data-static-photo] { object-position: center bottom; }
 .company-hero__visual .hero__video { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; }
 .company-hero__visual > figcaption { background: var(--ink-soft); position: relative; margin: 0; padding-top: 15px; color: #bec5bc; font-size: 11px; }
 .company-hero__visual .film-toggle { position: absolute; top: 14px; right: 14px; }

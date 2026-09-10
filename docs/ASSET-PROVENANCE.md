@@ -1,5 +1,23 @@
 # Proveniência de assets
 
+## Correção da imagem da Services — 10/09/2026
+
+O proprietário rejeitou `film-services-1280.webp` por representar o uso incorreto
+de um paquímetro. As três variantes `film-services-{640,1280,1920}.webp` foram
+retiradas da publicação. Os dois vídeos `company-services-{desktop,mobile}.mp4`
+também exibiam a mesma cena e foram retirados; a Services passa a usar fotografia
+estática, sem controle de reprodução.
+
+A substituição reutiliza `medicao-rolete-640.webp`, fotografia real do acervo
+público anterior de monitoramento e componentes, já documentada abaixo. O arquivo
+permanece inalterado, em sua resolução nativa de 640 × 427, com dimensões,
+`srcset`, texto alternativo e legenda correspondentes à medição do diâmetro
+externo de um rolete. Não há aumento artificial de resolução nem geração de mídia.
+Aplicação: cartão da Services na home, destaque de `/services/` e imagem de
+compartilhamento dessa página. O destaque preserva o enquadramento completo e
+os antigos endereços de imagem redirecionam para a fotografia real. A foto não
+comprova atendimento em mina, contrato, prazo ou execução em uma cidade específica.
+
 ## Reuso editorial — 08/09/2026
 
 As novas páginas setoriais e os guias de cilindros hidráulicos e caçambas/conchas
