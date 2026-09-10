@@ -6,6 +6,8 @@ devem ser confirmadas antes de apontar o domínio definitivo.
 
 ## Confirmação vigente — 10/09/2026
 
+O proprietário confirmou `comercial2@newtractor.com.br` como e-mail de contato em todas as páginas. Essa orientação substitui o endereço histórico `solucao@newtractor.com.br` nos textos públicos, botões, dados estruturados e `llms.txt`. O telefone de ligação informado é `+55 31 9312-0054`, publicado exatamente com esses dígitos (`tel:+553193120054`). O WhatsApp permanece no número previamente divulgado, `(31) 99312-0054`, como canal distinto; não foi presumida uma mudança nesse destino.
+
 O proprietário solicitou a revisão de marketing para apresentar o trabalho executado pelo grupo, com linguagem natural e foco em disponibilidade da máquina. Services e Parts passam a usar as ofertas confirmadas abaixo. A direção comercial é reduzir paradas e dar tranquilidade ao cliente com serviço de campo, manutenção planejada, fabricação sob demanda e sobressalentes sob contrato. A confirmação atual supera a redação conservadora das versões anteriores.
 
 ## Arquitetura industrial confirmada — histórico do preview

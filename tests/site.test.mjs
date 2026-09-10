@@ -225,12 +225,12 @@ test("a jornada de suprimentos oferece referências e orçamento por e-mail", as
     await access(join(dist, `assets/images/clientes/${file}`));
   }
   assert.match(contact, /Boas conexões começam com uma conversa|Solicite uma proposta técnica/);
-  assert.match(contact, /mailto:solucao@newtractor\.com\.br\?subject=Or%C3%A7amento/);
+  assert.match(contact, /mailto:comercial2@newtractor\.com\.br\?subject=Or%C3%A7amento/);
   assert.match(contact, /Empresa solicitante/);
   assert.match(contact, /Equipamento, modelo e componente/);
   assert.match(contact, /Desenho, especificação e fotos em anexo/);
-  assert.match(contact, /solucao@newtractor\.com\.br/);
-  assert.match(contact, /\(31\) 3493-1476/);
+  assert.match(contact, /comercial2@newtractor\.com\.br/);
+  assert.match(contact, /\+55 31 9312-0054/);
   assert.match(contact, /\(31\) 99312-0054/);
 });
 

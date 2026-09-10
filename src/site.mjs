@@ -15,9 +15,9 @@ export const site = {
   lastModified: "2026-09-07",
   cssFile: "site.20260910-services-photo.css",
   jsFile: "site.20260908-measurement.js",
-  email: "solucao@newtractor.com.br",
-  phoneDisplay: "(31) 3493-1476",
-  phoneHref: "tel:+553134931476",
+  email: "comercial2@newtractor.com.br",
+  phoneDisplay: "+55 31 9312-0054",
+  phoneHref: "tel:+553193120054",
   whatsappDisplay: "(31) 99312-0054",
   whatsapp:
     "https://wa.me/5531993120054?text=Ol%C3%A1%2C%20New%20Tractor.%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
@@ -621,7 +621,7 @@ const baseOrganization = {
   description:
     "Grupo industrial com base em Belo Horizonte, reunindo recuperação, fabricação de peças sob demanda, serviços de campo e tecnologia para máquinas pesadas.",
   email: site.email,
-  telephone: "+55 31 3493-1476",
+  telephone: site.phoneDisplay,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Rua Santos Anjos, 380",
@@ -635,7 +635,7 @@ const baseOrganization = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "commercial",
-    telephone: "+55 31 3493-1476",
+    telephone: site.phoneDisplay,
     email: site.email,
     availableLanguage: ["pt-BR"],
   },
@@ -662,7 +662,7 @@ const baseLocalBusiness = {
   sameAs: [site.map],
   parentOrganization: { "@id": `${site.origin}/#organization` },
   email: site.email,
-  telephone: "+55 31 3493-1476",
+  telephone: site.phoneDisplay,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Rua Santos Anjos, 380",

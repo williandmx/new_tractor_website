@@ -31,7 +31,9 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | Engenharia para manter máquinas pesadas produzindo | Direção aprovada de marca | Plano de Marketing e Marca | Publicar como posicionamento |
 | 15 logos da carteira | Publicados historicamente | Seção “Nossos clientes” do site anterior | Publicar como referências históricas divulgadas, sem contrato atual implícito |
 | Participação na EXPOSIBRAM 2026 | Declaração anterior do proprietário | Brief da campanha | Manter como anúncio histórico; não afirmar presença realizada sem registro pós-evento |
-| Telefone (31) 3493-1476 e e-mail solucao@newtractor.com.br | Presença pública | Site anterior | Publicar |
+| Telefone (31) 3493-1476 e e-mail solucao@newtractor.com.br | Registro histórico | Site anterior | Substituídos por confirmação do proprietário em 10/09/2026 |
+| E-mail comercial2@newtractor.com.br | Declaração do proprietário em 10/09/2026 | Pedido explícito de atualização em todas as páginas | Usar em todo contato comercial, mailto, dados estruturados e llms.txt |
+| Telefone +55 31 9312-0054 | Declaração do proprietário em 10/09/2026 | Pedido explícito de atualização do telefone de contato | Publicar exatamente como informado em textos, tel, dados estruturados e llms.txt; não acrescentar dígitos. WhatsApp permanece como canal distinto já divulgado |
 | WhatsApp (31) 99312-0054 | Presença pública divergente | Página de contato e botão ativo antigos | Manter provisoriamente e destacar para confirmação |
 | LinkedIn `/company/new-tractor` | Página empresarial pública encontrada | LinkedIn | Preferir à URL pessoal antiga, sujeito a confirmação de administração |
 | CNPJ/razão social | Pendente | Duas empresas encontradas no mesmo endereço | Não publicar até cartão CNPJ |
