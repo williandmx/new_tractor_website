@@ -1,0 +1,3576 @@
+{
+  "reviewedAt": "2026-09-10",
+  "scope": "New Tractor — títulos institucionais",
+  "pages": [
+    {
+      "url": "https://newtractor.com.br/",
+      "title": "Grupo New Tractor | Soluções industriais para sua frota",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/rodantes/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante para máquinas pesadas",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada e mandrilhamento",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/calderaria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parts/",
+      "title": "Grupo New Tractor — Parts | Fabricação de peças sob demanda",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/services/",
+      "title": "Grupo New Tractor — Services | Manutenção em campo",
+      "characters": 50,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/techtractor/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia para manutenção",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/",
+      "title": "Grupo New Tractor | Guias de manutenção para máquinas de linha amarela",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/avaliacao-maquinas-linha-amarela/",
+      "title": "Grupo New Tractor | Avaliação de máquinas de linha amarela",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/avaliacao-cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Avaliação de cilindros hidráulicos",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/avaliacao-cacambas-conchas/",
+      "title": "Grupo New Tractor — Calderaria | Avaliação de caçambas e conchas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/inspecao-material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Inspeção de material rodante",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/cotacao-pecas-maquinas-pesadas/",
+      "title": "Grupo New Tractor — Parts | Cotação de peças para máquinas pesadas",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/servicos/usinagem-componentes-maquinas-pesadas/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada e mandrilhamento em BH",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/",
+      "title": "Grupo New Tractor | Manutenção de linha amarela por setor",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/mineracao/",
+      "title": "Grupo New Tractor | Manutenção de máquinas pesadas para mineração",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/florestal/",
+      "title": "Grupo New Tractor | Manutenção de máquinas para operações florestais",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/agronegocio/",
+      "title": "Grupo New Tractor | Manutenção de linha amarela no agronegócio",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/construcao-terraplenagem/",
+      "title": "Grupo New Tractor | Manutenção para construção e terraplenagem",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/locadoras/",
+      "title": "Grupo New Tractor | Manutenção de frotas de locadoras de máquinas",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/componentes/",
+      "title": "Grupo New Tractor — Rodantes | Componentes de material rodante",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/componentes/rodas-guia/",
+      "title": "Grupo New Tractor — Rodantes | Recuperação de rodas-guia",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/componentes/roletes-de-esteira/",
+      "title": "Grupo New Tractor — Rodantes | Recuperação de roletes de esteira",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/componentes/correntes-sapatas-esteiras/",
+      "title": "Grupo New Tractor — Rodantes | Correntes, rosários e sapatas de esteiras",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/guias/folgas-pinos-buchas-alojamentos/",
+      "title": "Grupo New Tractor — Usinagem | Folgas em pinos, buchas e alojamentos",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/equipamentos/escavadeiras/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros de escavadeiras",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/equipamentos/tratores-de-esteira/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros de tratores de esteira",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/equipamentos/pas-carregadeiras/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros de pás carregadeiras",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/",
+      "title": "Grupo New Tractor | Manutenção de máquinas pesadas em Minas Gerais",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/cidades/",
+      "title": "Grupo New Tractor | Cidades de Minas Gerais e especialidades",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/setores/industrial/",
+      "title": "Grupo New Tractor | Manutenção e componentes para a indústria",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Araçuaí",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Araçuaí",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Araçuaí",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Araçuaí",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Araçuaí",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Araçuaí",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Araçuaí",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/aracuai/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Araçuaí",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Araguari",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Araguari",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Araguari",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Araguari",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Araguari",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Araguari",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Araguari",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araguari/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Araguari",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Araxá",
+      "characters": 45,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Araxá",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Araxá",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Araxá",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Araxá",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Araxá",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Araxá",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/araxa/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Araxá",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Barão de Cocais",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Barão de Cocais",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Barão de Cocais",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Barão de Cocais",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Barão de Cocais",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Barão de Cocais",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Barão de Cocais",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barao-de-cocais/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Barão de Cocais",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Barbacena",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Barbacena",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Barbacena",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Barbacena",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Barbacena",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Barbacena",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Barbacena",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/barbacena/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Barbacena",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Belo Horizonte",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Belo Horizonte",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Belo Horizonte",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Belo Horizonte",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Belo Horizonte",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Belo Horizonte",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Belo Horizonte",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/belo-horizonte/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Belo Horizonte",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Betim",
+      "characters": 45,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Betim",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Betim",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Betim",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Betim",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Betim",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Betim",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/betim/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Betim",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Capelinha",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Capelinha",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Capelinha",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Capelinha",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Capelinha",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Capelinha",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Capelinha",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/capelinha/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Capelinha",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Conceição do Mato Dentro",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Conceição do Mato Dentro",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Conceição do Mato Dentro",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Conceição do Mato Dentro",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria em Conceição do Mato Dentro",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Conceição do Mato Dentro",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Conceição do Mato Dentro",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conceicao-do-mato-dentro/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Conceição do Mato Dentro",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Congonhas",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Congonhas",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Congonhas",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Congonhas",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Congonhas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Congonhas",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Congonhas",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/congonhas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Congonhas",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Conselheiro Lafaiete",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Conselheiro Lafaiete",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Conselheiro Lafaiete",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Conselheiro Lafaiete",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Conselheiro Lafaiete",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Conselheiro Lafaiete",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Conselheiro Lafaiete",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/conselheiro-lafaiete/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Conselheiro Lafaiete",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Contagem",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Contagem",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Contagem",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Contagem",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Contagem",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Contagem",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Contagem",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/contagem/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Contagem",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Coronel Fabriciano",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Coronel Fabriciano",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Coronel Fabriciano",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Coronel Fabriciano",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Coronel Fabriciano",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Coronel Fabriciano",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Coronel Fabriciano",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-fabriciano/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Coronel Fabriciano",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Coronel Murta",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Coronel Murta",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Coronel Murta",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Coronel Murta",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Coronel Murta",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Coronel Murta",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Coronel Murta",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/coronel-murta/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Coronel Murta",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Curvelo",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Curvelo",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Curvelo",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Curvelo",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Curvelo",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Curvelo",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Curvelo",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/curvelo/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Curvelo",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Divinópolis",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Divinópolis",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Divinópolis",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Divinópolis",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Divinópolis",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Divinópolis",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Divinópolis",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/divinopolis/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Divinópolis",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Governador Valadares",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Governador Valadares",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Governador Valadares",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Governador Valadares",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Governador Valadares",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Governador Valadares",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Governador Valadares",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/governador-valadares/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Governador Valadares",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ibirité",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ibirité",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ibirité",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ibirité",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ibirité",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ibirité",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ibirité",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ibirite/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ibirité",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ipatinga",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ipatinga",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ipatinga",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ipatinga",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ipatinga",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ipatinga",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ipatinga",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ipatinga/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ipatinga",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Itabira",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Itabira",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Itabira",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Itabira",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Itabira",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Itabira",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Itabira",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabira/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Itabira",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Itabirito",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Itabirito",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Itabirito",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Itabirito",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Itabirito",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Itabirito",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Itabirito",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itabirito/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Itabirito",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Itamarandiba",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Itamarandiba",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Itamarandiba",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Itamarandiba",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Itamarandiba",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Itamarandiba",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Itamarandiba",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itamarandiba/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Itamarandiba",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Itaúna",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Itaúna",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Itaúna",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Itaúna",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Itaúna",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Itaúna",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Itaúna",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itauna/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Itaúna",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Itinga",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Itinga",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Itinga",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Itinga",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Itinga",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Itinga",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Itinga",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/itinga/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Itinga",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ituiutaba",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ituiutaba",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ituiutaba",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ituiutaba",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ituiutaba",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ituiutaba",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ituiutaba",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ituiutaba/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ituiutaba",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Jaíba",
+      "characters": 45,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Jaíba",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Jaíba",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Jaíba",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Jaíba",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Jaíba",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Jaíba",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/jaiba/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Jaíba",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/",
+      "title": "Grupo New Tractor | Máquinas pesadas em João Monlevade",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em João Monlevade",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em João Monlevade",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em João Monlevade",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em João Monlevade",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em João Monlevade",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em João Monlevade",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-monlevade/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em João Monlevade",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/",
+      "title": "Grupo New Tractor | Máquinas pesadas em João Pinheiro",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em João Pinheiro",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em João Pinheiro",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em João Pinheiro",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em João Pinheiro",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em João Pinheiro",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em João Pinheiro",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/joao-pinheiro/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em João Pinheiro",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Juiz de Fora",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Juiz de Fora",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Juiz de Fora",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Juiz de Fora",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Juiz de Fora",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Juiz de Fora",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Juiz de Fora",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/juiz-de-fora/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Juiz de Fora",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Lavras",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Lavras",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Lavras",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Lavras",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Lavras",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Lavras",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Lavras",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/lavras/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Lavras",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Mariana",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Mariana",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Mariana",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Mariana",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Mariana",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Mariana",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Mariana",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/mariana/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Mariana",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Minas Novas",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Minas Novas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Minas Novas",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Minas Novas",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Minas Novas",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Minas Novas",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Minas Novas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/minas-novas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Minas Novas",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Montes Claros",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Montes Claros",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Montes Claros",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Montes Claros",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Montes Claros",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Montes Claros",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Montes Claros",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/montes-claros/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Montes Claros",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Muriaé",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Muriaé",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Muriaé",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Muriaé",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Muriaé",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Muriaé",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Muriaé",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/muriae/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Muriaé",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Nova Lima",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Nova Lima",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Nova Lima",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Nova Lima",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Nova Lima",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Nova Lima",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Nova Lima",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-lima/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Nova Lima",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Nova Serrana",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Nova Serrana",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Nova Serrana",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Nova Serrana",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Nova Serrana",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Nova Serrana",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Nova Serrana",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/nova-serrana/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Nova Serrana",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ouro Branco",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ouro Branco",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ouro Branco",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ouro Branco",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ouro Branco",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ouro Branco",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ouro Branco",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-branco/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ouro Branco",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ouro Preto",
+      "characters": 50,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ouro Preto",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ouro Preto",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ouro Preto",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ouro Preto",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ouro Preto",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ouro Preto",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ouro-preto/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ouro Preto",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Pará de Minas",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Pará de Minas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Pará de Minas",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Pará de Minas",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Pará de Minas",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Pará de Minas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Pará de Minas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/para-de-minas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Pará de Minas",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Paracatu",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Paracatu",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Paracatu",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Paracatu",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Paracatu",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Paracatu",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Paracatu",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/paracatu/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Paracatu",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Passos",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Passos",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Passos",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Passos",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Passos",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Passos",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Passos",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/passos/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Passos",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Patos de Minas",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Patos de Minas",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Patos de Minas",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Patos de Minas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Patos de Minas",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Patos de Minas",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Patos de Minas",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patos-de-minas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Patos de Minas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Patrocínio",
+      "characters": 50,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Patrocínio",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Patrocínio",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Patrocínio",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Patrocínio",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Patrocínio",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Patrocínio",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/patrocinio/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Patrocínio",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Poços de Caldas",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Poços de Caldas",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Poços de Caldas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Poços de Caldas",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Poços de Caldas",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Poços de Caldas",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Poços de Caldas",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pocos-de-caldas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Poços de Caldas",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Pouso Alegre",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Pouso Alegre",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Pouso Alegre",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Pouso Alegre",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Pouso Alegre",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Pouso Alegre",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Pouso Alegre",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/pouso-alegre/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Pouso Alegre",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ribeirão das Neves",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ribeirão das Neves",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em Ribeirão das Neves",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ribeirão das Neves",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ribeirão das Neves",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ribeirão das Neves",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ribeirão das Neves",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/ribeirao-das-neves/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em Ribeirão das Neves",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Sabará",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Sabará",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Sabará",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Sabará",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Sabará",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Sabará",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Sabará",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sabara/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Sabará",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Salinas",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Salinas",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Salinas",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Salinas",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Salinas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Salinas",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Salinas",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/salinas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Salinas",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Santa Luzia",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Santa Luzia",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Santa Luzia",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Santa Luzia",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Santa Luzia",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Santa Luzia",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Santa Luzia",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/santa-luzia/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Santa Luzia",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/",
+      "title": "Grupo New Tractor | Máquinas pesadas em São Gonçalo do Rio Abaixo",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Rodante em São Gonçalo do Rio Abaixo",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros em São Gonçalo do Rio Abaixo",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em São Gonçalo do Rio Abaixo",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria em São Gonçalo do Rio Abaixo",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em São Gonçalo do Rio Abaixo",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Campo em São Gonçalo do Rio Abaixo",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-goncalo-do-rio-abaixo/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia em São Gonçalo do Rio Abaixo",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/",
+      "title": "Grupo New Tractor | Máquinas pesadas em São Gotardo",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em São Gotardo",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em São Gotardo",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em São Gotardo",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em São Gotardo",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em São Gotardo",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em São Gotardo",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sao-gotardo/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em São Gotardo",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Sete Lagoas",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Sete Lagoas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Sete Lagoas",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Sete Lagoas",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Sete Lagoas",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Sete Lagoas",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Sete Lagoas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/sete-lagoas/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Sete Lagoas",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Tapira",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Tapira",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Tapira",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Tapira",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Tapira",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Tapira",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Tapira",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tapira/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Tapira",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Teófilo Otoni",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Teófilo Otoni",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Teófilo Otoni",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Teófilo Otoni",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Teófilo Otoni",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Teófilo Otoni",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Teófilo Otoni",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/teofilo-otoni/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Teófilo Otoni",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Timóteo",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Timóteo",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Timóteo",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Timóteo",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Timóteo",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Timóteo",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Timóteo",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/timoteo/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Timóteo",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Três Marias",
+      "characters": 51,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Três Marias",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Três Marias",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Três Marias",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Três Marias",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Três Marias",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Três Marias",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/tres-marias/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Três Marias",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Turmalina",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Turmalina",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Turmalina",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Turmalina",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Turmalina",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Turmalina",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Turmalina",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/turmalina/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Turmalina",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Ubá",
+      "characters": 43,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Ubá",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Ubá",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Ubá",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Ubá",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Ubá",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Ubá",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uba/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Ubá",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Uberaba",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Uberaba",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Uberaba",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Uberaba",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Uberaba",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Uberaba",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Uberaba",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberaba/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Uberaba",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Uberlândia",
+      "characters": 50,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Uberlândia",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Uberlândia",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Uberlândia",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Uberlândia",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Uberlândia",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Uberlândia",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/uberlandia/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Uberlândia",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Unaí",
+      "characters": 44,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Unaí",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Unaí",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Unaí",
+      "characters": 54,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Unaí",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Unaí",
+      "characters": 53,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Unaí",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/unai/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Unaí",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Varginha",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Varginha",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Varginha",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Varginha",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Varginha",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Varginha",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Varginha",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/varginha/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Varginha",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Vazante",
+      "characters": 47,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Vazante",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Vazante",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Vazante",
+      "characters": 57,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Vazante",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Vazante",
+      "characters": 56,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Vazante",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vazante/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Vazante",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Veredinha",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Veredinha",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Veredinha",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Veredinha",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Veredinha",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Veredinha",
+      "characters": 58,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Veredinha",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/veredinha/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Veredinha",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/",
+      "title": "Grupo New Tractor | Máquinas pesadas em Vespasiano",
+      "characters": 50,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante em Vespasiano",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos em Vespasiano",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/usinagem/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada em Vespasiano",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/caldeiraria/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada em Vespasiano",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/pecas-sob-demanda/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda em Vespasiano",
+      "characters": 59,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/servico-de-campo/",
+      "title": "Grupo New Tractor — Services | Serviço de campo em Vespasiano",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/minas-gerais/vespasiano/tecnologia-manutencao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção em Vespasiano",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/rodantes/setores/mineracao/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante para mineração",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/rodantes/setores/florestal/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante para o setor florestal",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/rodantes/setores/agronegocio/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante para o agronegócio",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/rodantes/setores/industrial/",
+      "title": "Grupo New Tractor — Rodantes | Material rodante para a indústria",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/setores/mineracao/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos para mineração",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/setores/florestal/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros para o setor florestal",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/setores/agronegocio/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros para o agronegócio",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/setores/industrial/",
+      "title": "Grupo New Tractor — HidrauTractor | Cilindros hidráulicos para a indústria",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/usinagem/setores/mineracao/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada para mineração",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/usinagem/setores/florestal/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada para o setor florestal",
+      "characters": 69,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/usinagem/setores/agronegocio/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada para o agronegócio",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/usinagem/setores/industrial/",
+      "title": "Grupo New Tractor — Usinagem | Usinagem pesada para a indústria",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/calderaria/setores/mineracao/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada para mineração",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/calderaria/setores/florestal/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada para o setor florestal",
+      "characters": 74,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/calderaria/setores/agronegocio/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada para o agronegócio",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/calderaria/setores/industrial/",
+      "title": "Grupo New Tractor — Calderaria | Caldeiraria pesada para a indústria",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parts/setores/mineracao/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda para mineração",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parts/setores/florestal/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda para o setor florestal",
+      "characters": 68,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parts/setores/agronegocio/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda para o agronegócio",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parts/setores/industrial/",
+      "title": "Grupo New Tractor — Parts | Peças sob demanda para a indústria",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/services/setores/mineracao/",
+      "title": "Grupo New Tractor — Services | Serviço de campo para mineração",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/services/setores/florestal/",
+      "title": "Grupo New Tractor — Services | Serviço de campo para o setor florestal",
+      "characters": 70,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/services/setores/agronegocio/",
+      "title": "Grupo New Tractor — Services | Serviço de campo para o agronegócio",
+      "characters": 66,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/services/setores/industrial/",
+      "title": "Grupo New Tractor — Services | Serviço de campo para a indústria",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/techtractor/setores/mineracao/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção para mineração",
+      "characters": 73,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/techtractor/setores/florestal/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia para o setor florestal",
+      "characters": 67,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/techtractor/setores/agronegocio/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia para o agronegócio",
+      "characters": 63,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/techtractor/setores/industrial/",
+      "title": "Grupo New Tractor — TechTractor | Tecnologia de manutenção para a indústria",
+      "characters": 75,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/recuperacao-cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Recuperação de cilindros hidráulicos",
+      "characters": 72,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/hidrautractor/fabricacao-cilindros-hidraulicos/",
+      "title": "Grupo New Tractor — HidrauTractor | Fabricação de cilindros hidráulicos",
+      "characters": 71,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/empresa/",
+      "title": "Grupo New Tractor | Estrutura para máquinas pesadas desde 2010",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/parcerias/",
+      "title": "Grupo New Tractor | Parcerias e conexões industriais",
+      "characters": 52,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/pessoas/",
+      "title": "Grupo New Tractor | Pessoas que movem a operação",
+      "characters": 48,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/servicos/",
+      "title": "Grupo New Tractor | Serviços para máquinas de linha amarela em MG",
+      "characters": 65,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/servicos/manutencao-material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Manutenção de material rodante",
+      "characters": 61,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/servicos/reforma-cacambas-conchas/",
+      "title": "Grupo New Tractor — Calderaria | Reforma de caçambas e conchas",
+      "characters": 62,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/servicos/monitoramento-material-rodante/",
+      "title": "Grupo New Tractor — Rodantes | Monitoramento de material rodante",
+      "characters": 64,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/equipamentos/",
+      "title": "Grupo New Tractor | Equipamentos de linha amarela",
+      "characters": 49,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/atuacao/",
+      "title": "Grupo New Tractor | Atendimento nacional em máquinas pesadas",
+      "characters": 60,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/contato/",
+      "title": "Grupo New Tractor | Orçamento e visita técnica",
+      "characters": 46,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/noticias/new-tractor-na-exposibram-2026/",
+      "title": "Grupo New Tractor | EXPOSIBRAM 2026 e manutenção pesada",
+      "characters": 55,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/privacidade/",
+      "title": "Grupo New Tractor | Privacidade",
+      "characters": 31,
+      "indexable": true
+    },
+    {
+      "url": "https://newtractor.com.br/404.html",
+      "title": "Grupo New Tractor | Página não encontrada",
+      "characters": 41,
+      "indexable": false
+    }
+  ]
+}
