@@ -2,6 +2,12 @@
 
 Última revisão: 2026-09-10
 
+Direção institucional dos títulos confirmada pelo usuário em 10/09/2026:
+Grupo New Tractor primeiro, frente responsável e assunto específico por
+página. A home enfatiza o grupo industrial e a conexão entre técnicos,
+estrutura industrial e tecnologia para cuidar da frota. Decisões e limites
+registrados em [títulos institucionais](seo/TITULOS-INSTITUCIONAIS-2026-09-10.md).
+
 Política pública de rastreamento de 10/09/2026: o usuário solicitou acesso para
 buscadores e plataformas de IA e confirmou a inclusão de treinamento. A decisão,
 os limites e as alterações restritas à New Tractor estão registrados em

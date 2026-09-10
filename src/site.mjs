@@ -7,6 +7,7 @@ import { createTerritoryPages } from "./territory-content.mjs";
 import { createHydraulicPages, hydraulicRoutes } from "./hydraulic-content.mjs";
 import { serviceOfferCards, serviceOfferListSchema } from "./service-offers.mjs";
 import { createRegionalPages, regionalNavigation } from "./regional-pages.mjs";
+import { applySeoMetadata } from "./seo-metadata.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -141,8 +142,8 @@ const homeBody = `
     <div class="shell hero__content">
       <div class="hero__copy">
         <span class="eyebrow eyebrow--light">GRUPO NEW TRACTOR</span>
-        <h1>Mais tempo produzindo.<br><span>Menos paradas inesperadas.</span></h1>
-        <p>Manutenção de máquinas de linha amarela, serviço de campo e fabricação de peças sob demanda. De Belo Horizonte à sua operação, conectamos técnicos, estrutura industrial e tecnologia para cuidar da sua frota.</p>
+        <h1>Soluções industriais.<br><span>Cuidado com a sua frota.</span></h1>
+        <p>Conectamos técnicos, estrutura industrial e tecnologia para cuidar da sua frota. Manutenção de máquinas pesadas, serviço de campo e fabricação de peças sob demanda, com base em Belo Horizonte.</p>
         <div class="button-row">
           <a class="button button--primary" href="/servicos/">Serviços para sua frota ${icon("arrow")}</a>
           <a class="button button--ghost" href="/pessoas/#filme-institucional"><span class="play-symbol" aria-hidden="true">▷</span> Nosso filme</a>
@@ -680,6 +681,7 @@ const websiteSchema = {
   "@id": `${site.origin}/#website`,
   url: `${site.origin}/`,
   name: site.name,
+  alternateName: site.shortName,
   inLanguage: "pt-BR",
   publisher: { "@id": `${site.origin}/#organization` },
 };
@@ -727,8 +729,8 @@ export const pages = [
   {
     route: "/",
     output: "index.html",
-    title: "Grupo New Tractor | Máquinas de linha amarela em Minas Gerais",
-    description: "Manutenção de linha amarela, serviço de campo e fabricação de peças sob demanda. Grupo New Tractor em Belo Horizonte, cuidando da disponibilidade da sua frota.",
+    title: "Grupo New Tractor | Soluções industriais para sua frota",
+    description: "Conectamos técnicos, estrutura industrial e tecnologia para cuidar da sua frota. Manutenção de máquinas pesadas e fabricação de peças sob demanda.",
     body: homeBody,
     active: "inicio",
     preload: true,
@@ -927,7 +929,7 @@ export const pages = [
     active: "",
     indexable: false,
   },
-];
+].map(applySeoMetadata);
 
 const navLink = (page, key, href, label) =>
   `<li><a href="${href}"${page.active === key ? ' aria-current="page"' : ""}>${label}</a></li>`;

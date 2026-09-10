@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.mjs",
     "lint:worker": "node --check src/worker.mjs",
     "lint:regional": "node --check src/minas-cities.mjs && node --check src/regional-specialties.mjs && node --check src/regional-pages.mjs",
-    "check": "npm run lint && npm run lint:worker && npm run lint:regional && npm run build && npm test",
+    "lint:seo": "node --check src/seo-metadata.mjs && node --check tests/seo-metadata.test.mjs",
+    "check": "npm run lint && npm run lint:worker && npm run lint:regional && npm run lint:seo && npm run build && npm test",
     "dev": "npm run build && wrangler dev --port 8788",
     "deploy:preview": "npm run check && wrangler versions upload",
     "deploy:production": "npm run check && wrangler deploy"
