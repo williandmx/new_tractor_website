@@ -14,14 +14,20 @@ const fronts = [
 
 export function discoveryGroups(pages) {
   const indexable = pages.filter(page => page.indexable !== false);
+  for (const page of indexable) {
+    if (page.discoveryGroup && !fronts.some(([slug]) => slug === page.discoveryGroup)) {
+      throw new Error(`Frente de descoberta desconhecida: ${page.discoveryGroup}`);
+    }
+  }
   const assigned = new Set();
   const groups = fronts.map(([slug, label, routes]) => {
-    for (const route of routes) {
+    const groupRoutes = new Set([...routes, ...indexable.filter(page => page.discoveryGroup === slug).map(page => page.route)]);
+    for (const route of groupRoutes) {
       if (assigned.has(route)) throw new Error(`URL duplicada entre sitemaps: ${route}`);
       if (!indexable.some(page => page.route === route)) throw new Error(`URL sem página indexável: ${route}`);
       assigned.add(route);
     }
-    return { slug, label, file: `sitemap-${slug}.xml`, pages: indexable.filter(page => routes.includes(page.route)) };
+    return { slug, label, file: `sitemap-${slug}.xml`, pages: indexable.filter(page => groupRoutes.has(page.route)) };
   });
   groups.push({ slug: "grupo", label: "Grupo, componentes e setores", file: "sitemap-grupo.xml", pages: indexable.filter(page => !assigned.has(page.route)) });
   return groups;

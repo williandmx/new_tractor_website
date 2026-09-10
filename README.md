@@ -21,6 +21,12 @@ permanece disponível sem JavaScript.
 
 ## Rotas
 
+A expansão mineira usa `src/minas-cities.mjs` (municípios e fontes),
+`src/regional-specialties.mjs` (escopo das sete frentes e quatro setores) e
+`src/regional-pages.mjs` (HTML e navegação). O diretório fica em
+`/atuacao/minas-gerais/cidades/`; o contrato de população/polos e os limites
+editoriais estão em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
+
 - `/` — apresentação comercial do Grupo, filme compilado e encaminhamento às empresas
 - `/rodantes/`
 - `/hidrautractor/`

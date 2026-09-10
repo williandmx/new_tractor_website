@@ -757,6 +757,71 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; line-height
 
 /* Catálogo comercial: mesmas fotos, tipografia e ações das páginas de serviço. */
 .page-hero__actions { margin-top: 30px; }
+.regional-columns, .regional-rfq { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 48px; align-items: start; }
+.regional-columns > *, .regional-rfq > *, .regional-cards > *, .regional-city-list > * { min-width: 0; }
+.regional-lead { max-width: 840px; margin-bottom: 32px; font-size: 18px; line-height: 1.7; }
+.regional-notice { padding: 28px; background: var(--sand); border-left: 3px solid var(--yellow); font-size: 15px; line-height: 1.7; }
+.regional-notice strong { display: block; font-size: 18px; }
+.regional-notice p, .regional-sources p, .regional-request p { margin-top: 16px; }
+.regional-notice address { margin-top: 16px; font-style: normal; }
+.section--sand .regional-notice { background: var(--paper); }
+.regional-cards { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; padding: 0; }
+.regional-cards > li { display: flex; flex-direction: column; padding: 28px; background: var(--sand); border-top: 3px solid var(--yellow); }
+.section--sand .regional-cards > li { background: var(--paper); }
+.regional-cards h3 { margin-block: 16px; font-size: 27px; line-height: 1.2; }
+.regional-cards p { margin-bottom: 24px; font-size: 15px; line-height: 1.7; }
+.regional-cards .text-link { margin-top: auto; padding-top: 12px; font-size: 14px; }
+.regional-cards h3 a:hover, .regional-city-list h3 a:hover { text-decoration: underline; text-underline-offset: 5px; }
+.regional-city-list { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 36px; }
+.regional-city-list > li { padding: 24px 0; border-bottom: 1px solid var(--line); }
+.regional-city-list h3 { font-size: 23px; line-height: 1.35; }
+.regional-city-list h3 a { display: inline-flex; align-items: center; min-height: 44px; }
+.regional-city-list p { margin-block: 6px; font-size: 15px; }
+.regional-city-list span { font-size: 12px; color: var(--muted); }
+.regional-links { display: flex; flex-wrap: wrap; gap: 16px 28px; list-style: none; padding: 0; }
+.regional-links a { display: inline-flex; align-items: center; min-height: 44px; border-bottom: 1px solid currentColor; font-size: 16px; }
+.regional-process { list-style: none; counter-reset: regional-step; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+.regional-process > li { counter-increment: regional-step; border-top: 2px solid var(--yellow); padding-top: 20px; }
+.regional-process > li::before { content: counter(regional-step, decimal-leading-zero); display: block; font-size: 14px; font-weight: 700; margin-bottom: 20px; }
+.regional-process h3 { font-size: 24px; line-height: 1.3; }
+.regional-process p { margin-top: 16px; font-size: 16px; line-height: 1.7; }
+.regional-context-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+.regional-context-grid article { padding-top: 24px; border-top: 1px solid var(--line); }
+.regional-context-grid h3 { margin-bottom: 20px; }
+.regional-context-grid p, .regional-context-grid li { font-size: 16px; line-height: 1.7; }
+.regional-context-grid ul { padding-left: 22px; margin-block: 20px; }
+.regional-context-grid li + li { margin-top: 10px; }
+.regional-context-grid .text-link { margin-top: 22px; }
+.regional-sources { font-size: 14px; line-height: 1.7; }
+.regional-sources h3 { font-size: 22px; }
+.regional-sources ul { padding-left: 20px; margin-top: 16px; }
+.regional-sources li { margin-top: 12px; }
+.regional-sources a { text-decoration: underline; text-underline-offset: 3px; }
+.regional-sources, .regional-request { overflow-wrap: anywhere; }
+.regional-checklist { margin: 0; display: grid; gap: 20px; }
+.regional-checklist > div { padding-top: 20px; border-top: 1px solid var(--line); }
+.regional-checklist dt { font-size: 20px; font-weight: 700; }
+.regional-checklist dd { margin: 10px 0 0; font-size: 16px; line-height: 1.7; }
+.regional-request { padding: 30px; background: var(--yellow); color: var(--ink); }
+.regional-request p { color: inherit; }
+.regional-request h3 { font-size: 27px; line-height: 1.25; }
+.regional-request .button { margin-top: 24px; width: 100%; }
+.regional-request .text-link { margin-top: 24px; }
+#consulta-tecnica, #especialidades, #especialidade-regional, #especialidades-setor,
+#cidades-e-especialidades, #setor-industrial { scroll-margin-top: 110px; }
+@media (max-width: 1100px) {
+  .regional-cards, .regional-city-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .regional-columns, .regional-rfq { gap: 30px; }
+  .regional-process { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .regional-columns, .regional-rfq, .regional-context-grid, .regional-process { grid-template-columns: 1fr; gap: 28px; }
+  .regional-cards, .regional-city-list { grid-template-columns: 1fr; }
+  .regional-cards > li, .regional-notice, .regional-request { padding: 24px; }
+  .regional-lead { font-size: 16px; }
+  .regional-links { display: grid; gap: 10px; }
+  .regional-links a { line-height: 1.5; padding-block: 6px; }
+}
 .service-catalog { scroll-margin-top: 20px; }
 .service-grid--catalog .service-card { display: flex; flex-direction: column; }
 .service-grid--catalog .service-card__content { display: flex; flex-direction: column; flex: 1; }
