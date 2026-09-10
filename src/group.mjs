@@ -1,1 +1,1 @@
-RESTORE
+FILE_FROM_/tmp/group.mjs
