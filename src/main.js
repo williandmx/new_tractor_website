@@ -15,6 +15,11 @@ const pageSurfaces = [
 ].filter(Boolean);
 const consentKey = "newtractor-analytics-consent-v1";
 const gtmId = "GTM-T3RNZ98";
+const analyticsOrigins = new Set([
+  "https://newtractor.com.br",
+  "https://www.newtractor.com.br",
+]);
+const analyticsAllowedOrigin = analyticsOrigins.has(window.location?.origin);
 
 const setMenu = (open, { restoreFocus = false } = {}) => {
   if (!header || !navToggle) return;
@@ -94,11 +99,13 @@ const saveConsent = (value) => {
 };
 
 function pushTagCommand() {
+  if (!analyticsAllowedOrigin) return;
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push(arguments);
 }
 
 const updateTagConsent = (value, command = "update") => {
+  if (!analyticsAllowedOrigin) return;
   pushTagCommand("consent", command, {
     analytics_storage: value === "accepted" ? "granted" : "denied",
     ad_storage: "denied",
@@ -108,6 +115,7 @@ const updateTagConsent = (value, command = "update") => {
 };
 
 const loadGtm = () => {
+  if (!analyticsAllowedOrigin) return;
   if (document.querySelector(`script[data-gtm="${gtmId}"]`)) return;
   updateTagConsent("essential", "default");
   updateTagConsent("accepted");
@@ -125,7 +133,7 @@ const applyConsent = (value) => {
   document.body.classList.remove("consent-visible");
   if (value === "accepted") {
     loadGtm();
-  } else if (document.querySelector(`script[data-gtm="${gtmId}"]`)) {
+  } else if (analyticsAllowedOrigin && document.querySelector(`script[data-gtm="${gtmId}"]`)) {
     updateTagConsent("essential");
     // Recarregar encerra também o runtime de tags que já tenham sido executadas.
     window.location.reload();
@@ -166,7 +174,7 @@ window.addEventListener("storage", (event) => {
 
 document.querySelectorAll("[data-analytics]").forEach((link) => {
   link.addEventListener("click", () => {
-    if (currentConsent !== "accepted") return;
+    if (!analyticsAllowedOrigin || currentConsent !== "accepted") return;
     const ctaName = link.dataset.analytics;
     const channel = { whatsapp: "whatsapp", email: "email", telefone: "phone", mapa: "map" }[ctaName.split("_")[0]] ?? "site";
     window.dataLayer = window.dataLayer || [];
