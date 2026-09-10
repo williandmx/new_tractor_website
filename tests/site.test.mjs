@@ -200,7 +200,7 @@ test("headers e redirects preservam segurança e URLs antigas úteis", async () 
   assert.match(redirects, /\/exposibram-2026 \/noticias\/new-tractor-na-exposibram-2026\/ 301/);
 });
 
-test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () => {
+test("a jornada de suprimentos oferece referências e orçamento por e-mail", async () => {
   const home = await read("index.html");
   const contact = await read("contato/index.html");
   const clients = [
@@ -225,7 +225,7 @@ test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () 
     await access(join(dist, `assets/images/clientes/${file}`));
   }
   assert.match(contact, /Boas conexões começam com uma conversa|Solicite uma proposta técnica/);
-  assert.match(contact, /mailto:solucao@newtractor\.com\.br\?subject=RFQ/);
+  assert.match(contact, /mailto:solucao@newtractor\.com\.br\?subject=Or%C3%A7amento/);
   assert.match(contact, /Empresa solicitante/);
   assert.match(contact, /Equipamento, modelo e componente/);
   assert.match(contact, /Desenho, especificação e fotos em anexo/);

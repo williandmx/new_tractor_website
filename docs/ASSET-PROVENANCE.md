@@ -13,7 +13,7 @@ público anterior de monitoramento e componentes, já documentada abaixo. O arqu
 permanece inalterado, em sua resolução nativa de 640 × 427, com dimensões,
 `srcset`, texto alternativo e legenda correspondentes à medição do diâmetro
 externo de um rolete. Não há aumento artificial de resolução nem geração de mídia.
-Aplicação: cartão da Services na home, destaque de `/services/` e imagem de
+Aplicação: cartão da Services na home, destaque de `/services/`, cartão de serviço de campo em `/servicos/` (revisão comercial de 10/09) e imagem de
 compartilhamento dessa página. O destaque preserva o enquadramento completo e
 os antigos endereços de imagem redirecionam para a fotografia real. A foto não
 comprova atendimento em mina, contrato, prazo ou execução em uma cidade específica.
