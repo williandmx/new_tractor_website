@@ -27,6 +27,13 @@ pesadas.
   capacidade de máquina, depoimento, case ou relação comercial vigente.
 - Diferenciar fato público, declaração do proprietário, inferência e pendência.
 - Usar “Grupo New Tractor” como endosso de marca, não como razão social.
+- Títulos locais por especialidade/cidade usam `Grupo New Tractor | Serviço em
+  Cidade`, conforme autorização do proprietário em 11/09/2026. Conservar o
+  nome completo do município e a empresa responsável no conteúdo. Nas páginas
+  institucionais das frentes, manter `Grupo New Tractor — Frente | Assunto`.
+  O limite editorial de 65 caracteres previne o alerta da auditoria; não é
+  limite oficial nem garantia de exibição integral no Google. Não truncar
+  palavras automaticamente para cumprir esse limite.
 - A metragem de mais de 4.000 m² é uma declaração atual do proprietário e deve
   permanecer registrada com o conflito histórico de 3.000 m².
 - Logos são “referências históricas divulgadas”; não significam contratos
