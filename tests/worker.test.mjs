@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readFile } from "node:fs/promises";
-import worker, { redirectTarget } from "../src/worker.mjs";
+import worker, { isRetiredWordpressRequest, redirectTarget } from "../src/worker.mjs";
 
 const production = "https://newtractor.com.br";
 const migration = JSON.parse(await readFile(new URL("../docs/migration/wordpress-single-redirects.json", import.meta.url), "utf8"));
@@ -38,6 +38,68 @@ test("unknown, duplicate and mixed WordPress IDs are not assigned a guessed dest
   }
   assert.equal(redirectTarget(new Request(`${production}/empresa/?p=13`)), null);
   assert.equal(redirectTarget(new Request(`${production}/?p=13`, { method: "POST" })), null);
+});
+
+test("IDs WordPress retirados retornam 410 somente em consultas exatas de produção", async () => {
+  for (const host of ["newtractor.com.br", "www.newtractor.com.br"]) {
+    for (const protocol of ["http", "https"]) {
+      for (const path of ["/", "/index.php"]) {
+        for (const key of ["p", "page_id"]) {
+          for (const id of ["2", "43", "44"]) {
+            for (const method of ["GET", "HEAD"]) {
+              const request = new Request(`${protocol}://${host}${path}?utm_source=google&${key}=${id}&utm_campaign=legacy`, { method });
+              assert.equal(isRetiredWordpressRequest(request), true);
+              const response = await worker.fetch(request, { ASSETS: { fetch() { throw new Error("410 não deve ler assets"); } } });
+              assert.equal(response.status, 410, request.url);
+              assert.equal(response.headers.get("Content-Type"), "text/html; charset=utf-8");
+              assert.equal(response.headers.get("X-Robots-Tag"), "noindex, nofollow");
+              assert.equal(response.headers.get("X-Content-Type-Options"), "nosniff");
+              const body = await response.text();
+              if (method === "HEAD") assert.equal(body, "");
+              else {
+                assert.match(body, /<h1>Conteúdo removido<\/h1>/);
+                assert.match(body, /<meta name="viewport" content="width=device-width, initial-scale=1">/);
+                assert.match(body, /https:\/\/newtractor\.com\.br\/(?:contato\/)?/);
+                assert.doesNotMatch(body, /(?:\?p=|page_id=|utm_|\b(?:2|43|44)\b)/);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+});
+
+test("IDs retirados ambíguos, desconhecidos, fora do host/caminho ou método não viram 410", async () => {
+  const cases = [
+    `${production}/?p=2&p=2`,
+    `${production}/?p=2&page_id=2`,
+    `${production}/?p=2&page_id=43`,
+    `${production}/?p=2&p=`,
+    `${production}/?p=999`,
+    `${production}/?p=02`,
+    `${production}/?p=43foo`,
+    `${production}/?p=`,
+    `${production}/?utm_source=p%3D2`,
+    `${production}/?page_id=44&page_id=44`,
+    `${production}/empresa/?p=2`,
+    `https://preview.workers.dev/?p=2`,
+    `https://newtractor.com.br.example.org/?p=2`,
+    `http://localhost:8788/?p=2`,
+  ];
+  for (const url of cases) {
+    const request = new Request(url);
+    assert.equal(isRetiredWordpressRequest(request), false, url);
+    let assetReads = 0;
+    const response = await worker.fetch(request, { ASSETS: { fetch: async () => { assetReads += 1; return new Response("asset"); } } });
+    assert.equal(response.status, 200, url);
+    assert.equal(assetReads, 1, url);
+  }
+
+  const post = new Request(`${production}/?p=2`, { method: "POST" });
+  assert.equal(isRetiredWordpressRequest(post), false);
+  const postResponse = await worker.fetch(post, { ASSETS: { fetch: async () => new Response("asset") } });
+  assert.equal(postResponse.status, 200);
 });
 
 test("canonical redirects retain non-legacy paths and query, without open redirects", () => {
