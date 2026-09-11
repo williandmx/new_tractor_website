@@ -1,5 +1,9 @@
 # Títulos institucionais — 10/09/2026
 
+Registro histórico. O padrão local e o limite de comprimento foram revisados
+com autorização do proprietário em 11/09/2026. Consulte a
+[política atual e sua validação](TITULOS-CONCISOS-2026-09-11.md).
+
 ## Direção aprovada
 
 O usuário solicitou títulos com o Grupo New Tractor em primeiro plano,
