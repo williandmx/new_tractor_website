@@ -85,9 +85,16 @@ O `_redirects` continua responsável pelas rotas de caminho e normalização.
 
 ## URLs sem equivalente
 
-Páginas de exemplo ou conteúdo vazio (`?p=2`, `?p=43`, `?p=44`) devem retornar
-404/410. Não redirecionar tudo para a home, pois isso cria soft-404 e perde a
-intenção original.
+Páginas de exemplo ou conteúdo vazio (`?p=2`, `?p=43`, `?p=44`) recebem
+`410 Gone`, conforme a correção de 11/09/2026. A regra cobre somente esses três
+IDs documentados, com um único parâmetro `p` ou `page_id`, nos caminhos `/` e
+`/index.php`, para GET/HEAD dos hosts de produção. Queries ambíguas ou IDs
+desconhecidos não recebem uma exclusão presumida. Não redirecionar essas
+páginas para a home, pois isso perde a intenção original.
+
+Os cinco IDs com destino equivalente continuam com 301. Nenhuma das seis
+URLs do CSV `seo_non_friendly_url` foi excluída: todas são rotas atuais com
+conteúdo próprio. Ver [auditoria de URLs de 11/09/2026](seo/URLS-UBERSUGGEST-2026-09-11.md).
 
 
 ## Rotas acrescentadas na ampliação semântica de 08/09/2026
