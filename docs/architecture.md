@@ -6,7 +6,9 @@
 - Uma intenção principal por rota.
 - Navegação curta: O grupo, Empresas (âncora na home), Pessoas, Atuação, Parcerias e Fale com o grupo. A segunda linha com as sete empresas aparece somente nas páginas de especialidades. Soluções técnicas e Equipamentos permanecem no conteúdo e no rodapé.
 - Prova visual real antes de claims publicitários.
-- Cobertura geográfica consolidada, sem doorway pages municipais.
+- Cobertura nacional consolidada e expansão mineira por especialidade/cidade
+  autorizada em 10/09/2026, com contexto e fontes municipais próprios.
+  Contrato e limites em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
 - As sete frentes são arquitetura de marca local, não afirmação de pessoas jurídicas distintas.
 - A rota `/servicos/` permanece o hub técnico das soluções comprovadas; `/services/` é uma frente comercial distinta e não um alias.
 

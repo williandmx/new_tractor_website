@@ -70,7 +70,7 @@ test("as conversas das frentes usam o e-mail real e contexto específico", async
     assert.ok(href.searchParams.get("subject").includes(company.name));
     for (const item of company.checklist) assert.ok(href.searchParams.get("body").includes(item));
     assert.ok(html.includes(site.email), `${company.slug}: e-mail publicado`);
-    assert.match(html, /O que incluir na conversa/);
+    assert.match(html, /O que enviar no pedido/);
     assert.doesNotMatch(html, /<form\b|RFQ enviada|SoftwareApplication|Product"|aggregateRating|certificada ISO/);
   }
 });
@@ -80,7 +80,7 @@ test("Services mantém intenção distinta de Serviços e TechTractor preserva a
   const technical = await read("servicos/index.html");
   const tech = await read("techtractor/index.html");
   assert.match(services, /<h1>New Tractor Services<\/h1>/);
-  assert.match(services, /href="\/servicos\/">Consultar as soluções técnicas/);
+  assert.match(services, /href="\/servicos\/">Soluções técnicas/);
   assert.notEqual(services.match(/<title>([^<]+)/)[1], technical.match(/<title>([^<]+)/)[1]);
   assert.match(tech, /TechTractor/);
   assert.match(tech, /tecnologia|monitoramento|inspeção|desgaste/i);

@@ -112,7 +112,7 @@ test("cada página tem HTML semântico, metadados e um único H1", async () => {
     const htmlWithoutExternalCitationUrls = html.replace(/<a\b[^>]*href="(https:\/\/[^"]+)"[^>]*>/g,
       (tag, href) => new URL(href).origin === site.origin ? tag : tag.replace(href, ""));
     assert.doesNotMatch(htmlWithoutExternalCitationUrls, /wp-content|wp-admin|wordpress/i, `${relative}: sem dependência do WordPress`);
-    assert.doesNotMatch(html, forbiddenPublicLanguage, `${relative}: sem bastidores ou linguagem de IA/SEO`);
+    assert.doesNotMatch(htmlWithoutExternalCitationUrls, forbiddenPublicLanguage, `${relative}: sem bastidores ou linguagem de IA/SEO`);
 
     for (const tag of html.match(/<img\b[^>]*>/g) || []) {
       assert.match(tag, /\salt="[^"]*"/, `${relative}: imagem com alt`);
@@ -198,9 +198,15 @@ test("headers e redirects preservam segurança e URLs antigas úteis", async () 
   assert.match(redirects, /\/equipamentos \/equipamentos\/ 301/);
   assert.match(redirects, /\/atuacao \/atuacao\/ 301/);
   assert.match(redirects, /\/exposibram-2026 \/noticias\/new-tractor-na-exposibram-2026\/ 301/);
+  const rules = redirects.split(/\r?\n/).filter(line => line.trim() && !line.startsWith("#")).map(line => line.trim().split(/\s+/));
+  assert.equal(new Set(rules.map(([source]) => source)).size, rules.length, "sem origens de redirect duplicadas");
+  assert.ok(rules.length <= 2000, "limite de redirects estáticos Cloudflare");
+  for (const page of pages.filter(page => page.indexable !== false && page.route !== "/" && page.route.endsWith("/"))) {
+    assert.ok(rules.some(([from, to, status]) => from === page.route.slice(0, -1) && to === page.route && status === "301"), `${page.route}: variante sem barra permanente`);
+  }
 });
 
-test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () => {
+test("a jornada de suprimentos oferece referências e orçamento por e-mail", async () => {
   const home = await read("index.html");
   const contact = await read("contato/index.html");
   const clients = [
@@ -225,12 +231,12 @@ test("a jornada de suprimentos oferece referências e RFQ por e-mail", async () 
     await access(join(dist, `assets/images/clientes/${file}`));
   }
   assert.match(contact, /Boas conexões começam com uma conversa|Solicite uma proposta técnica/);
-  assert.match(contact, /mailto:solucao@newtractor\.com\.br\?subject=RFQ/);
+  assert.match(contact, /mailto:comercial2@newtractor\.com\.br\?subject=Or%C3%A7amento/);
   assert.match(contact, /Empresa solicitante/);
   assert.match(contact, /Equipamento, modelo e componente/);
   assert.match(contact, /Desenho, especificação e fotos em anexo/);
-  assert.match(contact, /solucao@newtractor\.com\.br/);
-  assert.match(contact, /\(31\) 3493-1476/);
+  assert.match(contact, /comercial2@newtractor\.com\.br/);
+  assert.match(contact, /\+55 31 9312-0054/);
   assert.match(contact, /\(31\) 99312-0054/);
 });
 

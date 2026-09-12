@@ -1,4 +1,63 @@
+# Este arquivo permite rastreamento público para busca, respostas e treinamento conforme as políticas de cada plataforma; não promete indexação ou citação.
 User-agent: *
+Allow: /
+Disallow: /404.html
+
+# OpenAI: busca, respostas e treinamento
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /404.html
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /404.html
+
+User-agent: GPTBot
+Allow: /
+Disallow: /404.html
+
+# Google: busca e uso estendido
+User-agent: Googlebot
+Allow: /
+Disallow: /404.html
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /404.html
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /404.html
+
+# Apple: busca e uso estendido
+User-agent: Applebot
+Allow: /
+Disallow: /404.html
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /404.html
+
+# Claude
+User-agent: ClaudeBot
+Allow: /
+Disallow: /404.html
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /404.html
+
+User-agent: Claude-User
+Allow: /
+Disallow: /404.html
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Disallow: /404.html
+
+User-agent: Perplexity-User
 Allow: /
 Disallow: /404.html
 

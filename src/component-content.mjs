@@ -40,7 +40,7 @@ const articleSchema = (site, entry) => ({
   "@id": `${site.origin}${entry.route}#article`,
   headline: entry.title,
   description: entry.description,
-  datePublished: entry.lastModified,
+  datePublished: "2026-09-08",
   dateModified: entry.lastModified,
   inLanguage: "pt-BR",
   mainEntityOfPage: { "@id": `${site.origin}${entry.route}#webpage` },
@@ -53,11 +53,11 @@ const entries = [
   {
     route: "/componentes/",
     title: "Componentes de material rodante para máquinas pesadas | New Tractor",
-    heading: "O componente certo começa pela leitura do conjunto",
+    heading: "Recuperação e fabricação de componentes de material rodante",
     description:
       "Organize a avaliação de rodas-guia, roletes, correntes, sapatas, pinos, buchas e alojamentos de máquinas de esteira.",
     intro:
-      "Em escavadeiras e tratores de esteira, cada componente participa de um conjunto. A identificação da máquina, do uso e do sinal observado dá contexto para decidir entre avaliar, recuperar ou consultar uma peça nova.",
+      "Em escavadeiras e tratores de esteira, cada componente participa de um conjunto. A identificação da máquina, do uso e do sinal observado dá contexto para decidir entre recuperar o componente ou fabricar uma peça nova.",
     image: "material-rodante",
     widths: [640, 1200],
     width: 1200,
@@ -75,12 +75,12 @@ const entries = [
       ) +
       section(
         "caminhos-componentes",
-        "A pergunta muda o encaminhamento",
-        `<p>Quando a dúvida é sobre condição e recondicionamento do conjunto, comece pela <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para acompanhar medições e histórico, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento de material rodante</a>. Se a necessidade é uma peça nova identificada por código, desenho ou especificação, encaminhe a consulta para <a href="/parts/">Parts</a>.</p><p>Uma peça existente com demanda de geometria ou dimensão pode ser avaliada pela <a href="/usinagem/">Usinagem</a>, para análise da peça e definição do processo em torno, mandrilhadora ou centro de usinagem na estrutura industrial em Belo Horizonte.</p><p>Para uma visão do escopo industrial, conheça também <a href="/rodantes/">New Tractor Rodantes</a> e os <a href="/guias/inspecao-material-rodante/">registros de inspeção</a>.</p>`,
+        "Recuperação, fabricação ou monitoramento?",
+        `<p>Quando a dúvida é sobre condição e recondicionamento do conjunto, comece pela <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para acompanhar medições e histórico, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento de material rodante</a>. Para fabricar uma peça nova, envie código, desenho, amostra ou especificação à <a href="/parts/">New Tractor Parts</a>, responsável pela fabricação sob demanda.</p><p>Uma peça existente com demanda de geometria ou dimensão pode ser avaliada pela <a href="/usinagem/">Usinagem</a>, para análise da peça e definição do processo em torno, mandrilhadora ou centro de usinagem na estrutura industrial em Belo Horizonte.</p><p>Para uma visão do escopo industrial, conheça também <a href="/rodantes/">New Tractor Rodantes</a> e os <a href="/guias/inspecao-material-rodante/">registros de inspeção</a>.</p>`,
       ) +
       section(
         "dados-componentes",
-        "O que reunir antes da conversa",
+        "O que enviar para solicitar o orçamento",
         list([
           "Fabricante, modelo, número de série disponível e identificação da frota da escavadeira ou do trator de esteira.",
           "Componente, lado, posição e quantidade; descreva se está instalado, removido ou separado para avaliação.",
@@ -91,7 +91,7 @@ const entries = [
       ) +
       section(
         "proximo-passo-componentes",
-        "Uma consulta começa com dados verificáveis",
+        "Informações para planejar o serviço",
         `<p>Compare a observação com a documentação aplicável ao equipamento e registre as referências disponíveis. A decisão de recuperar ou trocar depende da condição, da medida de referência e do escopo aprovado.</p><p>${mailCta(site, "Avaliação de componente de material rodante", "Enviar dados do componente para avaliação")}</p>`,
       ),
   },
@@ -111,7 +111,7 @@ const entries = [
     about: "Rodas-guia de máquinas de esteira",
     active: "servicos",
     eyebrow: "RODAS-GUIA",
-    contactTitle: "Converse sobre a condição da roda-guia",
+    contactTitle: "Solicite a recuperação da roda-guia",
     content: (site) =>
       section(
         "funcao-roda-guia",
@@ -131,7 +131,7 @@ const entries = [
       section(
         "avaliar-roda-guia",
         "Roda-guia isolada ou conjunto em avaliação?",
-        `<p>Na recuperação de roda-guia, a New Tractor avalia a pista desgastada para definir soldagem e usinagem conforme a medida de referência. A decisão depende também da condição dos componentes próximos. Registre corrente, pinos, buchas, sapatas, roletes e roda motriz que possam influenciar a leitura, sem atribuir a causa à distância.</p><p>Para manutenção e recondicionamento do conjunto, consulte <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para reunir medições e histórico, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento</a>. Se a demanda é uma roda-guia nova identificada por código ou desenho, use <a href="/parts/">Parts</a>; se existe uma peça para recuperação dimensional, apresente-a à <a href="/usinagem/">Usinagem</a>. A compatibilidade e o escopo são avaliados por demanda.</p>`,
+        `<p>Na recuperação de roda-guia, a New Tractor avalia a pista desgastada para definir soldagem e usinagem conforme a medida de referência. A decisão depende também da condição dos componentes próximos. Registre corrente, pinos, buchas, sapatas, roletes e roda motriz que possam influenciar a leitura, sem atribuir a causa à distância.</p><p>Para manutenção e recondicionamento do conjunto, consulte <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para reunir medições e histórico, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento</a>. Para uma peça nova, solicite a <a href="/parts/">fabricação sob demanda à Parts</a> com código ou desenho da roda-guia; se existe uma peça para recuperação dimensional, apresente-a à <a href="/usinagem/">Usinagem</a>. A compatibilidade e o escopo são avaliados por demanda.</p>`,
       ) +
       section(
         "dados-roda-guia",
@@ -166,7 +166,7 @@ const entries = [
     about: "Roletes de esteira de máquinas pesadas",
     active: "servicos",
     eyebrow: "ROLETES DE ESTEIRA",
-    contactTitle: "Apresente a posição e a condição do rolete",
+    contactTitle: "Solicite a avaliação dos roletes",
     content: (site) =>
       section(
         "tipos-roletes",
@@ -186,7 +186,7 @@ const entries = [
       section(
         "conjunto-roletes",
         "A condição do rolete dialoga com a esteira",
-        `<p>Ao encaminhar um rolete, inclua a condição da corrente, das sapatas, da roda-guia e da roda motriz quando esses dados estiverem disponíveis. A comparação entre posições pode ajudar a equipe a organizar a prioridade, mas não substitui a referência do fabricante nem a análise do conjunto.</p><p>A <a href="/servicos/manutencao-material-rodante/">recuperação de roletes</a> pode envolver preparação, enchimento por processo compatível e usinagem conforme a avaliação e as medidas aplicáveis. A condição observada orienta o que será recuperado e conferido na entrega. O <a href="/servicos/monitoramento-material-rodante/">monitoramento</a> ajuda a estruturar medições e histórico. Para um rolete novo, consulte <a href="/parts/">Parts</a>; para uma peça existente com necessidade dimensional, conheça a <a href="/usinagem/">Usinagem</a>. O processo aplicável depende do componente.</p>`,
+        `<p>Ao encaminhar um rolete, inclua a condição da corrente, das sapatas, da roda-guia e da roda motriz quando esses dados estiverem disponíveis. A comparação entre posições pode ajudar a equipe a organizar a prioridade, mas não substitui a referência do fabricante nem a análise do conjunto.</p><p>A <a href="/servicos/manutencao-material-rodante/">recuperação de roletes</a> pode envolver preparação, enchimento por processo compatível e usinagem conforme a avaliação e as medidas aplicáveis. A condição observada orienta o que será recuperado e conferido na entrega. O <a href="/servicos/monitoramento-material-rodante/">monitoramento</a> ajuda a estruturar medições e histórico. Para um rolete novo, envie os requisitos à <a href="/parts/">Parts, especializada em fabricação sob demanda</a>; para uma peça existente com necessidade dimensional, conheça a <a href="/usinagem/">Usinagem</a>. O processo aplicável depende do componente.</p>`,
       ) +
       section(
         "dados-roletes",
@@ -221,7 +221,7 @@ const entries = [
     about: "Correntes e sapatas de esteiras",
     active: "servicos",
     eyebrow: "CORRENTES E SAPATAS",
-    contactTitle: "Converse sobre corrente, sapata e aplicação",
+    contactTitle: "Planeje a manutenção de correntes e sapatas",
     content: (site) =>
       section(
         "relacao-corrente-sapata",
@@ -242,7 +242,7 @@ const entries = [
       section(
         "nova-recuperacao-correntes",
         "Peça nova ou conjunto em recuperação?",
-        `<p>O conjunto de corrente, elos, pinos e buchas também é conhecido como rosário. Na <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>, a avaliação do rosário orienta a troca ou giro de pinos e buchas, com desmontagem, limpeza, inspeção e montagem. Para sapatas, são avaliados empeno, trincas e a dimensão da talisca antes de definir a preparação e a aplicação de nova garra.</p><p>Se a necessidade é consultar peça nova, encaminhe código, desenho, especificação, aplicação e quantidade para <a href="/parts/">Parts</a>. Se existe componente para recuperação dimensional, a <a href="/usinagem/">Usinagem</a> pode avaliar a peça e definir o processo em torno, mandrilhadora ou centro de usinagem. Informe se precisa de peça avulsa, um lado da máquina ou conjunto completo para comparar escopos equivalentes.</p>`,
+        `<p>O conjunto de corrente, elos, pinos e buchas também é conhecido como rosário. Na <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>, a avaliação do rosário orienta a troca ou giro de pinos e buchas, com desmontagem, limpeza, inspeção e montagem. Para sapatas, são avaliados empeno, trincas e a dimensão da talisca antes de definir a preparação e a aplicação de nova garra.</p><p>Para fabricação de peças sob demanda, envie código, desenho, especificação, aplicação e quantidade à <a href="/parts/">New Tractor Parts</a>. Se existe componente para recuperação dimensional, a <a href="/usinagem/">Usinagem</a> pode avaliar a peça e definir o processo em torno, mandrilhadora ou centro de usinagem. Informe se precisa de peça avulsa, um lado da máquina ou conjunto completo para comparar escopos equivalentes.</p>`,
       ) +
       section(
         "dados-correntes-sapatas",
@@ -264,9 +264,9 @@ const entries = [
   {
     route: "/guias/folgas-pinos-buchas-alojamentos/",
     title: "Folgas em pinos, buchas e alojamentos | Guia New Tractor",
-    heading: "Folga articulada pede identificação antes da decisão",
+    heading: "Folgas em pinos, buchas e alojamentos: como avaliar",
     description:
-      "Guia para diferenciar folga percebida, pino, bucha e alojamento em componentes de máquinas pesadas antes de consultar manutenção ou peça nova.",
+      "Guia para diferenciar folga percebida, pino, bucha e alojamento em componentes de máquinas pesadas para planejar a recuperação ou a fabricação de uma peça nova.",
     intro:
       "Uma folga articulada não aponta, sozinha, para uma bucha. Identifique onde o movimento aparece, qual componente participa e quais dados a equipe consegue documentar antes de decidir o próximo passo.",
     image: "medicao-rolete",
@@ -278,13 +278,13 @@ const entries = [
     active: "guias",
     eyebrow: "GUIA DE AVALIAÇÃO",
     article: true,
-    lastModified: "2026-09-08",
-    contactTitle: "Envie o contexto da folga observada",
+    lastModified: "2026-09-10",
+    contactTitle: "Solicite uma avaliação das folgas da máquina",
     content: (site) =>
       section(
         "folga-nao-diagnostico",
         "Folga percebida não é diagnóstico",
-        `<p>Em uma articulação ou conexão, o movimento percebido pode estar relacionado ao pino, à bucha, ao alojamento, à fixação ou a outra parte do conjunto. A mesma sensação de folga pode aparecer em posições diferentes e sob condições distintas.</p><p>Registre onde o movimento foi percebido, em qual sentido, com a máquina parada ou em operação conforme o procedimento da equipe, e quando o sinal surgiu. A descrição organiza a conversa; não substitui inspeção, documentação do fabricante ou critério OEM.</p>`,
+        `<p>Em uma articulação ou conexão, o movimento percebido pode estar relacionado ao pino, à bucha, ao alojamento, à fixação ou a outra parte do conjunto. A mesma sensação de folga pode aparecer em posições diferentes e sob condições distintas.</p><p>Registre onde o movimento foi percebido, em qual sentido, com a máquina parada ou em operação conforme o procedimento da equipe, e quando o sinal surgiu. Essas informações ajudam a planejar a inspeção, que deve seguir a documentação e os critérios do fabricante.</p>`,
       ) +
       section(
         "separar-pino-bucha-alojamento",
@@ -304,8 +304,8 @@ const entries = [
       ) +
       section(
         "encaminhar-folga",
-        "Avaliar, recuperar ou consultar peça nova",
-        `<p>Para uma avaliação do conjunto de material rodante, consulte a <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para registrar medidas e histórico entre inspeções, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento</a>. Uma peça nova identificada por código, desenho ou especificação pode ser encaminhada para <a href="/parts/">Parts</a>; uma peça existente com demanda de geometria pode ser apresentada à <a href="/usinagem/">Usinagem</a>, conforme análise dimensional da peça.</p><p>Os caminhos não significam que toda folga tenha um processo definido. Compatibilidade, escopo, capacidade, transporte e prazo precisam ser confirmados a partir do componente e da operação.</p><p>${mailCta(site, "Guia para avaliação de folga, pino e bucha", "Enviar o registro da folga para orientação inicial")}</p>`,
+        "Recuperar o conjunto ou fabricar uma peça nova",
+        `<p>Para uma avaliação do conjunto de material rodante, consulte a <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>. Para registrar medidas e histórico entre inspeções, veja o <a href="/servicos/monitoramento-material-rodante/">monitoramento</a>. A <a href="/parts/">New Tractor Parts</a> fabrica peças sob demanda, a partir de código, desenho, amostra ou especificação; uma peça existente com demanda de geometria pode ser apresentada à <a href="/usinagem/">Usinagem</a>, conforme análise dimensional da peça.</p><p>Os caminhos não significam que toda folga tenha um processo definido. Compatibilidade, escopo, capacidade, transporte e prazo precisam ser confirmados a partir do componente e da operação.</p><p>${mailCta(site, "Guia para avaliação de folga, pino e bucha", "Enviar o registro da folga para orientação inicial")}</p>`,
       ) +
       section(
         "seguranca-folga",
@@ -330,7 +330,7 @@ export function createComponentPages({ pageHero, contactBand, breadcrumbSchema, 
       description: entry.description,
       active: entry.active,
       about: { "@type": "Thing", name: entry.about },
-      lastModified: entry.lastModified ?? "2026-09-08",
+      lastModified: entry.lastModified ?? "2026-09-10",
       schema,
       body:
         pageHero({
@@ -345,7 +345,7 @@ export function createComponentPages({ pageHero, contactBand, breadcrumbSchema, 
           imageHeight: entry.height,
         }) +
         (entry.article
-          ? `<div class="shell article-credit"><p>Conteúdo editorial do Grupo New Tractor · Atualizado em 8 de setembro de 2026</p></div>`
+          ? `<div class="shell article-credit"><p>Conteúdo editorial do Grupo New Tractor · Atualizado em 10 de setembro de 2026</p></div>`
           : "") +
         entry.content(site) +
         contactBand(entry.contactTitle),

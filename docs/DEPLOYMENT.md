@@ -1,5 +1,34 @@
 # Publicação e migração do domínio
 
+## Estado atual — 10/09/2026
+
+O domínio oficial já serve o site pelo **Cloudflare Workers Static Assets**,
+serviço `new-tractor-website`; a zona foi verificada como `active`.
+As seções abaixo são histórico de Pages/WordPress, não instruções para recriar
+ou migrar novamente a infraestrutura atual.
+
+O fluxo atual é `npm run deploy:preview` (upload de versão, sem promover)
+e, depois do QA, a publicação pelo merge da `main`/Workers Builds.
+Domínios existentes são gerenciados pelo painel: manter `workers_dev: false`
+e não adicionar `routes` ao arquivo sem inventariar a configuração real.
+Nenhuma alteração de DNS ou de registros de e-mail é necessária para esta entrega.
+
+O Worker de aplicação implementa os redirects legados antes do acesso a ASSETS.
+O JSON de Single Redirect Rules continua sendo uma alternativa **desativada**;
+não instalar os dois mecanismos sem revisar prioridade e destinos.
+`run_worker_first: true` faz as requisições passarem pelo Worker: monitorar a
+franquia de invocações existente. Não foi contratado ou ampliado plano.
+
+Evidências, limites de acesso e rollback: [ativação SEO](seo/ATIVACAO-2026-09-10.md).
+
+Política de crawlers atualizada em 10/09/2026: o arquivo do projeto permite
+busca e IA, inclusive treinamento. O robots gerenciado e o bloqueio de bots
+de treinamento da Cloudflare foram desativados somente nesta zona. Manter
+essa configuração para não sobrepor regras conflitantes ao arquivo próprio.
+Evidências e rollback: [acesso público por IA](seo/AI-CRAWLERS-2026-09-10.md).
+
+## Histórico anterior
+
 ## Entrega das sete especialidades — 08/09/2026
 
 - Implementação: `966f1364475878bd0fac17c9aba22405e09bfd76`, entregue pelo

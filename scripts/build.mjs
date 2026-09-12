@@ -32,12 +32,23 @@ for (const file of staticFiles) {
   await cp(join(root, "public", file), join(output, file));
 }
 
+// Preserve historical aliases and normalize every real HTML route permanently.
+// The asset host's automatic slash normalization otherwise returns HTTP 307.
+const manualRedirects = await BunlessRead(join(root, "public", "_redirects"));
+const manualRules = manualRedirects.split(/\r?\n/).filter(line => line.trim() && !line.trim().startsWith("#"));
+const redirectSources = new Set(manualRules.map(line => line.trim().split(/\s+/)[0]));
+const canonicalRedirects = pages
+  .filter(page => page.indexable !== false && page.route !== "/" && page.route.endsWith("/") && !redirectSources.has(page.route.slice(0, -1)))
+  .map(page => `${page.route.slice(0, -1)} ${page.route} 301`);
+if (manualRules.length + canonicalRedirects.length > 2000) throw new Error("Static redirect limit exceeded; review route architecture before publishing");
+await writeFile(join(output, "_redirects"), `${manualRedirects.trimEnd()}\n\n# Generated canonical routes\n${canonicalRedirects.join("\n")}\n`, "utf8");
+
 for (const { file, content } of renderSitemaps(pages, site)) {
   await writeFile(join(output, file), content, "utf8");
 }
 
 const discoveryMarkdown = discoveryGroups(pages).map(group => `## ${group.label}\n\n${group.pages.map(page => `- [${page.title}](${site.origin}${page.route}): ${page.description}`).join("\n")}`).join("\n\n");
-const llms = `# ${site.name}\n\n> Especialidades industriais para máquinas pesadas, com base em Belo Horizonte, Minas Gerais.\n\nManutenção, recondicionamento e monitoramento de material rodante; reforma de caçambas e conchas; recuperação dimensional de componentes. Atendimento sujeito a avaliação técnica, comercial e logística por demanda.\n\nA HidrauTractor executa recuperação e fabricação de cilindros hidráulicos, com escopo, parâmetros e logística definidos por aplicação. Parts e Services recebem demandas conforme identificação, aplicação e escopo. TechTractor é uma frente tecnológica em evolução. As frentes são uma arquitetura de marca; não representam sete estabelecimentos ou pessoas jurídicas confirmadas.\n\n${discoveryMarkdown}\n\n## Contato\n\n- E-mail: ${site.email}\n- Telefone: ${site.phoneDisplay}\n- [Condições para avaliação e canais oficiais](${site.origin}/contato/)\n`;
+const llms = `# ${site.name}\n\n> Especialidades industriais para máquinas pesadas, com base em Belo Horizonte, Minas Gerais.\n\nManutenção, recondicionamento e monitoramento de material rodante; reforma de caçambas e conchas; recuperação dimensional de componentes. Atendimento sujeito a avaliação técnica, comercial e logística por demanda.\n\nA HidrauTractor executa recuperação e fabricação de cilindros hidráulicos, com escopo, parâmetros e logística definidos por aplicação. A New Tractor Parts fabrica peças sob demanda. A New Tractor Services realiza serviço de campo com técnicos especializados em equipamentos de toda a linha amarela, avaliação de desgaste e manutenção conforme agenda ou programada nas unidades industriais. Sob contrato, o grupo oferece sobressalentes inclusive durante a reparação da máquina, para apoiar a disponibilidade da frota. TechTractor é uma frente tecnológica em evolução. As frentes são uma arquitetura de marca; não representam sete estabelecimentos ou pessoas jurídicas confirmadas.\n\n${discoveryMarkdown}\n\n## Contato\n\n- E-mail: ${site.email}\n- Telefone: ${site.phoneDisplay}\n- [Condições para avaliação e canais oficiais](${site.origin}/contato/)\n`;
 await writeFile(join(output, "llms.txt"), llms, "utf8");
 
 console.log(`Built ${pages.length} HTML pages in dist/`);

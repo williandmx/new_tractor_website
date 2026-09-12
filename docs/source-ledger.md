@@ -1,6 +1,18 @@
 # Registro de fontes, fatos e pendências
 
-Última revisão: 2026-09-08
+Última revisão: 2026-09-10
+
+Direção institucional dos títulos confirmada pelo usuário em 10/09/2026:
+Grupo New Tractor primeiro, frente responsável e assunto específico por
+página. A home enfatiza o grupo industrial e a conexão entre técnicos,
+estrutura industrial e tecnologia para cuidar da frota. Decisões e limites
+registrados em [títulos institucionais](seo/TITULOS-INSTITUCIONAIS-2026-09-10.md).
+
+Política pública de rastreamento de 10/09/2026: o usuário solicitou acesso para
+buscadores e plataformas de IA e confirmou a inclusão de treinamento. A decisão,
+os limites e as alterações restritas à New Tractor estão registrados em
+[acesso por IA](seo/AI-CRAWLERS-2026-09-10.md). Não implica garantia de indexação
+ou citação nem direitos adicionais sobre materiais de terceiros.
 
 Complemento de 2026-09-08: a Revista M&T, edição 292 (abril de 2025), publicou
 “Vida útil plena para esteiras”, de Antonio Santomauro, com declarações atribuídas
@@ -26,12 +38,14 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | HidrauTractor | Frente de marca com recuperação e fabricação de cilindros hidráulicos confirmadas pelo proprietário em 2026-09-08 | Confirmação explícita do proprietário em 2026-09-08; detalhes de processo registrados em `src/hydraulic-content.mjs` e no relatório de serviços hidráulicos | Publicar recuperação e fabricação com avaliação por peça/aplicação; parâmetros de projeto, materiais, tolerâncias, ensaios, capacidade, prazo, garantia e logística exigem especificação e registro próprios |
 | New Tractor Usinagem | Frente de marca para recuperação dimensional de componentes pesados | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar torno, mandrilhadora e centro de usinagem como processos divulgados; validar capacidade, tolerância, dimensões, materiais e prazo por peça |
 | New Tractor Calderaria | Frente de marca para recuperação de estruturas, caçambas e componentes pesados por caldeiraria e solda | Material público anterior, `src/group.mjs` e vídeos locais da frente | Publicar recuperação estrutural; validar procedimentos, materiais, capacidade, tolerância e prazo por condição |
-| New Tractor Parts | Nome de frente confirmado; consulta de peças novas por código, desenho ou especificação; disponibilidade e fabricação específica ainda não comprovadas | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06; correção editorial de 2026-09-08 em `src/group.mjs` | Apresentar a demanda como consulta e avaliação; receber código, desenhos, especificações e fotos; não afirmar estoque, pronta-entrega ou fabricação universal |
-| New Tractor Services | Nome de frente confirmado como arquitetura integradora; oferta end-to-end, contrato único e garantia não comprovados | Conversa “Proposta Grupo New Tractor” e confirmação do usuário em 2026-09-06 | Descrever como coordenação de demandas sob avaliação; não afirmar SLA, prazo, garantia, equipe ou contrato |
+| New Tractor Parts | Fabricação de peças sob demanda confirmada pelo proprietário em 10/09/2026 | Pedido de revisão comercial do site em 10/09/2026 | Publicar fabricação sob demanda; peça, desenho, amostra e aplicação orientam a especificação. Não implica estoque, pronta-entrega, fabricação universal ou prazo fixo |
+| New Tractor Services | Serviço de campo com técnicos especializados em equipamentos de toda a linha amarela, avaliação de desgaste e manutenção conforme agenda ou agendada nas unidades industriais | Declaração explícita do proprietário em 10/09/2026 | Publicar execução dos serviços e planejamento com o cliente. Não implica atendimento imediato, equipe residente, SLA, garantia ou novos endereços industriais |
 | Engenharia para manter máquinas pesadas produzindo | Direção aprovada de marca | Plano de Marketing e Marca | Publicar como posicionamento |
 | 15 logos da carteira | Publicados historicamente | Seção “Nossos clientes” do site anterior | Publicar como referências históricas divulgadas, sem contrato atual implícito |
 | Participação na EXPOSIBRAM 2026 | Declaração anterior do proprietário | Brief da campanha | Manter como anúncio histórico; não afirmar presença realizada sem registro pós-evento |
-| Telefone (31) 3493-1476 e e-mail solucao@newtractor.com.br | Presença pública | Site anterior | Publicar |
+| Telefone (31) 3493-1476 e e-mail solucao@newtractor.com.br | Registro histórico | Site anterior | Substituídos por confirmação do proprietário em 10/09/2026 |
+| E-mail comercial2@newtractor.com.br | Declaração do proprietário em 10/09/2026 | Pedido explícito de atualização em todas as páginas | Usar em todo contato comercial, mailto, dados estruturados e llms.txt |
+| Telefone +55 31 9312-0054 | Declaração do proprietário em 10/09/2026 | Pedido explícito de atualização do telefone de contato | Publicar exatamente como informado em textos, tel, dados estruturados e llms.txt; não acrescentar dígitos. WhatsApp permanece como canal distinto já divulgado |
 | WhatsApp (31) 99312-0054 | Presença pública divergente | Página de contato e botão ativo antigos | Manter provisoriamente e destacar para confirmação |
 | LinkedIn `/company/new-tractor` | Página empresarial pública encontrada | LinkedIn | Preferir à URL pessoal antiga, sujeito a confirmação de administração |
 | CNPJ/razão social | Pendente | Duas empresas encontradas no mesmo endereço | Não publicar até cartão CNPJ |
@@ -40,7 +54,15 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | Cases, resultados e depoimentos | Pendente | Sem autorização e evidência | Não publicar |
 | TechTractor | Frente tecnológica em evolução para inspeções, acompanhamento de desgaste e histórico de manutenção; README local descreve painel privado de inspeções e acompanhamento de desgaste de material rodante | Plano de Marketing e Marca; README de `newtractor_conditionmonitoring` consultado somente como metadado em 2026-09-06 | Apresentar a direção de tecnologia e monitoramento; não publicar como produto pronto, acesso transacional ou oferta contratável; código local não é prova de oferta comercial |
 
-## Guias técnicos e benchmark — 2026-09-07
+## Confirmação comercial do proprietário — 10/09/2026
+
+- **Services:** técnicos especializados em toda a linha amarela realizam serviço de campo e avaliação de desgaste. A manutenção pode acontecer no local conforme agenda ou ser agendada nas unidades industriais.
+- **Parts:** executa fabricação de peças sob demanda. A oferta deixa de ser apresentada como simples consulta de peças.
+- **Sobressalentes:** sob contrato, o Grupo New Tractor oferece peças sobressalentes inclusive durante a reparação da máquina. Não foram informados preço, gratuidade, comodato, estoque, prazo, quantidade ou cobertura universal; essas condições pertencem ao contrato.
+- **Benefício e posicionamento:** agilidade, tecnologia, tranquilidade do cliente e redução do tempo de máquina parada. A expressão do proprietário “a máquina rode sem parar” é tratada como objetivo de disponibilidade, sem transformar o texto em garantia de operação ininterrupta.
+- Esta confirmação supera as restrições anteriores sobre existência de equipe de campo, execução de manutenção pela Services, fabricação pela Parts e oferta de sobressalentes sob contrato. Os registros anteriores abaixo permanecem como histórico; não limitam as ofertas agora confirmadas. Nomes de marca e rotas foram preservados.
+
+## Guias técnicos e benchmark — 2026-09-07 (registro histórico)
 
 - A pesquisa do Ubersuggest usa Brasil/português: 75 termos transcritos no
   arquivo `docs/seo/palavras-chave-grupo-ubersuggest-2026-09-07.json`. Volumes
@@ -51,8 +73,9 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
   não declarações de clientes, contratos, filiais ou oferta completa por setor.
 - A página técnica de Usinagem aprofunda os processos já sustentados neste
   ledger; capacidade, tolerância, material e prazo seguem sujeitos à peça.
-- A redação de Parts e Services não ganha novos processos, estoque, equipe de
-  campo ou reparo no pátio por causa do benchmark. A confirmação do proprietário
+- Na revisão de 07/09, o benchmark não era confirmação de novos processos, estoque,
+  equipe de campo ou reparo no pátio. A declaração de 10/09 acima confirmou
+  fabricação sob demanda, equipe de campo e manutenção agendada. A confirmação do proprietário
   em 08/09/2026 acrescenta recuperação e fabricação de cilindros à HidrauTractor;
   parâmetros de projeto, materiais, tolerâncias, ensaios, capacidade, prazo e
   logística continuam definidos por peça e escopo.
@@ -180,3 +203,24 @@ Gerais nem substitui o escopo confirmado pelo proprietário.
 fluxos públicos de recuperação e fabricação. As fotos ilustram o acervo e não
 substituem ficha de processo, relatório de ensaio ou comprovação de capacidade.
 Direitos e proveniência continuam sujeitos aos registros próprios de assets.
+
+## Municípios e setores de Minas Gerais — decisão de 10/09/2026
+
+- O proprietário confirmou o recorte **acima de 100.000 habitantes em Minas
+  Gerais**, acrescido de polos de mineração, florestal, agro e indústria. A
+  decisão substitui a restrição anterior de manter somente a página estadual
+  para esta expansão; não autoriza cidades de outros estados nem filiais fictícias.
+- A implementação separa município × especialidade e especialidade × setor.
+  Não gera o produto triplo município × especialidade × setor. A fórmula e as
+  rotas estão em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
+- População e seleção setorial têm fontes distintas, registradas em
+  `src/minas-cities.mjs` e `docs/seo/MINAS-FONTES-2026-09-10.md`. População não
+  demonstra vocação industrial, volume de busca, cliente ou demanda comercial.
+- O contexto econômico documenta a cidade, não relacionamento entre operadores
+  citados e New Tractor. Base, escopo e canais reais permanecem os da empresa;
+  avaliação técnica, comercial e logística segue necessária por demanda.
+- TechTractor permanece uma frente em desenvolvimento, sem oferta de plataforma
+  pronta ou marcação `Service` nas novas páginas. Fotografias são do acervo do
+  grupo, sem atribuição de local de atendimento ao município da página.
+- A referência Guimarães foi consultada somente para arquitetura. Não houve
+  mudança em repositório, contas, analytics, domínio ou conteúdo de outro cliente.

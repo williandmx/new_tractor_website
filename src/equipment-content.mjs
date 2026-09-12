@@ -44,7 +44,7 @@ const articleSchema = (site, entry) => ({
   headline: entry.title,
   description: entry.description,
   datePublished: "2026-09-08",
-  dateModified: entry.lastModified ?? "2026-09-08",
+  dateModified: entry.lastModified ?? "2026-09-10",
   inLanguage: "pt-BR",
   mainEntityOfPage: { "@id": `${site.origin}${entry.route}#webpage` },
   author: { "@type": "Organization", name: "Grupo New Tractor", url: `${site.origin}/empresa/` },
@@ -74,7 +74,7 @@ const entries = [
     height: 675,
     imageAlt: "Escavadeira e veículos de apoio no pátio da New Tractor",
     about: "Cilindros hidráulicos de escavadeiras",
-    contactTitle: "Apresente a escavadeira e o cilindro",
+    contactTitle: "Planeje a manutenção dos cilindros da escavadeira",
     content: (site) =>
       section(
         "mapa-cilindros-escavadeira",
@@ -107,7 +107,7 @@ const entries = [
       section(
         "encaminhamento-escavadeira",
         "Uma demanda pode envolver mais de um componente",
-        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto. Para peça nova, código, desenho, especificação e quantidade ajudam a <a href="/parts/">Parts</a> a organizar a consulta. Uma peça existente com questão geométrica pode ser apresentada à <a href="/usinagem/">Usinagem</a>, conforme análise da peça.</p><p>Se o relato também incluir corrente, roletes, sapatas ou rodas-guia, separe essa parte para a frente <a href="/rodantes/">Rodantes</a>. Trinca ou deformação na estrutura de um implemento pertence a uma conversa de <a href="/calderaria/">Calderaria</a>. A separação evita tratar a escavadeira inteira como um único item.</p><p><a class="text-link" href="/contato/">Enviar uma consulta com esses dados</a></p>`,
+        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto. Para peça nova, código, desenho, especificação e quantidade ajudam a <a href="/parts/">Parts</a> a definir a fabricação sob demanda. Uma peça existente com questão geométrica pode ser apresentada à <a href="/usinagem/">Usinagem</a>, conforme análise da peça.</p><p>Se o relato também incluir corrente, roletes, sapatas ou rodas-guia, separe essa parte para a frente <a href="/rodantes/">Rodantes</a>. Trinca ou deformação na estrutura de um implemento pertence a uma conversa de <a href="/calderaria/">Calderaria</a>. A separação evita tratar a escavadeira inteira como um único item.</p><p><a class="text-link" href="/contato/">Solicitar orçamento para a escavadeira</a></p>`,
       ) +
       section(
         "minas-escavadeira",
@@ -149,7 +149,7 @@ const entries = [
     height: 675,
     imageAlt: "Conjuntos de esteiras no acervo da New Tractor",
     about: "Cilindros hidráulicos de tratores de esteira",
-    contactTitle: "Apresente o trator de esteira e o circuito",
+    contactTitle: "Planeje a manutenção dos cilindros do trator",
     content: (site) =>
       section(
         "mapa-cilindros-trator",
@@ -165,7 +165,7 @@ const entries = [
           "ruído, vibração, vazamento, haste marcada ou dano aparente no cilindro e nas fixações",
           "diferença entre lados, entre movimentos ou depois de trocar implemento, ajustar o conjunto ou mudar de terreno",
           "temperatura, carga, inclinação, frequência, horímetro e histórico de intervenções ou fluido, quando conhecidos",
-        ])}<p>Um sinal hidráulico pode estar relacionado ao cilindro, ao comando, às linhas ou à articulação da lâmina. O registro organiza a conversa e não substitui o manual do equipamento ou uma avaliação no componente.</p>`,
+        ])}<p>Um sinal hidráulico pode estar relacionado ao cilindro, ao comando, às linhas ou à articulação da lâmina. O registro ajuda a planejar a inspeção. A avaliação do componente deve seguir o manual do equipamento.</p>`,
       ) +
       section(
         "identificacao-trator",
@@ -182,7 +182,7 @@ const entries = [
       section(
         "encaminhamento-trator",
         "Separe hidráulica, lâmina e material rodante",
-        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto. Quando a necessidade for peça nova, informe código, desenho, aplicação e quantidade à <a href="/parts/">Parts</a>. Uma peça com demanda de geometria pode seguir para a <a href="/usinagem/">Usinagem</a>, conforme análise dimensional.</p><p>Se a lâmina, o ripper ou outra estrutura apresentar trinca, deformação ou desgaste estrutural, a demanda pode ser relacionada à <a href="/calderaria/">Calderaria</a>. Correntes, sapatas, roletes, rodas-guia e trucks pertencem ao escopo de <a href="/rodantes/">Rodantes</a> e devem ser descritos separadamente.</p><p><a class="text-link" href="/contato/">Enviar a identificação do trator para conversa</a></p>`,
+        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto. Para fabricação de peças sob demanda, envie código, desenho, aplicação e quantidade à <a href="/parts/">New Tractor Parts</a>. Uma peça com demanda de geometria pode seguir para a <a href="/usinagem/">Usinagem</a>, conforme análise dimensional.</p><p>Se a lâmina, o ripper ou outra estrutura apresentar trinca, deformação ou desgaste estrutural, a demanda pode ser relacionada à <a href="/calderaria/">Calderaria</a>. Correntes, sapatas, roletes, rodas-guia e trucks pertencem ao escopo de <a href="/rodantes/">Rodantes</a> e devem ser descritos separadamente.</p><p><a class="text-link" href="/contato/">Solicitar orçamento para o trator</a></p>`,
       ) +
       section(
         "minas-trator",
@@ -223,7 +223,7 @@ const entries = [
     height: 612,
     imageAlt: "Caçamba de máquina pesada no pátio da New Tractor",
     about: "Cilindros hidráulicos de pás carregadeiras",
-    contactTitle: "Apresente a pá carregadeira e o movimento",
+    contactTitle: "Planeje a manutenção dos cilindros da carregadeira",
     content: (site) =>
       section(
         "mapa-cilindros-carregadeira",
@@ -256,7 +256,7 @@ const entries = [
       section(
         "encaminhamento-carregadeira",
         "Cilindro e caçamba podem seguir por caminhos distintos",
-        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. Apresente identificação, movimento e condição para definir o plano de reparo ou o projeto. Para uma peça nova, use código, desenho, aplicação e quantidade na consulta à <a href="/parts/">Parts</a>. Uma peça que demande avaliação geométrica pode ser apresentada à <a href="/usinagem/">Usinagem</a>.</p><p>Se o problema estiver na estrutura, nas soldas, no perfil ou nos pontos de fixação da caçamba, veja a <a href="/calderaria/">Calderaria</a> e a <a href="/servicos/reforma-cacambas-conchas/">reforma de caçambas e conchas</a>. Não misture um dano estrutural com a identificação de um cilindro. Em uma versão de máquina sobre esteiras, os itens do material rodante podem ser separados para <a href="/rodantes/">Rodantes</a>.</p><p><a class="text-link" href="/contato/">Enviar uma consulta com fotos e identificação</a></p>`,
+        `<p>A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. Apresente identificação, movimento e condição para definir o plano de reparo ou o projeto. Para fabricação de peças sob demanda, envie código, desenho, aplicação e quantidade à <a href="/parts/">Parts</a>. Uma peça que demande avaliação geométrica pode ser apresentada à <a href="/usinagem/">Usinagem</a>.</p><p>Se o problema estiver na estrutura, nas soldas, no perfil ou nos pontos de fixação da caçamba, veja a <a href="/calderaria/">Calderaria</a> e a <a href="/servicos/reforma-cacambas-conchas/">reforma de caçambas e conchas</a>. Não misture um dano estrutural com a identificação de um cilindro. Em uma versão de máquina sobre esteiras, os itens do material rodante podem ser separados para <a href="/rodantes/">Rodantes</a>.</p><p><a class="text-link" href="/contato/">Solicitar orçamento para a carregadeira</a></p>`,
       ) +
       section(
         "minas-carregadeira",
@@ -298,7 +298,7 @@ export function createEquipmentPages({ pageHero, contactBand, breadcrumbSchema, 
       description: entry.description,
       active: "equipamentos",
       about: { "@type": "Thing", name: entry.about },
-      lastModified: entry.lastModified ?? "2026-09-08",
+      lastModified: entry.lastModified ?? "2026-09-10",
       ogImage: `/assets/images/${entry.image}-${entry.width}.webp`,
       ogImageWidth: entry.width,
       ogImageHeight: entry.height,
@@ -316,7 +316,7 @@ export function createEquipmentPages({ pageHero, contactBand, breadcrumbSchema, 
           imageWidth: entry.width,
           imageHeight: entry.height,
         }) +
-        `<div class="shell article-credit"><p>Conteúdo editorial do Grupo New Tractor · Atualizado em 8 de setembro de 2026</p></div><nav class="shell company-resources" aria-label="Serviços para cilindros hidráulicos"><a class="text-link" href="/hidrautractor/recuperacao-cilindros-hidraulicos/">Recuperar um cilindro</a><a class="text-link" href="/hidrautractor/fabricacao-cilindros-hidraulicos/">Fabricar um novo cilindro</a></nav>` +
+        `<div class="shell article-credit"><p>Conteúdo editorial do Grupo New Tractor · Atualizado em 10 de setembro de 2026</p></div><nav class="shell company-resources" aria-label="Serviços para cilindros hidráulicos"><a class="text-link" href="/hidrautractor/recuperacao-cilindros-hidraulicos/">Recuperar um cilindro</a><a class="text-link" href="/hidrautractor/fabricacao-cilindros-hidraulicos/">Fabricar um novo cilindro</a></nav>` +
         entry.content(site) +
         section("consulta-equipamentos", "Complete a identificação da sua demanda", `<p>O <a href="/guias/avaliacao-cilindros-hidraulicos/">guia de avaliação de cilindros hidráulicos</a> ajuda a separar o cilindro completo, o pistão ou êmbolo, a haste e os elementos de vedação. Use fotos e medidas já disponíveis com segurança; não movimente ou desmonte um conjunto para produzir dados da consulta.</p><p>Consulte também ${equipmentLinks.filter(([, route]) => route !== entry.route).map(([label, route]) => `<a href="${route}">${label.toLocaleLowerCase("pt-BR")}</a>`).join(", ")}.</p>`, "sand") +
         contactBand(entry.contactTitle),

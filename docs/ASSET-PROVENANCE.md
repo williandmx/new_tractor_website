@@ -13,7 +13,7 @@ público anterior de monitoramento e componentes, já documentada abaixo. O arqu
 permanece inalterado, em sua resolução nativa de 640 × 427, com dimensões,
 `srcset`, texto alternativo e legenda correspondentes à medição do diâmetro
 externo de um rolete. Não há aumento artificial de resolução nem geração de mídia.
-Aplicação: cartão da Services na home, destaque de `/services/` e imagem de
+Aplicação: cartão da Services na home, destaque de `/services/`, cartão de serviço de campo em `/servicos/` (revisão comercial de 10/09) e imagem de
 compartilhamento dessa página. O destaque preserva o enquadramento completo e
 os antigos endereços de imagem redirecionam para a fotografia real. A foto não
 comprova atendimento em mina, contrato, prazo ou execução em uma cidade específica.
@@ -192,3 +192,19 @@ O catálogo de seis entradas em `/servicos/` reaproveita `material-rodante`,
 O frame de torno ilustra usinagem; a medição mostra um rolete; a foto da base
 ilustra contexto operacional, sem afirmar equipe residente ou reparo no pátio.
 As versões responsivas mantêm dimensões, texto alternativo e origem.
+
+## Reuso na expansão municipal e setorial — 10/09/2026
+
+As novas rotas usam somente o acervo registrado: `equipe`, `material-rodante`,
+`hidrau-recuperacao`, `hidrau-fabricacao`, `concha-patio`,
+`componentes-industriais` e `medicao-rolete`. `src/regional-specialties.mjs` registra
+larguras disponíveis, dimensões e texto alternativo para cada especialidade.
+Não houve edição, geração nem download de imagem nesta expansão. As imagens
+não são apresentadas como fotografia da cidade atendida, case, filial ou
+evidência de serviço realizado naquele município.
+
+A revisão visual retirou da seleção preliminar regional os assets existentes
+`film-usinagem`, `film-parts` e `film-techtractor`: este registro não comprova
+sua origem documental, e os frames contêm texto incorporado. Eles não foram
+apagados nem modificados; as novas rotas usam em seu lugar o frame de torno
+documentado, os componentes do site anterior e a medição real de rolete.

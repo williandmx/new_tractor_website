@@ -6,6 +6,8 @@ import { createEquipmentPages, equipmentLinks } from "./equipment-content.mjs";
 import { createTerritoryPages } from "./territory-content.mjs";
 import { createHydraulicPages, hydraulicRoutes } from "./hydraulic-content.mjs";
 import { serviceOfferCards, serviceOfferListSchema } from "./service-offers.mjs";
+import { createRegionalPages, regionalNavigation } from "./regional-pages.mjs";
+import { applySeoMetadata } from "./seo-metadata.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -13,11 +15,11 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260910-services-photo.css",
-  jsFile: "site.20260908-measurement.js",
-  email: "solucao@newtractor.com.br",
-  phoneDisplay: "(31) 3493-1476",
-  phoneHref: "tel:+553134931476",
+  cssFile: "site.20260910-minas-v3.css",
+  jsFile: "site.20260910-indexation.js",
+  email: "comercial2@newtractor.com.br",
+  phoneDisplay: "+55 31 9312-0054",
+  phoneHref: "tel:+553193120054",
   whatsappDisplay: "(31) 99312-0054",
   whatsapp:
     "https://wa.me/5531993120054?text=Ol%C3%A1%2C%20New%20Tractor.%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
@@ -110,8 +112,8 @@ const clientLogoGrid = () => `
       .join("")}
   </ul>`;
 
-const contactBand = (title = "Vamos conversar sobre sua operação?") => `
-  <section class="contact-band" aria-labelledby="contact-band-title"><div class="shell contact-band__inner"><div><span class="eyebrow eyebrow--dark">FALE COM O GRUPO</span><h2 id="contact-band-title">${title}</h2><p>Apresente sua empresa, compartilhe uma necessidade ou conheça nossas especialidades.</p></div><div class="contact-band__actions"><a class="button button--dark" href="/contato/" data-analytics="contato_rodape">Entre em contato ${icon("arrow")}</a><a class="contact-band__phone" href="${site.phoneHref}" data-analytics="telefone_faixa_contato">${site.phoneDisplay}</a></div></div></section>`;
+const contactBand = (title = "Planeje a próxima manutenção com a New Tractor") => `
+  <section class="contact-band" aria-labelledby="contact-band-title"><div class="shell contact-band__inner"><div><span class="eyebrow eyebrow--dark">FALE COM O GRUPO</span><h2 id="contact-band-title">${title}</h2><p>Conte com nossa equipe para serviços de campo, recuperação de componentes e fabricação de peças sob demanda.</p></div><div class="contact-band__actions"><a class="button button--dark" href="/contato/" data-analytics="contato_rodape">Entre em contato ${icon("arrow")}</a><a class="contact-band__phone" href="${site.phoneHref}" data-analytics="telefone_faixa_contato">${site.phoneDisplay}</a></div></div></section>`;
 
 const pageHero = ({ eyebrow, title, intro, breadcrumb, image, imageAlt, imageWidths, imageWidth, imageHeight, actions = "" }) => `
   <section class="page-hero">
@@ -140,20 +142,20 @@ const homeBody = `
     <div class="shell hero__content">
       <div class="hero__copy">
         <span class="eyebrow eyebrow--light">GRUPO NEW TRACTOR</span>
-        <h1>Conhecimento industrial.<br><span>Força em conjunto.</span></h1>
-        <p>Material rodante, hidráulica, usinagem, caldeiraria e peças para máquinas de linha amarela. Especialidades conectadas, com base em Belo Horizonte, para apoiar a manutenção da sua operação.</p>
+        <h1>Soluções industriais.<br><span>Cuidado com a sua frota.</span></h1>
+        <p>Conectamos técnicos, estrutura industrial e tecnologia para cuidar da sua frota. Manutenção de máquinas pesadas, serviço de campo e fabricação de peças sob demanda, com base em Belo Horizonte.</p>
         <div class="button-row">
-          <a class="button button--primary" href="/empresa/">Conheça o grupo ${icon("arrow")}</a>
+          <a class="button button--primary" href="/servicos/">Serviços para sua frota ${icon("arrow")}</a>
           <a class="button button--ghost" href="/pessoas/#filme-institucional"><span class="play-symbol" aria-hidden="true">▷</span> Nosso filme</a>
         </div>
       </div>
-      <div class="hero__bottom"><a href="#essencia">Um grupo. Múltiplas forças. <span aria-hidden="true">↓</span></a><button class="film-toggle" type="button" aria-controls="hero-film" data-film-toggle hidden>Reproduzir vídeo</button></div>
+      <div class="hero__bottom"><a href="#essencia">Do campo à indústria. <span aria-hidden="true">↓</span></a><button class="film-toggle" type="button" aria-controls="hero-film" data-film-toggle hidden>Reproduzir vídeo</button></div>
     </div>
   </section>
 
   <section class="section group-intro" id="essencia" aria-labelledby="essencia-title">
     <div class="shell">
-      <div class="intro-layout"><span class="eyebrow">ESSÊNCIA NEW TRACTOR</span><div><h2 id="essencia-title">A força da indústria está<br>em suas conexões.</h2><div class="intro-layout__text"><p>Somos um grupo industrial com base em Belo Horizonte e uma trajetória construída no universo das máquinas pesadas desde 2010.</p><p>Da recuperação de componentes à consulta de peças novas, reunimos especialidades que se complementam. Conhecimento técnico, proximidade e visão de conjunto orientam a nossa atuação.</p></div><a class="text-link" href="/empresa/">Nossa história e estrutura ${icon("arrow")}</a></div></div>
+      <div class="intro-layout"><span class="eyebrow">ESSÊNCIA NEW TRACTOR</span><div><h2 id="essencia-title">Do campo à indústria,<br>cuidado em cada etapa.</h2><div class="intro-layout__text"><p>Somos um grupo industrial com base em Belo Horizonte e uma trajetória construída no universo das máquinas pesadas desde 2010.</p><p>Avaliamos o desgaste no campo, planejamos a manutenção e recuperamos ou fabricamos os componentes nas nossas unidades industriais. Sob contrato, oferecemos peças sobressalentes inclusive durante a reparação da máquina, para ajudar a reduzir o tempo de parada.</p></div><a class="text-link" href="/empresa/">Nossa história e estrutura ${icon("arrow")}</a></div></div>
       <dl class="group-facts__grid" aria-label="O grupo em números"><div><dt>2010</dt><dd>o início da nossa trajetória</dd></div><div><dt>07</dt><dd>especialidades que se conectam</dd></div><div><dt>4.000<span> m²+</span></dt><dd>de área industrial combinada</dd></div><div><dt>03</dt><dd>galpões na estrutura do grupo</dd></div></dl>
     </div>
   </section>
@@ -161,34 +163,34 @@ const homeBody = `
   ${groupIndex(icon)}
 
   <section class="section industry-section" aria-labelledby="industria-title"><div class="shell">
-    <div class="section-heading section-heading--split"><div><span class="eyebrow">ONDE ESTAMOS PRESENTES</span><h2 id="industria-title">Ao lado de quem<br>move grandes operações.</h2></div><div><p>As máquinas conectam a nossa experiência a diferentes setores da economia.</p><a class="text-link" href="/setores/">Encontre o contexto da sua operação ${icon("arrow")}</a></div></div>
+    <div class="section-heading section-heading--split"><div><span class="eyebrow">ONDE ESTAMOS PRESENTES</span><h2 id="industria-title">Ao lado de quem<br>move grandes operações.</h2></div><div><p>As máquinas conectam a nossa experiência a diferentes setores da economia.</p><a class="text-link" href="/setores/">Soluções para o seu setor ${icon("arrow")}</a></div></div>
     <div class="sector-list">${sectorLinks.map(([label, href], i) => `<article><span>0${i + 1}</span><h3><a href="${href}">${label}</a></h3><p>${[
-      "Regime de trabalho, condição do componente e janela de parada na operação mineral.",
-      "Identificação da máquina e do conjunto na colheita, no carregamento e no apoio florestal.",
-      "Equipamentos de esteira e apoio pesado, com planejamento por aplicação e período de uso.",
-      "Componentes de escavadeiras e tratores em obras, movimentação e terraplenagem.",
-      "Histórico por equipamento na entrega, na devolução e entre contratos de locação."
+      "Avaliação de desgaste e manutenção planejada para acompanhar o ritmo da mineração.",
+      "Cuidado com máquinas e componentes na colheita, no carregamento e no apoio florestal.",
+      "Manutenção de máquinas de apoio para planejar as intervenções entre etapas do ciclo agrícola.",
+      "Recuperação de componentes e serviço de campo para escavadeiras e tratores em obras.",
+      "Inspeção e manutenção da frota para preparar cada máquina para o próximo contrato."
     ][i]}</p></article>`).join("")}</div>
   </div></section>
 
-  <section class="people-story" aria-labelledby="pessoas-home-title"><div class="people-story__image">${picture({ name: "hero-film-people", widths: [640, 1280], width: 1280, height: 720, alt: "Profissional da New Tractor com óculos de proteção durante o trabalho", sizes: "(max-width: 860px) 100vw, 58vw" })}</div><div class="people-story__copy"><span class="eyebrow eyebrow--light">PESSOAS QUE MOVEM A NEW</span><h2 id="pessoas-home-title">O nosso maior valor<br>é quem faz.</h2><p>Por trás de cada medida, de cada peça e de cada decisão, existem pessoas. É a experiência compartilhada entre equipe, clientes e fornecedores que dá sentido ao nosso trabalho.</p><a class="text-link text-link--light" href="/pessoas/">Conheça esse olhar ${icon("arrow")}</a></div></section>
+  <section class="people-story" aria-labelledby="pessoas-home-title"><div class="people-story__image">${picture({ name: "hero-film-people", widths: [640, 1280], width: 1280, height: 720, alt: "Profissional da New Tractor com óculos de proteção durante o trabalho", sizes: "(max-width: 860px) 100vw, 58vw" })}</div><div class="people-story__copy"><span class="eyebrow eyebrow--light">PESSOAS QUE MOVEM A NEW</span><h2 id="pessoas-home-title">O nosso maior valor<br>é quem faz.</h2><p>Por trás de cada medida, de cada peça e de cada decisão, existem pessoas. É a experiência compartilhada entre equipe, clientes e fornecedores que dá sentido ao nosso trabalho.</p><a class="text-link text-link--light" href="/pessoas/">Conheça nossa equipe ${icon("arrow")}</a></div></section>
 
   <section class="section partnership-feature" aria-labelledby="parceiros-home-title"><div class="shell editorial-grid"><div><span class="eyebrow">CONEXÕES PARA O FUTURO</span><h2 id="parceiros-home-title">Grandes possibilidades<br>começam com uma conversa.</h2></div><div class="rich-text"><p>Queremos estar próximos de quem compartilha o compromisso com o desenvolvimento industrial.</p><p>Clientes, fornecedores e parceiros encontram na New Tractor um ponto de encontro entre necessidades, conhecimento e novas oportunidades.</p><a class="button button--dark" href="/parcerias/">Conecte-se ao grupo ${icon("arrow")}</a></div></div></section>
 
   <section class="section client-portfolio" aria-labelledby="clientes-title"><div class="shell"><div class="section-heading section-heading--split"><div><span class="eyebrow">NOSSA TRAJETÓRIA</span><h2 id="clientes-title">Relações que fazem<br>parte da nossa história.</h2></div><p>Referências históricas divulgadas pela New Tractor ao longo de sua trajetória.</p></div>${clientLogoGrid()}<p class="client-portfolio__note">Marcas de seus respectivos titulares. Referências históricas, sem indicação de contratos atuais.</p></div></section>
-  ${contactBand("Vamos construir o próximo passo?")}`;
+  ${contactBand("Vamos cuidar da disponibilidade da sua frota?")}`;
 
 const empresaBody = `
-  ${pageHero({ eyebrow: "O GRUPO", title: "Especialidades distintas. Uma visão em comum.", intro: "O Grupo New Tractor reúne conhecimento técnico, estrutura industrial e pessoas em torno das operações com máquinas pesadas.", breadcrumb: [{ label: "O grupo", href: "/empresa/" }], image: "hero-film-people", imageAlt: "Profissional da New Tractor durante o trabalho industrial", imageWidths: [640, 1280], imageWidth: 1280, imageHeight: 720 })}
-  <section class="section section--light" aria-labelledby="historia-title"><div class="shell editorial-grid"><div><span class="eyebrow">NOSSA TRAJETÓRIA</span><h2 id="historia-title">Raízes no conhecimento.<br>Olhar para o futuro.</h2></div><div class="rich-text"><p>Desde 2010, construímos nossa trajetória junto às máquinas pesadas e às pessoas que fazem essas operações acontecerem. A experiência em material rodante é parte dessa história.</p><p>Hoje, a New Tractor se apresenta como um grupo industrial. Recuperação, avaliação de peças novas, serviços de campo e tecnologia se conectam em uma visão mais ampla das necessidades da indústria.</p><p>Com base em Belo Horizonte, atuamos junto aos setores de mineração, construção, infraestrutura e agronegócio. Cada especialidade contribui com seu conhecimento para essa atuação.</p><a class="text-link" href="/#empresas">Explore as empresas do grupo ${icon("arrow")}</a></div></div></section>
+  ${pageHero({ eyebrow: "O GRUPO", title: "Sete especialidades para manter sua máquina produzindo.", intro: "O Grupo New Tractor conecta serviço de campo, manutenção industrial, fabricação de peças e tecnologia para reduzir paradas e dar mais previsibilidade à sua operação.", breadcrumb: [{ label: "O grupo", href: "/empresa/" }], image: "hero-film-people", imageAlt: "Profissional da New Tractor durante o trabalho industrial", imageWidths: [640, 1280], imageWidth: 1280, imageHeight: 720 })}
+  <section class="section section--light" aria-labelledby="historia-title"><div class="shell editorial-grid"><div><span class="eyebrow">NOSSA TRAJETÓRIA</span><h2 id="historia-title">Raízes no conhecimento.<br>Olhar para o futuro.</h2></div><div class="rich-text"><p>Desde 2010, construímos nossa trajetória junto às máquinas pesadas e às pessoas que fazem essas operações acontecerem. A experiência em material rodante é parte dessa história.</p><p>Hoje, integramos técnicos de campo, recuperação de componentes, fabricação de peças sob demanda e tecnologia aplicada ao acompanhamento de desgaste. Planejamos o cuidado da máquina junto à manutenção do cliente.</p><p>Com base em Belo Horizonte, atuamos junto aos setores de mineração, construção, infraestrutura e agronegócio. Cada especialidade contribui com seu conhecimento para essa atuação.</p><a class="text-link" href="/#empresas">Explore as empresas do grupo ${icon("arrow")}</a></div></div></section>
   <section class="section section--dark" aria-labelledby="direcao-title"><div class="shell"><div class="section-heading"><span class="eyebrow eyebrow--light">O QUE NOS ORIENTA</span><h2 id="direcao-title">Um jeito de pensar.<br>Muitas formas de contribuir.</h2></div><div class="principles-grid"><article><span>01 / CONHECIMENTO</span><h3>Experiência aplicada.</h3><p>Entender a máquina, a aplicação e a realidade de cada operação é o ponto de partida do nosso trabalho.</p></article><article><span>02 / PROXIMIDADE</span><h3>Relações de confiança.</h3><p>Escutar, compartilhar informações e manter o diálogo com quem está em campo e com quem planeja.</p></article><article><span>03 / INTEGRAÇÃO</span><h3>Forças que se somam.</h3><p>Conectar especialidades para olhar o componente e compreender o conjunto em que ele trabalha.</p></article></div></div></section>
   <section class="section section--sand" aria-labelledby="estrutura-title"><div class="shell structure-layout"><div><span class="eyebrow">NOSSA ESTRUTURA</span><h2 id="estrutura-title">Espaço para fazer.<br>Conhecimento para evoluir.</h2><p>Mais de 4.000 m² de área industrial combinada em três galpões, com base operacional no bairro São Gabriel, em Belo Horizonte.</p><dl class="structure-facts"><div><dt>4.000 m²+</dt><dd>área industrial combinada</dd></div><div><dt>3 galpões</dt><dd>estrutura do grupo</dd></div></dl><a class="text-link" href="/atuacao/">De Belo Horizonte para o Brasil ${icon("arrow")}</a></div><figure>${picture({ name: "equipe", widths: [640, 1200], width: 1200, height: 675, alt: "Base operacional da New Tractor em Belo Horizonte, com equipamentos e veículos de apoio" })}<figcaption>Base operacional · Belo Horizonte, Minas Gerais</figcaption></figure></div></section>
   <section class="section section--light" aria-labelledby="fotos-title"><div class="shell"><div class="section-heading section-heading--split"><div><span class="eyebrow">NOSSO UNIVERSO</span><h2 id="fotos-title">A indústria, de perto.</h2></div><p>Componentes, processos e pessoas fazem parte da mesma história.</p></div><div class="photo-grid"><figure>${picture({ name: "material-rodante", widths: [640, 1200], width: 1200, height: 675, alt: "Conjuntos de material rodante no pátio da New Tractor" })}<figcaption>Material rodante</figcaption></figure><figure>${picture({ name: "componentes-industriais", widths: [640, 1200], width: 1200, height: 802, alt: "Roletes e componentes preparados pela New Tractor" })}<figcaption>Componentes industriais</figcaption></figure><figure>${picture({ name: "hero-film-people", widths: [640, 1280], width: 1280, height: 720, alt: "Profissional da New Tractor em atividade" })}<figcaption>Pessoas e conhecimento</figcaption></figure></div></div></section>
-  ${contactBand("Faça parte das nossas próximas conexões.")}`;
+  ${contactBand("Conte com o grupo no campo e na indústria.")}`;
 
 const parceriasBody = `
   ${pageHero({ eyebrow: "PARCERIAS", title: "Conexões que fazem a indústria avançar.", intro: "Um espaço de diálogo para clientes, fornecedores e parceiros que querem conhecer o Grupo New Tractor e construir novas oportunidades.", breadcrumb: [{ label: "Parcerias", href: "/parcerias/" }], image: "componentes-industriais", imageAlt: "Componentes industriais no acervo da New Tractor", imageWidths: [640, 1200, 1600], imageWidth: 1600, imageHeight: 1070 })}
-  <section class="section section--light" aria-labelledby="conexao-title"><div class="shell editorial-grid"><div><span class="eyebrow">UM GRUPO, MUITAS CONEXÕES</span><h2 id="conexao-title">Conhecimento que encontra<br>novas possibilidades.</h2></div><div class="rich-text"><p>Reunimos material rodante, hidráulica, usinagem, caldeiraria, avaliação de peças novas, serviços de campo e tecnologia. Essa diversidade aproxima o grupo de diferentes necessidades da indústria.</p><p>Acreditamos no diálogo entre quem produz, quem fornece e quem opera. Apresente sua empresa e compartilhe o que podemos construir juntos.</p><a class="text-link" href="/empresa/">Conheça nossa trajetória ${icon("arrow")}</a></div></div></section>
+  <section class="section section--light" aria-labelledby="conexao-title"><div class="shell editorial-grid"><div><span class="eyebrow">UM GRUPO, MUITAS CONEXÕES</span><h2 id="conexao-title">Conhecimento que encontra<br>novas possibilidades.</h2></div><div class="rich-text"><p>Reunimos material rodante, hidráulica, usinagem, caldeiraria, fabricação de peças sob demanda, serviços de campo e tecnologia. Essa diversidade aproxima o grupo de diferentes necessidades da indústria.</p><p>Acreditamos no diálogo entre quem produz, quem fornece e quem opera. Apresente sua empresa e compartilhe o que podemos construir juntos.</p><a class="text-link" href="/empresa/">Conheça nossa trajetória ${icon("arrow")}</a></div></div></section>
   <section class="section section--sand" aria-labelledby="caminhos-title"><div class="shell"><div class="section-heading"><span class="eyebrow">COMO PODEMOS NOS CONECTAR</span><h2 id="caminhos-title">A próxima conversa<br>pode começar aqui.</h2></div><div class="partnership-grid"><article><span>01 / CLIENTES</span><h3>Sua operação.<br>Nosso conhecimento.</h3><p>Converse sobre componentes, peças novas, recuperação e acompanhamento de máquinas pesadas. Nossa equipe ajuda a identificar a especialidade mais adequada à sua necessidade.</p><a class="text-link" href="/contato/" data-analytics="contato_parcerias">Fale com nossa equipe ${icon("arrow")}</a></article><article><span>02 / FORNECEDORES</span><h3>Novos recursos.<br>Possibilidades em comum.</h3><p>Apresente produtos, materiais e serviços relacionados às especialidades do grupo. Envie o perfil da sua empresa, portfólio e contato responsável.</p><a class="text-link" href="mailto:${site.email}?subject=Apresenta%C3%A7%C3%A3o%20de%20fornecedor%20%7C%20Grupo%20New%20Tractor" data-analytics="email_fornecedor">Apresente sua empresa ${icon("arrow")}</a></article><article><span>03 / PARCEIROS</span><h3>Experiências que se somam.</h3><p>Compartilhe uma oportunidade de colaboração industrial, uma proposta de desenvolvimento ou uma conexão que aproxime nossas áreas de atuação.</p><a class="text-link" href="mailto:${site.email}?subject=Parceria%20institucional%20%7C%20Grupo%20New%20Tractor" data-analytics="email_parceria">Inicie uma conversa ${icon("arrow")}</a></article></div></div></section>
   <section class="section section--dark"><div class="shell editorial-grid"><div><span class="eyebrow eyebrow--light">RELACIONAMENTO INSTITUCIONAL</span><h2>Conheça o grupo.<br>Compartilhe sua visão.</h2></div><div class="rich-text"><p>Nossa apresentação começa pelas pessoas e pelo trabalho que realizamos. Explore as empresas, conheça a estrutura e assista ao filme institucional.</p><div class="button-row"><a class="button button--primary" href="/#empresas">Empresas do grupo ${icon("arrow")}</a><a class="button button--ghost" href="/pessoas/#filme-institucional">Assista ao filme</a></div></div></div></section>
   ${contactBand("Toda parceria começa com proximidade.")}`;
@@ -235,7 +237,7 @@ const servicosBody = `
     eyebrow: "SERVIÇOS",
     actions: `<a class="button button--dark" href="#catalogo">Encontrar meu serviço ${icon("arrow")}</a><a class="text-link" href="/contato/" data-analytics="contato_servicos_hero">Apresentar minha demanda ${icon("arrow")}</a>`,
     title: "Serviços para máquinas de linha amarela em Minas Gerais",
-    intro: "Cilindros hidráulicos, material rodante, recuperação dimensional e reforma de caçambas e conchas, com base em Belo Horizonte. Encontre a especialidade pelo componente da sua máquina.",
+    intro: "Serviço de campo, manutenção industrial e fabricação de peças sob demanda para máquinas de linha amarela. Uma equipe conectada à sua manutenção, com base em Belo Horizonte.",
     breadcrumb: [{ label: "Serviços", href: "/servicos/" }],
     image: "material-rodante",
     imageAlt: "Esteiras e componentes de material rodante preparados pela New Tractor",
@@ -245,23 +247,23 @@ const servicosBody = `
   })}
   <section id="catalogo" class="section section--light service-catalog" aria-labelledby="portfolio-title">
     <div class="shell">
-      <div class="section-heading section-heading--split"><div><span class="eyebrow">PORTFÓLIO TÉCNICO</span><h2 id="portfolio-title">Escolha pelo componente.<br>Encontre a especialidade.</h2></div><p>Cilindro, esteira, estrutura ou uma medição na operação. Cada entrada leva ao escopo do serviço e aos dados que ajudam a preparar o orçamento.</p></div>
+      <div class="section-heading section-heading--split"><div><span class="eyebrow">PORTFÓLIO TÉCNICO</span><h2 id="portfolio-title">Do desgaste identificado<br>à manutenção planejada.</h2></div><p>Técnicos no campo, recuperação na indústria e peças fabricadas para sua aplicação. Conheça os serviços que ajudam a manter sua máquina em operação.</p></div>
       ${serviceOfferCards({ picture, icon })}
       <nav class="company-resources" aria-label="Mais recursos técnicos"><a class="text-link" href="/servicos/usinagem-componentes-maquinas-pesadas/">Usinagem de componentes pesados ${icon("arrow")}</a><a class="text-link" href="/guias/">Guias para manutenção e suprimentos ${icon("arrow")}</a></nav>
     </div>
   </section>
   <section class="section section--sand" aria-labelledby="necessidade-title"><div class="shell faq-layout">
-    <div class="section-heading"><span class="eyebrow">DA MÁQUINA AO COMPONENTE</span><h2 id="necessidade-title">Qual necessidade trouxe você até aqui?</h2><p>Um pedido de manutenção pode começar pelo sintoma, pelo nome da peça ou pelo serviço. Identificar o conjunto ajuda a encaminhar a avaliação técnica e preparar uma proposta comparável.</p></div>
+    <div class="section-heading"><span class="eyebrow">DA MÁQUINA AO COMPONENTE</span><h2 id="necessidade-title">Qual necessidade trouxe você até aqui?</h2><p>Desgaste, vazamento, folga ou uma peça que precisa ser substituída: nossa equipe ajuda a definir a intervenção e planejar a manutenção da máquina.</p></div>
     <div class="faq-list">
       <details><summary>Desgaste na esteira da escavadeira ou do trator</summary><p>Informe se a condição envolve roletes, roda-guia, corrente, sapatas ou o conjunto. A <a href="/rodantes/">New Tractor Rodantes</a> reúne recuperação e acompanhamento de material rodante; a inspeção define a viabilidade para cada componente.</p><a class="text-link" href="/componentes/">Identificar componentes de material rodante</a></details>
-      <details><summary>Folga em pinos, buchas ou alojamentos</summary><p>Descreva o ponto de articulação, a condição observada e as medidas disponíveis. O pedido pode envolver consulta de peça em <a href="/parts/">Parts</a> ou <a href="/servicos/usinagem-componentes-maquinas-pesadas/">recuperação dimensional por usinagem e mandrilhamento</a>.</p><a class="text-link" href="/guias/folgas-pinos-buchas-alojamentos/">Preparar uma avaliação de folgas</a></details>
-      <details><summary>Trincas ou deformação em caçambas e conchas</summary><p>Identifique o implemento da escavadeira ou carregadeira, a aplicação e o histórico de reparos. A <a href="/calderaria/">New Tractor Calderaria</a> conecta a avaliação estrutural ao escopo de reforma.</p><a class="text-link" href="/servicos/reforma-cacambas-conchas/">Consultar reforma de caçambas e conchas</a></details>
+      <details><summary>Folga em pinos, buchas ou alojamentos</summary><p>Descreva o ponto de articulação, a condição observada e as medidas disponíveis. A solução pode envolver fabricação de uma peça nova pela <a href="/parts/">Parts</a> ou <a href="/servicos/usinagem-componentes-maquinas-pesadas/">recuperação dimensional por usinagem e mandrilhamento</a>.</p><a class="text-link" href="/guias/folgas-pinos-buchas-alojamentos/">Preparar uma avaliação de folgas</a></details>
+      <details><summary>Trincas ou deformação em caçambas e conchas</summary><p>Identifique o implemento da escavadeira ou carregadeira, a aplicação e o histórico de reparos. A <a href="/calderaria/">New Tractor Calderaria</a> conecta a avaliação estrutural ao escopo de reforma.</p><a class="text-link" href="/servicos/reforma-cacambas-conchas/">Conhecer a reforma de caçambas e conchas</a></details>
       <details><summary>Vazamento ou outra condição no cilindro hidráulico</summary><p>Informe a função do cilindro, a identificação da máquina e o que foi observado. A HidrauTractor executa <a href="/hidrautractor/recuperacao-cilindros-hidraulicos/">recuperação de cilindros hidráulicos</a> e <a href="/hidrautractor/fabricacao-cilindros-hidraulicos/">fabricação de novos conjuntos</a>. A identificação e a aplicação orientam o plano de reparo ou o projeto.</p><a class="text-link" href="/hidrautractor/">Conhecer os serviços da HidrauTractor</a></details>
-      <details><summary>Peça para escavadeira ou trator de esteira</summary><p>Para cotar, reúna código, modelo, aplicação, quantidade e destino. Diferencie a procura por peça nova da recuperação de um componente existente. Condição, compatibilidade e disponibilidade são confirmadas na proposta.</p><a class="text-link" href="/parts/">Consultar peças com a New Tractor Parts</a></details>
-      <details><summary>Medição de desgaste no pátio e histórico da frota</summary><p>A <a href="/services/">Services</a> recebe o objetivo da medição, a relação de máquinas, a cidade e os requisitos de acesso para avaliar a demanda. A <a href="/techtractor/">TechTractor</a> é a frente em evolução dedicada a inspeções, registros e histórico.</p><a class="text-link" href="/servicos/monitoramento-material-rodante/">Entender o monitoramento de material rodante</a></details>
+      <details><summary>Peça para escavadeira ou trator de esteira</summary><p>A New Tractor Parts fabrica peças sob demanda. Envie código, desenho ou amostra, modelo da máquina e quantidade para definir a fabricação e o prazo de entrega.</p><a class="text-link" href="/parts/">Solicitar fabricação de peças</a></details>
+      <details><summary>Medição de desgaste no pátio e histórico da frota</summary><p>A <a href="/services/">New Tractor Services</a> leva técnicos especializados à sua operação para avaliar desgastes e planejar as intervenções. A manutenção pode ser feita em campo conforme agenda ou programada nas unidades industriais. A <a href="/techtractor/">TechTractor</a> desenvolve tecnologia para organizar inspeções e acompanhar esse histórico.</p><a class="text-link" href="/servicos/monitoramento-material-rodante/">Entender o monitoramento de material rodante</a></details>
     </div>
   </div></section>
-  <section class="section section--light" aria-labelledby="servicos-mg-title"><div class="shell editorial-grid"><div><span class="eyebrow">OPERAÇÕES EM MINAS GERAIS</span><h2 id="servicos-mg-title">Prepare a demanda antes da parada da máquina</h2></div><div class="rich-text"><p>A base do grupo está em Belo Horizonte. Para avaliar uma necessidade em outra cidade mineira, informe o componente, a localização da máquina, as condições de acesso e se a peça pode ser removida e transportada. Mobilização, logística e prazo são definidos na análise técnica e comercial.</p><p>Mineração, operações florestais, locadoras e obras têm rotinas próprias. Os <a href="/setores/">guias por setor e operação</a> ajudam compradores, PCM, gestores de manutenção e mecânicos a reunir informações para a mesma solicitação. O objetivo é apoiar o planejamento da intervenção e reduzir incertezas sobre o que precisa ser avaliado.</p></div></div></section>
+  <section class="section section--light" aria-labelledby="servicos-mg-title"><div class="shell editorial-grid"><div><span class="eyebrow">OPERAÇÕES EM MINAS GERAIS</span><h2 id="servicos-mg-title">Planeje a manutenção antes que a máquina pare</h2></div><div class="rich-text"><p>Com base em Belo Horizonte, atendemos operações em Minas Gerais com avaliação de desgaste, serviço de campo e manutenção nas unidades industriais. Agendamos a visita e a intervenção junto à sua equipe, considerando a localização da máquina, o acesso e a programação da operação.</p><p>Mineração, operações florestais, locadoras e obras têm rotinas próprias. Conheça as <a href="/setores/">soluções por setor</a> para integrar compras, PCM, gestores de manutenção e mecânicos. Sob contrato, o grupo oferece sobressalentes inclusive durante a reparação: mais apoio para organizar a parada e retomar a produção.</p></div></div></section>
   <section class="section section--sand" aria-labelledby="faq-title">
     <div class="shell faq-layout">
       <div><span class="eyebrow">DÚVIDAS FREQUENTES</span><h2 id="faq-title">Antes de solicitar um orçamento</h2></div>
@@ -269,7 +271,7 @@ const servicosBody = `
         <details><summary>Quais equipamentos podem ser atendidos?</summary><p>Atendemos tratores de esteira, escavadeiras, máquinas perfuratrizes e colheitadeiras, além de componentes associados ao material rodante.</p></details>
         <details><summary>Como iniciar uma avaliação?</summary><p>Entre em contato pelo WhatsApp, telefone ou e-mail e informe o tipo de equipamento, componente, condição observada e local da operação.</p></details>
         <details><summary>O monitoramento substitui a inspeção da manutenção?</summary><p>Não. A proposta é atuar em conjunto com a manutenção do cliente, usando medições de desgaste e contexto de aplicação para apoiar decisões.</p></details>
-        <details><summary>A New Tractor fornece peças?</summary><p>A empresa recebe consultas de peças e conjuntos recondicionados. Condição e disponibilidade são confirmadas na cotação.</p></details>
+        <details><summary>A New Tractor fornece peças?</summary><p>Sim. A New Tractor Parts fabrica peças sob demanda. Sob contrato, o grupo também oferece sobressalentes inclusive durante a reparação da máquina, conforme as condições acordadas.</p></details>
         <details><summary>A New Tractor atende fora de Minas Gerais?</summary><p>Sim. A empresa informa atendimento para operações em todo o Brasil. Mobilização, logística, capacidade e prazo são avaliados para cada demanda.</p></details>
       </div>
     </div>
@@ -297,7 +299,7 @@ const manutencaoBody = `
         <article>${picture({ name: "roletes", widths: [640], width: 640, height: 427, alt: "Roletes superiores e inferiores de material rodante" })}<div><span>03</span><h3>Recuperação de roletes</h3><p>Preparação, enchimento por processo compatível e usinagem conforme a avaliação e as medidas aplicáveis.</p></div></article>
         <article>${picture({ name: "roda-guia", widths: [640], width: 640, height: 427, alt: "Rodas-guia para sistema de esteiras" })}<div><span>04</span><h3>Recuperação de roda-guia</h3><p>Recuperação da pista desgastada por soldagem e usinagem até a medida de referência.</p></div></article>
         <article>${picture({ name: "truck", widths: [640], width: 640, height: 427, alt: "Estrutura de truck com material rodante" })}<div><span>05</span><h3>Reforma de truck</h3><p>Tratamento de trincas, torções, alojamentos, régua dos roletes e base da roda-guia, com acabamento final.</p></div></article>
-        <article>${picture({ name: "componentes-industriais", widths: [640], width: 640, height: 428, alt: "Roletes e componentes amarelos e pretos organizados" })}<div><span>06</span><h3>Peças e conjuntos</h3><p>Consulta de peças e conjuntos recondicionados, com condição e disponibilidade confirmadas na cotação.</p></div></article>
+        <article>${picture({ name: "componentes-industriais", widths: [640], width: 640, height: 428, alt: "Roletes e componentes amarelos e pretos organizados" })}<div><span>06</span><h3>Peças e conjuntos</h3><p>Recuperação de peças e conjuntos de material rodante, com inspeção para definir o reparo e o retorno à operação.</p></div></article>
       </div>
     </div>
   </section>
@@ -314,7 +316,7 @@ const manutencaoBody = `
     </div>
     <div class="shell"><nav class="company-resources" aria-label="Serviços e orientações relacionados ao material rodante"><a class="text-link" href="/servicos/monitoramento-material-rodante/">Monitoramento de desgaste ${icon("arrow")}</a><a class="text-link" href="/guias/inspecao-material-rodante/">Como organizar os registros de inspeção ${icon("arrow")}</a><a class="text-link" href="/servicos/reforma-cacambas-conchas/">Reforma de caçambas e conchas ${icon("arrow")}</a><a class="text-link" href="/componentes/">Rodas-guia, roletes, correntes e sapatas ${icon("arrow")}</a><a class="text-link" href="/servicos/">Todas as soluções ${icon("arrow")}</a></nav></div>
   </section>
-  <section class="section section--sand" aria-labelledby="rodantes-decisao-title"><div class="shell editorial-grid"><div><h2 id="rodantes-decisao-title">Recuperar o componente ou consultar outra peça?</h2></div><div class="rich-text"><p>Na consulta de uma roda-guia, rolete, sapata ou corrente de esteira, identifique o conjunto e a condição encontrada. Informe se a necessidade envolve uma peça isolada, um lado da máquina ou o conjunto completo. Fotos e medidas disponíveis ajudam a preparar a avaliação; os limites de recuperação dependem da inspeção e da referência aplicável.</p><p>Para recuperar componentes, comece pela <a href="/rodantes/">New Tractor Rodantes</a>. Se a demanda é por uma peça nova, envie código, modelo e quantidade para <a href="/parts/">Parts</a>. Essa distinção permite comparar propostas com o mesmo objeto, incluindo condição da peça, transporte e documentação.</p></div></div></section>
+  <section class="section section--sand" aria-labelledby="rodantes-decisao-title"><div class="shell editorial-grid"><div><h2 id="rodantes-decisao-title">Recuperar o componente ou fabricar uma peça nova?</h2></div><div class="rich-text"><p>Na consulta de uma roda-guia, rolete, sapata ou corrente de esteira, identifique o conjunto e a condição encontrada. Informe se a necessidade envolve uma peça isolada, um lado da máquina ou o conjunto completo. Fotos e medidas disponíveis ajudam a preparar a avaliação; os limites de recuperação dependem da inspeção e da referência aplicável.</p><p>Para recuperar componentes, comece pela <a href="/rodantes/">New Tractor Rodantes</a>. Para fabricar uma peça nova, envie código, modelo, desenho ou amostra e quantidade à <a href="/parts/">New Tractor Parts</a>, que trabalha sob demanda. Essa distinção permite comparar propostas com o mesmo objeto, incluindo condição da peça, transporte e documentação.</p></div></div></section>
   ${contactBand("Precisa avaliar um componente de material rodante?")}`;
 
 const reformaBody = `
@@ -367,13 +369,13 @@ const monitoramentoBody = `
     <div class="shell benefit-grid"><div><span class="eyebrow eyebrow--light">OBJETIVO</span><h2 id="beneficios-title">Transformar observação em histórico útil</h2></div><article><strong>01</strong><h3>Observar</h3><p>Registrar sinais e medidas da condição encontrada.</p></article><article><strong>02</strong><h3>Comparar</h3><p>Acompanhar a evolução do desgaste no contexto da aplicação.</p></article><article><strong>03</strong><h3>Planejar</h3><p>Apoiar a organização de manutenção e recursos, em conjunto com a equipe do cliente.</p></article></div>
   </section>
   <section class="section section--light" aria-labelledby="monitoramento-historico-title"><div class="shell editorial-grid"><div><h2 id="monitoramento-historico-title">O que torna as medições comparáveis</h2></div><div class="rich-text"><p>Associe cada registro à máquina, ao lado e ao componente: corrente, sapata, rolete ou roda-guia. Data, horímetro disponível, ponto medido, unidade, referência e condição de uso precisam acompanhar a medida. Trocas de peça e alterações no método devem permanecer identificadas no histórico.</p><p>O acompanhamento serve ao planejamento da manutenção. Uma medição isolada ou uma fotografia não determina, por si só, vida útil restante, data de falha ou liberação para operar. A interpretação depende da referência aplicável e da avaliação dos responsáveis pela manutenção.</p></div></div></section>
-  <section class="section section--sand" aria-labelledby="monitoramento-campo-title"><div class="shell editorial-grid"><div><h2 id="monitoramento-campo-title">Da demanda de medição ao planejamento da intervenção</h2></div><div class="rich-text"><p>Para avaliar uma medição na operação, informe localização, quantidade e identificação das máquinas, disponibilidade dos equipamentos e requisitos de acesso. A <a href="/services/">Services</a> organiza essa conversa; modalidade, mobilização e logística são confirmadas para cada demanda.</p><p>O <a href="/guias/inspecao-material-rodante/">guia de registro de inspeção</a> ajuda a estruturar os dados. A <a href="/techtractor/">TechTractor</a> apresenta a frente tecnológica em evolução para organizar inspeções e histórico. Quando a necessidade é recuperar o componente, consulte a <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>.</p></div></div></section>
+  <section class="section section--sand" aria-labelledby="monitoramento-campo-title"><div class="shell editorial-grid"><div><h2 id="monitoramento-campo-title">Da medição em campo à manutenção planejada</h2></div><div class="rich-text"><p>A <a href="/services/">New Tractor Services</a> realiza avaliações de desgaste com técnicos especializados no campo. A equipe planeja com o cliente a manutenção no local, conforme agenda, ou a intervenção nas unidades industriais. Informe a localização e a programação das máquinas para agendar o atendimento.</p><p>O <a href="/guias/inspecao-material-rodante/">guia de registro de inspeção</a> ajuda a estruturar os dados. A <a href="/techtractor/">TechTractor</a> apresenta a frente tecnológica em evolução para organizar inspeções e histórico. Quando a necessidade é recuperar o componente, consulte a <a href="/servicos/manutencao-material-rodante/">manutenção de material rodante</a>.</p></div></div></section>
   ${contactBand("Quer acompanhar o desgaste do seu material rodante?")}`;
 
 const equipamentosBody = `
   ${pageHero({
     eyebrow: "EQUIPAMENTOS E APLICAÇÕES",
-    title: "Conhecimento aplicado a máquinas pesadas.",
+    title: "Manutenção de equipamentos de linha amarela.",
     intro: "Tratores de esteira, escavadeiras, perfuratrizes e colheitadeiras: nossas especialidades acompanham diferentes máquinas e aplicações.",
     breadcrumb: [{ label: "Equipamentos", href: "/equipamentos/" }],
     image: "componentes-industriais",
@@ -414,7 +416,7 @@ const equipamentosBody = `
     </div>
   </section>
   <section class="section section--light" aria-labelledby="equipamentos-mg-title"><div class="shell editorial-grid"><div><h2 id="equipamentos-mg-title">Máquina, componente e cidade da operação</h2></div><div class="rich-text"><p>A prioridade de uma escavadeira na mineração pode ser diferente da de um trator em preparação de terreno ou de uma carregadeira em um pátio. Informe a tarefa e a condição de operação para encaminhar sua consulta.</p><p>Conheça os <a href="/atuacao/minas-gerais/">contextos de manutenção em Minas Gerais</a> e os dados para avaliar a logística a partir da base em Belo Horizonte.</p></div></div></section>
-  ${contactBand("Qual máquina e componente você precisa avaliar?")}`;
+  ${contactBand("Planeje o cuidado da sua máquina com nossa equipe")}`;
 
 const atuacaoBody = `
   ${pageHero({
@@ -451,13 +453,13 @@ const atuacaoBody = `
     </div>
   </section>
   <section class="section section--sand" aria-labelledby="contexto-operacao-title"><div class="shell editorial-grid"><div><h2 id="contexto-operacao-title">O contexto da operação orienta a avaliação</h2></div><div class="rich-text"><p>Mineração, florestal, agronegócio, construção civil e locação de máquinas têm rotinas distintas. Informe equipamento, componente, condição, local e janela desejada para a análise do escopo.</p><p>Veja a página de <a href="/atuacao/minas-gerais/">máquinas pesadas e componentes em Minas Gerais</a>, com os contextos da Região Metropolitana de Belo Horizonte, polos minerais, florestais e do Triângulo Mineiro.</p><p>Consulte as <a href="/setores/">orientações por setor e operação</a> e o <a href="/guias/avaliacao-maquinas-linha-amarela/">guia de avaliação de máquinas de linha amarela</a> para reunir os dados da demanda. O atendimento depende da análise técnica, comercial e logística da demanda.</p></div></div></section>
-  ${contactBand("Informe a cidade e o contexto da sua demanda")}`;
+  ${contactBand("Agende o atendimento da sua operação")}`;
 
 const contatoBody = `
   ${pageHero({
     eyebrow: "CONTATO",
-    title: "Boas conexões começam com uma conversa.",
-    intro: "Fale com a equipe do Grupo New Tractor sobre sua operação, uma oportunidade de parceria ou uma nova conexão.",
+    title: "Sua próxima manutenção começa aqui.",
+    intro: "Solicite uma visita técnica, planeje a manutenção ou peça um orçamento de fabricação. Nossa equipe atende por WhatsApp, telefone e e-mail.",
     breadcrumb: [{ label: "Contato", href: "/contato/" }],
     image: "equipe",
     imageAlt: "Pátio da New Tractor com equipamentos pesados e veículos de apoio",
@@ -467,7 +469,7 @@ const contatoBody = `
   })}
   <section class="section section--light" aria-labelledby="canais-title">
     <div class="shell contact-layout">
-      <div><span class="eyebrow">CANAIS COMERCIAIS</span><h2 id="canais-title">Estamos à sua disposição.</h2><p>Para agilizar a conversa, informe equipamento, componente, condição observada, quantidade e cidade da operação.</p></div>
+      <div><span class="eyebrow">CANAIS COMERCIAIS</span><h2 id="canais-title">Estamos à sua disposição.</h2><p>Conte qual máquina precisa de atendimento, o serviço necessário e a cidade da operação. Nossa equipe orienta os próximos passos.</p></div>
       <div class="contact-cards">
         <a href="${site.whatsapp}" target="_blank" rel="noopener noreferrer" data-analytics="whatsapp_contato"><span>${icon("phone")}</span><small>WhatsApp</small><strong>${site.whatsappDisplay}</strong><em>Iniciar conversa ${icon("arrow")}</em></a>
         <a href="${site.phoneHref}" data-analytics="telefone_contato"><span>${icon("phone")}</span><small>Telefone</small><strong>${site.phoneDisplay}</strong><em>Ligar agora ${icon("arrow")}</em></a>
@@ -481,7 +483,7 @@ const contatoBody = `
         <span class="eyebrow eyebrow--light">SUPRIMENTOS E ENGENHARIA</span>
         <h2 id="rfq-title">Solicite uma proposta técnica</h2>
         <p>Para processos de cotação formal, use o e-mail comercial. Você poderá anexar desenhos, especificações, fotos e documentos diretamente na mensagem.</p>
-        <a class="button button--primary" href="mailto:${site.email}?subject=RFQ%20%7C%20Material%20rodante%20%7C%20New%20Tractor&body=Empresa%20solicitante%3A%0ACNPJ%20do%20solicitante%3A%0AEquipamento%20e%20modelo%3A%0AComponente%3A%0AQuantidade%3A%0APrazo%20necess%C3%A1rio%3A%0ACidade%20de%20entrega%3A%0A%0AFavor%20anexar%20desenhos%2C%20especifica%C3%A7%C3%B5es%20e%20fotos%20dispon%C3%ADveis." data-analytics="email_rfq_contato">Solicitar proposta por e-mail ${icon("mail")}</a>
+        <a class="button button--primary" href="mailto:${site.email}?subject=Or%C3%A7amento%20%7C%20New%20Tractor&body=Empresa%20solicitante%3A%0ACNPJ%20do%20solicitante%3A%0AEquipamento%20e%20modelo%3A%0AComponente%3A%0AQuantidade%3A%0APrazo%20necess%C3%A1rio%3A%0ACidade%20de%20entrega%3A%0A%0AFavor%20anexar%20desenhos%2C%20especifica%C3%A7%C3%B5es%20e%20fotos%20dispon%C3%ADveis." data-analytics="email_rfq_contato">Solicitar proposta por e-mail ${icon("mail")}</a>
         <p class="procurement-grid__email"><strong>${site.email}</strong></p>
       </div>
       <div class="procurement-checklist">
@@ -529,7 +531,7 @@ const exposibramBody = `
             </div>
             <div class="button-row">
               <a class="button button--primary" href="/servicos/">Conhecer as soluções ${icon("arrow")}</a>
-              <a class="button button--ghost" href="mailto:${site.email}?subject=RFQ%20p%C3%B3s-EXPOSIBRAM%202026" data-analytics="email_exposibram_hero">Fale com nossa equipe</a>
+              <a class="button button--ghost" href="mailto:${site.email}?subject=Or%C3%A7amento%20p%C3%B3s-EXPOSIBRAM%202026" data-analytics="email_exposibram_hero">Fale com nossa equipe</a>
             </div>
           </div>
           <div class="event-hero__visual">
@@ -619,9 +621,9 @@ const baseOrganization = {
   logo: `${site.origin}/assets/images/logo-new-tractor.png`,
   image: `${site.origin}/assets/images/equipe-1200.webp`,
   description:
-    "Grupo industrial com base em Belo Horizonte, reunindo recuperação, avaliação de peças novas, serviços de campo e tecnologia para máquinas pesadas.",
+    "Grupo industrial com base em Belo Horizonte, reunindo recuperação, fabricação de peças sob demanda, serviços de campo e tecnologia para máquinas pesadas.",
   email: site.email,
-  telephone: "+55 31 3493-1476",
+  telephone: site.phoneDisplay,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Rua Santos Anjos, 380",
@@ -635,7 +637,7 @@ const baseOrganization = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "commercial",
-    telephone: "+55 31 3493-1476",
+    telephone: site.phoneDisplay,
     email: site.email,
     availableLanguage: ["pt-BR"],
   },
@@ -662,7 +664,7 @@ const baseLocalBusiness = {
   sameAs: [site.map],
   parentOrganization: { "@id": `${site.origin}/#organization` },
   email: site.email,
-  telephone: "+55 31 3493-1476",
+  telephone: site.phoneDisplay,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Rua Santos Anjos, 380",
@@ -679,6 +681,7 @@ const websiteSchema = {
   "@id": `${site.origin}/#website`,
   url: `${site.origin}/`,
   name: site.name,
+  alternateName: site.shortName,
   inLanguage: "pt-BR",
   publisher: { "@id": `${site.origin}/#organization` },
 };
@@ -726,12 +729,12 @@ export const pages = [
   {
     route: "/",
     output: "index.html",
-    title: "Grupo New Tractor | Máquinas de linha amarela em Minas Gerais",
-    description: "Material rodante, hidráulica, usinagem, caldeiraria e consulta de peças para máquinas de linha amarela. Grupo New Tractor, com base em Belo Horizonte, MG.",
+    title: "Grupo New Tractor | Soluções industriais para sua frota",
+    description: "Conectamos técnicos, estrutura industrial e tecnologia para cuidar da sua frota. Manutenção de máquinas pesadas e fabricação de peças sob demanda.",
     body: homeBody,
     active: "inicio",
     preload: true,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     schema: [{
       "@type": "ItemList",
       "@id": `${site.origin}/#empresas`,
@@ -742,12 +745,13 @@ export const pages = [
       })),
     }],
   },
-  ...createCompanyPages({ site, picture, icon, breadcrumbSchema }),
+  ...createCompanyPages({ site, picture, icon, breadcrumbSchema, serviceSchema }),
   ...createTechnicalPages({ site, pageHero, contactBand, breadcrumbSchema, serviceSchema }),
   ...createSectorPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createComponentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createEquipmentPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createTerritoryPages({ site, pageHero, contactBand, breadcrumbSchema }),
+  ...createRegionalPages({ site, pageHero, contactBand, breadcrumbSchema }),
   ...createHydraulicPages({ site, picture, breadcrumbSchema, serviceSchema }),
   {
     route: "/empresa/",
@@ -756,14 +760,14 @@ export const pages = [
     description: "Conheça o Grupo New Tractor: trajetória desde 2010, sete especialidades e estrutura industrial de mais de 4.000 m² em Belo Horizonte.",
     body: empresaBody,
     active: "empresa",
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     schema: [breadcrumbSchema([{ name: "Empresa", route: "/empresa/" }])],
   },
   {
     route: "/parcerias/", output: "parcerias/index.html",
     title: "Parcerias e conexões industriais | Grupo New Tractor",
     description: "Conheça o Grupo New Tractor e apresente sua empresa. Um espaço de diálogo para clientes, fornecedores e parceiros da indústria de máquinas pesadas.",
-    body: parceriasBody, active: "parcerias", lastModified: "2026-09-08",
+    body: parceriasBody, active: "parcerias", lastModified: "2026-09-10",
     schema: [breadcrumbSchema([{ name: "Parcerias", route: "/parcerias/" }])],
   },
   {
@@ -780,8 +784,8 @@ export const pages = [
     route: "/servicos/",
     output: "servicos/index.html",
     title: "Serviços para máquinas de linha amarela em MG | New Tractor",
-    description: "Recuperação e fabricação de cilindros hidráulicos, material rodante, usinagem e caçambas. Base em Belo Horizonte para demandas de máquinas pesadas em MG.",
-    lastModified: "2026-09-08",
+    description: "Manutenção de linha amarela em MG: serviço de campo, cilindros hidráulicos, rodantes, usinagem e fabricação de peças sob demanda. Base em Belo Horizonte.",
+    lastModified: "2026-09-10",
     body: servicosBody,
     active: "servicos",
     schema: [
@@ -793,7 +797,7 @@ export const pages = [
           { "@type": "Question", name: "Quais equipamentos podem ser atendidos?", acceptedAnswer: { "@type": "Answer", text: "Atendemos tratores de esteira, escavadeiras, máquinas perfuratrizes e colheitadeiras, além de componentes associados ao material rodante." } },
           { "@type": "Question", name: "Como iniciar uma avaliação?", acceptedAnswer: { "@type": "Answer", text: "Entre em contato pelo WhatsApp, telefone ou e-mail e informe o tipo de equipamento, componente, condição observada e local da operação." } },
           { "@type": "Question", name: "O monitoramento substitui a inspeção da manutenção?", acceptedAnswer: { "@type": "Answer", text: "Não. A proposta é atuar em conjunto com a manutenção do cliente, usando medições de desgaste e contexto de aplicação para apoiar decisões." } },
-          { "@type": "Question", name: "A New Tractor fornece peças?", acceptedAnswer: { "@type": "Answer", text: "A empresa recebe consultas de peças e conjuntos recondicionados. Condição e disponibilidade são confirmadas na cotação." } },
+          { "@type": "Question", name: "A New Tractor fornece peças?", acceptedAnswer: { "@type": "Answer", text: "Sim. A New Tractor Parts fabrica peças sob demanda. Sob contrato, o grupo também oferece sobressalentes inclusive durante a reparação da máquina, conforme as condições acordadas." } },
           { "@type": "Question", name: "A New Tractor atende fora de Minas Gerais?", acceptedAnswer: { "@type": "Answer", text: "Sim. A empresa informa atendimento para operações em todo o Brasil. Mobilização, logística, capacidade e prazo são avaliados para cada demanda." } },
         ],
       },
@@ -805,7 +809,7 @@ export const pages = [
     title: "Manutenção de material rodante | New Tractor",
     description: "Avaliação e recuperação de rosários, sapatas, roletes, rodas-guia, trucks e conjuntos de material rodante para equipamentos pesados.",
     body: manutencaoBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "servicos",
     schema: [
       breadcrumbSchema([{ name: "Serviços", route: "/servicos/" }, { name: "Manutenção de material rodante", route: "/servicos/manutencao-material-rodante/" }]),
@@ -818,7 +822,7 @@ export const pages = [
     title: "Reforma de caçambas e conchas | New Tractor",
     description: "Reforma de caçambas e conchas com avaliação de estrutura, perfil, deformações, trincas e aplicação antes da definição do escopo.",
     body: reformaBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "servicos",
     schema: [
       breadcrumbSchema([{ name: "Serviços", route: "/servicos/" }, { name: "Reforma de caçambas e conchas", route: "/servicos/reforma-cacambas-conchas/" }]),
@@ -831,7 +835,7 @@ export const pages = [
     title: "Monitoramento de material rodante | New Tractor",
     description: "Medições de desgaste e histórico de condição para apoiar o planejamento da manutenção de material rodante em máquinas pesadas.",
     body: monitoramentoBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "servicos",
     schema: [
       breadcrumbSchema([{ name: "Serviços", route: "/servicos/" }, { name: "Monitoramento de material rodante", route: "/servicos/monitoramento-material-rodante/" }]),
@@ -841,10 +845,10 @@ export const pages = [
   {
     route: "/equipamentos/",
     output: "equipamentos/index.html",
-    title: "Equipamentos e componentes para avaliação | New Tractor",
-    description: "Identifique cilindros e componentes de escavadeiras, tratores de esteira e pás carregadeiras para consultar as especialidades da New Tractor.",
+    title: "Manutenção de equipamentos de linha amarela | New Tractor",
+    description: "Serviço de campo, recuperação de componentes e fabricação de peças para escavadeiras, tratores de esteira e pás carregadeiras. Conheça as soluções New Tractor.",
     body: equipamentosBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "equipamentos",
     ogImage: "/assets/images/componentes-industriais-1600.webp",
     ogImageWidth: 1600,
@@ -872,18 +876,18 @@ export const pages = [
     title: "Atendimento nacional em máquinas pesadas | New Tractor",
     description: "Base em Belo Horizonte e atendimento a operações em todo o Brasil, com prioridade no Sudeste, Bahia e Goiás e logística por demanda.",
     body: atuacaoBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "atuacao",
     schema: [breadcrumbSchema([{ name: "Atuação", route: "/atuacao/" }])],
   },
   {
     route: "/contato/",
     output: "contato/index.html",
-    title: "Fale com o Grupo New Tractor | Contato e relacionamento",
-    description: "Entre em contato com o Grupo New Tractor por e-mail, telefone ou WhatsApp. Converse sobre sua operação, uma cotação ou uma parceria industrial.",
+    title: "Orçamento e visita técnica | Grupo New Tractor",
+    description: "Solicite visita técnica, manutenção de máquinas ou fabricação de peças ao Grupo New Tractor. Atendimento por WhatsApp, telefone e e-mail.",
     body: contatoBody,
     active: "contato",
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     schema: [breadcrumbSchema([{ name: "Contato", route: "/contato/" }])],
   },
   {
@@ -912,7 +916,7 @@ export const pages = [
     title: "Privacidade | New Tractor",
     description: "Entenda como o site da New Tractor usa preferências locais, analytics opcional e links para serviços de terceiros.",
     body: privacidadeBody,
-    lastModified: "2026-09-08",
+    lastModified: "2026-09-10",
     active: "",
     schema: [breadcrumbSchema([{ name: "Privacidade", route: "/privacidade/" }])],
   },
@@ -925,7 +929,7 @@ export const pages = [
     active: "",
     indexable: false,
   },
-];
+].map(applySeoMetadata);
 
 const navLink = (page, key, href, label) =>
   `<li><a href="${href}"${page.active === key ? ' aria-current="page"' : ""}>${label}</a></li>`;
@@ -947,6 +951,10 @@ const footer = () => `
   <aside class="consent" role="region" aria-live="polite" aria-labelledby="consent-title" aria-describedby="consent-copy" data-consent-banner hidden><div><strong id="consent-title">Sua privacidade importa.</strong><p id="consent-copy">Podemos usar cookies de análise para melhorar sua experiência? <a href="/privacidade/">Saiba mais</a>.</p></div><div><button type="button" class="button button--primary button--small" data-consent="accepted">Aceitar</button><button type="button" class="button button--ghost button--small" data-consent="essential">Só essenciais</button></div></aside>`;
 
 export function renderPage(page) {
+  const regionalLinks = regionalNavigation(page);
+  const body = regionalLinks && page.body.includes('<section class="contact-band"')
+    ? page.body.replace('<section class="contact-band"', regionalLinks + '<section class="contact-band"')
+    : page.body + regionalLinks;
   const canonical = `${site.origin}${page.route === "/404.html" ? "/404.html" : page.route}`;
   const company = companies.find(entry => page.route === `/${entry.slug}/`);
   const pageSchema = {
@@ -1013,7 +1021,7 @@ export function renderPage(page) {
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   ${header(page)}
-  <main id="conteudo" tabindex="-1">${page.body}</main>
+  <main id="conteudo" tabindex="-1">${body}</main>
   ${footer()}
 </body>
 </html>

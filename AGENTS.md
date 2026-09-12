@@ -13,6 +13,7 @@ pesadas.
 
 - Conteúdo e rotas: `src/site.mjs`.
 - Perfis das sete empresas: `src/group.mjs`, integrado por `src/site.mjs`.
+- Composição final dos títulos e associação à frente: `src/seo-metadata.mjs`.
 - Estilos: `src/styles.css`.
 - Comportamento progressivo: `src/main.js`.
 - Assets públicos: `public/assets/`.
@@ -26,15 +27,26 @@ pesadas.
   capacidade de máquina, depoimento, case ou relação comercial vigente.
 - Diferenciar fato público, declaração do proprietário, inferência e pendência.
 - Usar “Grupo New Tractor” como endosso de marca, não como razão social.
+- Títulos locais por especialidade/cidade usam `Grupo New Tractor | Serviço em
+  Cidade`, conforme autorização do proprietário em 11/09/2026. Conservar o
+  nome completo do município e a empresa responsável no conteúdo. Nas páginas
+  institucionais das frentes, manter `Grupo New Tractor — Frente | Assunto`.
+  O limite editorial de 65 caracteres previne o alerta da auditoria; não é
+  limite oficial nem garantia de exibição integral no Google. Não truncar
+  palavras automaticamente para cumprir esse limite.
 - A metragem de mais de 4.000 m² é uma declaração atual do proprietário e deve
   permanecer registrada com o conflito histórico de 3.000 m².
 - Logos são “referências históricas divulgadas”; não significam contratos
   atuais, resultados ou autorização para depoimentos.
 - Cobertura nacional é sujeita a avaliação técnica, comercial e logística por
   demanda. Não sugerir filial, equipe ou prazo local onde não existem.
-- Não criar páginas municipais em massa. Uma rota local exige evidência e
-  conteúdo próprio; listas de cidades são dados de priorização, não uma fábrica
-  de páginas para busca.
+- Expansão autorizada pelo proprietário em 10/09/2026: municípios de Minas
+  Gerais acima de 100.000 habitantes e polos selecionados de mineração,
+  florestal, agro e indústria, com páginas por especialidade/cidade e
+  especialidade/setor. Esta decisão substitui a restrição anterior de manter
+  apenas cobertura consolidada para esse recorte. Cada município ainda exige
+  fonte, contexto próprio e orientação útil; não inventar presença local ou
+  criar combinações cidade × setor × serviço sem nova decisão editorial.
 
 ## Desenvolvimento e QA
 
