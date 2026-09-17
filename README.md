@@ -35,7 +35,7 @@ editoriais estão em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
 - `/parts/`
 - `/services/`
 - `/techtractor/`
-- `/empresa/`
+- `/empresa/` — apresentação institucional e Política da Qualidade em `#politica-da-qualidade`
 - `/pessoas/`
 - `/parcerias/`
 - `/servicos/`

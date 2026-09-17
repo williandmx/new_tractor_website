@@ -34,7 +34,7 @@ prazo, estoque, garantia ou estrutura societária.
 | Rota | Papel |
 |---|---|
 | `/` | posicionamento, prova, soluções e conversão |
-| `/empresa/` | história, estrutura, princípios e governança factual |
+| `/empresa/` | história, estrutura, princípios, Política da Qualidade e governança factual |
 | `/parcerias/` | apresentação institucional e caminhos para clientes, fornecedores e parceiros |
 | `/pessoas/` | filme sob demanda e visão institucional; entrevistas só após captação e autorização |
 | `/servicos/` | hub das soluções comprovadas |
