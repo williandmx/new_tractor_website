@@ -149,7 +149,7 @@ test("rotas revisadas usam a data exata e as demais datas públicas ficam estáv
   assert.equal(reviewed.filter((page) => page.regionalKind === "sector-service").length, 16);
   assert.equal(reviewed.filter((page) => page.regionalKind !== "city-service" && page.regionalKind !== "sector-service").length, 13);
   assert.equal(pages.find((page) => page.route === "/").lastModified, "2026-09-10");
-  assert.equal(pages.find((page) => page.route === "/empresa/").lastModified, "2026-09-10");
+  assert.equal(pages.find((page) => page.route === "/empresa/").lastModified, "2026-09-17");
 });
 
 test("HTML usa o mesmo título em title, Open Graph, Twitter e WebPage", () => {

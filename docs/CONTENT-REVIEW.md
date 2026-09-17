@@ -4,6 +4,24 @@ O novo site usa fatos e canais das páginas públicas da New Tractor e
 declarações do proprietário, com as fontes separadas em `source-ledger.md`. Durante o levantamento, o site anterior apresentou divergências que
 devem ser confirmadas antes de apontar o domínio definitivo.
 
+## Política da Qualidade — 17/09/2026
+
+O proprietário solicitou incluir no site as informações da placa anexada.
+Embora o pedido use “política de segurança”, o documento está identificado
+como **Política da Qualidade**. O conteúdo publicado mantém essa denominação
+e a transcrição literal:
+
+> Buscar satisfação dos clientes, com aperfeiçoamento contínuo do sistema de gestão da qualidade, promovendo nossa evolução.
+
+Destino: `/empresa/#politica-da-qualidade`, com link no rodapé global.
+O texto é HTML acessível, não uma imagem. Não foram acrescentados certificado
+ISO, escopo de certificação, normas de segurança, procedimentos, indicadores,
+prazo ou versão interna. A fotografia não informa data de revisão da política;
+17/09/2026 é a data da inclusão editorial no site, não da aprovação interna.
+Registro do anexo: `codex-clipboard-84939465-e453-42e9-9b12-0ba2c408ee40.png`;
+SHA-256: `05ad10cfca2e0eb903fb3fcc6f9a30e02efce51524b8ae7c079c0290e1af3f8a`.
+A foto é evidência da transcrição e não foi incorporada aos assets públicos.
+
 ## Confirmação vigente — 10/09/2026
 
 O proprietário confirmou `comercial2@newtractor.com.br` como e-mail de contato em todas as páginas. Essa orientação substitui o endereço histórico `solucao@newtractor.com.br` nos textos públicos, botões, dados estruturados e `llms.txt`. O telefone de ligação informado é `+55 31 9312-0054`, publicado exatamente com esses dígitos (`tel:+553193120054`). O WhatsApp permanece no número previamente divulgado, `(31) 99312-0054`, como canal distinto; não foi presumida uma mudança nesse destino.

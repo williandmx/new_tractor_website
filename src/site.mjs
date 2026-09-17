@@ -15,7 +15,7 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260910-minas-v3.css",
+  cssFile: "site.20260917-quality.css",
   jsFile: "site.20260910-indexation.js",
   email: "comercial2@newtractor.com.br",
   phoneDisplay: "+55 31 9312-0054",
@@ -182,6 +182,12 @@ const homeBody = `
 
 const empresaBody = `
   ${pageHero({ eyebrow: "O GRUPO", title: "Sete especialidades para manter sua máquina produzindo.", intro: "O Grupo New Tractor conecta serviço de campo, manutenção industrial, fabricação de peças e tecnologia para reduzir paradas e dar mais previsibilidade à sua operação.", breadcrumb: [{ label: "O grupo", href: "/empresa/" }], image: "hero-film-people", imageAlt: "Profissional da New Tractor durante o trabalho industrial", imageWidths: [640, 1280], imageWidth: 1280, imageHeight: 720 })}
+  <section id="politica-da-qualidade" class="section section--sand quality-policy" aria-labelledby="qualidade-title">
+    <div class="shell editorial-grid">
+      <div><span class="eyebrow">NOSSO COMPROMISSO</span><h2 id="qualidade-title">Política da Qualidade</h2></div>
+      <blockquote class="quality-policy__quote"><p>Buscar satisfação dos clientes, com aperfeiçoamento contínuo do sistema de gestão da qualidade, promovendo nossa evolução.</p></blockquote>
+    </div>
+  </section>
   <section class="section section--light" aria-labelledby="historia-title"><div class="shell editorial-grid"><div><span class="eyebrow">NOSSA TRAJETÓRIA</span><h2 id="historia-title">Raízes no conhecimento.<br>Olhar para o futuro.</h2></div><div class="rich-text"><p>Desde 2010, construímos nossa trajetória junto às máquinas pesadas e às pessoas que fazem essas operações acontecerem. A experiência em material rodante é parte dessa história.</p><p>Hoje, integramos técnicos de campo, recuperação de componentes, fabricação de peças sob demanda e tecnologia aplicada ao acompanhamento de desgaste. Planejamos o cuidado da máquina junto à manutenção do cliente.</p><p>Com base em Belo Horizonte, atuamos junto aos setores de mineração, construção, infraestrutura e agronegócio. Cada especialidade contribui com seu conhecimento para essa atuação.</p><a class="text-link" href="/#empresas">Explore as empresas do grupo ${icon("arrow")}</a></div></div></section>
   <section class="section section--dark" aria-labelledby="direcao-title"><div class="shell"><div class="section-heading"><span class="eyebrow eyebrow--light">O QUE NOS ORIENTA</span><h2 id="direcao-title">Um jeito de pensar.<br>Muitas formas de contribuir.</h2></div><div class="principles-grid"><article><span>01 / CONHECIMENTO</span><h3>Experiência aplicada.</h3><p>Entender a máquina, a aplicação e a realidade de cada operação é o ponto de partida do nosso trabalho.</p></article><article><span>02 / PROXIMIDADE</span><h3>Relações de confiança.</h3><p>Escutar, compartilhar informações e manter o diálogo com quem está em campo e com quem planeja.</p></article><article><span>03 / INTEGRAÇÃO</span><h3>Forças que se somam.</h3><p>Conectar especialidades para olhar o componente e compreender o conjunto em que ele trabalha.</p></article></div></div></section>
   <section class="section section--sand" aria-labelledby="estrutura-title"><div class="shell structure-layout"><div><span class="eyebrow">NOSSA ESTRUTURA</span><h2 id="estrutura-title">Espaço para fazer.<br>Conhecimento para evoluir.</h2><p>Mais de 4.000 m² de área industrial combinada em três galpões, com base operacional no bairro São Gabriel, em Belo Horizonte.</p><dl class="structure-facts"><div><dt>4.000 m²+</dt><dd>área industrial combinada</dd></div><div><dt>3 galpões</dt><dd>estrutura do grupo</dd></div></dl><a class="text-link" href="/atuacao/">De Belo Horizonte para o Brasil ${icon("arrow")}</a></div><figure>${picture({ name: "equipe", widths: [640, 1200], width: 1200, height: 675, alt: "Base operacional da New Tractor em Belo Horizonte, com equipamentos e veículos de apoio" })}<figcaption>Base operacional · Belo Horizonte, Minas Gerais</figcaption></figure></div></section>
@@ -757,10 +763,10 @@ export const pages = [
     route: "/empresa/",
     output: "empresa/index.html",
     title: "Grupo New Tractor | Estrutura para máquinas pesadas desde 2010",
-    description: "Conheça o Grupo New Tractor: trajetória desde 2010, sete especialidades e estrutura industrial de mais de 4.000 m² em Belo Horizonte.",
+    description: "Conheça o Grupo New Tractor: trajetória desde 2010, sete especialidades, estrutura industrial em Belo Horizonte e nossa Política da Qualidade.",
     body: empresaBody,
     active: "empresa",
-    lastModified: "2026-09-10",
+    lastModified: "2026-09-17",
     schema: [breadcrumbSchema([{ name: "Empresa", route: "/empresa/" }])],
   },
   {
@@ -945,7 +951,7 @@ const header = (page) => `
 const footer = () => `
   <footer class="site-footer"><div class="shell footer-lead"><span>CONHECIMENTO INDUSTRIAL.<br><strong>FORÇA EM CONJUNTO.</strong></span><a href="/contato/" aria-label="Fale com o Grupo New Tractor">${icon("arrow")}</a></div>
     <div class="shell footer-grid"><div class="footer-brand"><span class="eyebrow eyebrow--light">GRUPO</span><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt="New Tractor"><p>Especialidades que se conectam para movimentar a indústria.</p><div class="footer-social"><a href="${site.social.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div><h2>Empresas</h2><ul>${companyLinks()}</ul></div><div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas</a></li><li><a href="/parcerias/">Parcerias</a></li><li><a href="/servicos/">Soluções técnicas</a></li><li><a href="/componentes/">Componentes de esteiras</a></li><li><a href="/guias/">Guias de manutenção</a></li><li><a href="/equipamentos/">Equipamentos</a></li><li><a href="/atuacao/">Atuação</a></li><li><a href="/setores/">Setores e operações</a></li><li><a href="${exposibram.route}">Notícias</a></li></ul></div><div><h2>Vamos conversar</h2><address><a href="${site.phoneHref}" data-analytics="telefone_rodape">${site.phoneDisplay}</a><a href="mailto:${site.email}" data-analytics="email_rodape">${site.email}</a><a href="${site.map}" data-analytics="mapa_rodape" target="_blank" rel="noopener noreferrer">${site.address}</a></address><a class="text-link text-link--light" href="/contato/">Todos os contatos ${icon("arrow")}</a></div></div>
-    <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor</p><a href="/privacidade/">Privacidade</a><a href="/contato/">Contato</a></div>
+    <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor</p><a href="/empresa/#politica-da-qualidade">Política da Qualidade</a><a href="/privacidade/">Privacidade</a><a href="/contato/">Contato</a></div>
   </footer>
   <a class="whatsapp-float" href="${site.whatsapp}" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a New Tractor pelo WhatsApp" data-analytics="whatsapp_flutuante">${icon("phone")}<span>Vamos conversar</span></a>
   <aside class="consent" role="region" aria-live="polite" aria-labelledby="consent-title" aria-describedby="consent-copy" data-consent-banner hidden><div><strong id="consent-title">Sua privacidade importa.</strong><p id="consent-copy">Podemos usar cookies de análise para melhorar sua experiência? <a href="/privacidade/">Saiba mais</a>.</p></div><div><button type="button" class="button button--primary button--small" data-consent="accepted">Aceitar</button><button type="button" class="button button--ghost button--small" data-consent="essential">Só essenciais</button></div></aside>`;

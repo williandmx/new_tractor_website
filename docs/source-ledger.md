@@ -49,7 +49,8 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | WhatsApp (31) 99312-0054 | Presença pública divergente | Página de contato e botão ativo antigos | Manter provisoriamente e destacar para confirmação |
 | LinkedIn `/company/new-tractor` | Página empresarial pública encontrada | LinkedIn | Preferir à URL pessoal antiga, sujeito a confirmação de administração |
 | CNPJ/razão social | Pendente | Duas empresas encontradas no mesmo endereço | Não publicar até cartão CNPJ |
-| Certificações, ART, NR e qualidade | Pendente | Sem documento apresentado | Não afirmar; oferecer solicitação documental por escopo |
+| Política da Qualidade | Material institucional fornecido pelo proprietário em 17/09/2026 | Fotografia da placa “GRUPO TRACTOR — POLÍTICA DA QUALIDADE” | Reproduzir o texto na página Empresa; não tratar como política de segurança ou prova de certificação |
+| Certificações, ART, NR e procedimentos de qualidade | Pendente | Sem documentos comprobatórios apresentados; a placa da Política da Qualidade não comprova certificação | Não afirmar; oferecer solicitação documental por escopo |
 | Capacidade de máquinas e peso/dimensão | Pendente | Sem matriz técnica | Não afirmar |
 | Cases, resultados e depoimentos | Pendente | Sem autorização e evidência | Não publicar |
 | TechTractor | Frente tecnológica em evolução para inspeções, acompanhamento de desgaste e histórico de manutenção; README local descreve painel privado de inspeções e acompanhamento de desgaste de material rodante | Plano de Marketing e Marca; README de `newtractor_conditionmonitoring` consultado somente como metadado em 2026-09-06 | Apresentar a direção de tecnologia e monitoramento; não publicar como produto pronto, acesso transacional ou oferta contratável; código local não é prova de oferta comercial |

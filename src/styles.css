@@ -176,6 +176,8 @@ svg { display: inline-block; width: 22px; height: 22px; flex: 0 0 auto; vertical
 .page-hero__media { padding-top: 45px; }
 .page-hero__media img { width: 100%; aspect-ratio: 1.13; object-fit: cover; }
 .editorial-grid { display: grid; grid-template-columns: 1.1fr 1fr; align-items: start; gap: 95px; }
+.quality-policy__quote { min-width: 0; margin: 0; padding-left: clamp(20px, 3vw, 36px); border-left: 4px solid var(--yellow); }
+.quality-policy__quote p { color: var(--ink); font-size: clamp(21px, 2.2vw, 30px); line-height: 1.55; }
 .principles-grid, .partnership-grid, .people-pillars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
 .principles-grid article, .partnership-grid article, .people-pillars article { padding-top: 25px; border-top: 1px solid var(--line); }
 .principles-grid article { border-color: var(--line-dark); }
@@ -391,7 +393,7 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; line-height
 .footer-grid a:hover { color: var(--yellow); }
 .footer-bottom { display: flex; align-items: center; flex-wrap: wrap; gap: 30px; border-top: 1px solid var(--line-dark); padding-block: 28px; font-size: 10px; }
 .footer-bottom p { margin-right: auto; color: #a9b29f; }
-.footer-bottom > a { color: #c0c9b7; }
+.footer-bottom > a { display: inline-flex; align-items: center; min-height: 44px; color: #c0c9b7; }
 .whatsapp-float { position: fixed; right: 22px; bottom: 22px; z-index: 50; display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 12px 20px; border: 1px solid #778264; border-radius: 28px; color: #fff; background: #202a1c; box-shadow: 0 4px 20px #17221226; font-size: 11px; }
 .whatsapp-float svg { width: 18px; height: 18px; }
 .consent-visible .whatsapp-float { display: none; }
