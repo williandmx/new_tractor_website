@@ -50,6 +50,7 @@ editoriais estão em `docs/seo/MINAS-EXPANSAO-2026-09-10.md`.
 - `/equipamentos/`
 - `/atuacao/`
 - `/contato/`
+- `/canais-oficiais/` — esclarecimentos sobre atendimento, ausência de aluguel/cadastro/grupos e privacidade
 - `/noticias/new-tractor-na-exposibram-2026/`
 - `/privacidade/`
 

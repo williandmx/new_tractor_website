@@ -55,6 +55,26 @@ garantia de resultado, cargo atual ou confirmação de novos processos.
 | Cases, resultados e depoimentos | Pendente | Sem autorização e evidência | Não publicar |
 | TechTractor | Frente tecnológica em evolução para inspeções, acompanhamento de desgaste e histórico de manutenção; README local descreve painel privado de inspeções e acompanhamento de desgaste de material rodante | Plano de Marketing e Marca; README de `newtractor_conditionmonitoring` consultado somente como metadado em 2026-09-06 | Apresentar a direção de tecnologia e monitoramento; não publicar como produto pronto, acesso transacional ou oferta contratável; código local não é prova de oferta comercial |
 
+## Identidade, atendimento e privacidade — 23/09/2026
+
+- Declaração expressa do proprietário: não há aluguel de máquinas, cadastro
+  de clientes pelo site ou grupos de WhatsApp. O WhatsApp oficial é individual.
+- Site institucional exclusivo: `newtractor.com.br`; contatos vêm do objeto
+  `site` já publicado, sem trocar telefone, WhatsApp, e-mail ou endereço.
+- Minuta do proprietário: não opera plataforma de investimento, afiliação,
+  indicação ou pagamento automático; não vende diretamente pelo site e não
+  exige senha ou transferência para cadastro/acesso/liberação de saldo ou
+  atendimento via website. Não extrapolar para condições contratuais de RFQ.
+- Publicar comunicado factual, neutro e sem identificar terceiros. Eventuais
+  suspeitas relatadas pelo proprietário não foram investigadas nem tratadas
+  como fato comprovado. Não publicar enquadramento criminal ou isenção ampla
+  de responsabilidade.
+- Código do site confirma ausência de cadastro em formulário e carregamento
+  opcional de analytics mediante consentimento. Isso não equivale a auditoria
+  de todo o tratamento de dados, certificação ou comprovação integral da LGPD.
+- Detalhes de fonte, adaptações e orientações oficiais: `CONTENT-REVIEW.md`,
+  seção de 23/09/2026. Comunicado em `/canais-oficiais/`.
+
 ## Confirmação comercial do proprietário — 10/09/2026
 
 - **Services:** técnicos especializados em toda a linha amarela realizam serviço de campo e avaliação de desgaste. A manutenção pode acontecer no local conforme agenda ou ser agendada nas unidades industriais.

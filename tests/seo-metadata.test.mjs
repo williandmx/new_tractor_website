@@ -13,8 +13,8 @@ import {
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const cities = new Map(minasCities.map((city) => [city.slug, city]));
 
-test("todas as 595 rotas têm títulos brand-first, únicos e dentro do guardrail", () => {
-  assert.equal(pages.length, 595);
+test("todas as 596 rotas têm títulos brand-first, únicos e dentro do guardrail", () => {
+  assert.equal(pages.length, 596);
   const titles = pages.map((page) => page.title);
   assert.equal(new Set(titles).size, titles.length, "títulos duplicados");
   for (const page of pages) {

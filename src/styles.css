@@ -360,6 +360,21 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; line-height
 .policy h3 { margin-top: 38px; margin-bottom: 18px; }
 .policy p > a { text-decoration: underline; }
 .policy .button { margin-top: 32px; }
+.official-notice { background: #fff7cf; border-bottom: 1px solid #d6bb49; }
+.official-notice__inner { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 32px; padding-block: 12px; }
+.official-notice p { flex: 1 1 540px; color: var(--ink); font-size: 14px; line-height: 1.55; }
+.official-notice a { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.official-channels .breadcrumbs { margin-bottom: 28px; }
+.official-channels__lead { margin-top: 28px; font-size: 20px; }
+.official-channels h2 { margin-top: 56px; margin-bottom: 24px; font-size: clamp(28px, 3.3vw, 40px); }
+.official-facts { padding-left: 24px; margin-block: 24px; }
+.official-facts li + li { margin-top: 20px; }
+.official-facts a { text-decoration: underline; text-underline-offset: 3px; }
+.official-contact-list { margin-bottom: 28px; }
+.official-contact-list > div { padding-block: 18px; border-bottom: 1px solid var(--line); }
+.official-contact-list dt { font-weight: 600; }
+.official-contact-list dd { margin: 0; }
+.official-contact-list a { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; }
 .not-found { padding: 90px 0 130px; color: white; background: var(--ink-soft); }
 .not-found__code { display: block; color: var(--yellow); font-size: 100px; line-height: 1; margin-bottom: 45px; }
 .not-found h1 { max-width: 900px; }

@@ -8,6 +8,7 @@ import { createHydraulicPages, hydraulicRoutes } from "./hydraulic-content.mjs";
 import { serviceOfferCards, serviceOfferListSchema } from "./service-offers.mjs";
 import { createRegionalPages, regionalNavigation } from "./regional-pages.mjs";
 import { applySeoMetadata } from "./seo-metadata.mjs";
+import { officialNotice, createOfficialChannelsPage } from "./official-channels.mjs";
 
 export const site = {
   name: "Grupo New Tractor",
@@ -15,7 +16,7 @@ export const site = {
   origin: "https://newtractor.com.br",
   locale: "pt_BR",
   lastModified: "2026-09-07",
-  cssFile: "site.20260917-quality.css",
+  cssFile: "site.20260923-official-channels.css",
   jsFile: "site.20260910-indexation.js",
   email: "comercial2@newtractor.com.br",
   phoneDisplay: "+55 31 9312-0054",
@@ -465,7 +466,7 @@ const contatoBody = `
   ${pageHero({
     eyebrow: "CONTATO",
     title: "Sua próxima manutenção começa aqui.",
-    intro: "Solicite uma visita técnica, planeje a manutenção ou peça um orçamento de fabricação. Nossa equipe atende por WhatsApp, telefone e e-mail.",
+    intro: "Solicite uma visita técnica, planeje a manutenção ou peça um orçamento de fabricação. Use nossos canais oficiais: WhatsApp individual, telefone e e-mail. Não trabalhamos com aluguel de máquinas nem fazemos cadastro de clientes pelo site.",
     breadcrumb: [{ label: "Contato", href: "/contato/" }],
     image: "equipe",
     imageAlt: "Pátio da New Tractor com equipamentos pesados e veículos de apoio",
@@ -598,7 +599,7 @@ const privacidadeBody = `
   ${pageHero({
     eyebrow: "PRIVACIDADE",
     title: "Privacidade e uso de dados",
-    intro: "Informações objetivas sobre analytics, preferências locais e os canais externos acessados a partir deste site.",
+    intro: "Transparência sobre o uso de dados, analytics opcional e canais de atendimento. Este site não faz cadastro de clientes.",
     breadcrumb: [{ label: "Privacidade", href: "/privacidade/" }],
     image: "equipe",
     imageAlt: "Equipamento pesado e fachada da New Tractor",
@@ -606,7 +607,15 @@ const privacidadeBody = `
     imageWidth: 1200,
     imageHeight: 675,
   })}
-  <section class="section section--light" aria-labelledby="politica-title"><div class="shell policy"><span class="eyebrow">VERSÃO DE 08/09/2026</span><h2 id="politica-title">Como este site funciona</h2><h3>Dados essenciais</h3><p>O site pode armazenar no navegador a sua escolha sobre analytics. Essa preferência é necessária para respeitar a decisão informada e não contém nome, telefone, e-mail ou conteúdo da sua conversa.</p><h3>Analytics opcional</h3><p>O Google Tag Manager identificado como <strong>GTM-T3RNZ98</strong> só é carregado após a sua aceitação. Os cliques medidos identificam o canal, o botão e a página; não incluem o conteúdo da conversa. Você pode rever sua escolha abaixo. Ao mudar para “Só essenciais”, a página será recarregada para aplicar sua escolha. Quando o armazenamento local estiver indisponível, a escolha vale apenas nesta página. A configuração dos serviços acionados pelo contêiner deve ser revisada periodicamente pelo responsável da New Tractor.</p><h3>WhatsApp, Google Maps e redes sociais</h3><p>Links para WhatsApp, Google Maps, Instagram, Facebook e LinkedIn abrem serviços de terceiros. Ao acessá-los, aplicam-se os termos e políticas de cada provedor.</p><h3>Contato</h3><p>Para dúvidas sobre os canais digitais da New Tractor, escreva para <a href="mailto:${site.email}">${site.email}</a>.</p><button class="button button--dark" type="button" data-reset-consent>Revisar preferência de analytics</button></div></section>`;
+  <section class="section section--light" aria-labelledby="politica-title"><div class="shell policy">
+    <span class="eyebrow">VERSÃO DE 23/09/2026</span><h2 id="politica-title">Como este site funciona</h2>
+    <h3>Sem cadastro de clientes pelo site</h3><p>Este é um site institucional. Não disponibilizamos formulário de cadastro de clientes, conta de cliente ou envio de documentos por estas páginas. Para solicitar atendimento, utilize exclusivamente os <a href="/canais-oficiais/">canais oficiais da New Tractor</a>. Não possuímos grupos de WhatsApp; o número divulgado é para atendimento individual.</p>
+    <h3>Dados essenciais</h3><p>O site pode armazenar no navegador a sua escolha sobre analytics. Essa preferência é necessária para respeitar a decisão informada e não contém nome, telefone, e-mail ou conteúdo da sua conversa.</p><p>Informações técnicas de acesso podem ser processadas pela infraestrutura de hospedagem para entregar e proteger o site. A ausência de cadastro não significa ausência de todo tratamento de dados.</p>
+    <h3>Analytics opcional</h3><p>O Google Tag Manager identificado como <strong>GTM-T3RNZ98</strong> só é carregado após a sua aceitação. Os cliques medidos identificam o canal, o botão e a página; não incluem o conteúdo da conversa. Você pode rever sua escolha abaixo. Ao mudar para “Só essenciais”, a página será recarregada para aplicar sua escolha. Quando o armazenamento local estiver indisponível, a escolha vale apenas nesta página. A configuração dos serviços acionados pelo contêiner deve ser revisada periodicamente pelo responsável da New Tractor.</p>
+    <h3>WhatsApp, Google Maps e redes sociais</h3><p>Links para WhatsApp, Google Maps, Instagram, Facebook e LinkedIn abrem serviços de terceiros. Ao acessá-los, aplicam-se os termos e políticas de cada provedor. Informações que você enviar em uma conversa ou por e-mail são compartilhadas por esses canais, não por um cadastro neste site. Envie somente o necessário para sua solicitação e confirme a finalidade antes de compartilhar documentos pessoais.</p>
+    <h3>Privacidade e direitos sobre dados pessoais</h3><p>Para dúvidas ou solicitações relacionadas ao uso dos seus dados pessoais no relacionamento com a New Tractor, incluindo pedidos de acesso ou correção, escreva para <a href="mailto:${site.email}?subject=Privacidade%20e%20dados%20pessoais">${site.email}</a>. Descreva a solicitação sem enviar senhas, códigos de verificação ou documentos pessoais desnecessários.</p><p>Você também pode consultar as <a href="https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares">orientações da ANPD sobre os direitos previstos na LGPD</a>.</p>
+    <button class="button button--dark" type="button" data-reset-consent>Revisar preferência de analytics</button>
+  </div></section>`;
 
 const notFoundBody = `
   <section class="not-found"><div class="shell"><span class="not-found__code">404</span><span class="eyebrow eyebrow--light">PÁGINA NÃO ENCONTRADA</span><h1>Este endereço não leva a uma página ativa.</h1><p>Use a navegação principal ou volte ao início para encontrar informações sobre a New Tractor.</p><a class="button button--primary" href="/">Voltar ao início ${icon("arrow")}</a></div></section>`;
@@ -889,11 +898,11 @@ export const pages = [
   {
     route: "/contato/",
     output: "contato/index.html",
-    title: "Orçamento e visita técnica | Grupo New Tractor",
+    title: "Grupo New Tractor | Orçamento e visita técnica",
     description: "Solicite visita técnica, manutenção de máquinas ou fabricação de peças ao Grupo New Tractor. Atendimento por WhatsApp, telefone e e-mail.",
     body: contatoBody,
     active: "contato",
-    lastModified: "2026-09-10",
+    lastModified: "2026-09-23",
     schema: [breadcrumbSchema([{ name: "Contato", route: "/contato/" }])],
   },
   {
@@ -919,13 +928,14 @@ export const pages = [
   {
     route: "/privacidade/",
     output: "privacidade/index.html",
-    title: "Privacidade | New Tractor",
-    description: "Entenda como o site da New Tractor usa preferências locais, analytics opcional e links para serviços de terceiros.",
+    title: "Grupo New Tractor | Privacidade",
+    description: "Privacidade no Grupo New Tractor: site sem cadastro de clientes, analytics opcional e orientações para contato e solicitações sobre dados pessoais.",
     body: privacidadeBody,
-    lastModified: "2026-09-10",
+    lastModified: "2026-09-23",
     active: "",
     schema: [breadcrumbSchema([{ name: "Privacidade", route: "/privacidade/" }])],
   },
+  createOfficialChannelsPage({ site, breadcrumbSchema }),
   {
     route: "/404.html",
     output: "404.html",
@@ -951,7 +961,7 @@ const header = (page) => `
 const footer = () => `
   <footer class="site-footer"><div class="shell footer-lead"><span>CONHECIMENTO INDUSTRIAL.<br><strong>FORÇA EM CONJUNTO.</strong></span><a href="/contato/" aria-label="Fale com o Grupo New Tractor">${icon("arrow")}</a></div>
     <div class="shell footer-grid"><div class="footer-brand"><span class="eyebrow eyebrow--light">GRUPO</span><img src="/assets/images/logo-new-tractor.png" width="480" height="148" alt="New Tractor"><p>Especialidades que se conectam para movimentar a indústria.</p><div class="footer-social"><a href="${site.social.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a><a href="${site.social.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div><h2>Empresas</h2><ul>${companyLinks()}</ul></div><div><h2>Institucional</h2><ul><li><a href="/empresa/">O grupo</a></li><li><a href="/pessoas/">Pessoas</a></li><li><a href="/parcerias/">Parcerias</a></li><li><a href="/servicos/">Soluções técnicas</a></li><li><a href="/componentes/">Componentes de esteiras</a></li><li><a href="/guias/">Guias de manutenção</a></li><li><a href="/equipamentos/">Equipamentos</a></li><li><a href="/atuacao/">Atuação</a></li><li><a href="/setores/">Setores e operações</a></li><li><a href="${exposibram.route}">Notícias</a></li></ul></div><div><h2>Vamos conversar</h2><address><a href="${site.phoneHref}" data-analytics="telefone_rodape">${site.phoneDisplay}</a><a href="mailto:${site.email}" data-analytics="email_rodape">${site.email}</a><a href="${site.map}" data-analytics="mapa_rodape" target="_blank" rel="noopener noreferrer">${site.address}</a></address><a class="text-link text-link--light" href="/contato/">Todos os contatos ${icon("arrow")}</a></div></div>
-    <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor</p><a href="/empresa/#politica-da-qualidade">Política da Qualidade</a><a href="/privacidade/">Privacidade</a><a href="/contato/">Contato</a></div>
+    <div class="shell footer-bottom"><p>© <span data-current-year>2026</span> Grupo New Tractor</p><a href="/canais-oficiais/">Canais oficiais</a><a href="/empresa/#politica-da-qualidade">Política da Qualidade</a><a href="/privacidade/">Privacidade</a><a href="/contato/">Contato</a></div>
   </footer>
   <a class="whatsapp-float" href="${site.whatsapp}" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a New Tractor pelo WhatsApp" data-analytics="whatsapp_flutuante">${icon("phone")}<span>Vamos conversar</span></a>
   <aside class="consent" role="region" aria-live="polite" aria-labelledby="consent-title" aria-describedby="consent-copy" data-consent-banner hidden><div><strong id="consent-title">Sua privacidade importa.</strong><p id="consent-copy">Podemos usar cookies de análise para melhorar sua experiência? <a href="/privacidade/">Saiba mais</a>.</p></div><div><button type="button" class="button button--primary button--small" data-consent="accepted">Aceitar</button><button type="button" class="button button--ghost button--small" data-consent="essential">Só essenciais</button></div></aside>`;
@@ -1027,7 +1037,7 @@ export function renderPage(page) {
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   ${header(page)}
-  <main id="conteudo" tabindex="-1">${body}</main>
+  <main id="conteudo" tabindex="-1">${officialNotice()}${body}</main>
   ${footer()}
 </body>
 </html>
