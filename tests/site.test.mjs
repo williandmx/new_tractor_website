@@ -44,6 +44,7 @@ test("o build contém todas as rotas e arquivos de descoberta", async () => {
     "services/index.html",
     "techtractor/index.html",
     "empresa/index.html",
+    "canais-oficiais/index.html",
     "parcerias/index.html",
     "pessoas/index.html",
     "servicos/index.html",

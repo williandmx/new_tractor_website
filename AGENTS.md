@@ -27,6 +27,11 @@ pesadas.
   capacidade de máquina, depoimento, case ou relação comercial vigente.
 - Diferenciar fato público, declaração do proprietário, inferência e pendência.
 - Usar “Grupo New Tractor” como endosso de marca, não como razão social.
+- Comunicado de 23/09/2026: não oferecer aluguel de máquinas, cadastro público
+  pelo site, grupos de WhatsApp ou plataforma de investimento. O atendimento
+  individual e os contratos técnicos permanecem distintos dessas atividades.
+  Manter o aviso factual, sem acusações ou identificação de terceiros e sem
+  afirmar certificação ou conformidade LGPD integral não auditada.
 - Títulos locais por especialidade/cidade usam `Grupo New Tractor | Serviço em
   Cidade`, conforme autorização do proprietário em 11/09/2026. Conservar o
   nome completo do município e a empresa responsável no conteúdo. Nas páginas

@@ -4,6 +4,50 @@ O novo site usa fatos e canais das páginas públicas da New Tractor e
 declarações do proprietário, com as fontes separadas em `source-ledger.md`. Durante o levantamento, o site anterior apresentou divergências que
 devem ser confirmadas antes de apontar o domínio definitivo.
 
+## Comunicado e canais oficiais — 23/09/2026
+
+O proprietário solicitou esclarecimentos públicos para evitar confusão de
+identidade, sem acusações ou referência a terceiros. Confirmou que o grupo
+não trabalha com aluguel de máquinas, não cadastra clientes pelo site e não
+possui grupos de WhatsApp; toda comunicação deve usar os canais oficiais.
+
+Na minuta complementar de 23/09, confirmou domínio institucional exclusivo
+`newtractor.com.br`, ausência de portal aberto de usuários, venda direta pelo
+website e plataformas de investimento, afiliação, indicação ou pagamento
+automático. Declarou não exigir senha, depósito, PIX, TED ou liberação de saldo
+como condição de atendimento via site. Essa restrição é publicada no contexto
+do site, sem inferir condições de pagamento dos contratos comerciais.
+
+Publicação em `/canais-oficiais/`, com aviso global, link no rodapé, reforço no
+contato e revisão da privacidade. O comunicado distingue manutenção de frotas
+de locadoras de oferta de locação e WhatsApp individual de grupos.
+
+A minuta foi adaptada para manter o pedido inicial não acusatório: não foram
+publicados nomes/domínios externos, relato não verificado de conduta alheia,
+enquadramentos criminais ou exoneração jurídica integral. A redação completa
+de eventual notificação jurídica depende de revisão por advogado. Não se
+afirma conformidade LGPD auditada, certificação, segurança absoluta, ausência
+de todo tratamento de dados ou garantia de ressarcimento.
+
+As práticas descritas foram confrontadas com o HTML estático e o consentimento
+em `src/main.js`: sem formulário de cadastro, analytics opcional e canais
+externos. Não houve mudança técnica em coleta, armazenamento ou analytics.
+O e-mail comercial já publicado recebe dúvidas e solicitações sobre dados;
+não foi inventado encarregado, prazo de resposta, identidade societária ou
+procedimento interno. Retenção, base legal e governança integral não foram
+auditadas nesta entrega.
+
+Orientações gerais consultadas em 23/09/2026:
+
+- [ANPD: direitos dos titulares](https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares).
+- [ANPD: denúncia e petição](https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular).
+- [Banco Central: providências após suspeita de golpe](https://www.bcb.gov.br/meubc/faqs/p/dicas-gerais-de-como-proceder-apos-sofrer-um-golpe).
+- [Portal MG: condições de registro de ocorrência](https://www.mg.gov.br/servico/solicitar-registro-de-ocorrencia-de-estelionato).
+
+Os links orientam o público; não são prova de fatos envolvendo terceiros nem
+constituem denúncia feita pelo grupo. Nenhuma denúncia, registro de ocorrência
+ou contato externo foi realizado nesta tarefa.
+
 ## Política da Qualidade — 17/09/2026
 
 O proprietário solicitou incluir no site as informações da placa anexada.

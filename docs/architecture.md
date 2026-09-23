@@ -35,6 +35,7 @@ prazo, estoque, garantia ou estrutura societária.
 |---|---|
 | `/` | posicionamento, prova, soluções e conversão |
 | `/empresa/` | história, estrutura, princípios, Política da Qualidade e governança factual |
+| `/canais-oficiais/` | comunicado factual, limites de atuação, contatos oficiais e cuidados com dados |
 | `/parcerias/` | apresentação institucional e caminhos para clientes, fornecedores e parceiros |
 | `/pessoas/` | filme sob demanda e visão institucional; entrevistas só após captação e autorização |
 | `/servicos/` | hub das soluções comprovadas |
